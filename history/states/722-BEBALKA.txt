@@ -1,0 +1,31 @@
+
+state={
+	id=722
+	name="STATE_722"
+
+	history={
+		owner = SIN
+		victory_points = {
+			9476 10 
+		}
+		victory_points = {
+			9542 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = SIN
+
+	}
+
+	provinces={
+		9279 9370 9418 9476 9477 9542 9558 9575 9621 9674 9693 9741 9812 
+	}
+	manpower=14881488
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

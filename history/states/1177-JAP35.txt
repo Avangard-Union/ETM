@@ -1,0 +1,19 @@
+state={
+	id=1177
+	name="STATE_1177"
+        manpower = 250000
+ 
+        history={
+		owner = BGL
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+                        arms_factory = 1
+			}
+		}
+		add_core_of = BGL
+	provinces={
+		3126 3222 
+	}
+
+}

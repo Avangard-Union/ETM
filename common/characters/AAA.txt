@@ -1,0 +1,28 @@
+characters={
+	AAA_PUSTYSHKA={
+		name=AAA_PUSTYSHKA
+		portraits={
+			civilian={
+				large=".dds"
+			}
+		}
+		country_leader={
+			ideology=fashiki 
+			traits={  }
+			expire="1965.1.1.1"
+		}
+	}
+	AAA_PUSTYSHKA={
+		name=AAA_PUSTYSHKA
+		portraits={
+			civilian={
+				large=".dds"
+			}
+		}
+		country_leader={
+			ideology=fashiki 
+			traits={  }
+			expire="1965.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,82 @@
+﻿capital = 480
+
+#oob = "CHR_0002"
+
+set_research_slots = 3
+
+add_ideas = {
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	early_fighter = 1
+}
+
+
+
+
+set_convoys = 150
+set_stability = 0.4
+
+set_politics = {
+	ruling_party = borshewism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	burjuism = 5
+	bidlo = 10
+	borshewism = 80
+	pahanism = 5
+}
+
+recruit_character = CHR_sidorovich
+recruit_character = CHR_xaron
+recruit_character = CHR_general_voronin
+recruit_character = CHR_borov
+recruit_character = CHR_general_krylov
+recruit_character = CHR_general_tanchenko
+recruit_character = CHR_sterelok
+recruit_character = CHR_kovaliski
+recruit_character = CHR_major_degtiariv
+recruit_character = CHR_volk
+recruit_character = CHR_maslinych
+recruit_character = CHR_ioga
+recruit_character = CHR_lecnik
+recruit_character = CHR_shuliga
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+recruit_character = AAA_PUSTYSHKA

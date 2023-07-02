@@ -1,0 +1,26 @@
+state={
+	id=1115
+	name="STATE_1115"
+
+	state_category = town
+
+
+	manpower=699999
+	history={
+		owner = ABR
+		           victory_points = {
+	                         20059 15}			
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 3
+		}
+		add_core_of = ABR
+	}
+
+	provinces={
+		19733 19775 19915 20059 
+	}
+	buildings_max_level_factor=1.000
+}

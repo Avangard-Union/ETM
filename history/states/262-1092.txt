@@ -1,0 +1,33 @@
+
+state={
+	id=262
+	name="STATE_262"
+	resources={
+		oil=15.000
+	}
+
+	history={
+		owner = BKH
+		victory_points = {
+			9626 10 
+		}
+		victory_points = {
+			9494 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+
+		}
+		add_core_of = BKH
+
+	}
+
+	provinces={
+		9145 9267 9307 9390 9434 9448 9494 9516 9580 9626 9746 9748 
+	}
+	manpower=1351390
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

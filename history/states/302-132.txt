@@ -1,0 +1,28 @@
+
+state={
+	id=302
+	name="STATE_302"
+	provinces={
+		19477 19504 19523 19600 19607 19655 19672 19701 19793 
+	}
+
+	state_category = rural
+
+	history={
+		owner = EBE
+		victory_points = {
+			              19523 20 }	#Ростов-На-Пиздел
+		victory_points = {
+			              19793 10}	
+		victory_points = {
+			              19477 10}							  
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = EBE
+	}
+
+	manpower=272142
+	buildings_max_level_factor=1.000
+}

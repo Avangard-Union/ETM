@@ -1,0 +1,30 @@
+
+
+state={
+	id=1090
+	name="STATE_1090"
+	manpower = 500587
+	
+	state_category = large_city 
+
+	history={
+		owner = SAB
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			2730 = {
+				bunker = 3
+			}
+		}
+
+		add_core_of = SAB
+		victory_points = {2342 20}
+		victory_points = {2730 18}
+	}
+
+	provinces={
+		2342 2482 2492 2556 2588 2652 2746 2730 2801 2872 2873 3083 2757
+	}
+}

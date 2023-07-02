@@ -1,0 +1,23 @@
+state={
+	id=252
+	name="STATE_252"
+	provinces={
+		11256 11336 11506 11691 11713 11845 11846 11954 12091 12161 12294 12343 12344 12437 
+	}
+
+	state_category = rural
+
+	history={
+		owner = ANT
+		victory_points = { 12344 15 } # Уральск
+		victory_points = { 11691 5 } # Свободный Клитор
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = ANT
+	}
+
+	manpower=144568
+	buildings_max_level_factor=1.000
+}

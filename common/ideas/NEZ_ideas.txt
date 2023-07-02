@@ -1,0 +1,21 @@
+ideas = {
+	country = {
+		collect_nez = {
+			
+			picture = idea_DNB_1
+			
+			removal_cost = -1
+			
+			allowed = {
+				tag = NEZ
+			}
+			
+			modifier = {
+                production_factory_efficiency_gain_factor = 0.2
+                production_factory_max_efficiency_factor = 0.2
+                industrial_capacity_factory = 0.2
+                production_speed_buildings_factor = 0.2
+				monthly_population = -0.2
+				stability_factor = -0.15
+			}
+		}

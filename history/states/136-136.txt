@@ -1,0 +1,24 @@
+state={
+	id=136
+	name="STATE_136"
+	manpower = 354005
+	
+	state_category = town
+
+	history={
+		owner = TAR
+		victory_points = { 15929 10 } # Дзержинск
+		victory_points = { 15426 10 } # Павлово
+		buildings = {
+			industrial_complex = 2
+			arms_factory = 3
+
+		}
+
+		add_core_of = TAR
+	}
+
+	provinces={
+		15426 15508 15671 15706 15888 15929 16056 
+	}
+}

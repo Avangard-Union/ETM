@@ -1,0 +1,33 @@
+
+state={
+	id=107
+	name="STATE_107"
+	provinces={
+		6903 6975 7005 7040 7096 7136 7137 7302 7303 7379 7510 7530 7566 7624 7733 
+	}
+
+	state_category = rural
+
+	history={
+		owner = PNK
+		victory_points = {
+			              6903 50 }
+		
+		victory_points = {
+                		  7136 10 }
+						  
+		victory_points = {
+			              7303 10 }
+		
+		victory_points = {
+                		  7624 10 }				  
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = PNK
+	}
+
+	manpower=1643223
+	buildings_max_level_factor=1.000
+}

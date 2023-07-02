@@ -1,0 +1,42 @@
+capital = 226
+
+#oob = "BAD_0002"
+
+set_research_slots = 2
+add_ideas = {
+}
+
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_stability = 0.6
+set_war_support = 0.15
+
+
+set_politics = {
+	ruling_party = burjuism
+	elections_allowed = no
+}
+
+set_popularities = {
+	burjuism = 45
+	bidlo = 35
+	borshewism = 0
+	pahanism = 10
+	putinism = 10
+}
+
+recruit_character = BAD_Никита_Михалков
+recruit_character = BAD_Евгений_Баженов
+recruit_character = BAD_Константин_Эрнст
+recruit_character = BAD_Александр_Невский
+recruit_character = BAD_Жора_Крыжовников
+
+
+
+
+
+recruit_character = AAA_PUSTYSHKA

@@ -1,0 +1,25 @@
+state={
+	id=848
+	name="STATE_848"
+
+	manpower=1313133
+
+	state_category = city
+
+	history={
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory =0
+		}
+		
+		victory_points = {5084 15}
+		victory_points = {5567 15}
+	}
+
+	provinces={
+		5084 5126 5244 5382 5406 5467 5567 5598 5648 5760 
+	}
+	buildings_max_level_factor=1.000
+}

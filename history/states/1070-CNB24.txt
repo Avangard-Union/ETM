@@ -1,0 +1,37 @@
+
+
+state={
+	id=1070
+	name="STATE_1070"
+	manpower = 243850
+	
+	state_category = town
+
+        resources={
+		steel=16 
+		chromium=16 
+	}
+
+	history={
+		owner = CNB
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+                        dockyard = 0
+
+                        4941 ={
+				naval_base = 8
+			}
+
+		}
+
+		add_core_of = CNB
+		victory_points = {4941 20}
+	}
+
+	provinces={
+		4815 4941 5167 
+	}
+}

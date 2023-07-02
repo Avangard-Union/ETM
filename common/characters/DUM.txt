@@ -1,0 +1,15 @@
+characters={
+	DUM_lord={
+		name="Тёмный Лорд"
+		portraits={
+			civilian={
+				large="gfx/leaders/DUM/lord.dds"
+			}
+		}
+		country_leader={
+			ideology=reznya
+			traits={  }
+			expire="1965.1.1.1"
+		}
+	}
+}

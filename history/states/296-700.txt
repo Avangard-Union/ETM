@@ -1,0 +1,30 @@
+state={
+	id=296
+	name="STATE_296"
+	provinces={
+		13072 13100 13189 13215 13289 13341 13383 13626 13627 13707 13834 13920 
+	}
+
+	state_category = town
+	resources={
+		tungsten=4
+		steel=6
+		chromium=13
+		aluminium=4
+	}
+
+	history={
+		owner = LTZ
+		victory_points = {
+                		  13289 25 }
+		buildings = {
+			infrastructure = 2
+			arms_factory = 3
+			industrial_complex = 1
+		}
+		add_core_of = LTZ
+	}
+
+	manpower=1230542
+	buildings_max_level_factor=1.000
+}

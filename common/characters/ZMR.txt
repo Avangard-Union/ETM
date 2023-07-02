@@ -1,0 +1,15 @@
+characters={
+	ZMR_sauron={
+		name="Sauron"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZMR/sauron.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

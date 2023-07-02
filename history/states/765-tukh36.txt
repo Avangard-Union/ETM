@@ -1,0 +1,29 @@
+
+state={
+	id=765
+	name="STATE_765"
+
+	history={
+		owner = ORS
+		victory_points = {
+			12484 9 
+		}
+		victory_points = {
+			12586 17 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ORS
+
+	}
+
+	provinces={
+		12484 12586 12790 20764 20765 
+	}
+	manpower=440200
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

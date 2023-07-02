@@ -1,0 +1,261 @@
+add_namespace = DUG
+
+country_event = {
+	id = dug.1
+	title = dug.1.t
+	desc = dug.1.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.1.a
+	}
+}
+country_event = {
+	id = dug.2
+	title = dug.2.t
+	desc = dug.2.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.2.a
+	}
+}
+country_event = {
+	id = dug.3
+	title = dug.3.t
+	desc = dug.3.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.3.a}
+}
+country_event = {
+	id = dug.4
+	title = dug.4.t
+	desc = dug.4.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+	mean_time_to_happen = {
+		months = 5}	
+		option = {
+		name = dug.4.a}
+}
+country_event = {
+	id = dug.5
+	title = dug.5.t
+	desc = dug.5.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.5.a
+		add_ideas = DUG_eurasian_guard}
+}
+country_event = {
+	id = dug.6
+	title = dug.6.t
+	desc = dug.6.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.6.a}
+}
+country_event = {
+	id = dug.7
+	title = dug.7.t
+	desc = dug.7.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.7.a}
+}
+country_event = {
+	id = dug.8
+	title = dug.8.t
+	desc = dug.8.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.8.a}
+}
+country_event = {
+	id = dug.9
+	title = dug.9.t
+	desc = dug.9.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.9.a}
+}
+country_event = {
+	id = dug.10
+	title = dug.10.t
+	desc = dug.10.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.10.a}
+}
+country_event = {
+	id = dug.11
+	title = dug.11.t
+	desc = dug.11.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.11.a}
+}
+country_event = {
+	id = dug.12
+	title = dug.12.t
+	desc = dug.12.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.12.a}
+}
+country_event = {
+	id = dug.13
+	title = dug.13.t
+	desc = dug.13.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.13.a}
+}
+country_event = {
+	id = dug.14
+	title = dug.14.t
+	desc = dug.14.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.14.a}
+}
+country_event = {
+	id = dug.15
+	title = dug.15.t
+	desc = dug.15.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.15.a}
+}
+country_event = {
+	id = dug.16
+	title = dug.16.t
+	desc = dug.16.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.16.a}
+}
+country_event = {
+	id = dug.17
+	title = dug.17.t
+	desc = dug.17.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.17.a}
+}
+country_event = {
+	id = dug.18
+	title = dug.18.t
+	desc = dug.18.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.18.a}
+}
+country_event = {
+	id = dug.19
+	title = dug.19.t
+	desc = dug.19.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.19.a}
+}
+country_event = {
+	id = dug.20
+	title = dug.20.t
+	desc = dug.20.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.20.a}
+}
+country_event = {
+	id = dug.21
+	title = dug.21.t
+	desc = dug.21.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.21.a}
+}
+country_event = {
+	id = dug.22
+	title = dug.22.t
+	desc = dug.22.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.22.a}
+}
+country_event = {
+	id = dug.23
+	title = dug.23.t
+	desc = dug.23.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.23.a}
+}
+country_event = {
+	id = dug.666
+	title = dug.1488.t
+	desc = dug.1488.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.666.a
+		add_ideas = morgen_gg}
+		name = dug.666.b
+		add_ideas = morgen_gg}
+}
+country_event = {
+	id = dug.1488
+	title = dug.1488.t
+	desc = dug.1488.d    
+	is_triggered_only = yes
+		trigger = {
+	tag = DUG}
+		option = {
+		name = dug.1488.a}
+}
+

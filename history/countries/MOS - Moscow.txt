@@ -1,0 +1,61 @@
+﻿add_manpower = 300000
+
+oob = "MOS_0002"
+
+capital = 664
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	train_tech = 1
+}
+set_research_slots = 4
+set_convoys = 5
+
+
+set_popularities = { 
+	burjuism = 0
+	borshewism = 15
+	pahanism = 50
+	putinism = 35
+	bidlo = 0
+}
+
+set_politics = {
+	ruling_party = pahanism
+	last_election = "2010.10.21"
+	election_frequency = 0
+	elections_allowed = no
+}
+	
+recruit_character = MOS_knyaz_sergei_doganin
+recruit_character = MOS_ruslanchik
+recruit_character = MOS_ruslancheka
+
+clr_country_flag = MOS_polilos
+add_ideas = {
+   MOS_isverygood
+   MOS_kostyl
+}
+
+set_variable = {
+  var = libloyal
+  value = 50
+}
+set_variable = {
+  var = libloyal_max
+  value = 100
+}
+set_variable = {
+  var = libloyal_min
+  value = -10
+}
+clamp_variable = {
+  var = libloyal
+  min = libloyal_min
+  max = libloyal_max
+}
+set_variable = {
+  var = libloyal_delta
+  value = -1.1
+}

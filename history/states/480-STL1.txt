@@ -1,0 +1,25 @@
+state={
+	id=480
+	name="STATE_480"
+	manpower = 95858
+	
+	state_category = town
+
+	history={
+		owner = CHR
+		victory_points = { 12717 30 } # Чорнобиль
+		victory_points = { 12939 10 } # Припять
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 1
+
+		}
+
+		add_core_of = CHR
+	}
+
+	provinces={
+		12717 12839 12939 
+	}
+}

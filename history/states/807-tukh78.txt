@@ -1,0 +1,27 @@
+state={
+	id=807
+	name="STATE_807"
+	manpower = 281337
+	
+	state_category = rural
+
+	history={
+		owner = VNM
+		victory_points = { 16303 5 } # Яранск
+		buildings = {
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 4
+			air_base = 4
+
+		}
+
+		add_core_of = VNM
+
+	}
+
+	provinces={
+		16057 16129 16175 16253 16303 16411 16448 
+	}
+}
+

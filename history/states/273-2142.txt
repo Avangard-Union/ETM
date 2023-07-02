@@ -1,0 +1,32 @@
+
+state={
+	id=273
+	name="STATE_273"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = KZH
+		victory_points = {
+			12739 10 
+		}
+		victory_points = {
+			12632 10 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = KZH
+
+	}
+
+	provinces={
+		11752 12184 12296 12365 12366 12440 12511 12512 12632 12633 12739 12765 12791 12919 13013 13120 13144 13212 13241 13286 
+	}
+	manpower=20500
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=1308
+	name="STATE_1308"
+	resources={
+		steel=8.000
+	}
+
+	history={
+		owner = CZE
+		victory_points = {
+			12024 10 
+		}
+		victory_points = {
+			12204 10
+		}		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			anti_air_building = 1
+
+		}
+		add_core_of = CZE
+
+	}
+
+	provinces={
+		11836 11837 12024 12025 12055 12204 12226 12314 12430 
+	}
+	manpower=1484214
+	buildings_max_level_factor=1.000
+	state_category=town
+}

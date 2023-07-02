@@ -1,0 +1,23 @@
+state={
+	id=116
+	name="STATE_116"
+	provinces={
+		20473 20474 20481 20482 20588 
+	}
+
+	state_category = town
+
+	history={
+		owner = CKD
+				victory_points = {
+			              20474 5}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+		add_core_of = CKD
+	}
+
+	manpower=354841
+	buildings_max_level_factor=1.000
+}

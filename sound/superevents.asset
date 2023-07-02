@@ -1,0 +1,112 @@
+soundeffect =
+{
+	name = "superev_holy_war"
+	sounds = {
+		sound = "super_holy_war"
+	}
+	volume = 0.55
+}
+soundeffect =
+{
+	name = "superev_putin_wins"
+	sounds = {
+		sound = "super_putin_wins"
+	}
+	volume = 0.55
+}
+soundeffect =
+{
+	name = "superev_letov_wins"
+	sounds = {
+		sound = "super_letov_wins"
+	}
+	volume = 0.55
+}
+soundeffect =
+{
+	name = "superev_evrazia_a"
+	sounds = {
+		sound = "super_evrazia_a"
+	}
+	volume = 0.55
+}
+soundeffect =
+{
+	name = "superev_evrazia_n"
+	sounds = {
+		sound = "super_evrazia_n"
+	}
+	volume = 0.55
+}
+soundeffect =
+{
+	name = "superev_evrazia_lg"
+	sounds = {
+		sound = "super_evrazia_lg"
+	}
+	volume = 0.55
+}
+soundeffect =
+{
+	name = "superev_evrazia_k"
+	sounds = {
+		sound = "super_evrazia_k"
+	}
+	volume = 0.55
+}
+soundeffect =
+{
+	name = "superev_evrazia_l"
+	sounds = {
+		sound = "super_evrazia_l"
+	}
+	volume = 0.55
+}
+soundeffect =
+{
+	name = "superev_evrazia_ak"
+	sounds = {
+		sound = "super_evrazia_ak"
+	}
+	volume = 0.55
+}
+soundeffect =
+{
+	name = "superev_evrazia_al"
+	sounds = {
+		sound = "super_evrazia_al"
+	}
+	volume = 0.55
+}
+soundeffect =
+{
+	name = "superev_evrazia_an"
+	sounds = {
+		sound = "super_evrazia_an"
+	}
+	volume = 0.55
+}
+soundeffect =
+{
+	name = "superev_evrazia_nk"
+	sounds = {
+		sound = "super_evrazia_nk"
+	}
+	volume = 0.55
+}
+soundeffect =
+{
+	name = "superev_evrazia_nl"
+	sounds = {
+		sound = "super_evrazia_nl"
+	}
+	volume = 0.55
+}
+soundeffect =
+{
+	name = "superev_evrazia_kl"
+	sounds = {
+		sound = "super_evrazia_kl"
+	}
+	volume = 0.55
+}

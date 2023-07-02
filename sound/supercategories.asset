@@ -1,0 +1,20 @@
+category = {
+	name = "Super Events"
+	soundeffects = {
+		superev_holy_war
+		superev_putin_wins
+		superev_letov_wins
+		superev_evrazia_a
+		superev_evrazia_n
+		superev_evrazia_lg
+		superev_evrazia_k
+		superev_evrazia_l
+		superev_evrazia_ak
+		superev_evrazia_al
+		superev_evrazia_an
+		superev_evrazia_nk
+		superev_evrazia_nl
+		superev_evrazia_kl
+	}
+	compressor = master_compressor 
+}

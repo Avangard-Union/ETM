@@ -1,0 +1,15 @@
+characters={
+	RAJ_tea_raja={
+		name="Tea Raja"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Chay.dds"
+			}
+		}
+		country_leader={
+			ideology=socdem
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

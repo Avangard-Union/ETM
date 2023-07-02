@@ -1,0 +1,23 @@
+state={
+	id=1033
+	name="STATE_1033"
+	manpower=666555
+    state_category = rural
+
+	history={
+		
+		victory_points = { 1057 10 } # Пляж 'Синяя Лагуна'
+		victory_points = { 950 10 } # Пляж 'Лимонный Загар'
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			
+		}
+		
+	}
+	provinces={
+		950 991 1057 1058 1117 
+	}
+	buildings_max_level_factor=1.000
+}

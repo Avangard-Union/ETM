@@ -1,0 +1,16 @@
+characters={
+	DUG_Александр_Дугин={
+		name="Александр Дугин"
+		portraits={
+			civilian={
+				large="gfx/leaders/DUG/Dugin.dds"
+			}
+		}
+		country_leader={
+			desc=""
+			ideology=imperial_putinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

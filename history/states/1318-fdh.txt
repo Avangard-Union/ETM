@@ -1,0 +1,27 @@
+state={
+	id=1318
+	name="STATE_1318"
+	state_category = town
+	
+	history={
+		owner = SUS
+		victory_points = { 15559 15 } # Лесбус
+		victory_points = { 20182 5 } # Лемнус
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			15559 = {
+				naval_base = 1
+			}
+		}
+
+		add_core_of = SUS
+	}
+	
+	provinces={
+		15559 20182 20669 20670 20671
+	}
+	manpower=214850
+	buildings_max_level_factor=1.000
+}

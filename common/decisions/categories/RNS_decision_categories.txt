@@ -1,0 +1,9 @@
+RNS_Moscow = {
+	icon = generic_economy
+	allowed = {
+		original_tag = RNS
+	}
+	visible = {
+		has_completed_focus = RNS_L_20
+	}
+}

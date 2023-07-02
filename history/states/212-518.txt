@@ -1,0 +1,23 @@
+
+state={
+	id=212
+	name="STATE_212"
+
+	history={
+		owner = ELT
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = ELT
+
+	}
+
+	provinces={
+		14456 14639 14757 14937 14953 15009 15030 15064 15239 15295 15346 15402 15445 15462 15476 15477 15587 15677 15678 15679 15692 15788 15896 15987 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

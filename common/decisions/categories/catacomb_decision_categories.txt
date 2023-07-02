@@ -1,0 +1,10 @@
+
+catacomb_MAH = {
+	icon = hol_war_on_pacifism
+	allowed = {
+		original_tag = MAH
+	}
+	visible = {
+		has_completed_focus = katakomby
+	}
+}

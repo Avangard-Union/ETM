@@ -1,0 +1,205 @@
+#титьлес
+defined_text = {
+    name = SE_T
+	
+    text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_holy_war
+        }
+        localization_key = "SE_HOLY_WAR_T"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_putin_wins
+        }
+        localization_key = "SE_putin_wins_T"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_letov_wins
+        }
+        localization_key = "SE_letov_wins_T"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_a
+        }
+        localization_key = "SE_evrazia_a_T"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_n
+        }
+        localization_key = "SE_evrazia_n_T"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_lg
+        }
+        localization_key = "SE_evrazia_lg_T"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_k
+        }
+        localization_key = "SE_evrazia_k_T"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_l
+        }
+        localization_key = "SE_evrazia_l_T"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_ak
+        }
+        localization_key = "SE_evrazia_ak_T"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_al
+        }
+        localization_key = "SE_evrazia_al_T"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_an
+        }
+        localization_key = "SE_evrazia_an_T"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_nk
+        }
+        localization_key = "SE_evrazia_nk_T"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_nl
+        }
+        localization_key = "SE_evrazia_nl_T"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_kl
+        }
+        localization_key = "SE_evrazia_kl_T"
+    }
+}
+
+#дыскрептер
+defined_text = {
+    name = SE_D
+    
+    text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_holy_war
+        }
+        localization_key = "SE_HOLY_WAR_D"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_putin_wins
+        }
+        localization_key = "SE_putin_wins_D"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_letov_wins
+        }
+        localization_key = "SE_letov_wins_D"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_a
+        }
+        localization_key = "SE_evrazia_a_D"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_n
+        }
+        localization_key = "SE_evrazia_n_D"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_lg
+        }
+        localization_key = "SE_evrazia_lg_D"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_k
+        }
+        localization_key = "SE_evrazia_k_D"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_l
+        }
+        localization_key = "SE_evrazia_l_D"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_ak
+        }
+        localization_key = "SE_evrazia_ak_D"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_al
+        }
+        localization_key = "SE_evrazia_al_D"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_an
+        }
+        localization_key = "SE_evrazia_an_D"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_nk
+        }
+        localization_key = "SE_evrazia_nk_D"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_nl
+        }
+        localization_key = "SE_evrazia_nl_D"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = etm_super_event_flag_evrazia_kl
+        }
+        localization_key = "SE_evrazia_kl_D"
+    }
+}

@@ -1,0 +1,15 @@
+characters={
+	KOL_yuri_khoy={
+		name="Yuri Khoy"
+		portraits={
+			civilian={
+				large="gfx/leaders/KOL/Hoi.dds"
+			}
+		}
+		country_leader={
+			ideology=tsardemocrasy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

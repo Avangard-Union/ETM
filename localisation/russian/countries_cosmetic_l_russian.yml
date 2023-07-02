@@ -1,0 +1,37 @@
+﻿l_russian:
+ SKY_IPR_autonomy_dominion:0 "Имперская Провинция Скайрим"
+ SKY_IPR_autonomy_dominion_DEF:0 "ИПС"
+ SKY_IPR_autonomy_puppet:0 "Имперский Протекторат Скайрим"
+ SKY_IPR_autonomy_puppet_DEF:0 "ИПС"
+ GVN_IPR_autonomy_dominion:0 "Имперская Провинция Морровинд"
+ SKY_IPR_autonomy_dominion_DEF:0 "ИПМ"
+ GVN_IPR_autonomy_puppet:0 "Имперский Протекторат Морровинд"
+ SKY_IPR_autonomy_puppet_DEF:0 "ИПМ"
+ 
+ 
+ DUK_putinism:0 "Путинское ДревнеУкраинское Черноморье"
+ DUK_putinism_DEF:0 "ПДУЧ"
+ DUK_bidlo:0 "ДревнеУкраинское Черноморское Госудаство"
+ DUK_bidlo_DEF:0 "ДУЧГ"
+ DUK_burjuism:0 "ДревнеУкраинская Черноморская Республика"
+ DUK_burjuism_DEF:0 "ДУЧР"
+ DUK_pahanism:0 "ДревнеУкраинское Черноморье"
+ DUK_pahanism_DEF:0 "ДУЧ"
+ DUK_borshewism:0 "Красное ДревнеУкраинская Черноморская Социалистическая Республика"
+ DUK_borshewism_DEF:0 "КДУЧСР"
+ DUK_putinism_ADJ:0 "Древ. Укр."
+ DUK_bidlo_ADJ:0 "Древ. Укр."
+ DUK_burjuism_ADJ:0 "Древ. Укр."
+ DUK_pahanism_ADJ:0 "Древ. Укр."
+ DUK_borshewism_ADJ:0 "Древ. Укр."
+ 
+ 
+ NIG_SAU_autonomy_bid_kommissariat:0 "Шоколандский Сосисочный Комиссариат"
+ NIG_SAU_autonomy_bid_protectorate:0 "Шоколандский Сосисочный Протекторат"
+ NIG_SAU_autonomy_bid_satellite:0 "Шоколандский Сосисочный Сателлит"
+ 
+ 
+ MAH_LNN_autonomy_bor_kommissariat:0 "Новороссийская Военная Администрация"
+ MAH_LNN_autonomy_bor_protectorate:0 "Новороссийская Зависимая Республика"
+ MAH_LNN_autonomy_bor_satellite:0 "Новороссийская Союзная Республика"
+ 

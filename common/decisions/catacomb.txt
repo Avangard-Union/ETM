@@ -1,0 +1,594 @@
+catacomb_MAH = {
+	cat_reg = { 
+		Is_good = yes
+        fire_only_once = yes
+		complete_effect = {
+			set_country_flag = vibor_reg
+		}
+	}
+	troick = { 
+		Is_good = no
+        fire_only_once = yes
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1328
+			}
+		}
+		
+		visible = {
+			has_country_flag = vibor_reg
+		}
+		complete_effect = {
+			set_country_flag = vibor_shablona
+			set_country_flag = troick
+			clr_country_flag = vibor_reg
+		
+		}
+	}
+	ug = { 
+		Is_good = no
+        fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1327
+			}
+		}
+		visible = {
+			has_country_flag = vibor_reg
+		}
+		complete_effect = {
+			set_country_flag = vibor_shablona
+			set_country_flag = ug
+			clr_country_flag = vibor_reg
+		
+		}
+	}
+	zap = { 
+		Is_good = no
+        fire_only_once = yes
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1326
+			}
+		}
+		visible = {
+			has_country_flag = vibor_reg
+		}
+		complete_effect = {
+			set_country_flag = vibor_shablona
+			set_country_flag = zap
+			clr_country_flag = vibor_reg
+		
+		}
+	}
+	pehota = { 
+		Is_good = no
+        fire_only_once = yes
+		visible = {
+			has_country_flag = vibor_shablona
+		}
+		complete_effect = {
+			set_country_flag = pehota
+			clr_country_flag = vibor_shablona
+			set_country_flag = vibor_kolichestva
+		
+		}
+	}
+	koni = { 
+		Is_good = no
+        fire_only_once = yes
+		visible = {
+			has_country_flag = vibor_shablona
+		}
+		complete_effect = {
+			set_country_flag = koni
+			clr_country_flag = vibor_shablona
+			set_country_flag = vibor_kolichestva
+		
+		}
+	}
+	bragada = { 
+		Is_good = no
+        fire_only_once = yes
+		visible = {
+			has_country_flag = vibor_shablona
+		}
+		complete_effect = {
+			set_country_flag = bragada
+			clr_country_flag = vibor_shablona
+			set_country_flag = vibor_kolichestva
+		
+		}
+	}
+	kol_35 = { 
+		Is_good = no
+        fire_only_once = yes
+		visible = {
+			has_country_flag = vibor_kolichestva
+		}
+		complete_effect = {
+			set_country_flag = kol_35
+			clr_country_flag = vibor_kolichestva
+			set_country_flag = voyna
+		
+		}
+	}
+	kol_25 = { 
+		Is_good = no
+        fire_only_once = yes
+		visible = {
+			has_country_flag = vibor_kolichestva
+		}
+		complete_effect = {
+			set_country_flag = kol_25
+			clr_country_flag = vibor_kolichestva
+			set_country_flag = voyna
+		
+		}
+	}
+	kol_15 = { 
+		Is_good = no
+        fire_only_once = yes
+		visible = {
+			has_country_flag = vibor_kolichestva
+		}
+		complete_effect = {
+			set_country_flag = kol_15
+			clr_country_flag = vibor_kolichestva
+			set_country_flag = voyna
+		
+		}
+	}
+	voyna = { 
+		Is_good = no
+        fire_only_once = yes
+		visible = {
+			has_country_flag = voyna
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					has_country_flag = troick
+					has_country_flag = pehota
+					has_country_flag = kol_35
+				}
+				load_oob = "troickpehotakol_35"  
+				add_manpower = -315000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -31500
+					producer = MAH
+				}
+				set_state_controller =	1328
+			}
+			if = {
+				limit = {
+					has_country_flag = troick
+					has_country_flag = koni
+					has_country_flag = kol_35
+				}
+				load_oob = "troickkonikol_35"   
+				add_manpower = -315000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -37800
+					producer = MAH
+				}
+				set_state_controller =	1328
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = troick
+					has_country_flag = bragada
+					has_country_flag = kol_35
+				}
+				load_oob = "troickbragadakol_35"   
+				add_manpower = -350000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -42000
+					producer = MAH
+				}  
+				set_state_controller =	1328
+				 
+			}
+			if = {
+				limit = {
+					has_country_flag = troick
+					has_country_flag = pehota
+					has_country_flag = kol_25
+				}
+				load_oob = "troickpehotakol_25"   
+				add_manpower = -22500
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -22500
+					producer = MAH
+				}  
+				set_state_controller =	1328
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = troick
+					has_country_flag = koni
+					has_country_flag = kol_25
+				}
+				load_oob = "troickkonikol_25"   
+				add_manpower = -22500
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -27000
+					producer = MAH
+				}  
+				set_state_controller =	1328
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = troick
+					has_country_flag = bragada
+					has_country_flag = kol_25
+				}
+				load_oob = "troickbragadakol_25"   
+				add_manpower = -250000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -30000
+					producer = MAH
+				}  
+				set_state_controller =	1328
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = troick
+					has_country_flag = pehota
+					has_country_flag = kol_15
+				}
+				load_oob = "troickpehotakol_15"  
+				add_manpower = -135000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -13500
+					producer = MAH
+				}  
+				set_state_controller =	1328
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = troick
+					has_country_flag = koni
+					has_country_flag = kol_15
+				}
+				load_oob = "troickkonikol_15"  
+				add_manpower = -135000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -16200
+					producer = MAH
+				}  
+				set_state_controller =	1328
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = troick
+					has_country_flag = bragada
+					has_country_flag = kol_15
+				}
+				load_oob = "troickbragadakol_15"  
+				add_manpower = -150000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -18000
+					producer = MAH
+				}   
+				set_state_controller =	1328
+			}
+			if = {
+				limit = {
+					has_country_flag = ug
+					has_country_flag = pehota
+					has_country_flag = kol_35
+				}
+				load_oob = "ugpehotakol_35"   
+				add_manpower = -315000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -31500
+					producer = MAH
+				}
+				set_state_controller =	1327
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = ug
+					has_country_flag = koni
+					has_country_flag = kol_35
+				}
+				load_oob = "ugkonikol_35"    
+				add_manpower = -315000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -37800
+					producer = MAH
+				}
+				set_state_controller =	1327
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = ug
+					has_country_flag = bragada
+					has_country_flag = kol_35
+				}
+				load_oob = "ugbragadakol_35"   
+				add_manpower = -350000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -42000
+					producer = MAH
+				}  
+				set_state_controller =	1327
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = ug
+					has_country_flag = pehota
+					has_country_flag = kol_25
+				}
+				load_oob = "ugpehotakol_25"   
+				add_manpower = -22500
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -22500
+					producer = MAH
+				}  
+				set_state_controller =	1327
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = ug
+					has_country_flag = koni
+					has_country_flag = kol_25
+				}
+				load_oob = "ugkonikol_25"  
+				add_manpower = -22500
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -27000
+					producer = MAH
+				}  
+				set_state_controller =	1327
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = ug
+					has_country_flag = bragada
+					has_country_flag = kol_25
+				}
+				load_oob = "ugbragadakol_25"  
+				add_manpower = -250000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -30000
+					producer = MAH
+				}  
+				set_state_controller =	1327
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = ug
+					has_country_flag = pehota
+					has_country_flag = kol_15
+				}
+				load_oob = "ugpehotakol_15"  
+				add_manpower = -135000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -13500
+					producer = MAH
+				}
+				set_state_controller =	1327  
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = ug
+					has_country_flag = koni
+					has_country_flag = kol_15
+				}
+				load_oob = "ugkonikol_15"  
+				add_manpower = -135000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -16200
+					producer = MAH
+				}  
+				set_state_controller =	1327
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = ug
+					has_country_flag = bragada
+					has_country_flag = kol_15
+				}
+				load_oob = "ugbragadakol_15"  
+				add_manpower = -150000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -18000
+					producer = MAH
+				}   
+				set_state_controller =	1327
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = zap
+					has_country_flag = pehota
+					has_country_flag = kol_35
+				}
+				load_oob = "zappehotakol_35"  
+				add_manpower = -315000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -31500
+					producer = MAH
+				} 
+				set_state_controller =	1326
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = zap
+					has_country_flag = koni
+					has_country_flag = kol_35
+				}
+				load_oob = "zapkonikol_35"    
+				add_manpower = -315000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -37800
+					producer = MAH
+				}
+				set_state_controller =	1326
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = zap
+					has_country_flag = bragada
+					has_country_flag = kol_35
+				}
+				load_oob = "zapbragadakol_35"  
+				add_manpower = -350000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -42000
+					producer = MAH
+				}    
+				set_state_controller =	1326
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = zap
+					has_country_flag = pehota
+					has_country_flag = kol_25
+				}
+				load_oob = "zappehotakol_25"   
+				add_manpower = -22500
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -22500
+					producer = MAH
+				}  
+				set_state_controller =	1326
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = zap
+					has_country_flag = koni
+					has_country_flag = kol_25
+				}
+				load_oob = "zapkonikol_25"  
+				add_manpower = -22500
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -27000
+					producer = MAH
+				}  
+				set_state_controller =	1326
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = zap
+					has_country_flag = bragada
+					has_country_flag = kol_25
+				}
+				load_oob = "zapbragadakol_25"  
+				add_manpower = -250000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -30000
+					producer = MAH
+				} 
+				set_state_controller =	1326 
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = zap
+					has_country_flag = pehota
+					has_country_flag = kol_15
+				}
+				load_oob = "zappehotakol_15"  
+				add_manpower = -135000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -13500
+					producer = MAH
+				}  
+				set_state_controller =	1326
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = zap
+					has_country_flag = koni
+					has_country_flag = kol_15
+				}
+				load_oob = "zapkonikol_15"  
+				add_manpower = -135000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -16200
+					producer = MAH
+				}  
+				set_state_controller =	1326
+				
+			}
+			if = {
+				limit = {
+					has_country_flag = zap
+					has_country_flag = bragada
+					has_country_flag = kol_15
+				}
+				load_oob = "zapbragadakol_15"  
+				add_manpower = -150000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -18000
+					producer = MAH
+				}  
+				set_state_controller =	1326 
+				
+			}
+			declare_war_on = {
+				target = MOS
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KIL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ZHI
+				type = annex_everything
+			}
+		}
+	}
+}

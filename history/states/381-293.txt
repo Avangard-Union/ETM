@@ -1,0 +1,26 @@
+
+state={
+	id=381
+	name="STATE_381"
+
+	history={
+		owner = CHH
+		victory_points = {
+			18218 10 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = CHH
+
+	}
+
+	provinces={
+		18062 18310 18324 18440 18487 
+	}
+	manpower=844311
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

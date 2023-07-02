@@ -1,0 +1,19 @@
+
+music_station = "disko"
+
+music = {
+	song = "AA-DiscoPanzer"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}
+music = {
+	song = "AA-Polska"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}

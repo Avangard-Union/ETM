@@ -1,0 +1,22 @@
+state={
+	id=1190
+	name="STATE_1190"
+        manpower = 1500000
+ 
+        history={
+		owner = REE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 5
+                        arms_factory = 4
+			}
+		}
+		add_core_of = OVR  
+                add_core_of = REE
+
+	provinces={
+		3159 3247 3256 
+	}
+
+
+}

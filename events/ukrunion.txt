@@ -1,0 +1,235 @@
+﻿add_namespace = ukr
+country_event = {
+	id = ukr.1
+	title = ukr.1.t
+	desc = ukr.1.d
+	picture = GFX_report_event_worker_protests
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = KIV
+			476 = {
+				is_controlled_by = UNR
+			}
+			477 = {
+				is_controlled_by = UNR
+			}
+		country_exists = ODE
+		country_exists = ZLS
+		NOT = {
+			KIV = {
+				has_war_with = ODE
+				}
+			}
+		NOT = {
+			KIV = {
+				has_war_with = ZLS
+				}
+			}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {		
+		name = ukr.1.a				#союз
+		ai_chance = { factor = 1 }
+		KIV = {
+			create_faction = ukrunion
+			}
+		ODE = {
+			country_event = ukr.11
+				}
+		ZLS = {
+			country_event = ukr.111
+				}
+		NOT = {
+			is_in_faction_with = ZLS
+			is_in_faction_with = ODE
+		}
+	}
+	option = {
+		name = ukr.1.b		
+	}
+}
+country_event = {
+	id = ukr.2 
+	title = ukr.2.t
+	desc = ukr.2.d
+	picture = GFX_report_event_worker_protests
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ZLS
+		country_exists = ODE
+		country_exists = KIV
+		NOT = {
+			ZLS = {
+				has_war_with = ODE
+				}
+			}
+		NOT = {
+			ZLS = {
+				has_war_with = KIV
+				}
+			}
+		NOT = {
+			is_in_faction_with = KIV
+			is_in_faction_with = ODE
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {		
+		name = ukr.2.a				#союз
+		ai_chance = { factor = 1 }
+		ZLS = {
+			create_faction = ukrunion
+			}
+		KIV = {
+			country_event = ukr.21
+				}
+		ODE = {
+			country_event = ukr.211
+				}
+	}
+	option = {
+		name = ukr.2.b		
+	}
+}
+country_event = {
+	id = ukr.11
+	title = ukr.11.t
+	desc = ukr.11.d
+	picture = GFX_report_event_worker_protests
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = ODE
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {		
+		name = ukr.11.a				#союз
+		ai_chance = { factor = 1 }
+		KIV = {
+			add_to_faction = ODE
+		}
+		add_to_war = { 
+			targeted_alliance = KIV 
+			enemy = UNR 
+			hostility_reason = asked_to_join
+		}
+	}
+	option = {
+		name = ukr.11.b		
+	}
+}
+
+country_event = {
+	id = ukr.111
+	title = ukr.11.t
+	desc = ukr.11.d
+	picture = GFX_report_event_worker_protests
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = ZLS
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {		
+		name = ukr.11.a				#союз
+		ai_chance = { factor = 1 }
+		KIV = {
+			add_to_faction = ZLS
+		}
+		add_to_war = { 
+			targeted_alliance = KIV 
+			enemy = UNR 
+			hostility_reason = asked_to_join
+		}
+	}
+	option = {
+		name = ukr.11.b		
+	}
+}
+country_event = {
+	id = ukr.21
+	title = ukr.21.t
+	desc = ukr.21.d
+	picture = GFX_report_event_worker_protests
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = ODE
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {		
+		name = ukr.21.a				#союз
+		ai_chance = { factor = 1 }
+		ZLS = {
+			add_to_faction = KIV
+		}
+		add_to_war = { 
+			targeted_alliance = ZLS 
+			enemy = MAH 
+			hostility_reason = asked_to_join
+		}
+	}
+	option = {
+		name = ukr.21.b		
+	}
+}
+
+country_event = {
+	id = ukr.211
+	title = ukr.21.t
+	desc = ukr.21.d
+	picture = GFX_report_event_worker_protests
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = ZLS
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {		
+		name = ukr.21.a				#союз
+		ai_chance = { factor = 1 }
+		ZLS = {
+			add_to_faction = ODE
+		}
+		add_to_war = { 
+			targeted_alliance = ZLS 
+			enemy = UNR 
+			hostility_reason = asked_to_join
+		}
+	}
+	option = {
+		name = ukr.21.b		
+	}
+}

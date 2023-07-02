@@ -1,0 +1,28 @@
+
+state={
+	id=311
+	name="STATE_311"
+	resources={
+		steel=40.000
+	}
+
+	history={
+		owner = PEC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			air_base = 5
+
+		}
+		add_core_of = PEC
+
+	}
+
+	provinces={
+		17806 17807 18138 18189 18363 18413 18548 18633 18729 18827 18925 20746 
+	}
+	manpower=4520000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

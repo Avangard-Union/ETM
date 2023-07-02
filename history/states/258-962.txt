@@ -1,0 +1,29 @@
+
+state={
+	id=258
+	name="STATE_258"
+
+	history={
+		owner = ANT
+		victory_points = {
+			10130 10 
+		}
+		victory_points = {
+			9708 5 
+		}
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = ANT
+
+	}
+
+	provinces={
+		9561 9605 9708 9726 9745 9763 9891 9918 10015 10069 10099 10130 10245 10293 10313 
+	}
+	manpower=261243
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

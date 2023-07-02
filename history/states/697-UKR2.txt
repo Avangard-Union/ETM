@@ -1,0 +1,30 @@
+#тут был маздар007
+#а ещо крутой н*иггер
+state={
+	id=697
+	name="STATE_687"
+	manpower = 13540291
+	
+	state_category = rural
+
+	history={
+		owner = BSV
+		victory_points = { 9384 10 } # Хохлятский Владикавказ
+		victory_points = { 9262 5 } # Тепли
+		victory_points = { 9080 10 } # Ахтубинск
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+                        air_base = 1
+
+		}
+
+		add_core_of = BSV
+	}
+
+	provinces={
+		9080 9142 9164 9222 9238 9262 9278 9367 9384 9417 9446 
+	}
+}

@@ -1,0 +1,23 @@
+state={
+	id=1034
+	name="STATE_1034"
+	manpower=666552
+	state_category = rural
+
+	history={
+		
+		victory_points = { 1022 20 } # Писькамасина
+		victory_points = { 1217 5 } # Гамадрилзара
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+			
+		}
+		
+	}
+	provinces={
+		1022 1050 1086 1101 1129 1130 1171 1200 1217 1249  
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=1330
+	name="STATE_1330"
+
+	history={
+		owner = SVT
+		
+		add_core_of = SVT
+	}
+	provinces={
+		13040 20752 20753 20755 20766 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

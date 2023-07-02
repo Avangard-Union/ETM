@@ -1,0 +1,24 @@
+state={
+	id=157
+	name="STATE_157"
+
+	history={
+		owner = ABR
+		           victory_points = {
+	                         19753 20}		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+            arms_factory = 3
+		}
+		add_core_of = ABR
+
+	}
+
+	provinces={
+		19507 19534 19753 19974 19975 19987 20060 20066 20188 20248 
+	}
+	manpower=1285974
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

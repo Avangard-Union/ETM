@@ -1,0 +1,34 @@
+
+state={
+	id=708
+	name="STATE_708"
+
+	history={
+		owner = SIN
+		victory_points = {
+			8811 10 
+		}
+		victory_points = {
+			8799 10 
+		}
+		victory_points = {
+			9004 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = SIN
+
+	}
+
+	provinces={
+		8799 8839 8845 8882 8910 8911 8964 9004 9030 9071 
+	}
+	manpower=13750786
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

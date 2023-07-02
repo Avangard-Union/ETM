@@ -1,0 +1,15 @@
+characters={
+	VAK_black_panter={
+		name="Black Panter"
+		portraits={
+			civilian={
+				large="gfx/leaders/VAK/Smith.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

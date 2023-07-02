@@ -1,0 +1,28 @@
+characters={
+	AFO_zervas={
+		name="Никос Зервас"
+		portraits={
+			civilian={
+				large="gfx/leaders/AFO/Zervas.dds"
+			}
+		}
+		country_leader={
+			ideology=gachism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	AFO_afonya={
+		name="Афоня"
+		portraits={
+			civilian={
+				large="gfx/leaders/AFO/Afonya.dds"
+			}
+		}
+		country_leader={
+			ideology=jididoism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

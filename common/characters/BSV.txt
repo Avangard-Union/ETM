@@ -1,0 +1,15 @@
+characters={
+	BSV_drevniy={
+		name=BSV_drevniy
+		portraits={
+			civilian={
+				large="gfx/leaders/BSV/drevniy.dds"
+			}
+		}
+		country_leader={
+			ideology=primitivism
+			traits={  }
+			expire="1965.1.1.1"
+		}
+	}
+}

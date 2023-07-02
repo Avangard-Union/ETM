@@ -1,0 +1,23 @@
+state={
+	id=788
+	name="STATE_788"
+	manpower = 124500
+	
+	state_category = rural
+
+	history={
+		owner = TAR
+		victory_points = { 16154 5 } # Сухобезводное
+		buildings = {
+			infrastructure = 3
+			
+
+		}
+
+		add_core_of = TAR
+	}
+
+	provinces={
+		15930 15944 16087 16111 16128 16154 
+	}
+}

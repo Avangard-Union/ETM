@@ -1,0 +1,15 @@
+characters={
+	GBQ_gubkayob={
+		name="Gubkayob"
+		portraits={
+			civilian={
+				large="gfx/leaders/GBQ/gubka.dds"
+			}
+		}
+		country_leader={
+			ideology=jididoism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,35 @@
+capital = 180
+
+#oob = "BRJ_0002"
+
+set_research_slots = 2
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_stability = 0.5
+set_war_support = 0.5
+
+
+set_politics = {
+	ruling_party = burjuism
+	elections_allowed = no
+}
+
+set_popularities = {
+	burjuism = 100
+	bidlo = 0
+	borshewism = 0
+	pahanism = 0
+}
+
+
+recruit_character = BRJ_Мойша_ШаббатШаломов
+
+
+
+
+
+recruit_character = AAA_PUSTYSHKA

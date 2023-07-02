@@ -1,0 +1,26 @@
+
+state={
+	id=803
+	name="STATE_803"
+	resources={
+		aluminium=10.000
+	}
+
+	history={
+		owner = UMO
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = UMO
+
+	}
+
+	provinces={
+		16430 16540 16702 16719 16749 16880 16936 16937 16938 17090 17132 17133 17273 17274 
+	}
+	manpower=182000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

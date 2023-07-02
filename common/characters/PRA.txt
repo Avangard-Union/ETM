@@ -1,0 +1,16 @@
+characters={
+	PRA_Ермолай_«Новочеркасский»‎_Лугансков={
+		name="Ермолай «Новочеркасский»‎ Лугансков"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRA/ataman1.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ADOLF_HITLER_DESC"
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

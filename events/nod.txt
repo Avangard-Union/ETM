@@ -1,0 +1,38 @@
+add_namespace = nod
+country_event = {
+	id = nod.1
+	title = nod.1.t 
+	desc = nod.1.d 
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = NJS
+		MAH = {
+			has_war_with = RAP
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = nod.1.a  
+		ai_chance = { factor = 100 }
+		declare_war_on = {
+			target = MAH
+			type = puppet_wargoal_focus
+		}
+		NJS = {
+			give_military_access = RAP
+		}
+		RAP = {  
+			give_military_access = NJS
+		}
+	}
+	
+	option = {
+		name = nod.1.b
+	}
+}

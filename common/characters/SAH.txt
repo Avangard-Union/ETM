@@ -1,0 +1,15 @@
+characters={
+	SAH_saahar={
+		name="Sa'ahar"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAH/sahar.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

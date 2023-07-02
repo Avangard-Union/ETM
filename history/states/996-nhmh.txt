@@ -1,0 +1,25 @@
+state={
+	id=996
+	name="STATE_996"
+
+	manpower=980000
+
+    state_category = rural
+
+	history={
+		
+		victory_points = { 1267 10 } # Нампула
+		victory_points = { 1278 5 } # Накакала
+		buildings = {
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 4
+			air_base = 4
+		}
+		
+	}
+	provinces={
+		1244 1260 1267 1278 1297 1318 1340 1341 1365 1397 
+	}
+	buildings_max_level_factor=1.000
+}

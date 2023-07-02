@@ -1,0 +1,28 @@
+
+state={
+	id=727
+	name="STATE_727"
+
+	history={
+		victory_points = {
+			10272 30 
+		}
+		owner = KER
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = KER
+
+	}
+
+	provinces={
+		10052 10066 10111 10176 10272 
+	}
+	manpower=14120588
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

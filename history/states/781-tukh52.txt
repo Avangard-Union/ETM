@@ -1,0 +1,28 @@
+
+state={
+	id=781
+	name="STATE_781"
+	resources={
+		chromium=18.000
+	}
+
+	history={
+		owner = DUD
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+
+		}
+		add_core_of = DUD
+
+	}
+
+	provinces={
+		15532 15558 15582 15709 15741 15742 15767 15848 15911 15960 16002 16058 16113 
+	}
+	manpower=1324935
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,36 @@
+state={
+	id=624
+	name="STATE_624"
+    resources = {
+	             steel = 10}	
+	provinces={
+		15389 15471 15530 15554 15645 15762 
+	}
+
+	state_category = city
+
+	resources={
+		
+	}
+
+	history={
+		owner = LAT
+		victory_points = {
+			              15389 10}
+		victory_points = {
+			              15762 60}						  
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 4
+			air_base = 3
+			15762 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = LAT
+	}
+
+	manpower=2451509
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=255
+	name="STATE_255"
+
+	history={
+		owner = ANT
+		victory_points = {
+			10934 10 
+		}
+		victory_points = {
+			11491 10 
+		}
+		victory_points = {
+			10632 5 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+
+		}
+		add_core_of = ANT
+
+	}
+
+	provinces={
+		10350 10379 10398 10455 10526 10579 10631 10632 10677 10739 10829 10934 10945 10961 11115 11170 11228 11257 11491 11492 
+	}
+	manpower=244652
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

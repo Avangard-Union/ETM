@@ -1,0 +1,28 @@
+characters={
+	STH_Денис_i={
+		name="Денис I"
+		portraits={
+			civilian={
+				large="gfx/leaders/STH/stethem.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	STH_Папа_Смурфик={
+		name="Папа Смурфик"
+		portraits={
+			civilian={
+				large="gfx/leaders/STH/papa_smurfic.dds"
+			}
+		}
+		country_leader={
+			ideology=zoomerism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

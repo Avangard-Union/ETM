@@ -1,0 +1,28 @@
+state={
+	id=913
+	name="STATE_913"
+	manpower=999000
+	state_category = rural
+	
+	history={
+		
+		victory_points = {
+			 2407 10
+		}
+		victory_points = {
+			 2435 10
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 4
+		}
+		
+	}
+
+	provinces={
+		2318 2322 2327 2349 2356 2377 2393 2407 2435 2455 2461 2462 2498 2542 
+	}
+	buildings_max_level_factor=1.000
+}

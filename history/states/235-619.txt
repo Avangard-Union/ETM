@@ -1,0 +1,33 @@
+
+state={
+	id=235
+	name="STATE_235"
+	provinces={
+		12443 12514 12818 12899 12968 13018 13124 13192 13218 13463 13515 13516 13610 13631 13745 13791 13998 13999 14129 14130 14302 14341 14360 14405 14622 14719 
+	}
+
+	state_category = rural
+	resources={
+		tungsten=14
+		oil=4
+		steel=20
+		chromium=5
+		rubber=4
+		aluminium=6
+	}
+
+	history={
+		owner = ELT
+		victory_points = {
+			13745 20     }
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		add_core_of = ELT
+	}
+
+	manpower=1242143
+	buildings_max_level_factor=1.000
+}

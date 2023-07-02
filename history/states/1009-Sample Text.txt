@@ -1,0 +1,22 @@
+state={
+	id=1009
+	name="STATE_1009"
+	manpower=2016709
+	state_category = rural
+	
+	history={
+		
+		victory_points = { 2093 50 } # Хоаревиль (Браззавиль)
+		buildings = {
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 4
+			air_base = 4
+		}
+		
+	}
+	provinces={
+		2093 2106 2107 2226 2227 
+	}
+	buildings_max_level_factor=1.000
+}

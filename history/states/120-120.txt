@@ -1,0 +1,23 @@
+state={
+	id=120
+	name="STATE_120"
+	manpower=863943
+
+    state_category = town
+
+	history={
+		owner = CKD
+				victory_points = {
+			              19774 10}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+		add_core_of = CKD
+	}
+
+	provinces={
+		19732 19774 19894 20009 20082 20227 
+	}
+	buildings_max_level_factor=1.000
+}

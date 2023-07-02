@@ -1,0 +1,23 @@
+
+state={
+	id=17
+	name="STATE_17"
+	provinces={
+		8027 8033 8154 8251 8275 
+	}
+
+	state_category = rural
+
+	history={
+		owner = JES
+		victory_points = {
+			              8154 10 }
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = JES
+	}
+
+	manpower=1346524
+	buildings_max_level_factor=1.000
+}

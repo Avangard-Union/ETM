@@ -1,0 +1,24 @@
+state={
+	id=646
+	name="STATE_646"
+
+	history={
+		owner = RNS
+		victory_points = { 14947 15 } # Калуга
+		victory_points = { 15255 10 } # Обнинск
+		victory_points = { 15114 10 } # Людониво
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		add_core_of = RNS
+
+	}
+
+	provinces={
+		14861 14925 14947 15037 15057 15094 15113 15114 15115 15116 15255 15288 
+	}
+	manpower = 1121004
+	buildings_max_level_factor=1.000
+	state_category = town
+}

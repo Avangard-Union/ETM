@@ -1,0 +1,21 @@
+
+state={
+	id=1199
+	name="STATE_1199"
+        manpower = 100000
+
+        history={
+		owner = MVT
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+                        arms_factory = 4
+			}
+		}
+		add_core_of = MVT
+
+	provinces={
+		3949 4008 4095 
+	}
+
+}

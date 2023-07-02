@@ -1,0 +1,15 @@
+characters={
+	YAY_pico={
+		name="Pico"
+		portraits={
+			civilian={
+				large="gfx/leaders/YAY/pico.dds"
+			}
+		}
+		country_leader={
+			ideology=pedophilia
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,2232 @@
+focus_tree = {
+	id = RNG_focusi
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RNS
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 100 y = 1600 }
+
+focus = {
+	id = RNS_ind_1
+	icon = GFX_RNS_ind_1
+	available = {
+		OR = {
+			has_completed_focus = RNS_L_1
+			has_completed_focus = RNS_R_1
+		}
+	}
+	x = 4
+	y = 0
+	cost = 7
+	ai_will_do = { factor = 11 }
+	completion_reward = {
+		add_tech_bonus = {
+			name = industrial_bonus
+			bonus = 1.0
+			uses = 2
+			category = industry
+		}
+	}
+	search_filters = { FOCUS_FILTER_RESEARCH }
+}
+focus = {
+	id = RNS_ind_2
+	icon = GFX_RNS_ind_2
+	prerequisite = { focus = RNS_ind_1 }
+	x = 2
+	y = 1
+	cost = 7
+	ai_will_do = { factor = 11 }
+	completion_reward = {
+		add_resource = {
+			type = steel
+			amount = 15
+			state = 643
+		}
+		add_resource = {
+			type = steel
+			amount = 8
+			state = 657
+		}
+		add_resource = {
+			type = steel
+			amount = 7
+			state = 640
+		}
+	}
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+}
+focus = {
+	id = RNS_ind_3
+	icon = GFX_RNS_ind_3
+	prerequisite = { focus = RNS_ind_1 }
+	available = {
+		owns_state = 640
+		owns_state = 643
+		owns_state = 644
+		owns_state = 645
+		owns_state = 659
+	}
+	x = 4
+	y = 1
+	cost = 7
+	ai_will_do = { factor = 11 }
+	completion_reward = {
+		add_political_power = -2500
+		640 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		643 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		644 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		645 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		659 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+}
+
+focus = {
+	id = RNS_ind_4
+	icon = GFX_RNS_ind_4
+	prerequisite = { focus = RNS_ind_1 }
+	available = {
+		owns_state = 657
+	}
+	x = 6
+	y = 1
+	cost = 7
+	ai_will_do = { factor = 11 }
+	completion_reward = {
+		custom_effect_tooltip = available_designer
+		show_ideas_tooltip = tula_arms_plant
+		657 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+}
+focus = {
+	id = RNS_ind_5
+	icon = GFX_RNS_ind_5
+	prerequisite = { focus = RNS_ind_2 }
+	prerequisite = { focus = RNS_ind_3 }
+	prerequisite = { focus = RNS_ind_4 }
+	available = {
+		owns_state = 647
+		owns_state = 640
+		owns_state = 654
+		owns_state = 655
+	}
+	x = 1
+	y = 2
+	cost = 7
+	ai_will_do = { factor = 8 }
+	completion_reward = {
+		647 = {
+			add_manpower = 25000
+		}
+		640 = {
+			add_manpower = 25000
+		}
+		654 = {
+			add_manpower = 25000
+		}
+		655 = {
+			add_manpower = 25000
+		}
+	}
+	search_filters = { FOCUS_FILTER_MANPOWER }
+}
+focus = {
+	id = RNS_ind_6
+	icon = GFX_RNS_ind_6
+	prerequisite = { focus = RNS_ind_2 }
+	prerequisite = { focus = RNS_ind_3 }
+	prerequisite = { focus = RNS_ind_4 }
+	available = {
+		owns_state = 660
+		owns_state = 670
+		owns_state = 661
+		owns_state = 671
+	}
+	x = 3
+	y = 2
+	cost = 7
+	ai_will_do = { factor = 8 }
+	completion_reward = {
+		660 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		670 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		661 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		671 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+}
+focus = {
+	id = RNS_ind_7
+	icon = GFX_RNS_ind_7
+	prerequisite = { focus = RNS_ind_2 }
+	prerequisite = { focus = RNS_ind_3 }
+	prerequisite = { focus = RNS_ind_4 }
+	available = {
+	    owns_state = 656
+		owns_state = 655
+		owns_state = 648
+		owns_state = 657
+		owns_state = 654
+	}
+	x = 5
+	y = 2
+	cost = 7
+	ai_will_do = { factor = 8 }
+	completion_reward = {
+		656 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		655 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		648 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		657 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		654 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+}
+focus = {
+	id = RNS_ind_8
+	icon = GFX_RNS_ind_8
+	prerequisite = { focus = RNS_ind_2 }
+	prerequisite = { focus = RNS_ind_3 }
+	prerequisite = { focus = RNS_ind_4 }
+	x = 7
+	y = 2
+	cost = 7
+	ai_will_do = { factor = 8 }
+	completion_reward = {
+		add_political_power = 1250
+		add_tech_bonus = {
+			name = industrial_bonus
+			bonus = 3.0
+			uses = 1
+			category = industry
+		}
+	}
+	search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH }
+}
+focus = {
+	id = RNS_ind_9
+	icon = GFX_RNS_ind_9
+	prerequisite = { focus = RNS_ind_6 }
+	available = {
+		owns_state = 643
+		owns_state = 659
+		owns_state = 645
+	}
+	x = 2
+	y = 3
+	cost = 7
+	ai_will_do = { factor = 8 }
+	completion_reward = {
+		645 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		659 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		643 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+}
+
+focus = {
+	id = RNS_ind_10
+	icon = GFX_RNS_ind_10
+	prerequisite = { focus = RNS_ind_6 }
+	prerequisite = { focus = RNS_ind_7 }
+	available = {
+		owns_state = 669
+		owns_state = 672
+		owns_state = 791
+	}
+	x = 4
+	y = 3
+	cost = 7
+	ai_will_do = { factor = 8 }
+	completion_reward = {
+		add_tech_bonus = {
+			name = synth_bonus
+			bonus = 1.0
+			uses = 1
+			category = synth_resources
+		}
+		add_resource = {
+			type = oil
+			amount = 6
+			state = 669
+		}
+		add_resource = {
+			type = oil
+			amount = 16
+			state = 672
+		}
+		add_resource = {
+			type = oil
+			amount = 7
+			state = 791
+		}
+	}
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+}
+focus = {
+	id = RNS_ind_11
+	icon = GFX_RNS_ind_11
+	prerequisite = { focus = RNS_ind_7 }
+	available = {
+		owns_state = 656
+		owns_state = 655
+		owns_state = 657
+		owns_state = 665
+		owns_state = 654
+	}
+	x = 6
+	y = 3
+	cost = 7
+	ai_will_do = { factor = 8 }
+	completion_reward = {
+		654 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		665 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		656 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		655 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		657 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+}
+focus = {
+	id = RNS_ind_12
+	icon = GFX_RNS_ind_12
+	prerequisite = { focus = RNS_ind_8 }
+	x = 7
+	y = 4
+	cost = 7
+	ai_will_do = { factor = 8 }
+	completion_reward = {
+		custom_effect_tooltip = available_designer
+		show_ideas_tooltip = micron
+		add_tech_bonus = {
+			name = industrial_bonus
+			bonus = 1.0
+			uses = 2
+			category = electronics
+		}
+	}
+	search_filters = { FOCUS_FILTER_RESEARCH }
+}
+focus = {
+	id = RNS_ind_13
+	icon = GFX_RNS_ind_13
+	prerequisite = { focus = RNS_ind_5 }
+	x = 1
+	y = 4
+	cost = 7
+	ai_will_do = { factor = 8 }
+	completion_reward = {
+		add_research_slot = 1
+		add_tech_bonus = {
+			name = race_tech_bonus
+			bonus = 1.0
+			uses = 2
+			category = race_tech
+		}
+	}
+	search_filters = { FOCUS_FILTER_RESEARCH }
+}
+focus = {
+	id = RNS_ind_14
+	icon = GFX_RNS_ind_14
+	prerequisite = { focus = RNS_ind_9 }
+	prerequisite = { focus = RNS_ind_10 }
+	x = 3
+	y = 4
+	cost = 7
+	ai_will_do = { factor = 8 }
+	completion_reward = {
+		remove_ideas = RNS_Two_Russia
+		hidden_effect = {
+			MOS = {
+			  event = {mosdef.404 hours = 1}
+			}
+		}
+	}
+}
+focus = {
+	id = RNS_ind_15
+	icon = GFX_RNS_ind_15
+	prerequisite = { focus = RNS_ind_11 }
+	prerequisite = { focus = RNS_ind_10 }
+	x = 5
+	y = 4
+	cost = 7
+	ai_will_do = { factor = 8 }
+	completion_reward = {
+		add_ideas = RNS_12_Hour
+	}
+}
+focus = {
+	id = RNS_ind_16
+	icon = GFX_RNS_ind_16
+	prerequisite = { focus = RNS_ind_12 }
+	prerequisite = { focus = RNS_ind_13 }
+	prerequisite = { focus = RNS_ind_14 }
+	prerequisite = { focus = RNS_ind_15 }
+	x = 4
+	y = 5
+	cost = 7
+	ai_will_do = { factor = 8 }
+	completion_reward = {
+		add_ideas = RNS_economic_miracle
+	}
+}
+focus = {
+	id = RNS_D_0
+	icon = GFX_RNS_D_0
+	available = {
+		DNB = {
+			OR = {
+				has_war_with = PRA
+				has_war_with = MAH
+			}
+		}
+	}
+	x = 10
+	y = 1
+	ai_will_do = { factor = 1000 }
+	cost = 1
+	completion_reward = {
+		diplomatic_relation = {
+			country = DNB
+			relation = SEND_ATTACHE
+		}
+		add_war_support = 0.01
+		add_manpower = -5000
+		DNB = { add_manpower = 5000 add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 1500 } }
+	}
+}
+focus = { 
+	id = RNS_V_1
+	icon = GFX_RNS_V_1
+	available = {
+	}
+	x = 15
+	y = 0
+	cost = 2
+	completion_reward = {
+		country_event = tessa.1
+	}
+}
+focus = {
+	id = RNS_V_2
+	icon = GFX_RNS_V_2
+	prerequisite = { focus = RNS_V_1 }
+	available = {
+	}
+	x = 15
+	y = 1
+	cost = 7
+	completion_reward = {
+		country_event = tessa.4
+	}
+}
+focus = {
+	id = RNS_V_3
+	icon = GFX_RNS_V_3
+	prerequisite = { focus = RNS_V_1 }
+	available = {
+		has_completed_focus = RNS_V_2
+	}
+	x = 17
+	y = 1
+	cost = 7
+	completion_reward = {
+		country_event = tessa.5
+	}
+}
+focus = {
+	id = RNS_V_4
+	icon = GFX_RNS_V_4
+	prerequisite = { focus = RNS_V_1 }
+	available = {
+	}
+	x = 13
+	y = 1
+	cost = 7
+	completion_reward = {
+		country_event = tessa.6
+	}
+}
+focus = {
+	id = RNS_V_5
+	icon = GFX_RNS_V_5
+	prerequisite = { focus = RNS_V_4 }
+	prerequisite = { focus = RNS_V_2 }
+	available = {
+		
+	}
+	x = 14
+	y = 2
+	cost = 7
+	completion_reward = {
+		add_war_support = -0.01
+		add_political_power = -100
+		country_event = tessa.332
+	}
+}
+focus = {
+	id = RNS_V_6
+	icon = GFX_RNS_V_6
+	prerequisite = { focus = RNS_V_3 }
+	prerequisite = { focus = RNS_V_2 }
+	available = {
+		
+	}
+	x = 16
+	y = 2
+	cost = 7
+	completion_reward = {
+		add_stability = 0.05
+		country_event = tessa.333
+	}
+}
+focus = {
+	id = RNS_V_7
+	icon = GFX_RNS_V_7
+	prerequisite = { focus = RNS_L_1 focus = RNS_R_1 }
+	available = {
+	}
+	x = 15
+	y = 4
+	cost = 4
+	completion_reward = {
+		army_experience = 30
+	}
+}
+focus = {
+	id = RNS_V_7_1
+	icon = GFX_RNS_V_7_1
+	prerequisite = { focus = RNS_L_1 focus = RNS_R_1 }
+	available = {
+	}
+	x = 13
+	y = 4
+	cost = 4
+	completion_reward = {
+		add_ideas = RNS_honoured_workers
+	}
+}
+focus = {
+	id = RNS_V_7_2
+	icon = GFX_RNS_V_7_2
+	prerequisite = { focus = RNS_L_1 focus = RNS_R_1 }
+	available = {
+	}
+	x = 17
+	y = 4
+	cost = 4
+	completion_reward = {
+		add_ideas = RNS_RV
+	}
+}
+focus = {
+	id = RNS_V_8
+	icon = GFX_RNS_V_8
+	prerequisite = { focus = RNS_V_7 focus = RNS_V_7_1 }
+	available = {
+	}
+	x = 14
+	y = 5
+	cost = 4
+	completion_reward = {
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 1.0
+			uses = 2
+			category = cat_superior_firepower
+		}
+		add_tech_bonus = {
+			name = artillery_bonus
+			bonus = 1.0
+			uses = 2
+			category = artillery
+		}
+	}
+}
+focus = {
+	id = RNS_V_9
+	icon = GFX_RNS_V_9
+	prerequisite = { focus = RNS_V_7 focus = RNS_V_7_2 }
+	available = {
+	}
+	x = 16
+	y = 5
+	cost = 4
+	completion_reward = {
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 1.0
+			uses = 1
+			category = cat_superior_firepower
+		}
+		add_tech_bonus = {
+			bonus = 1.5
+			uses = 3
+			category = armor
+		}
+	}
+}
+focus = {
+	id = RNS_V_10
+	icon = GFX_RNS_V_10
+	prerequisite = { focus = RNS_V_7 focus = RNS_V_7_1 }
+	available = {
+	}
+	x = 12
+	y = 5
+	cost = 4
+	completion_reward = {
+		add_ideas = RNS_empress_support
+	}
+}
+focus = {
+	id = RNS_V_11
+	icon = GFX_RNS_V_11
+	prerequisite = { focus = RNS_V_7 focus = RNS_V_7_2 }
+	available = {
+	}
+	x = 18
+	y = 5
+	cost = 4
+	completion_reward = {
+		add_tech_bonus = {
+			name = CAS_bonus
+			bonus = 1.0
+			uses = 1
+			category = cas_bomber
+		}
+		add_tech_bonus = {
+			name = fighter_bonus
+			bonus = 2.0
+			uses = 1
+			category = light_air
+		}
+	}
+}
+focus = {
+	id = RNS_L_1
+	icon = GFX_RNS_L_1
+	prerequisite = { focus = RNS_V_5 }
+	 = { focus = RNS_V_6 }
+	mutually_exclusive = { focus = RNS_R_1 }
+	available = {
+		has_country_flag = absolut
+	}
+	x = 10
+	y = 3
+	cost = 4
+	completion_reward = {
+		swap_ruler_traits = { remove = passivity add = digging_into_yourself }
+		country_event = tessa.7
+	}
+}
+focus = {
+	id = RNS_L_2
+	icon = GFX_RNS_L_2
+	prerequisite = { focus = RNS_L_1 }
+	available = {
+	}
+	x = 10
+	y = 6
+	cost = 4
+	completion_reward = {
+		add_war_support = 0.1
+		add_political_power = 1000
+		set_global_flag = RNS_reneval_naverno
+	}
+}
+focus = {
+	id = RNS_L_3
+	icon = GFX_RNS_L_3
+	prerequisite = { focus = RNS_L_2 }
+	available = {
+	}
+	x = 9
+	y = 7
+	cost = 4
+	completion_reward = {
+		custom_effect_tooltip = available_political_advisor
+		add_ideas = RNS_tesak
+		country_event = tessa.8
+		add_popularity = {
+			ideology = burjuism
+			popularity = -0.1
+		}
+	}
+}
+focus = {
+	id = RNS_L_4
+	icon = GFX_RNS_L_4
+	prerequisite = { focus = RNS_L_2 }
+	available = {
+	}
+	x = 11
+	y = 7
+	cost = 4
+	completion_reward = {
+		custom_effect_tooltip = available_political_advisor
+		add_ideas = RNS_pogrom
+	}
+}
+focus = {
+	id = RNS_L_5
+	icon = GFX_RNS_L_5
+	prerequisite = { focus = RNS_L_3 }
+	available = {
+	}
+	x = 6
+	y = 8
+	cost = 4
+	completion_reward = {
+		add_manpower = 30000
+		division_template = {
+				name = "Императорская Гвардия"
+				priority = 2
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 1 y = 3 }
+					artillery_brigade = { x = 2 y = 0 }
+					artillery_brigade = { x = 2 y = 1 }
+				}
+				support = {
+					engineer = { x = 0 y = 1 }
+					artillery = { x = 0 y = 2 }
+				}
+			}
+			643 = {
+				create_unit = {
+					division = "name = \"1. Imperatorskaya Gvardiya\" division_template = \"Императорская Гвардия\" start_experience_factor = 0.8" 
+					owner = RNS
+				}
+				create_unit = {
+					division = "name = \"2. Imperatorskaya Gvardiya\" division_template = \"Императорская Гвардия\" start_experience_factor = 0.8" 
+					owner = RNS
+				}
+				create_unit = {
+					division = "name = \"3. Imperatorskaya Gvardiya\" division_template = \"Императорская Гвардия\" start_experience_factor = 0.8" 
+					owner = RNS
+				}
+			}
+	}
+}
+focus = {
+	id = RNS_L_5_1
+	icon = GFX_RNS_L_5_1
+	prerequisite = { focus = RNS_L_3 }
+	available = {
+	}
+	x = 8
+	y = 8
+	cost = 4
+	completion_reward = {
+		add_ideas = RNS_vera
+		country_event = tessa.9
+	}
+}
+focus = {
+	id = RNS_L_6
+	icon = GFX_RNS_L_6
+	prerequisite = { focus = RNS_L_4 }
+	available = {
+	}
+	x = 14
+	y = 8
+	cost = 4
+	completion_reward = {
+		add_ideas = RNS_Plati
+		644 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = RNS_L_6_1
+	icon = GFX_RNS_L_6_1
+	prerequisite = { focus = RNS_L_4 }
+	available = {
+	}
+	x = 12
+	y = 8
+	cost = 4
+	completion_reward = {
+		add_ideas = RNS_Urbanization
+	}
+}
+focus = {
+	id = RNS_L_7
+	icon = GFX_RNS_L_7
+	prerequisite = { focus = RNS_L_4 }
+	prerequisite = { focus = RNS_L_3 }
+	available = {
+	}
+	x = 10
+	y = 9
+	cost = 4
+	completion_reward = {
+		add_ideas = RNS_Verhovniki
+	}
+}
+focus = {
+	id = RNS_L_8
+	icon = GFX_RNS_L_8
+	prerequisite = { focus = RNS_L_6 }
+	available = {
+	}
+	x = 15
+	y = 10
+	cost = 4
+	completion_reward = {
+		add_ideas = RNS_Baza
+		country_event = tessa.10
+	}
+}
+focus = {
+	id = RNS_L_8_1
+	icon = GFX_RNS_L_8_1
+	prerequisite = { focus = RNS_L_6 }
+	prerequisite = { focus = RNS_L_6_1 }
+	available = {
+	}
+	x = 13
+	y = 10
+	cost = 4
+	completion_reward = {
+		country_event = tessa.11
+		add_stability = 0.02
+		add_ideas = RNS_Family
+	}
+}
+focus = {
+	id = RNS_L_8_2
+	icon = GFX_RNS_L_8_2
+	prerequisite = { focus = RNS_L_6_1 }
+	available = {
+	}
+	x = 11
+	y = 10
+	cost = 4
+	completion_reward = {
+		add_ideas = RNS_Capital
+	}
+}
+focus = {
+	id = RNS_L_9
+	icon = GFX_RNS_L_9
+	prerequisite = { focus = RNS_L_7 }
+	available = {
+	}
+	x = 10
+	y = 11
+	cost = 4
+	completion_reward = {
+		add_manpower = -10000
+		remove_ideas = RNS_Opposition
+		add_timed_idea = { idea = RNS_Chistki days = 90 }
+		add_popularity = {
+			ideology = borshewism
+			popularity = -0.05
+		}
+	}
+}
+focus = {
+	id = RNS_L_10_2
+	icon = GFX_RNS_L_10_2
+	prerequisite = { focus = RNS_L_5_1 }
+	mutually_exclusive = { focus = RNS_L_10_1 }
+	available = {
+	}
+	x = 9
+	y = 10
+	cost = 4
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = RNS_vera
+			add_idea = RNS_vera_2
+		}
+		set_country_flag = RPC
+		effect_tooltip = {
+			unlock_national_focus = RNS_L_L_1
+		}
+	}
+}
+focus = {
+	id = RNS_L_10_1
+	icon = GFX_RNS_L_10_1
+	prerequisite = { focus = RNS_L_5_1 }
+	mutually_exclusive = { focus = RNS_L_10_2 }
+	available = {
+	}
+	x = 7
+	y = 10
+	cost = 4
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = RNS_vera	
+			add_idea = RNS_vera_1
+		}
+		set_country_flag = CPC
+		effect_tooltip = {
+			unlock_national_focus = RNS_L_R_1
+		}
+	}
+}
+focus = {
+	id = RNS_L_10
+	icon = GFX_RNS_L_10
+	prerequisite = { focus = RNS_L_5 }
+	available = {
+	}
+	x = 5
+	y = 10
+	cost = 4
+	completion_reward = {
+		army_experience = 30
+		navy_experience = 10
+		air_experience = 10
+	}
+}
+##################################################
+################  Фокусы РПЦ
+##################################################
+focus = {
+	id = RNS_L_L_1
+	icon = GFX_RNS_L_L_1
+	available = {
+		has_country_flag = RPC
+	}
+	#mutually_exclusive = { focus = RNS_L_R_1 }
+	x = -4
+	y = 7
+	cost = 3
+	completion_reward = {
+		country_event = tessa.21
+	}
+}
+focus = {
+	id = RNS_L_L_2
+	icon = GFX_RNS_L_L_2
+	available = {
+	}
+	prerequisite = { focus = RNS_L_L_1 }
+	relative_position_id = RNS_L_L_1
+	x = -1
+	y = 1
+	cost = 3
+	completion_reward = {
+		add_popularity = {
+			ideology = borshewism
+			popularity = -0.1
+		}
+		country_event = tessa.24
+	}
+}
+focus = {
+	id = RNS_L_L_3
+	icon = GFX_RNS_L_L_3
+	available = {
+	}
+	prerequisite = { focus = RNS_L_L_1 }
+	relative_position_id = RNS_L_L_1
+	x = 1
+	y = 1
+	cost = 3
+	completion_reward = {
+		add_popularity = {
+			ideology = bidlo
+			popularity = 0.02
+		}
+		add_war_support = 0.05
+		country_event = tessa.25
+	}
+}
+focus = {
+	id = RNS_L_L_4
+	icon = GFX_RNS_L_L_4
+	available = {
+	}
+	prerequisite = { focus = RNS_L_L_1 }
+	relative_position_id = RNS_L_L_1
+	x = 0
+	y = 2
+	cost = 3
+	completion_reward = {
+		add_stability = 0.05
+		add_manpower = 10000
+		country_event = tessa.22
+	}
+}
+focus = {
+	id = RNS_L_L_5
+	icon = GFX_RNS_L_L_5
+	available = {
+	}
+	prerequisite = { focus = RNS_L_L_2 }
+	relative_position_id = RNS_L_L_1
+	x = -2
+	y = 2
+	cost = 3
+	completion_reward = {
+		add_manpower = 5000
+		add_war_support = 0.03
+		add_stability = -0.01
+	}
+}
+focus = {
+	id = RNS_L_L_6
+	icon = GFX_RNS_L_L_6
+	available = {
+	}
+	prerequisite = { focus = RNS_L_L_3 }
+	relative_position_id = RNS_L_L_1
+	x = 2
+	y = 2
+	cost = 3
+	completion_reward = {
+		add_popularity = {
+			ideology = borshewism
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = bidlo
+			popularity = 0.05
+		}
+	}
+}
+focus = {
+	id = RNS_L_L_7
+	icon = GFX_RNS_L_L_7
+	available = {
+	}
+	prerequisite = { focus = RNS_L_L_5 }
+	prerequisite = { focus = RNS_L_L_4 }
+	prerequisite = { focus = RNS_L_L_6 }
+	relative_position_id = RNS_L_L_1
+	x = 0
+	y = 3
+	cost = 3
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = RNS_vera_2
+			add_idea = RNS_vera_2_1
+		}
+		add_ideas = RNS_medinskiy
+	}
+}
+##################################################
+################  Фокусы царебожников
+##################################################
+focus = {
+	id = RNS_L_R_1
+	icon = GFX_RNS_L_R_1
+	available = {
+		has_country_flag = CPC
+	}
+	#mutually_exclusive = { focus = RNS_L_L_1 }
+	x = 2
+	y = 7
+	cost = 3
+	completion_reward = {
+		country_event = tessa.12
+	}
+}
+focus = {
+	id = RNS_L_R_2
+	icon = GFX_RNS_L_R_2
+	prerequisite = { focus = RNS_L_R_1 }
+	relative_position_id = RNS_L_R_1
+	available = {
+	}
+	x = -1
+	y = 1
+	cost = 3
+	completion_reward = {
+		country_event = tessa.13
+		add_war_support = 0.05
+		
+	}
+}
+focus = {
+	id = RNS_L_R_3
+	icon = GFX_RNS_L_R_3
+	prerequisite = { focus = RNS_L_R_1 }
+	relative_position_id = RNS_L_R_1
+	available = {
+	}
+	x = 1
+	y = 1
+	cost = 3
+	completion_reward = {
+		country_event = tessa.16
+	}
+}
+focus = {
+	id = RNS_L_R_4
+	icon = GFX_RNS_L_R_4
+	prerequisite = { focus = RNS_L_R_2 }
+	relative_position_id = RNS_L_R_1
+	available = {
+	}
+	x = -1
+	y = 2
+	cost = 3
+	completion_reward = {
+		add_manpower = 100000
+	}
+}
+focus = {
+	id = RNS_L_R_5
+	icon = GFX_RNS_L_R_5
+	prerequisite = { focus = RNS_L_R_3 }
+	relative_position_id = RNS_L_R_1
+	available = {
+	}
+	x = 1
+	y = 2
+	cost = 3
+	completion_reward = {
+		country_event = tessa.14
+	}
+}
+focus = {
+	id = RNS_L_R_6
+	icon = GFX_RNS_L_R_6
+	prerequisite = { focus = RNS_L_R_4 }
+	prerequisite = { focus = RNS_L_R_5 }
+	relative_position_id = RNS_L_R_1
+	available = {
+	}
+	x = 0
+	y = 3
+	cost = 3
+	completion_reward = {
+		country_event = tessa.19
+		swap_ideas = {
+			remove_idea = RNS_vera_1
+			add_idea = RNS_vera_1_2
+		}
+		custom_effect_tooltip = available_political_advisor
+		add_ideas = RNS_poklonskaya
+	}
+}
+##################################################
+################ Продолжение фокусов Тессы
+##################################################
+focus = {
+	id = RNS_L_11
+	icon = GFX_RNS_L_11
+	prerequisite = { focus = RNS_L_5 }
+	available = {
+	}
+	x = 6
+	y = 9
+	cost = 4
+	completion_reward = {
+		add_ideas = RNS_RasPod
+	}
+}
+focus = {
+	id = RNS_L_13
+	icon = GFX_RNS_L_13
+	prerequisite = { focus = RNS_L_6 }
+	available = {
+	}
+	x = 14
+	y = 9
+	cost = 4
+	completion_reward = {
+		add_ideas = RNS_Ybezhishe
+	}
+}
+focus = {
+	id = RNS_L_14
+	icon = GFX_RNS_L_14
+	prerequisite = { focus = RNS_L_11 }
+	prerequisite = { focus = RNS_L_10 }
+	available = {
+	}
+	x = 6
+	y = 11
+	cost = 4
+	completion_reward = {
+		add_ideas = RNS_Boevoi_duh
+		add_war_support = 0.1
+	}
+}
+focus = {
+	id = RNS_L_15
+	icon = GFX_RNS_L_15
+	prerequisite = { focus = RNS_L_10_1 focus = RNS_L_10_2 }
+	available = {
+		OR = {
+			has_completed_focus = RNS_L_R_6
+			has_completed_focus = RNS_L_L_7
+		}
+	}
+	x = 8
+	y = 11
+	cost = 4
+	completion_reward = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 5000
+		}
+	}
+}
+focus = {
+	id = RNS_L_16
+	icon = GFX_RNS_L_16
+	prerequisite = { focus = RNS_L_8_1 }
+	prerequisite = { focus = RNS_L_8_2 }
+	available = {
+	}
+	x = 12
+	y = 11
+	cost = 4
+	completion_reward = {
+		add_ideas = RNS_Sudebka
+	}
+}
+focus = {
+	id = RNS_L_17
+	icon = GFX_RNS_L_17
+	prerequisite = { focus = RNS_L_13 }
+	prerequisite = { focus = RNS_L_8 }
+	available = {
+	}
+	x = 14
+	y = 11
+	cost = 4
+	completion_reward = {
+		add_political_power = -500
+		add_stability = 0.1
+	}
+}
+focus = {
+	id = RNS_L_18
+	icon = GFX_RNS_L_18
+	prerequisite = { focus = RNS_L_14 }
+	prerequisite = { focus = RNS_L_15 }
+	available = {
+	}
+	x = 9
+	y = 12
+	cost = 4
+	completion_reward = {
+		add_political_power = -500
+		add_stability = 0.1
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = RNS_L_19
+	icon = GFX_RNS_L_19
+	prerequisite = { focus = RNS_L_16 }
+	prerequisite = { focus = RNS_L_17 }
+	available = {
+	}
+	x = 11
+	y = 12
+	cost = 4
+	completion_reward = {
+		add_war_support = 0.1
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = RNS_L_20
+	icon = GFX_RNS_L_20
+	prerequisite = { focus = RNS_L_18 }
+	prerequisite = { focus = RNS_L_19 }
+	prerequisite = { focus = RNS_L_9 }
+	available = {
+	}
+	x = 10
+	y = 13
+	cost = 4
+	completion_reward = {
+		unlock_decision_category_tooltip = RNS_Moscow
+		remove_country_leader_trait = adaptation
+		country_event = tessa.23
+	}
+}
+focus = {
+	id = RNS_L_21
+	icon = GFX_RNS_L_21
+	prerequisite = { focus = RNS_L_20 }
+	available = {
+		owns_state = 664
+	}
+	x = 10
+	y = 14
+	cost = 4
+	completion_reward = {
+		set_capital = 664
+		add_state_core = 1322
+		add_state_core = 1328
+		add_state_core = 1324
+		add_state_core = 1325
+		add_state_core = 1326
+		add_state_core = 1327
+		country_event = tessa.26
+	}
+}
+focus = {
+	id = RNS_L_22
+	icon = GFX_RNS_L_22
+	prerequisite = { focus = RNS_L_21 }
+	available = {
+	}
+	x = 10
+	y = 15
+	cost = 5
+	completion_reward = {
+		add_war_support = 0.05
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+##################################################
+################ Экспансия Тессы
+##################################################
+focus = {
+	id = RNS_E_1
+	icon = GFX_RNS_E_1
+	prerequisite = { focus = RNS_L_22 }
+	available = {
+		has_war = no
+	}
+	bypass = {
+		NOT = { country_exists = POD }
+	}
+	x = 10
+	y = 17
+	cost = 10
+	completion_reward = {
+		declare_war_on = {
+			target = POD
+			type = annex_everything
+		}
+	}
+}
+focus = {
+	id = RNS_E_2
+	icon = GFX_RNS_E_2
+	prerequisite = { focus = RNS_L_22 }
+	available = {
+		has_war = no
+	}
+	bypass = {
+		NOT = { country_exists = BLO }
+	}
+	x = 7
+	y = 17
+	cost = 10
+	completion_reward = {
+		declare_war_on = {
+			target = BLO
+			type = annex_everything
+		}
+	}
+}
+focus = {
+	id = RNS_E_3
+	icon = GFX_RNS_E_3
+	prerequisite = { focus = RNS_L_22 }
+	available = {
+		has_war = no
+	}
+	bypass = {
+		NOT = { country_exists = CCT }
+		NOT = { country_exists = KOL }
+		NOT = { country_exists = NJS }
+		NOT = { country_exists = RAP }
+		NOT = { country_exists = MAH }
+		NOT = { country_exists = PRA }
+	}
+	x = 4
+	y = 17
+	cost = 10
+	completion_reward = {
+		declare_war_on = {
+			target = CCT
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = KOL
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = NJS
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = RAP
+			type = annex_everything
+		}
+		if = {
+			limit = { country_exists = MAH }
+			declare_war_on = {
+				target = MAH
+				type = annex_everything
+			}
+		}
+		if = {
+			limit = { country_exists = PRA }
+			declare_war_on = {
+				target = PRA
+				type = annex_everything
+			}
+		}
+	}
+}
+focus = {
+	id = RNS_E_4
+	icon = GFX_RNS_E_4
+	prerequisite = { focus = RNS_L_22 }
+	available = {
+		has_war = no
+	}
+	bypass = {
+		NOT = { country_exists = TUC }
+		NOT = { country_exists = NAP }
+		NOT = { country_exists = GON }
+	}
+	x = 13
+	y = 17
+	cost = 10
+	completion_reward = {
+		declare_war_on = {
+			target = TUC
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = NAP
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GON
+			type = annex_everything
+		}
+	}
+}
+focus = {
+	id = RNS_E_5
+	icon = GFX_RNS_E_5
+	prerequisite = { focus = RNS_L_22 }
+	available = {
+		has_war = no
+	}
+	bypass = {
+		NOT = { country_exists = VNM }
+		NOT = { country_exists = TAR }
+		NOT = { country_exists = UMO }
+		NOT = { country_exists = ROC }
+	}
+	x = 16
+	y = 17
+	cost = 10
+	completion_reward = {
+		declare_war_on = {
+			target = VNM
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = TAR
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = UMO
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = ROC
+			type = annex_everything
+		}
+	}
+}
+focus = {
+	id = RNS_E_6
+	icon = GFX_RNS_E_6
+	prerequisite = { focus = RNS_E_3 }
+	available = {
+		owns_state = 649
+		owns_state = 650
+		owns_state = 651
+		owns_state = 652
+		owns_state = 653
+		owns_state = 667
+		owns_state = 675
+		owns_state = 673
+		owns_state = 674
+		owns_state = 681
+		owns_state = 682
+		owns_state = 680
+	}
+	x = 4
+	y = 18
+	cost = 10
+	completion_reward = {
+		add_state_core = 649
+		add_state_core = 650
+		add_state_core = 651
+		add_state_core = 652
+		add_state_core = 653
+		add_state_core = 667
+		add_state_core = 675
+		add_state_core = 674
+		add_state_core = 673
+		add_state_core = 681
+		add_state_core = 682
+		add_state_core = 680
+		add_state_core = 679
+		add_state_core = 676
+		add_state_core = 677
+		add_state_core = 678
+		add_state_core = 1307
+		add_state_core = 484
+		add_state_core = 485
+		add_state_core = 486
+	}
+}
+focus = {
+	id = RNS_E_7
+	icon = GFX_RNS_E_7
+	prerequisite = { focus = RNS_E_2 }
+	available = {
+		owns_state = 642
+	}
+	x = 7
+	y = 18
+	cost = 10
+	completion_reward = {
+		add_state_core = 642
+	}
+}
+focus = {
+	id = RNS_E_8
+	icon = GFX_RNS_E_8
+	prerequisite = { focus = RNS_E_1 }
+	available = {
+		owns_state = 626
+		owns_state = 627
+		owns_state = 628
+		owns_state = 629
+		owns_state = 633
+		owns_state = 634
+		owns_state = 635
+		owns_state = 636
+	}
+	x = 10
+	y = 18
+	cost = 10
+	completion_reward = {
+		add_state_core = 626
+		add_state_core = 627
+		add_state_core = 628
+		add_state_core = 629
+		add_state_core = 633
+		add_state_core = 634
+		add_state_core = 635
+		add_state_core = 636
+	}
+}
+focus = {
+	id = RNS_E_9
+	icon = GFX_RNS_E_9
+	prerequisite = { focus = RNS_E_4 }
+	available = {
+		owns_state = 731
+		owns_state = 732
+		owns_state = 733
+		owns_state = 734
+		owns_state = 735
+		owns_state = 736
+		owns_state = 737
+		owns_state = 738
+		owns_state = 739
+		owns_state = 793
+		owns_state = 794
+		owns_state = 795
+		owns_state = 796
+		owns_state = 811
+		owns_state = 812
+		owns_state = 813
+		owns_state = 814
+		owns_state = 815
+		owns_state = 800
+		owns_state = 822
+		owns_state = 823
+		owns_state = 818
+		owns_state = 817
+		owns_state = 816
+	}
+	x = 13
+	y = 18
+	cost = 10
+	completion_reward = {
+		custom_effect_tooltip = RNS_E_9_a
+		hidden_effect = {
+		add_state_core = 731
+		add_state_core = 732
+		add_state_core = 733
+		add_state_core = 734
+		add_state_core = 735
+		add_state_core = 736
+		add_state_core = 737
+		add_state_core = 738
+		add_state_core = 739
+		add_state_core = 740
+		add_state_core = 741
+		add_state_core = 742
+		add_state_core = 743
+		add_state_core = 744
+		add_state_core = 745
+		add_state_core = 746
+		add_state_core = 747
+		add_state_core = 751
+		add_state_core = 752
+		add_state_core = 753
+		add_state_core = 793
+		add_state_core = 794
+		add_state_core = 795
+		add_state_core = 796
+		add_state_core = 797
+		add_state_core = 798
+		add_state_core = 799
+		add_state_core = 811
+		add_state_core = 812
+		add_state_core = 813
+		add_state_core = 814
+		add_state_core = 815
+		add_state_core = 800
+		add_state_core = 822
+		add_state_core = 823
+		add_state_core = 818
+		add_state_core = 817
+		add_state_core = 816
+		}
+	}
+}
+focus = {
+	id = RNS_E_10
+	icon = GFX_RNS_E_10
+	prerequisite = { focus = RNS_E_5 }
+	available = {
+		owns_state = 810
+		owns_state = 809
+		owns_state = 808
+		owns_state = 807
+		owns_state = 806
+		owns_state = 805
+		owns_state = 819
+		owns_state = 820
+		owns_state = 821
+		owns_state = 790
+		owns_state = 804
+		owns_state = 781
+		owns_state = 780
+		owns_state = 776
+		owns_state = 777
+		owns_state = 775
+		owns_state = 782
+		owns_state = 783
+		owns_state = 788
+		owns_state = 787
+		owns_state = 786
+		owns_state = 784
+		owns_state = 136
+	}
+	x = 16
+	y = 18
+	cost = 10
+	completion_reward = {
+		custom_effect_tooltip = RNS_E_9_a
+		hidden_effect = {
+		add_state_core = 810
+		add_state_core = 809
+		add_state_core = 808
+		add_state_core = 807
+		add_state_core = 806
+		add_state_core = 805
+		add_state_core = 819
+		add_state_core = 820
+		add_state_core = 821
+		add_state_core = 790
+		add_state_core = 804
+		add_state_core = 781
+		add_state_core = 780
+		add_state_core = 776
+		add_state_core = 777
+		add_state_core = 775
+		add_state_core = 782
+		add_state_core = 783
+		add_state_core = 788
+		add_state_core = 787
+		add_state_core = 786
+		add_state_core = 784
+		add_state_core = 136
+		}
+	}
+}
+focus = {
+	id = RNS_D_1
+	icon = GFX_RNS_D_1
+	prerequisite = { focus = RNS_E_6 focus = RNS_E_7 focus = RNS_E_8 focus = RNS_E_9 focus = RNS_E_10 }
+	available = {
+	}
+	x = 10
+	y = 19
+	cost = 5
+	completion_reward = {
+		set_rule = {
+			can_create_factions = yes
+		}
+		create_faction = RNS_faction
+		set_faction_name = RNS_faction
+	}
+}
+focus = {
+	id = RNS_D_2
+	icon = GFX_RNS_D_2
+	prerequisite = { focus = RNS_D_1 }
+	mutually_exclusive = { focus = RNS_D_3 }
+	relative_position_id = RNS_D_1
+	available = {
+	}
+	bypass = {
+		NOT = { country_exists = EST }
+		NOT = { country_exists = LAT }
+	}
+	x = -4
+	y = 1
+	cost = 5
+	completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = EST
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = LAT
+		}
+	}
+}
+focus = {
+	id = RNS_D_3
+	icon = GFX_RNS_D_3
+	prerequisite = { focus = RNS_D_1 }
+	mutually_exclusive = { focus = RNS_D_2 }
+	relative_position_id = RNS_D_1
+	available = {
+	}
+	bypass = {
+		NOT = { country_exists = EST }
+		NOT = { country_exists = LAT }
+	}
+	x = -2
+	y = 1
+	cost = 5
+	completion_reward = {
+		EST = {
+			country_event = tessa.100
+		}
+		LAT = {
+			country_event = tessa.100
+		}
+	}
+}
+focus = {
+	id = RNS_D_4
+	icon = GFX_RNS_D_4
+	prerequisite = { focus = RNS_D_1 }
+	relative_position_id = RNS_D_1
+	available = {
+		country_exists = DNB
+		DNB = {
+			is_puppet = no
+			is_in_faction = no
+		}
+	}
+	bypass = {
+		NOT = { country_exists = DNB }
+	}
+	x = 0
+	y = 1
+	cost = 5
+	completion_reward = {
+		DNB = {
+			country_event = tessa.100
+		}
+	}
+}
+focus = {
+	id = RNS_D_5
+	icon = GFX_RNS_D_5
+	prerequisite = { focus = RNS_D_1 }
+	mutually_exclusive = { focus = RNS_D_6 }
+	relative_position_id = RNS_D_1
+	available = {
+	}
+	bypass = {
+		NOT = { country_exists = CRO }
+		NOT = { country_exists = VEY }
+		NOT = { country_exists = TEM }
+		NOT = { country_exists = MEE }
+		NOT = { country_exists = CCA }
+	}
+	x = 2
+	y = 1
+	cost = 5
+	completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = CRO
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = VEY
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = TEM
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = MEE
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = CCA
+		}
+	}
+}
+focus = {
+	id = RNS_D_6
+	icon = GFX_RNS_D_6
+	prerequisite = { focus = RNS_D_1 }
+	mutually_exclusive = { focus = RNS_D_5 }
+	relative_position_id = RNS_D_1
+	available = {
+	}
+	bypass = {
+		NOT = { country_exists = CRO }
+		NOT = { country_exists = VEY }
+		NOT = { country_exists = TEM }
+		NOT = { country_exists = MEE }
+		NOT = { country_exists = CCA }
+	}
+	x = 4
+	y = 1
+	cost = 5
+	completion_reward = {
+		CRO = {
+			country_event = tessa.100
+		}
+		VEY = {
+			country_event = tessa.100
+		}
+		TEM = {
+			country_event = tessa.100
+		}
+		MEE = {
+			country_event = tessa.100
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = CCA
+		}
+	}
+}
+focus = {
+	id = RNS_D_7
+	icon = GFX_RNS_D_7
+	prerequisite = { focus = RNS_D_2 focus = RNS_D_3 }
+	mutually_exclusive = { focus = RNS_D_8 }
+	relative_position_id = RNS_D_1
+	available = {
+	}
+	bypass = {
+		NOT = { country_exists = SAU }
+		NOT = { country_exists = CZE }
+	}
+	x = -3
+	y = 2
+	cost = 5
+	completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = SAU
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = CZE
+		}
+	}
+}
+focus = {
+	id = RNS_D_8
+	icon = GFX_RNS_D_8
+	prerequisite = { focus = RNS_D_2 focus = RNS_D_3 }
+	mutually_exclusive = { focus = RNS_D_7 }
+	relative_position_id = RNS_D_1
+	available = {
+	}
+	bypass = {
+		NOT = { country_exists = SAU }
+		NOT = { country_exists = CZE }
+	}
+	x = -1
+	y = 2
+	cost = 5
+	completion_reward = {
+		SAU = {
+			country_event = tessa.100
+		}
+		CZE = {
+			country_event = tessa.100
+		}
+	}
+}
+focus = {
+	id = RNS_D_9
+	icon = GFX_RNS_D_9
+	prerequisite = { focus = RNS_D_4 focus = RNS_D_5 focus = RNS_D_6 }
+	relative_position_id = RNS_D_1
+	available = {
+	}
+	bypass = {
+		NOT = { country_exists = CHR }
+		NOT = { country_exists = ZPU }
+		NOT = { country_exists = KIV }
+		NOT = { country_exists = UKE }
+		NOT = { country_exists = ODE }
+		NOT = { country_exists = ZLS }
+	}
+	x = 2
+	y = 2
+	cost = 5
+	completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = CHR
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = ZPU
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = KIV
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = UKE
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = ODE
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = ZLS
+		}
+	}
+}
+focus = {
+	id = RNS_D_10
+	icon = GFX_RNS_D_10
+	prerequisite = { focus = RNS_D_9 }
+	relative_position_id = RNS_D_1
+	available = {
+		owns_state = 490
+		owns_state = 491
+		owns_state = 480
+		owns_state = 475
+		owns_state = 487
+		owns_state = 469
+		owns_state = 482
+	}
+	x = 2
+	y = 3
+	cost = 5
+	completion_reward = {
+		add_state_core = 490
+		add_state_core = 491
+		add_state_core = 480
+		add_state_core = 473
+		add_state_core = 474
+		add_state_core = 469
+		add_state_core = 471
+		add_state_core = 470
+		add_state_core = 479
+		add_state_core = 478
+		add_state_core = 477
+		add_state_core = 476
+		add_state_core = 475
+		add_state_core = 489
+		add_state_core = 488
+		add_state_core = 487
+		add_state_core = 482
+		add_state_core = 483
+		add_state_core = 481
+	}
+}
+
+##################################################
+################ Фокусы Димона
+##################################################
+focus = {
+	id = RNS_R_1
+	icon = GFX_RNS_R_1
+	prerequisite = { focus = RNS_V_5 }
+	prerequisite = { focus = RNS_V_6 }
+	mutually_exclusive = { focus = RNS_L_1 }
+	available = {
+		has_country_flag = democrat
+	}
+	x = 20
+	y = 3
+	cost = 4
+	completion_reward = {
+		remove_country_leader_trait = passivity
+		add_stability = -0.15
+		add_war_support = -0.1
+		hidden_effect = { set_global_flag = RNS_na_puti_dimona}
+	}
+}
+focus = {
+	id = RNS_R_2
+	icon = GFX_RNS_R_2
+	prerequisite = { focus = RNS_R_1 }
+	available = {
+	}
+	x = 21
+	y = 5
+	cost = 4
+	completion_reward = {
+		
+	}
+}
+
+}

@@ -1,0 +1,15 @@
+characters={
+	NJS_evgeny_fedorov={
+		name="Evgeny Fedorov"
+		portraits={
+			civilian={
+				large="gfx/leaders/NJS/NOD.dds"
+			}
+		}
+		country_leader={
+			ideology=fashiki
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

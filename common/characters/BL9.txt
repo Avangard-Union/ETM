@@ -1,0 +1,15 @@
+characters={
+	BL9_volnov_pranker={
+		name="Volnov Pranker"
+		portraits={
+			civilian={
+				large="gfx/leaders/BL9/Volnov_Pranker.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

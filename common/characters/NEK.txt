@@ -1,0 +1,15 @@
+characters={
+	NEK_mikola_zimenko={
+		name="Mikola Zimenko"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEK/Mikola.dds"
+			}
+		}
+		country_leader={
+			ideology=gribonism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

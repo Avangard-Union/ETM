@@ -1,0 +1,18 @@
+state={
+	id=1336
+	name="STATE_1336"
+
+	history={
+		owner = OR5
+		add_core_of = OR5
+		victory_points = {
+			13210 12
+		}
+	}
+	provinces={
+		13210 13431 13535 13623 
+	}
+	manpower=112233
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

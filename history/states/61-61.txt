@@ -1,0 +1,26 @@
+state={
+	id=61
+	name="STATE_61"
+	provinces={
+		4956 5157 5208 5241 5270 5271 5289 5422 5502 5520 5521 5550 5575 5685 5735 5777 
+	}
+
+	state_category = rural
+
+	history={
+		owner = PPT
+		victory_points = {
+			              4956 10 }
+		
+		victory_points = {
+                		  5502 10 }
+		buildings = {
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = PPT
+	}
+
+	manpower=4127418
+	buildings_max_level_factor=1.000
+}

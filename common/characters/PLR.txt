@@ -1,0 +1,15 @@
+characters={
+	PLR_polyarny={
+		name="АПолярный"
+		portraits={
+			civilian={
+				large="gfx/leaders/PLR/polyarny.dds"
+			}
+		}
+		country_leader={
+			ideology=cringerism
+			traits={  }
+			expire="1965.1.1.1"
+		}
+	}
+}

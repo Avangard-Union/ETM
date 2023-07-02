@@ -1,0 +1,28 @@
+characters={
+	TNH_Шолбан_Караоол={
+		name="Шолбан Кара-оол"
+		portraits={
+			civilian={
+				large="gfx/leaders/TNH/Sholban.dds"
+			}
+		}
+		country_leader={
+			ideology=jididoism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TNH_Владислав_Ховалыг={
+		name="Владислав Ховалыг"
+		portraits={
+			civilian={
+				large="gfx/leaders/TNH/Khovalyg.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarhiya
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

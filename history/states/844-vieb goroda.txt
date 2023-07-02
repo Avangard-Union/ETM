@@ -1,0 +1,23 @@
+state={
+	id=844
+	name="STATE_844"
+
+	manpower=9643
+
+	state_category = rural
+	
+	history={
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+		}
+		add_core_of = 
+		victory_points = {6729 10}
+	}
+
+	provinces={
+		5886 5887 5964 6053 6099 6115 6196 6197 6243 6281 6344 6419 6448 6472 6613 6627 6701 6729 6743 6896 6924 7061 
+	}
+	buildings_max_level_factor=1.000
+}

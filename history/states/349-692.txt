@@ -1,0 +1,31 @@
+
+state={
+	id=349
+	name="STATE_349"
+	provinces={
+		12591 12636 12655 12702 12876 12877 13101 13102 13163 13264 13291 13342 13437 13512 13582 13679 13680 13836 13862 13921 
+	}
+
+	state_category = rural
+	resources={
+		oil=3
+		rubber=5
+	}
+
+	history={
+		owner = MUR
+		victory_points = {
+                		  12702 50 }
+		victory_points = {
+                		  13264 10 }				  
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		add_core_of = MUR
+	}
+
+	manpower=614688
+	buildings_max_level_factor=1.000
+}

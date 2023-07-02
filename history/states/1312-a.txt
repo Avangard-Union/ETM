@@ -1,0 +1,23 @@
+state={
+	id=1312
+	name="STATE_1312"
+	state_category = town
+	
+	history={
+		owner = SAV
+		victory_points = { 2744 10 } # Аргостоли
+		buildings = {
+			2744 = {
+				naval_base = 1
+			}
+			industrial_complex = 1
+		}
+		add_core_of = SAV
+	}
+	
+	provinces={
+		2744 
+	}
+	manpower=47542
+	buildings_max_level_factor=1.000
+}

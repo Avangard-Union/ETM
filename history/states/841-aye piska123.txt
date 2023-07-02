@@ -1,0 +1,29 @@
+
+state={
+	id=841
+	name="STATE_841"
+
+	history={
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 2
+			7642 = {
+				naval_base = 4
+			}
+
+		}
+		
+		victory_points = {7642 20}
+		victory_points = {7130 5}
+
+	}
+
+	provinces={
+		6882 6960 6998 7009 7022 7033 7071 7089 7130 7154 7155 7187 7242 7253 7265 7266 7295 7306 7321 7347 7368 7391 7428 7442 7450 7451 7465 7492 7524 7525 7533 7587 7600 7630 7631 7641 7642 7660 7661 7682 
+	}
+	manpower=1235741
+	buildings_max_level_factor=1.000
+	state_category=town
+}

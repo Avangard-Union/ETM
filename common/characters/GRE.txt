@@ -1,0 +1,15 @@
+characters={
+	GRE_diogen={
+		name="Diogen"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRE/Diogen.dds"
+			}
+		}
+		country_leader={
+			ideology=individualism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters={
+	PTC_drevniy={
+		name=PTC_drevniy
+		portraits={
+			civilian={
+				large="gfx/leaders/PTC/drevniy.dds"
+			}
+		}
+		country_leader={
+			ideology=primitivism
+			traits={  }
+			expire="1965.1.1.1"
+		}
+	}
+}

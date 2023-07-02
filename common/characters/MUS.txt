@@ -1,0 +1,54 @@
+characters={
+	MUS_benito_mussolini={
+		name="Benito Mussolini"
+		portraits={
+			civilian={
+				large="gfx/leaders/MUS/Mussolini.dds"
+			}
+		}
+		country_leader={
+			ideology=fashiki
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MUS_menito_bussolini={
+		name="Menito Bussolini"
+		portraits={
+			civilian={
+				large="gfx/leaders/MUS/Mussolini.dds"
+			}
+		}
+		country_leader={
+			ideology=conserva
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MUS_duce_almuminin_abulbruno_benito_andru_amilcare_mussolini_ibn_iskander_emiliaromagni={
+		name="Duce al-mu'minin Abu-l-Bruno Benito Andru Amilcare Mussolini ibn Iskander Emilia-Romagni"
+		portraits={
+			civilian={
+				large="gfx/leaders/MUS/Mussolini_Islam.dds"
+			}
+		}
+		country_leader={
+			ideology=islamism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MUS_kastrulya_mussolini={
+		name="Kastrulya Mussolini"
+		portraits={
+			civilian={
+				large="gfx/leaders/MUS/Kastrulya.dds"
+			}
+		}
+		country_leader={
+			ideology=sralinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,1055 @@
+﻿add_namespace = mah
+country_event = {
+	id = mah.1
+	title = mah.1.t
+	desc = mah.1.d
+	picture = GFX_report_event_unclow
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = MAH
+		NOT = { country_exists = DNB }
+	}
+		mean_time_to_happen = {
+			days = 1
+		}
+	option = {			
+		name = mah.1.a
+		
+		if = { 
+			limit = {
+					is_ai = no
+				}
+		play_song = "mh-anarhbatal"
+		}
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			load_oob = "MAH_DNB"
+			}
+		}
+	option = {
+		name = mah.1.b			
+	}
+}
+country_event = {
+	id = mah.11
+	title = mah.11.t
+	desc = mah.11.d
+	picture = GFX_report_event_unclow
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {			
+		name = mah.11.a
+        	country_event = { id = mah.111 days = 30 }
+	}
+}
+country_event = {
+	id = mah.111
+	title = mah.111.t
+	desc = mah.111.d
+	picture = GFX_report_event_unclow
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {			
+		name = mah.111.a
+			remove_country_leader_role = {
+				character = MAH_sovet
+				ideology = socdem
+			}
+			add_country_leader_role = {
+				Character = MAH_beast_and_witch
+				Promote_leader = yes
+				Country_leader = {
+				ideology = radicalcentrism  
+				expire = “1965.1.1.1”
+				}
+			}
+	}
+}
+country_event = {
+	id = mah.2
+	title = mah.2.t
+	desc = mah.2.d
+	picture = GFX_report_event_unclow
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = MAH
+	}
+		mean_time_to_happen = {
+			days = 1
+		}
+	option = {			
+		name = mah.2.a
+		if = { 
+			limit = {
+					is_ai = no
+				}
+		play_song = "mh-gulyaypole"
+		}
+		hidden_effect = {
+			set_cosmetic_tag = MAH_VOL
+			MAH = {
+				add_state_core = 485
+				add_state_core = 484
+				add_state_core = 677
+				add_state_core = 678
+				add_state_core = 676
+				add_state_core = 679
+				add_state_core = 1307
+				}
+			}
+		}
+}
+country_event = {
+	id = mah.3
+	title = mah.3.t
+	desc = mah.3.d
+	picture = GFX_report_event_unclow
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = MAH
+		UNR = {
+			has_war_with = KIV
+		}
+		UNR = {
+			has_war_with = ODE
+		}
+		UNR = {
+			has_war_with = ZLS
+		}
+	}
+	
+		mean_time_to_happen = {
+			days = 1
+		}
+		
+	option = {			
+		name = mah.3.a
+		ai_chance = { factor = 1 }
+		MAH = {
+			declare_war_on = {
+				target = UNR
+				type = annex_everything
+			}
+		}
+		MAH = {
+			declare_war_on = {
+				target = KIV
+				type = annex_everything
+			}
+		}
+		MAH = {
+			declare_war_on = {
+				target = ODE
+				type = annex_everything
+			}
+		}
+		MAH = {
+			declare_war_on = {
+				target = ZLS
+				type = annex_everything
+			}
+		}
+	}
+	option = {			
+		name = mah.3.b
+	}
+}
+country_event = {
+	id = mah.4
+	title = mah.4.t
+	desc = mah.4.d
+	picture = GFX_report_event_unclow
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = MAH
+		}
+	mean_time_to_happen = {
+		days = 1
+		}
+	option = {			
+		name = mah.4.a
+		add_ideas = molodoe_gos
+	}
+}
+country_event = {
+	id = mah.5
+	title = mah.5.t
+	desc = mah.5.d
+	picture = GFX_report_event_unclow
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+		}
+	option = {			
+		name = mah.5.a			#otttolknula
+		hidden_effect = {
+			add_country_leader_role = {
+				Character = MAH_mahno
+				Promote_leader = yes
+				Country_leader = {
+				ideology = postironism
+				expire = “1965.1.1.1”
+				traits = {
+				#
+					}
+				}
+			}
+			remove_country_leader_role = {
+				character = MAH_beast_and_witch
+				ideology = radicalcentrism
+			}
+		}
+	}
+	option = {			
+		name = mah.5.b			#nnnneeeeotttolknula
+		
+		hidden_effect = {
+			remove_country_leader_role = {
+				character = MAH_beast_and_witch
+				ideology = radicalcentrism
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 664
+					}
+				}
+			LNN = {
+				set_state_owner = 664
+				add_state_core = 664
+				}
+			MAH = {
+				remove_state_core = 664
+				}
+			}
+			LNN = {
+				set_capital = {
+					state = 664 
+					remember_old_capital = no
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 682
+					}
+				}
+			LNN = {
+				set_state_owner = 682
+				add_state_core = 682
+				}
+			MAH = {
+				remove_state_core = 682
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 680
+					}
+				}
+			LNN = {
+				set_state_owner = 680
+				add_state_core = 680
+				}
+			MAH = {
+				remove_state_core = 680
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 681
+					}
+				}
+			LNN = {
+				set_state_owner = 681
+				add_state_core = 681
+				}
+			MAH = {
+				remove_state_core = 681
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 674
+					}
+				}
+			LNN = {
+				set_state_owner = 674
+				add_state_core = 674
+				}
+			MAH = {
+				remove_state_core = 674
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 673
+					}
+				}
+			LNN = {
+				set_state_owner = 673
+				add_state_core = 673
+				}
+			MAH = {
+				remove_state_core = 673
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 675
+					}
+				}
+			LNN = {
+				set_state_owner = 675
+				add_state_core = 675
+				}
+			MAH = {
+				remove_state_core = 675
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 667
+					}
+				}
+			LNN = {
+				set_state_owner = 667
+				add_state_core = 667
+				}
+			MAH = {
+				remove_state_core = 667
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 679
+					}
+				}
+			LNN = {
+				set_state_owner = 679
+				add_state_core = 679
+				}
+			MAH = {
+				remove_state_core = 679
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 676
+					}
+				}
+			LNN = {
+				set_state_owner = 676
+				add_state_core = 676
+				}
+			MAH = {
+				remove_state_core = 676
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 677
+					}
+				}
+			LNN = {
+				set_state_owner = 677
+				add_state_core = 677
+				}
+			MAH = {
+				remove_state_core = 677
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 1307
+					}
+				}
+			LNN = {
+				set_state_owner = 1307
+				add_state_core = 1307
+				}
+			MAH = {
+				remove_state_core = 1307
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 678
+					}
+				}
+			LNN = {
+				set_state_owner = 678
+				add_state_core = 678
+				}
+			MAH = {
+				remove_state_core = 678
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 652
+					}
+				}
+			LNN = {
+				set_state_owner = 652
+				add_state_core = 652
+				}
+			MAH = {
+				remove_state_core = 652
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 653
+					}
+				}
+			LNN = {
+				set_state_owner = 653
+				add_state_core = 653
+				}
+			MAH = {
+				remove_state_core = 653
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 651
+					}
+				}
+			LNN = {
+				set_state_owner = 651
+				add_state_core = 651
+				}
+			MAH = {
+				remove_state_core = 651
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 485
+					}
+				}
+			LNN = {
+				set_state_owner = 485
+				add_state_core = 485
+				}
+			MAH = {
+				remove_state_core = 485
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 484
+					}
+				}
+			LNN = {
+				set_state_owner = 484
+				add_state_core = 484
+				}
+			MAH = {
+				remove_state_core = 484
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 486
+					}
+				}
+			LNN = {
+				set_state_owner = 486
+				add_state_core = 486
+				}
+			MAH = {
+				remove_state_core = 486
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 649
+					}
+				}
+			LNN = {
+				set_state_owner = 649
+				add_state_core = 649
+				}
+			MAH = {
+				remove_state_core = 649
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 650
+					}
+				}
+			LNN = {
+				set_state_owner = 650
+				add_state_core = 650
+				}
+			MAH = {
+				remove_state_core = 650
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 490
+					}
+				}
+			LNN = {
+				set_state_owner = 490
+				add_state_core = 490
+				}
+			MAH = {
+				remove_state_core = 490
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 491
+					}
+				}
+			LNN = {
+				set_state_owner = 491
+				add_state_core = 491
+				}
+			MAH = {
+				remove_state_core = 491
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 487
+					}
+				}
+			LNN = {
+				set_state_owner = 487
+				add_state_core = 487
+				}
+			MAH = {
+				remove_state_core = 487
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 489
+					}
+				}
+			LNN = {
+				set_state_owner = 489
+				add_state_core = 489
+				}
+			MAH = {
+				remove_state_core = 489
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 479
+					}
+				}
+			LNN = {
+				set_state_owner = 479
+				add_state_core = 479
+				}
+			MAH = {
+				remove_state_core = 479
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 478
+					}
+				}
+			LNN = {
+				set_state_owner = 478
+				add_state_core = 478
+				}
+			MAH = {
+				remove_state_core = 478
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 475
+					}
+				}
+			LNN = {
+				set_state_owner = 475
+				add_state_core = 475
+				}
+			MAH = {
+				remove_state_core = 475
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 477
+					}
+				}
+			LNN = {
+				set_state_owner = 477
+				add_state_core = 477
+				}
+			MAH = {
+				remove_state_core = 477
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 476
+					}
+				}
+			LNN = {
+				set_state_owner = 476
+				add_state_core = 476
+				}
+			MAH = {
+				remove_state_core = 476
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 471
+					}
+				}
+			LNN = {
+				set_state_owner = 471
+				add_state_core = 471
+				}
+			MAH = {
+				remove_state_core = 471
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 470
+					}
+				}
+			LNN = {
+				set_state_owner = 470
+				add_state_core = 470
+				}
+			MAH = {
+				remove_state_core = 470
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 474
+					}
+				}
+			LNN = {
+				set_state_owner = 474
+				add_state_core = 474
+				}
+			MAH = {
+				remove_state_core = 474
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 473
+					}
+				}
+			LNN = {
+				set_state_owner = 473
+				add_state_core = 473
+				}
+			MAH = {
+				remove_state_core = 473
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 469
+					}
+				}
+			LNN = {
+				set_state_owner = 469
+				add_state_core = 469
+				}
+			MAH = {
+				remove_state_core = 469
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 472
+					}
+				}
+			LNN = {
+				set_state_owner = 472
+				add_state_core = 472
+				}
+			MAH = {
+				remove_state_core = 472
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 666
+					}
+				}
+			LNN = {
+				set_state_owner = 666
+				add_state_core = 666
+				}
+			MAH = {
+				remove_state_core = 666
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 654
+					}
+				}
+			LNN = {
+				set_state_owner = 654
+				add_state_core = 654
+				}
+			MAH = {
+				remove_state_core = 654
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 655
+					}
+				}
+			LNN = {
+				set_state_owner = 655
+				add_state_core = 655
+				}
+			MAH = {
+				remove_state_core = 655
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 648
+					}
+				}
+			LNN = {
+				set_state_owner = 648
+				add_state_core = 648
+				}
+			MAH = {
+				remove_state_core = 648
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 665
+					}
+				}
+			LNN = {
+				set_state_owner = 665
+				add_state_core = 665
+				}
+			MAH = {
+				remove_state_core = 665
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 656
+					}
+				}
+			LNN = {
+				set_state_owner = 656
+				add_state_core = 656
+				}
+			MAH = {
+				remove_state_core = 656
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 657
+					}
+				}
+			LNN = {
+				set_state_owner = 657
+				add_state_core = 657
+				}
+			MAH = {
+				remove_state_core = 657
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 647
+					}
+				}
+			LNN = {
+				set_state_owner = 647
+				add_state_core = 647
+				}
+			MAH = {
+				remove_state_core = 647
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 646
+					}
+				}
+			LNN = {
+				set_state_owner = 646
+				add_state_core = 646
+				}
+			MAH = {
+				remove_state_core = 646
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 1328
+					}
+				}
+			LNN = {
+				set_state_owner = 1328
+				add_state_core = 1328
+				}
+			MAH = {
+				remove_state_core = 1328
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 1327
+					}
+				}
+			LNN = {
+				set_state_owner = 1327
+				add_state_core = 1327
+				}
+			MAH = {
+				remove_state_core = 1327
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 1324
+					}
+				}
+			LNN = {
+				set_state_owner = 1324
+				add_state_core = 1324
+				}
+			MAH = {
+				remove_state_core = 1324
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 1325
+					}
+				}
+			LNN = {
+				set_state_owner = 1325
+				add_state_core = 1325
+				}
+			MAH = {
+				remove_state_core = 1325
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 1326
+					}
+				}
+			LNN = {
+				set_state_owner = 1326
+				add_state_core = 1326
+				}
+			MAH = {
+				remove_state_core = 1326
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 1322
+					}
+				}
+			LNN = {
+				set_state_owner = 1322
+				add_state_core = 1322
+				}
+			MAH = {
+				remove_state_core = 1322
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 669
+					}
+				}
+			LNN = {
+				set_state_owner = 669
+				add_state_core = 669
+				}
+			MAH = {
+				remove_state_core = 669
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 670
+					}
+				}
+			LNN = {
+				set_state_owner = 670
+				add_state_core = 670
+				}
+			MAH = {
+				remove_state_core = 670
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 660
+					}
+				}
+			LNN = {
+				set_state_owner = 660
+				add_state_core = 660
+				}
+			MAH = {
+				remove_state_core = 660
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 659
+					}
+				}
+			LNN = {
+				set_state_owner = 659
+				add_state_core = 659
+				}
+			MAH = {
+				remove_state_core = 659
+				}
+			}
+			if = {
+				limit = {
+					MAH = {
+						owns_state = 645
+					}
+				}
+			LNN = {
+				set_state_owner = 645
+				add_state_core = 645
+				}
+			MAH = {
+				remove_state_core = 645
+				}
+			}
+			add_country_leader_role = {
+				Character = MAH_mahnovplatie
+				Promote_leader = yes
+				Country_leader = {
+				ideology = socialanarchism  
+				expire = “1965.1.1.1”
+				traits = {
+				#
+					}
+				}
+			}
+		add_popularity = {
+			ideology = borshewism 
+			popularity = 0.5
+		}
+		set_politics = {
+			ruling_party = borshewism
+			elections_allowed = no
+			last_election = "1935.12.17"
+			election_frequency = 48
+		}
+		
+		LNN = {
+			set_autonomy = {
+				target = MAH 
+				autonomy_state = autonomy_bor_protectorate
+			}
+		}
+		if = { 
+			limit = {
+					is_ai = no
+				}
+		play_song = "mh-chetyrpuli"
+		}	
+		}
+	}
+}

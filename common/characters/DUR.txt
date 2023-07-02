@@ -1,0 +1,15 @@
+characters={
+	DUR_Дурак={
+		name="Дурак"
+		portraits={
+			civilian={
+				large="gfx/leaders/DUR/Иди нахуй, Трухин. Я ничего не понял что ты хочешь для этой страны. Просто иди нахуй.dds"
+			}
+		}
+		country_leader={
+			ideology=tsardemocrasy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

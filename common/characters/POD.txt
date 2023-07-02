@@ -1,0 +1,54 @@
+characters={
+	POD_pyureshka={
+		name="Pyureshka"
+		portraits={
+			civilian={
+				large="gfx/leaders/POD/Portrait_Kar_Neu.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	POD_Картофельный_Фриц={
+		name="Картофельный Фриц"
+		portraits={
+			civilian={
+				large="gfx/leaders/POD/Portrait_Kar_Fric.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	POD_Картофельный_Лукашенко={
+		name="Картофельный Лукашенко"
+		portraits={
+			civilian={
+				large="gfx/leaders/POD/Portrait_Pod_Luk.dds"
+			}
+		}
+		country_leader={
+			ideology=gribonism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	POD_Картофель_Фри={
+		name="Картофель Фри"
+		portraits={
+			civilian={
+				large="gfx/leaders/POD/Portrait_Kar_Dem.dds"
+			}
+		}
+		country_leader={
+			ideology=jididoism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

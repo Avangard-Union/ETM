@@ -1,0 +1,15 @@
+characters={
+	KUR_kurdish_union={
+		name="Kurdish Union"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/kurdi.dds"
+			}
+		}
+		country_leader={
+			ideology=gribonism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

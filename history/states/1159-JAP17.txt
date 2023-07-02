@@ -1,0 +1,19 @@
+state={
+	id=1159
+	name="STATE_1159"
+        manpower = 520000
+ 
+        history={
+		owner = DKC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+                        arms_factory = 2
+			}
+		}
+                add_core_of = DKC
+	provinces={
+		3502 3606 
+	}
+
+}

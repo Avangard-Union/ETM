@@ -1,0 +1,22 @@
+state={
+	id=409
+	name="STATE_409"
+	history={
+		owner = ELT
+		victory_points = {
+			14457 1 
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = ELT
+
+	}
+	provinces={
+		14303 14406 14457 14670 14696 14720 14741 14994 15010 15011 15044 15273 15274 15296 15432 15525 15599 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

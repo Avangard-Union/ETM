@@ -1,0 +1,15 @@
+characters={
+	OBZ_theodore_john_kaczynski={
+		name="Theodore John Kaczynski"
+		portraits={
+			civilian={
+				large="gfx/leaders/OBZ/unabomber.dds"
+			}
+		}
+		country_leader={
+			ideology=socialanarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

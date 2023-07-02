@@ -1,0 +1,22 @@
+state={
+	id=1032
+	name="STATE_1032"
+	manpower=228405
+    state_category = rural
+
+	history={
+		
+		victory_points = { 963 30 } # Письканариву
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+			
+		}
+		
+	}
+	provinces={
+		822 826 899 906 957 963 987 
+	}
+	buildings_max_level_factor=1.000
+}

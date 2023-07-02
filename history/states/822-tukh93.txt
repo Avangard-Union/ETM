@@ -1,0 +1,26 @@
+
+state={
+	id=822
+	name="STATE_822"
+
+	history={
+		owner = FEM
+		victory_points = {
+			17832 5 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = FEM
+
+	}
+
+	provinces={
+		17592 17625 17725 17741 17783 17819 17832 17864 17899 17956 
+	}
+	manpower=275031
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,26 @@
+state={
+	id=625
+	name="STATE_625"
+    resources = {
+	             rubber = 3}		
+	provinces={
+		15390 15457 15591 15626 15702 15703 15845 15864 15884 
+	}
+
+	state_category = rural
+
+	history={
+		owner = LAT
+		victory_points = {
+			              15884 10}
+		victory_points = {
+			              15626 10}						  
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = LAT 
+	}
+
+	manpower=850430
+	buildings_max_level_factor=1.000
+}

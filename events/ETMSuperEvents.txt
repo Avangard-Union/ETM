@@ -1,0 +1,423 @@
+add_namespace = etm_superevents
+
+country_event = {
+	id = etm_superevents.111
+	title = etm_superevents.111.t
+	desc = etm_superevents.111.d
+	picture = GFX_report_event_unclow
+	#fire_only_once = yes		#хуй
+	is_triggered_only = yes
+
+	option = {
+		name = etm_superevents.111.a	#включены
+		set_country_flag = SE_Visible
+		set_country_flag = SE_zvuk
+	}
+	option = {
+		name = etm_superevents.111.b	#без звука
+		set_country_flag = SE_Visible
+		clr_country_flag = SE_zvuk
+	}
+	option = {
+		name = etm_superevents.111.c	#выключены
+		ai_chance = { 
+			factor = 100 			
+		}
+		clr_country_flag = SE_Visible
+		clr_country_flag = SE_zvuk
+	}
+}
+
+country_event = {
+	id = etm_superevents.1
+	fire_only_once = yes
+	hidden = yes
+	
+	trigger = {
+		tag = LET 
+			has_war_with = PLA
+		
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		every_country = {
+			set_country_flag = Super_Event_Visible
+			set_country_flag = etm_super_event_flag_holy_war
+			}
+		if = {
+			limit = {
+				ROOT = { has_country_flag = SE_zvuk } }
+			sound_effect = "superev_holy_war"
+		}
+	}
+}
+
+country_event = {
+	id = etm_superevents.2
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		tag = HUY
+		1142 = {
+			is_owned_by = HUY
+		}
+	)
+	
+	option = {
+		every_country = {
+		set_country_flag = Super_Event_Visible
+		set_country_flag = etm_super_event_flag_evrazia_a
+		}
+		if = {
+			limit = {
+				ROOT = { has_country_flag = SE_zvuk } }
+			sound_effect = "superev_evrazia_a"
+		}
+	}
+}
+
+country_event = {
+	id = etm_superevents.3
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		tag = HUY
+		1142 = {
+			is_owned_by = HUY
+		}
+	)
+	
+
+	option = {
+		every_country = {
+		set_country_flag = Super_Event_Visible
+		set_country_flag = etm_super_event_flag_evrazia_ak
+		}
+		if = {
+			limit = {
+				ROOT = { has_country_flag = SE_zvuk } }
+			sound_effect = "superev_evrazia_ak"
+		}
+	}
+}
+
+country_event = {
+	id = etm_superevents.4
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		tag = HUY
+		1142 = {
+			is_owned_by = HUY
+		}
+	)
+	
+
+	option = {
+		every_country = {
+		set_country_flag = Super_Event_Visible
+		set_country_flag = etm_super_event_flag_evrazia_al
+		}
+		if = {
+			limit = {
+				ROOT = { has_country_flag = SE_zvuk } }
+			sound_effect = "superev_evrazia_al"
+		}
+	}
+}
+
+country_event = {
+	id = etm_superevents.5
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		tag = HUY
+		1142 = {
+			is_owned_by = HUY
+		}
+	)
+	
+
+	option = {
+		every_country = {
+		set_country_flag = Super_Event_Visible
+		set_country_flag = etm_super_event_flag_evrazia_an
+		}
+		if = {
+			limit = {
+				ROOT = { has_country_flag = SE_zvuk } }
+			sound_effect = "superev_evrazia_an"
+		}
+	}
+}
+
+country_event = {
+	id = etm_superevents.6
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		tag = HUY
+		1142 = {
+			is_owned_by = HUY
+		}
+	)
+	
+
+	option = {
+		every_country = {
+		set_country_flag = Super_Event_Visible
+		set_country_flag = etm_super_event_flag_evrazia_k
+		}
+		if = {
+			limit = {
+				ROOT = { has_country_flag = SE_zvuk } }
+			sound_effect = "superev_evrazia_k"
+		}
+	}
+}
+
+country_event = {
+	id = etm_superevents.7
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		tag = HUY
+		1142 = {
+			is_owned_by = HUY
+		}
+	)
+	
+
+	option = {
+		every_country = {
+		set_country_flag = Super_Event_Visible
+		set_country_flag = etm_super_event_flag_evrazia_kl
+		}
+		if = {
+			limit = {
+				ROOT = { has_country_flag = SE_zvuk } }
+			sound_effect = "superev_evrazia_kl"
+		}
+	}
+}
+
+country_event = {
+	id = etm_superevents.8
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		tag = HUY
+		1142 = {
+			is_owned_by = HUY
+		}
+	)
+	
+
+	option = {
+		every_country = {
+		set_country_flag = Super_Event_Visible
+		set_country_flag = etm_super_event_flag_evrazia_l
+		}
+		if = {
+			limit = {
+				ROOT = { has_country_flag = SE_zvuk } }
+			sound_effect = "superev_evrazia_l"
+		}
+	}
+}
+
+country_event = {
+	id = etm_superevents.9
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		tag = HUY
+		1142 = {
+			is_owned_by = HUY
+		}
+	)
+	
+
+	option = {
+		every_country = {
+		set_country_flag = Super_Event_Visible
+		set_country_flag = etm_super_event_flag_evrazia_lg
+		}
+		if = {
+			limit = {
+				ROOT = { has_country_flag = SE_zvuk } }
+			sound_effect = "superev_evrazia_lg"
+		}
+	}
+}
+
+country_event = {
+	id = etm_superevents.10
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		tag = HUY
+		1142 = {
+			is_owned_by = HUY
+		}
+	)
+	
+
+	option = {
+		every_country = {
+		set_country_flag = Super_Event_Visible
+		set_country_flag = etm_super_event_flag_evrazia_n
+		}
+		if = {
+			limit = {
+				ROOT = { has_country_flag = SE_zvuk } }
+			sound_effect = "superev_evrazia_n"
+		}
+	}
+}
+
+country_event = {
+	id = etm_superevents.11
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		tag = HUY
+		1142 = {
+			is_owned_by = HUY
+		}
+	)
+	
+
+	option = {
+		every_country = {
+		set_country_flag = Super_Event_Visible
+		set_country_flag = etm_super_event_flag_evrazia_nk
+		}
+		if = {
+			limit = {
+				ROOT = { has_country_flag = SE_zvuk } }
+			sound_effect = "superev_evrazia_nk"
+		}
+	}
+}
+
+country_event = {
+	id = etm_superevents.12
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		tag = HUY
+		1142 = {
+			is_owned_by = HUY
+		}
+	)
+
+	option = {
+		every_country = {
+		set_country_flag = Super_Event_Visible
+		set_country_flag = etm_super_event_flag_evrazia_nl
+		}
+		if = {
+			limit = {
+				ROOT = { has_country_flag = SE_zvuk } }
+			sound_effect = "superev_evrazia_nl"
+		}
+	}
+}
+
+country_event = {
+	id = etm_superevents.13
+	fire_only_once = yes
+	hidden = yes
+	
+	trigger = {
+		tag = LET
+		NOT = { country_exists = PLA }
+	}
+	option = {
+		every_country = {
+			set_country_flag = Super_Event_Visible
+			set_country_flag = etm_super_event_flag_letov_wins
+			}
+		if = {
+			limit = {
+				ROOT = { has_country_flag = SE_zvuk } }
+			sound_effect = "superev_letov_wins"
+		}
+	}
+}
+
+country_event = {
+	id = etm_superevents.14
+	fire_only_once = yes
+	hidden = yes
+	
+	trigger = {
+		tag = PLA
+		#324 323 329 326
+		OR = {
+			AND = {
+				NOT = { country_exists = LET }
+				OR = {
+						324 = {
+								is_owned_by = PLA
+							}
+						323 = {
+								is_owned_by = PLA
+							}
+						329 = {
+								is_owned_by = PLA
+							}
+						326 = {
+								is_owned_by = PLA
+							}
+				}
+			}
+			AND = {
+				LET = {
+					is_subject_of = PLA
+				}
+				OR = {
+						324 = {
+								is_owned_by = PLA
+							}
+						323 = {
+								is_owned_by = PLA
+							}
+						329 = {
+								is_owned_by = PLA
+							}
+						326 = {
+								is_owned_by = PLA
+							}
+				}
+			}
+		}
+	}
+
+	option = {
+		every_country = {
+			set_country_flag = Super_Event_Visible
+			set_country_flag = etm_super_event_flag_putin_wins
+			}
+		if = {
+			limit = {
+				ROOT = { has_country_flag = SE_zvuk } }
+			sound_effect = "superev_putin_wins"
+		}
+	}
+}

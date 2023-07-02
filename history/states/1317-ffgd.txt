@@ -1,0 +1,22 @@
+state={
+	id=1317
+	name="STATE_1317"
+	state_category = town
+	
+	history={
+		owner = GRE
+		victory_points = { 19635 10 } # Хиус
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+
+		add_core_of = GRE
+	}
+	
+	provinces={
+		12686 19635 20649 20668
+	}
+	manpower=84837
+	buildings_max_level_factor=1.000
+}

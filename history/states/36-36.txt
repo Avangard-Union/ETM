@@ -1,0 +1,26 @@
+
+state={
+	id=36
+	name="STATE_36"
+
+	history={
+		owner = ISL
+		victory_points = {
+			6509 10 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ISL
+
+	}
+
+	provinces={
+		6509 6533 6647 6799 6826 6840 6890 6973 6990 7015 7109 7110 7135 7194 7316 
+	}
+	manpower=3524010
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

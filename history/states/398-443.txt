@@ -1,0 +1,24 @@
+state={
+	id=398
+	name="STATE_398"
+    	state_category = town
+
+
+	manpower=784214
+	history={
+		owner = LUN
+		victory_points = {
+			              17210 20}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 4
+		}
+		add_core_of = LUN
+	}
+	provinces={
+		17210 17349 17431 17731 
+	}
+	buildings_max_level_factor=1.000
+}

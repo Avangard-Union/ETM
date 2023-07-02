@@ -1,0 +1,23 @@
+state={
+	id=1050
+	name="STATE_1050"
+	provinces={
+		7044 7113 7183 7231 7293 7305 7340 7401 7463 7482 
+	}
+	state_category = rural
+
+	history={
+		owner = BL9
+		victory_points = {
+                		  7293 5 }
+		victory_points = {
+                		  7482 5 }				  
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+		add_core_of = BL9
+	}
+	manpower=883757
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,27 @@
+state={
+	id=548
+	name="STATE_548"
+	provinces={
+	  	9540 9505 9413 9329
+	}
+
+	state_category = large_city
+
+	history={
+		owner = MUS
+		victory_points = { 9329 10 } # Чивитавеккья
+		buildings = {
+		    infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 3
+			air_base = 2
+		}
+
+		add_core_of = MUS
+        add_core_of = PAS
+	}
+
+	manpower=124933
+	buildings_max_level_factor=1.000
+}

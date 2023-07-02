@@ -1,0 +1,26 @@
+state={
+	id=694
+	name="STATE_694"
+
+	manpower=1735421
+
+	state_category = rural
+
+	history={
+		owner = CSS
+		victory_points = { 10078 50 } # Краснодар
+		victory_points = { 9951 10 } # Геленджик
+		victory_points = { 10197 10 } # Славянск-на-Кубани
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+		}
+		add_core_of = CSS
+		add_core_of = CSS
+	}
+
+	provinces={
+		9744 9828 9851 9904 9951 9973 10033 10078 10097 10197 10212 10273 
+	}
+	buildings_max_level_factor=1.000
+}

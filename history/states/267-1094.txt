@@ -1,0 +1,36 @@
+
+state={
+	id=267
+	name="STATE_267"
+	provinces={
+		8332 8395 8414 8419 8420 8429 8485 8506 8544 8572 8577 8594 8601 8609 8610 8619 8657 8666 8685 8714 8715 8741 8752 8753 8793 8812 8869 8895 8994 
+	}
+    resources = {
+	             tungsten = 75
+	}
+	state_category = rural
+
+	history={
+		owner = BKH
+		victory_points = {
+			8506 80 
+		}		
+		victory_points = {
+			8332 100 
+		}
+		victory_points = {
+			8685 3 
+		}
+		victory_points = {
+			8715 10
+		}		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+		}
+		add_core_of = BKH
+	}
+
+	manpower=5378963
+	buildings_max_level_factor=1.000
+}

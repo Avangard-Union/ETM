@@ -1,0 +1,11 @@
+
+KIV_smuta = {
+	icon = hol_war_on_pacifism
+	allowed = {
+			has_idea = smuta
+		original_tag = KIV
+	}
+	visible = {
+		has_idea = smuta
+	}
+}

@@ -1,0 +1,59 @@
+﻿capital = 772 #ДУГИНСК
+
+#oob = "DUG_0002" #ТУПО ЛИЧНАЯ АРМИЯ ДУГИНА
+
+set_technology = { #ТЕХИ ТУПО ПАЦАНСКИЕ ДАДИТЕ
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	fighter1 = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	basic_light_tank = 1  
+	basic_heavy_tank = 1  
+	basic_medium_tank = 1 
+}
+
+set_popularities = { 
+	burjuism = 0
+	borshewism = 50
+	pahanism = 0
+	putinism = 50
+	bidlo = 0
+}
+
+set_politics = {
+	ruling_party = putinism
+	last_election = "0001.1.1" 
+	election_frequency = 0
+	elections_allowed = no
+}
+
+recruit_character = DUG_Александр_Дугин
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+recruit_character = AAA_PUSTYSHKA

@@ -1,0 +1,19 @@
+state={
+	id=1015
+	name="STATE_1015"
+	manpower=679000
+	state_category = rural
+	
+	history={
+		
+		victory_points = { 1608 15 } # Уамбо
+		buildings = {
+			infrastructure = 4
+		}
+		
+	}
+	provinces={
+		1471 1479 1558 1564 1608 1626 
+	}
+	buildings_max_level_factor=1.000
+}

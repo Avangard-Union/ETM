@@ -1,0 +1,15 @@
+characters={
+	KZH_nursultan_nazarbayev={
+		name="Nursultan Nazarbayev"
+		portraits={
+			civilian={
+				large="gfx/leaders/KZH/Nazar_Baev.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

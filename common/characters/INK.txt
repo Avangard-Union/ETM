@@ -1,0 +1,15 @@
+characters={
+	INK_emperor_kuzko={
+		name="Emperor Kuzko"
+		portraits={
+			civilian={
+				large="gfx/leaders/INK/kuzko.dds"
+			}
+		}
+		country_leader={
+			ideology=jididoism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

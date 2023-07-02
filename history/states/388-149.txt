@@ -1,0 +1,22 @@
+state={
+	id=388
+	name="STATE_388"
+	provinces={
+		19354 19365 19406 19405 19422  19429 19451 19481 19482 19549 19556 19576 19591 19666 19667 19686 
+	}
+	
+	state_category = rural
+
+	history={
+		owner = KAZ
+		victory_points = {
+                		  19482 10 }
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = KAZ
+	}
+
+	manpower=584288
+	buildings_max_level_factor=1.000
+}

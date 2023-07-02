@@ -1,0 +1,15 @@
+characters={
+	TSA_Реджеп_i={
+		name="Реджеп I"
+		portraits={
+			civilian={
+				large="gfx/leaders/TSA/Erdogan.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters={
+	SAB_sabaton_band={
+		name="Sabaton Band"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAB/Sabaton.dds"
+			}
+		}
+		country_leader={
+			ideology=conserva
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

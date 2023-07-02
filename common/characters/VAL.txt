@@ -1,0 +1,87 @@
+characters={
+	VAL_paul_von_hindenburg={
+		name="Paul von Hindenburg"
+		portraits={
+			civilian={
+				large="gfx/leaders/VAL/Hinden.dds"
+			}
+		}
+		country_leader={
+			ideology=conserva
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	VAL_peter_kahn={
+		name="Peter Kahn"
+		portraits={
+			civilian={
+				large="gfx/leaders/VAL/Kahn.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	VAL_zoya_kosmodemyanskaya={
+		name="Zoya Kosmodemyanskaya"
+		portraits={
+			civilian={
+				large="gfx/leaders/VAL/Zoya.dds"
+			}
+		}
+		country_leader={
+			ideology=naziborshewism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	VAL_adam_drissler={
+		name="Adam Drissler"
+		portraits={
+			civilian={
+				large="gfx/leaders/VAL/Adam.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	VAL_gerd_muller={
+		name="Gerd Muller"
+		portraits={
+			civilian={
+				large="gfx/leaders/VAL/Gerd.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarhiya
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	VAL_srimmler={
+		name="Srimmler"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/VAL/Srimmler.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_reckless }
+			skill=1
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+}

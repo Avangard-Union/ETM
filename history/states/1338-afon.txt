@@ -1,0 +1,27 @@
+state={
+	id=1338
+	name="STATE_1338"
+	provinces={
+		8698 8708 20768 
+	}
+
+	state_category=town
+
+	history={
+		owner = AFO
+		victory_points = { 20768 30 } # Афон
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+			8708 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = AFO
+	}
+
+	manpower=15133
+	buildings_max_level_factor=1.000
+}

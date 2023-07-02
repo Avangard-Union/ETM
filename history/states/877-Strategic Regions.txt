@@ -1,0 +1,24 @@
+state={
+	id=877
+	name="STATE_877"
+
+	manpower=1523512
+
+
+	state_category = rural
+	
+	history={
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		
+	}
+
+
+	provinces={
+		3351 3391 3450 3493 3529 3610 3681 
+	}
+	buildings_max_level_factor=1.000
+}

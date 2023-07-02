@@ -1,0 +1,32 @@
+state={
+	id=1324
+	name="STATE_1324"
+	
+	resources={
+		steel=2
+	}
+
+	history={
+		owner = MOS
+		victory_points = {
+			14632 25
+		}
+		victory_points = {
+			15704 25
+		}
+	    buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		add_core_of = MOS
+
+	}
+
+	provinces={
+	  15704 14632
+	}
+	manpower = 3612112 #per province
+	buildings_max_level_factor=1.000
+	state_category = megalopolis
+}

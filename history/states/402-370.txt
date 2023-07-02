@@ -1,0 +1,29 @@
+
+state={
+	id=402
+	name="STATE_402"
+
+	history={
+		
+		victory_points = {
+			 119 10
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		
+
+	}
+
+	provinces={
+	  119 
+	}
+	state_category = rural
+	manpower=86969
+	buildings_max_level_factor=1.000
+}
+
+

@@ -1,0 +1,25 @@
+
+state={
+	id=174
+	name="STATE_174"
+	provinces={
+		12616 12744 12745 12849 13047 13078 13220 13295 13467 13559 
+	}
+
+	state_category = rural
+
+	history={
+		owner = MUH
+		victory_points = {
+			13220 20s     }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		add_core_of = MUH
+	}
+
+	manpower=1012443
+	buildings_max_level_factor=1.000
+}

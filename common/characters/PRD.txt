@@ -1,0 +1,15 @@
+characters={
+	PRD_karl_fritz={
+		name="Karl Fritz"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRD/Fritz.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

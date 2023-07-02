@@ -1,0 +1,15 @@
+characters={
+	CRM_drevniy={
+		name=CRM_drevniy
+		portraits={
+			civilian={
+				large="gfx/leaders/CRM/drevniy.dds"
+			}
+		}
+		country_leader={
+			ideology=primitivism
+			traits={  }
+			expire="1965.1.1.1"
+		}
+	}
+}

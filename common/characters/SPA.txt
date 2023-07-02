@@ -1,0 +1,67 @@
+characters={
+	SPA_leonid={
+		name="Leonid"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPA/Leonid.dds"
+			}
+			army={
+				small=""
+				large="gfx/leaders/SPA/Leonid.dds"
+			}
+		}
+		country_leader={
+			ideology=fashiki
+			expire="1965.1.1.1"
+			id=-1
+		}
+		corps_commander={
+			traits={ trait_mountaineer }
+			skill=4
+			attack_skill=2
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SPA_britva={
+		name="Антон Бритва"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPA/Britva.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SPA_gop={
+		name="ГОПовцы"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPA/GOP.dds"
+			}
+		}
+		country_leader={
+			ideology=oppurtrevis
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SPA_zhoga={
+		name="Владимир Жога"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPA/Zhoga.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarhiya
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

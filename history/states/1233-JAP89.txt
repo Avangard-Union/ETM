@@ -1,0 +1,19 @@
+state={
+	id=1233
+	name="STATE_1233"
+        manpower = 190000
+
+         history={
+		owner = 3DG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+                        arms_factory = 1
+			}
+		}
+		add_core_of = 3DG
+	provinces={
+		5856 6010 6025 
+	}
+
+}

@@ -1,0 +1,15 @@
+characters={
+	VKN_asbyorn_surovyy={
+		name="Asb'yorn Surovyy"
+		portraits={
+			civilian={
+				large="gfx/leaders/VKN/viking.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

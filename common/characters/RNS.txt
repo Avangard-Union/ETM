@@ -1,0 +1,369 @@
+characters={
+	RNS_tessa_violet={
+		name=RNS_tessa_violet
+		portraits={
+			civilian={
+				large="gfx/leaders/RNS/Tessa.dds"
+			}
+		}
+		country_leader={
+			ideology=fashiki 
+			traits={ financial_expert passivity }
+			expire="1965.1.1.1"
+		}
+	}
+	RNS_pogrom={
+		name=RNS_pogrom
+		portraits={
+			civilian={
+				small="GFX_idea_RNS_pogrom"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			cost = 3899
+			idea_token = pogrom
+			allowed = {
+				original_tag = RNS
+			}
+			available = {
+				has_completed_focus = RNS_L_4
+			}
+			traits = { 
+				captain_of_industry
+				porgom_zhirdyai
+			}
+			modifier = {
+				industrial_capacity_factory = 0.05
+			}
+		}
+	}
+	RNS_tesak={
+		name=RNS_tesak
+		portraits={
+			civilian={
+				small="GFX_idea_RNS_tesak"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			cost = 3899
+			idea_token = tesak
+			allowed = {
+				original_tag = RNS
+			}
+			available = {
+				has_completed_focus = RNS_L_3
+			}
+			traits = { 
+				prince_of_terror 
+				army_chief_offensive_1
+			}
+			modifier = {
+				army_org = 3
+			}
+		}
+	}
+	RNS_poklonskaya={
+		name=RNS_poklonskaya
+		portraits={
+			civilian={
+				small="GFX_idea_RNS_poklonskaya"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			cost = 3899
+			idea_token = poklonskaya
+			allowed = {
+				original_tag = RNS
+			}
+			available = {
+				has_completed_focus = RNS_L_R_6
+			}
+			traits = { 
+				nazi_tyan
+				prokuror
+			}
+			modifier = {
+				
+			}
+		}
+	}
+	RNS_medinskiy={
+		name=RNS_medinskiy
+		portraits={
+			civilian={
+				small="GFX_idea_RNS_medinskiy"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			cost = 3899
+			idea_token = medinskiy
+			allowed = {
+				original_tag = RNS
+			}
+			available = {
+				has_completed_focus = RNS_L_L_7
+			}
+			traits = { 
+				minkylt
+				lubitel_plohogo_kino
+			}
+			modifier = {
+				borshewism_drift = -0.05
+			}
+		}
+	}
+	RNS_alexey_nationalniy={
+		name=RNS_alexey_nationalniy
+		portraits={
+			army={
+				large="gfx/leaders/RNS/Anal.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	RNS_aleksandr_barkashov={
+		name=RNS_aleksandr_barkashov
+		portraits={
+			army={
+				large="gfx/leaders/RNS/Aleksandr_Barkashov.dds"
+				small="GFX_idea_RNS_Barkashov"
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected trait_reckless media_personality }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		advisor={
+			slot = army_chief
+			cost = 3979
+			idea_token = aleksandr_barkashov
+			allowed = {
+				original_tag = RNS
+			}
+			available = {
+			}
+			traits = { army_chief_reform_2 army_chief_offensive_2 }
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	RNS_alexander_grushin={
+		name=RNS_alexander_grushin
+		portraits={
+			army={
+				large="gfx/leaders/RNS/Aleksandr_Grushin.dds"
+				small="GFX_idea_RNS_Alexander_Grushin"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		advisor={
+			slot = high_command
+			cost = 3979
+			idea_token = alexander_grushin
+			allowed = {
+				original_tag = RNS
+			}
+			available = {
+			}
+			traits = { army_armored_3 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	RNS_aleksandr_lebed={
+		name=RNS_aleksandr_lebed
+		portraits={
+			army={
+				large="gfx/leaders/RNS/Aleksandr_Lebed.dds"
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist  }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	RNS_dmitriy_vasilev={
+		name=RNS_dmitriy_vasilev
+		portraits={
+			army={
+				large="gfx/leaders/RNS/Dmitriy_Vasilev.dds"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RNS_valeriy_poryvaev={
+		name=RNS_valeriy_poryvaev
+		portraits={
+			army={
+				large="gfx/leaders/RNS/Valeriy_Poryvaev.dds"
+				small="GFX_idea_RNS_Valery_Poryvaev"
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor={
+			slot = high_command
+			cost = 3979
+			idea_token = valeriy_poryvaev
+			allowed = {
+				original_tag = RNS
+			}
+			available = {
+			}
+			traits = { army_infantry_3 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	RNS_svyatoslav_andreev={
+		name=RNS_svyatoslav_andreev
+		portraits={
+			army={
+				large="gfx/leaders/RNS/Svyatoslav_Andreev.dds"
+				small="GFX_idea_RNS_Svyatoslav_Andreev"
+			}
+		}
+		corps_commander = {
+			traits = { ranger  }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		advisor={
+			slot = high_command
+			cost = 3979
+			idea_token = svyatoslav_andreev
+			allowed = {
+				original_tag = RNS
+			}
+			available = {
+			}
+			traits = { army_regrouping_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	RNS_vladimir_kvachkov={
+		name=RNS_vladimir_kvachkov
+		portraits={
+			army={
+				large="gfx/leaders/RNS/Vladimir_Kvachkov.dds"
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 3
+		}
+	}
+	RNS_ilya_sukharev={
+		name=RNS_ilya_sukharev
+		portraits={
+			army={
+				small="GFX_idea_RNS_Ilya_Sukharev"
+			}
+		}
+		advisor={
+			slot = high_command
+			cost = 3979
+			idea_token = ilya_sukharev
+			allowed = {
+				original_tag = RNS
+			}
+			available = {
+			}
+			traits = { army_concealment_2 }	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	RNS_vladislav_bolshakov={
+		name=RNS_vladislav_bolshakov
+		portraits={
+			army={
+				small="GFX_idea_RNS_Vladislav_Bolshakov"
+			}
+		}
+		advisor={
+			slot = high_command
+			cost = 3979
+			idea_token = vladislav_bolshakov
+			allowed = {
+				original_tag = RNS
+			}
+			available = {
+			}
+			traits = { air_close_air_support_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	RNS_kirill_titov = {
+		name = RNS_kirill_titov
+		advisor = {
+			cost = 3999
+			slot = theorist
+			traits = { superior_firepower_expert }
+			research_bonus = {
+				land_doctrine = -0.10
+			}
+		}
+		portraits={
+			army={
+				small="GFX_idea_RNS_Kirill_Titov"
+			}
+		}
+	}
+
+}

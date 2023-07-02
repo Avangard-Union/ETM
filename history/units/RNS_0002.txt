@@ -1,0 +1,238 @@
+﻿division_template = {
+	name = "Русская Дружина"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+
+	priority = 0
+}
+division_template = {
+	name = "Русская Дивизия"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+
+	priority = 1
+}
+units = {
+	division= {
+		name = "Чернорубашечники РНЕ"	
+		location = 15866
+		division_template = "Русская Дружина"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "Штурмовики РНЕ"	
+		location = 16605
+		division_template = "Русская Дружина"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "Штурмовики РНЕ"	
+		location = 14947
+		division_template = "Русская Дружина"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "Штурмовики РНЕ"	
+		location = 15999
+		division_template = "Русская Дружина"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "Русский отряд самообороны Твери"	
+		location = 15648
+		division_template = "Русская Дружина"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division= {
+		name = "Русский отряд самообороны Ярославля"	
+		location = 16127
+		division_template = "Русская Дружина"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division= {
+		name = "Русский отряд самообороны Рязани"	
+		location = 14862
+		division_template = "Русская Дружина"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division= {
+		name = "Русский отряд самообороны Жеганова"	
+		location = 15266
+		division_template = "Русская Дружина"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division= {
+		name = "1-я Пехотная Дивизия"	
+		location = 15255
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "2-я Пехотная Дивизия"	
+		location = 15392
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "3-я Пехотная Дивизия"	
+		location = 15219
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "4-я Пехотная Дивизия"	
+		location = 15627
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "5-я Пехотная Дивизия"	
+		location = 16038
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "6-я Пехотная Дивизия"	
+		location = 15612
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "7-я Пехотная Дивизия"	
+		location = 15810
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "8-я Пехотная Дивизия"	
+		location = 15173
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "9-я Пехотная Дивизия"	
+		location = 14818
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "10-я Пехотная Дивизия"	
+		location = 15057
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "11-я Пехотная Дивизия"	
+		location = 14491
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.18
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "12-я Пехотная Дивизия"	
+		location = 16216
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.18
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "13-я Пехотная Дивизия"	
+		location = 16717
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.18
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "14-я Пехотная Дивизия"	
+		location = 13897
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.18
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "15-я Пехотная Дивизия"	
+		location = 13990
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.18
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "16-я Пехотная Дивизия"	
+		location = 13898
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.18
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "17-я Пехотная Дивизия"	
+		location = 14148
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.18
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "18-я Пехотная Дивизия"	
+		location = 15522
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.18
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "19-я Пехотная Дивизия"	
+		location = 16687
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.18
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "20-я Пехотная Дивизия"	
+		location = 17615
+		division_template = "Русская Дивизия"
+		start_experience_factor = 0.18
+		start_equipment_factor = 0.9
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "RNS" 
+		}
+		requested_factories = 10
+		progress = 0.1
+		efficiency = 50
+	}
+}

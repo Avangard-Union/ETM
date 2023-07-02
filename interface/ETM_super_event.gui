@@ -1,0 +1,184 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "ETM_custom_super_event"
+		size =  { width = 520 height = 460 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+		moveable = yes
+		
+		background = {
+				name = "Background"
+				quadTextureSprite = "GFX_monitor"
+				alwaystransparent = no
+			}
+		containerWindowType = {
+			name = "Content"
+			size = { width = 520 height = 460 }
+			position = { x=0 y=0 }
+			Orientation = center
+			Origo = center
+			
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_monitor"
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name ="Super_Event_Image_Holy_War"
+				spriteType = "GFX_super_event_custom_holy_war"
+				position = { x = -217 y = -190 }
+				alwaystransparent = yes
+				Orientation = center
+			}
+			
+			iconType = {
+				name ="Super_Event_Image_evrazia_a"
+				spriteType = "GFX_super_event_custom_evrazia_a"
+				position = { x = -217 y = -190 }
+				alwaystransparent = yes
+				Orientation = center
+			}
+
+			iconType = {
+				name ="Super_Event_Image_evrazia_ak"
+				spriteType = "GFX_super_event_custom_evrazia_ak"
+				position = { x = -217 y = -190 }
+				alwaystransparent = yes
+				Orientation = center
+			}
+
+			iconType = {
+				name ="Super_Event_Image_evrazia_al"
+				spriteType = "GFX_super_event_custom_evrazia_al"
+				position = { x = -217 y = -190 }
+				alwaystransparent = yes
+				Orientation = center
+			}
+
+			iconType = {
+				name ="Super_Event_Image_evrazia_an"
+				spriteType = "GFX_super_event_custom_evrazia_an"
+				position = { x = -217 y = -190 }
+				alwaystransparent = yes
+				Orientation = center
+			}
+
+			iconType = {
+				name ="Super_Event_Image_evrazia_k"
+				spriteType = "GFX_super_event_custom_evrazia_k"
+				position = { x = -217 y = -190 }
+				alwaystransparent = yes
+				Orientation = center
+			}
+
+			iconType = {
+				name ="Super_Event_Image_evrazia_kl"
+				spriteType = "GFX_super_event_custom_evrazia_kl"
+				position = { x = -217 y = -190 }
+				alwaystransparent = yes
+				Orientation = center
+			}
+
+			iconType = {
+				name ="Super_Event_Image_evrazia_l"
+				spriteType = "GFX_super_event_custom_evrazia_l"
+				position = { x = -217 y = -190 }
+				alwaystransparent = yes
+				Orientation = center
+			}
+
+			iconType = {
+				name ="Super_Event_Image_evrazia_lg"
+				spriteType = "GFX_super_event_custom_evrazia_lg"
+				position = { x = -217 y = -190 }
+				alwaystransparent = yes
+				Orientation = center
+			}
+
+			iconType = {
+				name ="Super_Event_Image_evrazia_n"
+				spriteType = "GFX_super_event_custom_evrazia_n"
+				position = { x = -217 y = -190 }
+				alwaystransparent = yes
+				Orientation = center
+			}
+
+			iconType = {
+				name ="Super_Event_Image_evrazia_nk"
+				spriteType = "GFX_super_event_custom_evrazia_nk"
+				position = { x = -217 y = -190 }
+				alwaystransparent = yes
+				Orientation = center
+			}
+
+			iconType = {
+				name ="Super_Event_Image_evrazia_nl"
+				spriteType = "GFX_super_event_custom_evrazia_nl"
+				position = { x = -217 y = -190 }
+				alwaystransparent = yes
+				Orientation = center
+			}
+
+			iconType = {
+				name ="Super_Event_Image_letov_wins"
+				spriteType = "GFX_super_event_custom_letov_wins"
+				position = { x = -217 y = -190 }
+				alwaystransparent = yes
+				Orientation = center
+			}
+
+			iconType = {
+				name ="Super_Event_Image_putin_wins"
+				spriteType = "GFX_super_event_custom_putin_wins"
+				position = { x = -217 y = -190 }
+				alwaystransparent = yes
+				Orientation = center
+			}
+			
+
+			instantTextBoxType = {
+				name = "Description"
+				position = {  x = 70 y = -250 }
+				font = "Superivent"
+				text = "[SE_D]"
+				maxWidth = 400
+				maxHeight = 150
+				fixedsize = yes
+				format = right
+				Orientation = lower_left
+			}
+
+			instantTextBoxType = {
+				name = "Title"
+				position = { x = 0 y = 45 }
+				font = "Superivent"
+				borderSize = {x = 0 y = 0}
+				text = "[SE_T]"
+				maxWidth = 540
+				maxHeight = 100
+				format = center
+			}
+
+			iconType = {
+				name ="Giff"
+				spriteType = "GFX_pomehi"
+				position = { x = -218 y = -191 }
+				alwaystransparent = yes
+				Orientation = center
+			}
+		}	
+	
+		buttonType = {
+			name = "Option"
+			shortcut = "ESCAPE"
+			position = { x = 119 y = 119 }
+			quadTextureSprite ="GFX_sknopka"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+	}
+}

@@ -1,0 +1,34 @@
+state={
+	id=1117
+	name="STATE_1117"
+
+	state_category = rural
+	resources={
+		tungsten=6
+		oil=10
+		steel=5
+		chromium=8
+		rubber=10
+		aluminium=6
+	}
+
+
+	manpower=986318
+	history={
+		owner = YAR
+		victory_points = {
+			13344 20     }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 4
+		}
+		add_core_of = YAR
+	}
+
+	provinces={
+		13292 13344 13386 13412 13413 13608 13728 13789 13837 13949 14080 14208 14230 14358 
+	}
+	buildings_max_level_factor=1.000
+}

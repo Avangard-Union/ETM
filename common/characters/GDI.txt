@@ -1,0 +1,16 @@
+characters={
+	GDI_Редмонт_Бойл={
+		name="Редмонт Бойл"
+		portraits={
+			civilian={
+				large="gfx/leaders/GDI/redmont.dds"
+			}
+		}
+		country_leader={
+			desc="Гендеректор ГСБ"
+			ideology=zoomerism
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+}

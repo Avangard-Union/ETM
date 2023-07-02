@@ -1,0 +1,29 @@
+state={
+	id=858
+	name="STATE_858"
+
+	manpower=1592314
+
+	state_category = large_town 
+	
+	resources={
+		aluminium=8#was: 23
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		
+		victory_points = {4321 10}
+		victory_points = {4040 5}
+	}
+
+
+	provinces={
+		3896 3913 3916 3945 3981 3989 4040 4075 4157 4167 4181 4193 4321 4361 
+	}
+	buildings_max_level_factor=1.000
+}

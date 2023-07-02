@@ -1,0 +1,25 @@
+state={
+	id=688
+	name="STATE_688"
+
+	manpower= 463524
+
+	state_category = city
+
+	history={
+		owner =  BRK
+		victory_points = { 9019 10 } # Сухум
+		victory_points = { 9248 5 } # Гагра
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 3
+		}
+		add_core_of =  BRK
+	}
+
+	provinces={
+		8938 9019 9084 9113 9227 9248 9282 
+	}
+	buildings_max_level_factor=1.000
+}

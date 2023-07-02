@@ -1,0 +1,41 @@
+
+state={
+	id=1045
+	name="STATE_1045"
+	manpower = 844620
+	
+	state_category = large_city 
+
+        resources={
+		chromium=40 
+	}
+
+	history={
+		owner = KEB
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			dockyard = 3
+
+                        8352 ={
+				naval_base =5
+			}
+
+                        8007 ={
+				naval_base = 2
+			}
+
+		}
+
+		add_core_of = KEB
+		victory_points = {8352 25}
+		victory_points = {8249 5}
+		victory_points = {8181 5}
+		victory_points = {8094 5}
+	}
+
+	provinces={
+		7937 8007 8032 8038 8086 8094 8127 8152 8153 8181 8209 8241 8249 8250 8299 8308 8343 8352 8369 8377 8388 8424 
+	}
+}

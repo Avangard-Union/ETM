@@ -1,0 +1,17 @@
+state={
+	id=555
+	name="STATE_555"
+	provinces={
+		7182 7319 7426 
+	}
+	state_category = rural
+	history={
+		owner = NAU
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NAU
+	}
+	manpower=54785
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,24 @@
+
+state={
+	id=776
+	name="STATE_776"
+
+	history={
+		owner = GON
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+		add_core_of = GON
+
+	}
+
+	provinces={
+		14712 14713 14809 14886 14887 14963 15119 15201 15312 15372 
+	}
+	manpower=1276245
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

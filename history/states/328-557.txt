@@ -1,0 +1,30 @@
+
+state={
+	id=328
+	name="STATE_328"
+
+	history={
+		owner = PLA
+		victory_points = {
+			14950 10 
+		}
+		victory_points = {
+			15494 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = PLA
+
+	}
+
+	provinces={
+		14824 14950 15156 15157 15202 15291 15430 15494 15512 15596 15720 
+	}
+	manpower=251218
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

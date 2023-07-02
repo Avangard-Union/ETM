@@ -1,0 +1,26 @@
+
+state={
+	id=309
+	name="STATE_309"
+	provinces={
+		18429 18452 18486 18549 18602 18651 18720 18743 18764 18765 18874 18883 18905 
+	}
+
+	state_category = rural
+
+	history={
+		owner = BSK
+		victory_points = {
+			              18765 10}	
+		victory_points = {
+			              18651 10}							  
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+		}
+		add_core_of = BSK
+	}
+
+	manpower=116540
+	buildings_max_level_factor=1.000
+}

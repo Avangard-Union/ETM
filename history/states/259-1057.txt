@@ -1,0 +1,23 @@
+state={
+	id=259
+	name="STATE_259"
+	provinces={
+		8951 8986 9086 9205 9206 9251 9295 9296 9479 9544 
+	}
+
+	state_category = town
+
+	history={
+		owner = ANT
+		victory_points = { 9296 5 } # Замай Гей
+		victory_points = { 8986 5 } # Карабугаз
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = ANT
+	}
+
+	manpower=75635
+	buildings_max_level_factor=1.000
+}

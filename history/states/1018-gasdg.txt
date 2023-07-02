@@ -1,0 +1,20 @@
+state={
+	id=1018
+	name="STATE_1018"
+	manpower=989000
+	state_category = rural
+	
+	history={
+		
+		victory_points = { 1584 30 } # Шахты
+		victory_points = { 1393 5 } # Мазанковское
+		buildings = {
+			infrastructure = 4
+		}
+		
+	}
+	provinces={
+		1386 1393 1445 1451 1485 1490 1517 1545 1565 1584 
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=766
+	name="STATE_766"
+	resources={
+		steel=20.000
+	}
+
+	history={
+		owner = O10
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+
+		}
+		victory_points = {
+			13914 17 
+		}
+		victory_points = {
+			13706 9
+		}
+		add_core_of = O10
+
+	}
+
+	provinces={
+		13705 13706 13808 13856 13914 14016 20763 
+	}
+	manpower=1225870
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

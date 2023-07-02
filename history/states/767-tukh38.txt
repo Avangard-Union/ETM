@@ -1,0 +1,27 @@
+
+state={
+	id=767
+	name="STATE_767"
+
+	history={
+		owner = OR6
+		victory_points = {
+			12871 5 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+
+		}
+		add_core_of = OR6
+
+	}
+
+	provinces={
+		12585 12630 12631 12652 12723 12842 12871 12987 12988 
+	}
+	manpower=285345
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

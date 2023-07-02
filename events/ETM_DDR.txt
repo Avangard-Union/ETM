@@ -1,0 +1,18 @@
+add_namespace = 
+country_event = {
+	id = elections_1
+	title = elections_1.t
+	picture = GFX_event_test
+	desc = {
+		text = namespace.count.d.desc_id
+		trigger = {
+
+}
+
+	}
+	option = {
+	name = namespace.count.a
+
+	}
+
+	}

@@ -1,0 +1,25 @@
+state={
+	id=1025
+	name="STATE_1025"
+	manpower=730000
+	state_category = rural
+
+
+	history={
+		
+		victory_points = { 698 20 }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 2
+
+		}
+		
+	}
+
+	provinces={
+		523 569 576 577 635 636 657 668 698 702 745 752 758 769 788 850 853 878 931 980 
+	}
+
+	buildings_max_level_factor=1.000
+}

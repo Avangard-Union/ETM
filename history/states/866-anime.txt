@@ -1,0 +1,24 @@
+
+state={
+	id=866
+	name="STATE_866"
+
+	manpower=524632
+
+	state_category = town
+
+	history={
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		
+		victory_points = { 4016 18 }
+	}
+
+	provinces={
+		3700 3758 3820 3855 3886 3902 3938 3944 4016 4039 4091 4107 4128 4166 4192 4202 4276 4320 4438 
+	}
+	buildings_max_level_factor=1.000
+}

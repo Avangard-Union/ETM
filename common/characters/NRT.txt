@@ -1,0 +1,16 @@
+characters={
+	NRT_misha={
+		name="Misha"
+		portraits={
+			civilian={
+				large="gfx/leaders/NRT/medved.dds"
+			}
+		}
+		country_leader={
+			desc="Р Е З Н Я"
+			ideology=socdem
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

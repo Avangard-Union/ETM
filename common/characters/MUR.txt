@@ -1,0 +1,34 @@
+characters={
+	MUR_peter_kropotkin={
+		name="Peter Kropotkin"
+		portraits={
+			civilian={
+				large="gfx/leaders/MUR/Kropotkin.dds"
+			}
+		}
+		country_leader={
+			ideology=socialanarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MUR_muravey={
+		name="Muravey"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

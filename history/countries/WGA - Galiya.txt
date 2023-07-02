@@ -1,0 +1,37 @@
+capital = 200
+
+#oob = "WGA_0002"
+
+set_research_slots = 1
+add_ideas = {
+}
+
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_stability = 1
+set_war_support = 1
+
+
+set_politics = {
+	ruling_party = pahanism
+	elections_allowed = no
+}
+
+set_popularities = {
+	burjuism = 0
+	bidlo = 0
+	borshewism = 0
+	pahanism = 100
+}
+
+recruit_character = WGA_Астерикс_и_Абеликс
+
+
+
+
+
+
+recruit_character = AAA_PUSTYSHKA

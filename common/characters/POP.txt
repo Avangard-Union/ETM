@@ -1,0 +1,15 @@
+characters={
+	POP_francis={
+		name="Francis"
+		portraits={
+			civilian={
+				large="gfx/leaders/POP/pope.dds"
+			}
+		}
+		country_leader={
+			ideology=gachism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

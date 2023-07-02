@@ -1,0 +1,118 @@
+characters={
+	KRI_Никита_Джигурда={
+		name="Никита Джигурда"
+		portraits={
+			civilian={
+				large="gfx/leaders/KRI/Gachi_Dzhiga.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_reckless }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+		country_leader={
+			desc=" "
+			ideology=gachism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	KRI_Михаил_Задорнов={
+		name="Михаил Задорнов"
+		portraits={
+			civilian={
+				large="gfx/leaders/KRI/Zadornov.dds"
+			}
+		}
+		field_marshal={
+			traits={ war_hero }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=imperial_putinism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KRI_Юрий_Рыбников={
+		name="Юрий Рыбников"
+		portraits={
+			civilian={
+				large="gfx/leaders/KRI/Rybnikov.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KRI_Николай_Левашов={
+		name="Николай Левашов"
+		portraits={
+			civilian={
+				large="gfx/leaders/KRI/Levashov.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KRI_Валерий_Емельянов={
+		name="Валерий Емельянов"
+		portraits={
+			civilian={
+				large="gfx/leaders/KRI/Emelyanov.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KRI_Школослав={
+		name="Школослав"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="Based_shkolnik.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	KRI_nikita_dzhigurda={
+		name="Nikita Dzhigurda"
+		portraits={
+			civilian={
+				large="gfx/leaders/KRI/Gachi_Dzhiga.dds"
+			}
+		}
+		country_leader={
+			ideology=gachism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

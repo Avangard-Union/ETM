@@ -1,0 +1,16 @@
+characters={
+	LTZ_maxim_katz={
+		name="Maxim Katz"
+		portraits={
+			civilian={
+				large="gfx/leaders/LTZ/kac.dds"
+			}
+		}
+		country_leader={
+			desc="А я ебу собак, всегда готов"
+			ideology=socdem
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

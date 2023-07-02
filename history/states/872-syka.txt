@@ -1,0 +1,32 @@
+state={
+	id=872
+	name="STATE_872"
+
+	manpower=305729
+
+	state_category = city
+	
+	resources={
+		steel=20 # was: 50
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			2689 = {
+			 naval_base = 3
+			}
+		}
+		
+		victory_points = {2689 15}
+	}
+
+	provinces={
+		2689 2694 2714 2724 2751 2843 2854 
+	}
+	manpower=745654
+	buildings_max_level_factor=1.000
+}

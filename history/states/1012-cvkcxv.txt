@@ -1,0 +1,27 @@
+state={
+	id=1012
+	name="STATE_1012"
+	manpower=974268
+	state_category = rural
+	
+	history={
+		
+                victory_points = {
+			 1882 10
+                }
+                victory_points = {
+			 2033 10
+                }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 4
+			air_base = 4
+		}
+		
+	}
+	provinces={
+		1837 1846 1882 1920 1930 1966 1967 1992 2033 
+	}
+	buildings_max_level_factor=1.000
+}

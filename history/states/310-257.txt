@@ -1,0 +1,23 @@
+
+state={
+	id=310
+	name="STATE_310"
+
+	history={
+		owner = PEC
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = PEC
+
+	}
+
+	provinces={
+		17742 17900 18176 18684 20741 20742 20743 20744 
+	}
+	manpower=102000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

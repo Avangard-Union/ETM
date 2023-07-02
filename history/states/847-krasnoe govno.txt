@@ -1,0 +1,30 @@
+state={
+	id=847
+	name="STATE_847"
+
+	manpower=259384
+
+	state_category = metropolis
+	
+	resources={
+		steel=11 # was: 16
+	}
+
+
+	history={
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 3
+		}
+		
+		victory_points = {5200 40}
+		victory_points = {4979 20}
+	}
+
+	provinces={
+		4902 4924 4961 4978 4979 5127 5176 5200 5297 5358 5482 5649 
+	}
+	buildings_max_level_factor=1.000
+}

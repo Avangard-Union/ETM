@@ -1,0 +1,54 @@
+characters={
+	CZE_staropramen={
+		name="Staropramen"
+		portraits={
+			civilian={
+				large="gfx/leaders/CZE/BER_D.dds"
+			}
+		}
+		country_leader={
+			ideology=conserva
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CZE_budweiser={
+		name="Budweiser"
+		portraits={
+			civilian={
+				large="gfx/leaders/CZE/BER_F.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CZE_velkopopovicky_kozel={
+		name="Velkopopovicky Kozel"
+		portraits={
+			civilian={
+				large="gfx/leaders/CZE/BER_C.dds"
+			}
+		}
+		country_leader={
+			ideology=naziborshewism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CZE_pilsner_urquell={
+		name="Pilsner Urquell"
+		portraits={
+			civilian={
+				large="gfx/leaders/CZE/BER_N.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

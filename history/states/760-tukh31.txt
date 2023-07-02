@@ -1,0 +1,23 @@
+
+state={
+	id=760
+	name="STATE_760"
+
+	history={
+		owner = ZMR
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ZMR
+
+	}
+
+	provinces={
+		16024 16060 16114 16145 16176 16320 16341 16485 16500 16543 16703 16720 16721 
+	}
+	manpower=542100
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

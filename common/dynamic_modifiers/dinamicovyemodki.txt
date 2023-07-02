@@ -1,0 +1,18 @@
+MOS_govno_burlit = {
+	icon = GFX_idea_MOS_burgovn
+	enable = { has_country_flag = MOS_liberda_burlit }
+	remove_trigger = {
+	    always = no
+	}
+	political_power_factor = pepeMOS
+	stability_factor = stabkaMOS
+}
+MOS_ZIS_factory = {
+		icon = GFX_MOS_ZIS
+		enable = { always = yes }
+	remove_trigger = { always = no }
+	production_factory_max_efficiency_factor = 0.5
+	motorized_attack_factor = 0.17
+	motorized_defence_factor = 0.1
+	breakthrough_factor = 0.3
+}

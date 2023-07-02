@@ -1,0 +1,24 @@
+state={
+	id=1130
+	name="STATE_1130"
+
+	state_category = pastoral
+
+
+	provinces={
+		20544 20548 
+	}
+
+	history={
+		owner = CKD
+				victory_points = {
+			              20544 3}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CKD
+	}
+
+	manpower=105367
+	buildings_max_level_factor=1.000
+}

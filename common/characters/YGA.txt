@@ -1,0 +1,64 @@
+characters={
+	YGA_queen={
+		name="Queen"
+		portraits={
+			civilian={
+				large="gfx/leaders/YGA/Queen.dds"
+			}
+		}
+		field_marshal={
+			traits={ brilliant_strategist trickster }
+			skill=3
+			attack_skill=5
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=gopniki
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	YGA_knukles={
+		name="Knukles"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YGA/Knukles.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	YGA_sonic={
+		name="Sonic"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YGA/Sonic.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+}

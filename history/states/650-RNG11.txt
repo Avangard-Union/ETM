@@ -1,0 +1,29 @@
+
+state={
+	id=650
+	name="STATE_650"
+
+	history={
+		owner = CCT
+		victory_points = {
+			12556 30 
+		}
+		victory_points = {
+			12913 10 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = CCT
+
+	}
+
+	provinces={
+		12458 12459 12556 12627 12650 12675 12810 12811 12913 13094 
+	}
+	manpower=1364537
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

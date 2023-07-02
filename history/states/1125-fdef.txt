@@ -1,0 +1,24 @@
+state={
+	id=1125
+	name="STATE_1125"
+
+	state_category = large_town
+
+	history={
+		owner = KNR
+		victory_points = {
+			19309 25     }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 4
+		}
+		add_core_of = KNR
+	}
+
+	provinces={
+		19170 19309 19658 19773 
+	}
+	manpower=2536473
+	buildings_max_level_factor=1.000
+}

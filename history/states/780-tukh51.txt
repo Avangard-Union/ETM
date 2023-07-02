@@ -1,0 +1,23 @@
+
+state={
+	id=780
+	name="STATE_780"
+
+	history={
+		owner = ROC
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ROC
+
+	}
+
+	provinces={
+		15221 15428 15509 15510 15672 15832 16059 16198 
+	}
+	manpower=248470
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

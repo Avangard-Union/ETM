@@ -1,0 +1,26 @@
+state={
+	id=166
+	name="STATE_166"
+	manpower=1447954
+
+    state_category = large_town
+
+	history={
+		owner = BAR
+				victory_points = {
+			              15799 20}		
+				victory_points = {
+			              14995 10}						  
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 4
+		}
+		add_core_of = BAR
+	}
+	provinces={
+		14995 15046 15513 15658 15799 16064 
+	}
+	buildings_max_level_factor=1.000
+}

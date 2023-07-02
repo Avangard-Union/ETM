@@ -1,0 +1,26 @@
+
+state={
+	id=365
+	name="STATE_365"
+
+	history={
+		owner = DOR
+		victory_points = {
+			15524 5 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = DOR
+
+	}
+
+	provinces={
+		15524 15815 15853 16525 
+	}
+	manpower=354142
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

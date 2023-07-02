@@ -1,0 +1,23 @@
+
+state={
+	id=265
+	name="STATE_265"
+
+	history={
+		owner = ANT
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ANT
+
+	}
+
+	provinces={
+		8987 9098 9306 9389 9465 9480 9657 
+	}
+	manpower=26870
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

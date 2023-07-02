@@ -1,0 +1,37 @@
+
+state={
+	id=70
+	name="STATE_70"
+
+	state_category = rural
+
+	history={
+		owner = PPT
+		victory_points = {
+			              3720 10 }
+		
+		victory_points = {
+                		  3750 10 }
+						  
+		victory_points = {
+			              3867 10 }
+		
+		victory_points = {
+                		  4034 10 }
+						  
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = PPT
+
+	}
+
+	provinces={
+		3720 3726 3750 3807 3808 3867 3889 3908 3929 4034 4056 4125 4241 4242 4251 4368 4379 
+	}
+	manpower=5413431
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,27 @@
+state={
+	id=1315
+	name="STATE_1315"
+	state_category = town
+	
+	history={
+		owner = GRE
+		victory_points = { 8407 50 } # Афины
+		victory_points = { 8257 20 } # Фивы
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+			8407 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = GRE
+	}
+	
+	provinces={
+		8124 8257 8393 8407 8444 
+	}
+	manpower=1424842
+	buildings_max_level_factor=1.000
+}

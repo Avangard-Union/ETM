@@ -1,0 +1,27 @@
+state={
+	id=1320
+	name="STATE_1320"
+	state_category = town
+	
+	history={
+		owner = KRT
+		victory_points = { 12746 30 } # Ираклион
+		victory_points = { 12705 10 } # Ханья
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			12746 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = KRT
+	}
+	
+	provinces={
+		12705 12746 14193 
+	}
+	manpower=634930
+	buildings_max_level_factor=1.000
+}

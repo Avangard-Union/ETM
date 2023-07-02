@@ -1,0 +1,316 @@
+characters={
+	LET_ГРЯЗНЫЙ_ЧИТЕР_ЭТОГО__ПУТИ_НЕТ_В_ИГРЕ={
+		name="ГРЯЗНЫЙ ЧИТЕР, ЭТОГО  ПУТИ НЕТ В ИГРЕ"
+		portraits={
+			civilian={
+				small="_small"
+			}
+			civilian={
+				large=""
+			}
+		}
+		country_leader={
+			ideology=jididoism
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	LET_Егор_Летов={
+		name="Егор Летов"
+		portraits={
+			civilian={
+				large="gfx/leaders/LET/Portrait_Egor_Letov.dds"
+			}
+		}
+		field_marshal={
+			traits={ media_personality infantry_officer grob organizer urban_assault_specialist defensive_doctrine fast_planner unyielding_defender }
+			skill=5
+			attack_skill=2
+			defense_skill=6
+			planning_skill=5
+			logistics_skill=2
+			legacy_id=-1
+		}
+		country_leader={
+			desc="Egor_Letov_Desc"
+			ideology=socialanarchism
+			traits={ our_savior }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_LETOV_BEFORE_WAR_DESC"
+			ideology=naziborshewism
+			traits={ our_savior }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_LETOV_BEFORE_WAR_DESC"
+			ideology=typicalauthoritarism
+			traits={ our_savior }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LET_Эдуард_Лимонов={
+		name="Эдуард Лимонов"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_LET_1.dds"
+			}
+			army={
+				large="gfx/leaders/LET/LET_portrait_1.dds"
+			}
+		}
+		field_marshal={
+			traits={ siberian_war_hero trickster urban_assault_specialist offensive_doctrine guerilla_fighter }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=5
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	LET_Кузя_УО_Рябинов={
+		name="Кузя 'УО' Рябинов"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_LET_2.dds"
+			}
+			army={
+				large="gfx/leaders/LET/LET_portrait_2.dds"
+			}
+		}
+		corps_commander={
+			traits={ grob siberian_war_hero infantry_leader urban_assault_specialist guerilla_fighter }
+			skill=4
+			attack_skill=1
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	LET_Игорь_Жевтун={
+		name="Игорь Жевтун"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_LET_3.dds"
+			}
+			army={
+				large="gfx/leaders/LET/LET_portrait_3.dds"
+			}
+		}
+		corps_commander={
+			traits={ grob siberian_war_hero infantry_leader ranger guerilla_fighter }
+			skill=4
+			attack_skill=2
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LET_Евгений_Махно_Пьянов={
+		name="Евгений 'Махно' Пьянов"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_LET_4.dds"
+			}
+			army={
+				large="gfx/leaders/LET/LET_portrait_4.dds"
+			}
+		}
+		corps_commander={
+			traits={ grob siberian_war_hero cavalry_leader trait_engineer scavenger }
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=5
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	LET_Наталья_Чумакова={
+		name="Наталья Чумакова"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_LET_5.dds"
+			}
+			army={
+				large="gfx/leaders/LET/LET_portrait_5.dds"
+			}
+		}
+		corps_commander={
+			traits={ grob siberian_war_hero infantry_leader urban_assault_specialist }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	LET_Сергей_Летов={
+		name="Сергей Летов"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_LET_6.dds"
+			}
+			army={
+				large="gfx/leaders/LET/LET_portrait_6.dds"
+			}
+		}
+		corps_commander={
+			traits={ grob siberian_war_hero organizer infantry_leader ranger }
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LET_Дмитрий_Язов={
+		name="Дмитрий Язов"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/LET/LET_portrait_7.dds"
+			}
+		}
+		corps_commander={
+			traits={ siberian_war_hero organizer skilled_staffer urban_assault_specialist }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LET_Коллективный_Рабочий_Совет={
+		name="Коллективный Рабочий Совет"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/LET/LET_portaint_8.dds"
+			}
+		}
+		corps_commander={
+			traits={ rabochii_voennii_sovet infantry_leader ranger guerilla_fighter }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LET_Греггори_Ли={
+		name="Греггори Ли"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/LET/LET_portaint_9.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster swamp_fox ambusher guerilla_fighter }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LET_Трипутень={
+		name="Трипутень"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/LET/LET_portaint_10.dds"
+			}
+		}
+		corps_commander={
+			traits={ siberian_war_hero cavalry_leader hill_fighter }
+			skill=4
+			attack_skill=5
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LET_Алунья={
+		name="Алунья"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/LET/LET_portaint_11.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist guerilla_fighter }
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	LET_Буэнавентура_Дуррути={
+		name="Буэнавентура Дуррути"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/LET/LET_portrait_12.dds"
+			}
+		}
+		corps_commander={
+			traits={ siberian_war_hero organizer infantry_leader urban_assault_specialist scavenger guerilla_fighter }
+			skill=5
+			attack_skill=4
+			defense_skill=5
+			planning_skill=2
+			logistics_skill=5
+			legacy_id=-1
+		}
+	}
+	LET_Бэнес_Айо={
+		name="Бэнес Айо"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/LET/LET_portrait_13.dds"
+			}
+		}
+		corps_commander={
+			traits={ siberian_war_hero infantry_leader desert_fox urban_assault_specialist }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters={
+	HUY_lion_trotsky={
+		name="Lion Trotsky"
+		portraits={
+			civilian={
+				large="gfx/leaders/HUY/SerpTrotsky.dds"
+			}
+		}
+		country_leader={
+			ideology=oppurtrevis
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,23 @@
+state={
+	id=495
+	name="STATE_495"
+	provinces={
+		10613 10686 10687 10794 10842 10979 11009 11060 11189 
+	}
+	state_category = rural
+
+	history = {
+		owner = ROA
+		victory_points = { 10686 15 } # Яссы
+		victory_points = { 11060 15 } # Бельцы
+		add_core_of = TRA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			air_base = 5
+		}
+		add_core_of = ROA
+	}
+	manpower=2806400
+	buildings_max_level_factor=1.000
+}

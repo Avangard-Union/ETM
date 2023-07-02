@@ -1,0 +1,51 @@
+﻿capital = 385
+
+#oob = "CHH_0002"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_research_slots = 4
+set_convoys = 5
+
+
+set_popularities = { 
+	pahanism = 21
+	burjuism = 79
+}
+
+set_politics = {
+	ruling_party = burjuism
+	last_election = "2010.10.21"
+	election_frequency = 0
+	elections_allowed = no
+}
+	
+recruit_character = CHH_alexander_gabyshev
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+recruit_character = AAA_PUSTYSHKA

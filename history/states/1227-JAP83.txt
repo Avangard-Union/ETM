@@ -1,0 +1,22 @@
+state={
+	id=1227
+	name="STATE_1227"
+        manpower = 300000
+
+         history={
+		owner = YKR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+                        arms_factory = 1
+			}
+		}
+		add_core_of = YKR
+	provinces={
+		4699 4714 4715 4766 4850 4898 4974 
+	}
+
+}
+
+
+

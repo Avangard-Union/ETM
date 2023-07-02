@@ -1,0 +1,37 @@
+
+state={
+	id=1047
+	name="STATE_1047"
+	manpower = 257560
+	
+	state_category = metropolis
+
+	history={
+		owner = CNB
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+                        dockyard = 3
+                        air_base = 2
+          
+                         1840 = {
+				naval_base = 5
+			}
+
+		}
+
+		add_core_of = CNB
+		victory_points = {1840 10}
+		victory_points = {2038 5}
+		victory_points = {1907 10}
+		victory_points = {1931 5}
+		victory_points = {2167 5}
+		victory_points = {2362 5}
+	}
+
+	provinces={
+		1830 1840 1854 1863 1889 1907 1931 1984 1999 2009 2010 2038 2055 2167 2197 2225 2261 2275 2276 2310 2337 2362 2422 
+	}
+}

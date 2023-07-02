@@ -1,0 +1,21 @@
+state={
+	id=812
+	name="STATE_812"
+	provinces={
+		17898 18004 18057 18105 18174 18175 18215 
+	}
+
+    state_category = rural
+
+	history={
+		owner = NAP
+		victory_points = { 18105 10 } # Микунь
+		buildings = {
+			infrastructure = 2
+		}	
+		add_core_of = NAP
+	}
+	
+	manpower=745534
+	buildings_max_level_factor=1.000
+}

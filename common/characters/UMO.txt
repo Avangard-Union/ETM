@@ -1,0 +1,15 @@
+characters={
+	UMO_givi={
+		name="Givi"
+		portraits={
+			civilian={
+				large="gfx/leaders/UMO/givi.dds"
+			}
+		}
+		country_leader={
+			ideology=gribonism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

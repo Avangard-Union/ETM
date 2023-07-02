@@ -1,0 +1,42 @@
+characters={
+	KRT_egor_krit={
+		name="Egor Krit"
+		portraits={
+			civilian={
+				large="gfx/leaders/KRT/Krit.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarhiya
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	KRT_egor_cringe={
+		name="Egor Cringe"
+		portraits={
+			civilian={
+				large="gfx/leaders/KRT/Cringe.dds"
+			}
+		}
+		country_leader={
+			ideology=cringerism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+        KRT_cyberkrid2077={
+		name="CyberKrid2077"
+		portraits={
+			civilian={
+				large="gfx/leaders/KRT/CyberKrid.dds"
+			}
+		}
+		country_leader={
+			ideology=zoomerism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

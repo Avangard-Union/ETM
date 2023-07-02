@@ -1,0 +1,15 @@
+characters={
+	NEM_hausser={
+		name="Paul Hausser"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEM/hausser.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi 
+			traits={  }
+			expire="1965.1.1.1"
+		}
+	}
+}

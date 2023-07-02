@@ -1,0 +1,22 @@
+state={
+	id=425
+	name="STATE_425"
+	provinces={
+		7263 7402 7500 7522 7542 7583 7665 7700 7708 7734 7800 7859 7875 7894 7919 
+	}
+	state_category = rural
+
+	history={
+		owner = GOM
+		victory_points = {
+                		  7500 5 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = GOM
+	}
+	manpower=6675636
+	buildings_max_level_factor=1.000
+}

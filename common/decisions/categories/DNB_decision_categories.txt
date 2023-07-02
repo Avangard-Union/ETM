@@ -1,0 +1,11 @@
+
+DNB_war = {
+	icon = hol_war_on_pacifism
+	allowed = {
+			has_war_with = PRA
+			original_tag = DNB
+	}
+	visible = {
+			has_war_with = PRA
+	}
+}

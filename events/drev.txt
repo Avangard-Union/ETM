@@ -1,0 +1,153 @@
+﻿add_namespace = drev
+country_event = {
+	id = drev.1
+	title = drev.1.t
+	desc = drev.1.d
+	picture = GFX_report_event_unclow
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {		
+		name = drev.1.a	
+		trigger = { 
+				is_neighbor_of = 1AZ 
+			}
+		declare_war_on = {
+			target = 1AZ
+			type = annex_everything
+		}
+	}
+	option = {
+		name = drev.1.b	
+		trigger = { 
+				is_neighbor_of = 2AZ
+			}
+		declare_war_on = {
+			target = 2AZ
+			type = annex_everything
+		}
+	}
+	option = {
+		name = drev.1.c
+		trigger = { 
+				is_neighbor_of = 3AZ
+			}
+		declare_war_on = {
+			target = 3AZ
+			type = annex_everything
+		}
+	}
+	option = {
+		name = drev.1.d	
+		trigger = { 
+				is_neighbor_of = IZM
+			}
+		declare_war_on = {
+			target = IZM
+			type = annex_everything
+		}
+	}
+	option = {
+		name = drev.1.e		
+		trigger = { 
+				is_neighbor_of = BSV
+			}
+		declare_war_on = {
+			target = BSV
+			type = annex_everything
+		}
+	}
+	option = {
+		name = drev.1.f		
+		trigger = { 
+				is_neighbor_of = SIN
+			}
+		declare_war_on = {
+			target = SIN
+			type = annex_everything
+		}
+	}
+	option = {
+		name = drev.1.g		
+		trigger = { 
+				is_neighbor_of = ORD
+			}
+		declare_war_on = {
+			target = ORD
+			type = annex_everything
+		}
+	}
+	option = {
+		name = drev.1.h	
+		trigger = { 
+				is_neighbor_of = PTC
+			}
+		declare_war_on = {
+			target = PTC
+			type = annex_everything
+		}
+	}
+	option = {
+		name = drev.1.j	
+		trigger = { 
+				is_neighbor_of = KER
+			}
+		declare_war_on = {
+			target = KER
+			type = annex_everything
+		}
+	}
+	option = {
+		name = drev.1.k		
+		trigger = {  
+				is_neighbor_of = CRM
+			}
+		declare_war_on = {
+			target = CRM
+			type = annex_everything
+		}
+	}
+}
+country_event = {
+	id = drev.2
+	title = drev.2.t
+	desc = drev.2.d
+	picture = GFX_report_event_unclow
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {	
+		name = drev.2.a	
+		ai_chance = { factor = 0.25 }
+		add_popularity = {
+			ideology = borshewism 
+			popularity = 0.1
+		}
+	}
+	option = {		
+		name = drev.2.c
+		ai_chance = { factor = 0.25 }
+		add_popularity = {
+			ideology = bidlo 
+			popularity = 0.1
+		}
+	}
+	option = {		
+		name = drev.2.d
+		ai_chance = { factor = 0.25 }
+		add_popularity = {
+			ideology = burjuism 
+			popularity = 0.1
+		}
+	}
+	option = {		
+		name = drev.2.e	
+		ai_chance = { factor = 0.25 }
+	}
+}

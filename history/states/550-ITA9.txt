@@ -1,0 +1,25 @@
+state={
+	id=550
+	name="STATE_550"
+	provinces={
+		9717 9767 9823 9898 9913 9998 
+	}
+
+	state_category = large_town
+
+	history={
+		owner = MUS
+		victory_points = { 9717 10 } # Пицца
+		victory_points = { 9823 10 } # Специя
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		add_core_of = MUS
+		add_core_of = PAS
+	}
+
+	manpower=269310
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,15 @@
+characters={
+	RIC_ricardo_milos={
+		name="Ricardo Milos"
+		portraits={
+			civilian={
+				large="PDX_ricardo"
+			}
+		}
+		country_leader={
+			ideology=gachism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

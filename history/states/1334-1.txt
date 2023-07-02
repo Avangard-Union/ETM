@@ -1,0 +1,27 @@
+state={
+	id=1334
+	name="STATE_1334"
+	
+	history={
+		owner = ORS
+		victory_points = {
+			12989 30 
+		}
+		victory_points = {
+			12944 5 
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+
+		}
+		add_core_of = 0RS
+
+	}
+	provinces={
+		12944 12989 13117 20754 20759 
+	}
+	manpower=443567
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

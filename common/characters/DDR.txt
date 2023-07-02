@@ -1,0 +1,15 @@
+characters={
+	DDR_ernst_whatermanlon={
+		name="Ernst Whatermanlon"
+		portraits={
+			civilian={
+				large="gfx/leaders/DDR/watermelon.dds"
+			}
+		}
+		country_leader={
+			ideology=gribonism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

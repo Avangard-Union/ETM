@@ -1,0 +1,31 @@
+state={
+	id=846
+	name="STATE_846"
+
+	manpower=9492412
+
+	state_category = metropolis
+	
+	resources={
+		steel=11 # was: 16
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 3
+			5718 = {
+				naval_base = 6
+			}
+		}
+		
+		victory_points = {5718 25}
+	}
+
+	provinces={
+		5245 5246 5392 5483 5525 5581 5650 5718 5741 5803 5904 
+	}
+	buildings_max_level_factor=1.000
+}

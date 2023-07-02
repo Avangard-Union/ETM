@@ -1,0 +1,24 @@
+state={
+	id=449
+	name="STATE_449"
+
+	state_category = rural
+
+	history={
+		owner = KAZ
+		victory_points = {
+                		  20171 15 }
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = KAZ
+	}
+
+	provinces={
+		19784 19785 19794 19862 19921 20048 20107 20141 20148 20149 20171 20214 20245 20253 20269 20278 20384 
+	}
+	manpower=763634
+	buildings_max_level_factor=1.000
+}

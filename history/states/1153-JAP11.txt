@@ -1,0 +1,19 @@
+state={
+	id=1153
+	name="STATE_1153"
+        manpower = 600000
+ 
+        history={
+		owner = YRI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+                        arms_factory = 1
+			}
+		}
+                add_core_of = YRI
+	provinces={
+		3321 3386 3430 
+	}
+
+}

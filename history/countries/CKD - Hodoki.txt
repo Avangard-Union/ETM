@@ -1,0 +1,33 @@
+﻿capital = 412
+
+#oob = "CKD_0002"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+
+
+set_politics = {
+	ruling_party = pahanism 
+	last_election = "0001.1.1" 
+	election_frequency = 48 
+	elections_allowed = no 
+}
+
+set_popularities = {
+	pahanism = 100
+}
+
+recruit_character = CKD_blue_walker
+
+
+
+
+
+
+recruit_character = AAA_PUSTYSHKA

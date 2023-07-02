@@ -1,0 +1,19 @@
+state={
+	id=1157
+	name="STATE_1157"
+        manpower = 620000
+ 
+        history={
+		owner = GLI
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+                        arms_factory = 2
+			}
+		}
+                add_core_of = GLI
+	provinces={
+		3687 3696 
+	}
+
+}

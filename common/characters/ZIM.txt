@@ -1,0 +1,28 @@
+characters={
+	ZIM_siegfried_müller={
+		name="Siegfried Müller"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZIM/Kongo_Muller.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ZIM_hans_hüttig={
+		name="Hans Hüttig"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZIM/Hutting.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

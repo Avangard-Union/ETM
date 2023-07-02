@@ -1,0 +1,15 @@
+characters={
+	KNG_Андрей_Чикатило={
+		name="Андрей Чикатило"
+		portraits={
+			civilian={
+				large="gfx/leaders/KNG/Chika.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

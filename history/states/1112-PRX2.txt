@@ -1,0 +1,26 @@
+
+state={
+	id=1112
+	name="STATE_1112"
+	manpower = 3000174
+	
+	state_category = town
+
+	history={
+		owner = PRX
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+
+		}
+
+		add_core_of = PRX
+		victory_points = {916 15}
+	}
+
+	provinces={
+	  916
+	}
+}

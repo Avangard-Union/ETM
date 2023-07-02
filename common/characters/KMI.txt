@@ -1,0 +1,46 @@
+characters={
+	KMI_kirill_mikhailov={
+		name="Kirill Mikhailov"
+		portraits={
+			civilian={
+				large="gfx/leaders/KMI/Kirill.dds"
+			}
+		}
+		country_leader={
+			ideology=sralinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	KMI_izmailov={
+		name="Izmailov"
+		portraits={
+			civilian={
+				large="gfx/leaders/KMI/Izmailov.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	KMI_volkov={
+		name="Volkov"
+		portraits={
+			civilian={
+				large="gfx/leaders/KMI/Volkov.dds"
+			}
+		}
+		country_leader={
+			ideology=conserva
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

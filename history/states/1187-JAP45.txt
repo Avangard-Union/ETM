@@ -1,0 +1,19 @@
+state={
+	id=1187
+	name="STATE_1187"
+        manpower = 300000
+ 
+        history={
+		owner = JPN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+                        arms_factory = 1
+			}
+		}
+		add_core_of = JPN
+	provinces={
+		2774 2797 2798 
+	}
+
+}

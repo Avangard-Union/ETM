@@ -1,0 +1,542 @@
+﻿add_namespace = tessa
+country_event = {
+	id = tessa.1
+	title = tessa.1.t
+	desc = tessa.1.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_pohishenie
+	option = {
+		name = tessa.1.a
+		country_event = tessa.2
+	}
+}
+country_event = {
+	id = tessa.2
+	title = tessa.2.t
+	desc = tessa.2.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_shablon
+	option = {
+		name = tessa.2.a
+	}
+}
+country_event = {
+	id = tessa.3
+	title = tessa.3.t
+	desc = tessa.3.d
+	picture = GFX_RNS_event_shablon
+	fire_only_once = yes
+	trigger = {
+		focus_progress = {
+			focus = RNS_V_2
+			progress > 0.2
+		}
+	}
+	option = {
+		name = tessa.3.a
+		add_stability = 0.005
+		add_political_power = 1000
+		set_country_flag = good_tessa
+	}
+	option = {
+		name = tessa.3.b
+		add_popularity = {
+			ideology = bidlo
+			popularity = -0.02
+		}
+		add_stability = -0.02
+		custom_effect_tooltip = tessa.3.c
+		set_country_flag = bad_tessa
+	}
+}
+country_event = {
+	id = tessa.331
+	title = tessa.331.t
+	desc = tessa.331.d
+	fire_only_once = yes
+	picture = GFX_RNS_event_shablon
+	trigger = {
+		focus_progress = {
+			focus = RNS_V_2
+			progress > 0.4
+		}
+	}
+	option = {
+		name = tessa.331.a
+		add_political_power = -1000
+	}
+}
+country_event = {
+	id = tessa.332
+	title = tessa.332.t
+	desc = tessa.332.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_zamkadie
+	option = {
+		name = tessa.332.a
+		effect_tooltip = {
+			add_war_support = -0.01
+			add_political_power = -100
+		}
+	}
+}
+country_event = {
+	id = tessa.333
+	title = tessa.333.t
+	desc = tessa.333.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_shablon
+	option = {
+		name = tessa.333.a
+		country_event = tessa.3332
+	}
+}
+country_event = {
+	id = tessa.3332
+	title = tessa.3332.t
+	desc = tessa.3332.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_shablon
+	option = {
+		name = tessa.3332.a
+	}
+}
+country_event = {
+	id = tessa.4
+	title = tessa.4.t
+	desc = tessa.4.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_shablon
+	option = {
+		name = tessa.4.a
+		add_political_power = -500
+		set_country_flag = passiv_tessa
+	}
+	option = {
+		name = tessa.4.b
+		set_country_flag = nazional_interes
+		add_popularity = {
+			ideology = bidlo
+			popularity = 0.01
+		}
+	}
+}
+country_event = {
+	id = tessa.5
+	title = tessa.5.t
+	desc = tessa.5.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_shablon
+	option = {
+		name = tessa.5.a
+		trigger = {
+			AND = {
+				NOT = {
+					has_country_flag = nazional_interes
+					has_country_flag = good_tessa
+				}
+			}
+		}
+		set_country_flag = democrat
+	}
+	option = {
+		name = tessa.5.b
+		trigger = {
+			AND = {
+				NOT = {
+					has_country_flag = passiv_tessa
+					has_country_flag = bad_tessa
+				}
+			}
+		}
+		add_political_power = 300
+		set_country_flag = absolut
+	}
+}
+country_event = {
+	id = tessa.6
+	title = tessa.6.t
+	desc = tessa.6.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_RNE_soldati
+	option = {
+		name = tessa.6.a
+		custom_effect_tooltip = tessa.6.aa
+		army_experience = 15
+		add_stability = 0.01
+		add_war_support = 0.01
+		add_political_power = 500
+		country_event = tessa.602
+	}
+	option = {
+		name = tessa.6.b
+		custom_effect_tooltip = tessa.6.bb
+		army_experience = 5
+		add_stability = 0.02
+	}
+}
+country_event = {
+	id = tessa.602
+	title = tessa.602.t
+	desc = tessa.602.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_shablon
+	option = {
+		name = tessa.602.a
+		add_stability = 0.03
+		add_political_power = 500
+	}
+}
+country_event = {
+	id = tessa.7
+	title = tessa.7.t
+	desc = tessa.7.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_bedi
+	option = {
+		name = tessa.7.a
+		effect_tooltip = {
+			swap_ruler_traits = { remove = passivity add = digging_into_yourself }
+		}
+	}
+}
+country_event = {
+	id = tessa.8
+	title = tessa.8.t
+	desc = tessa.8.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_gospoda_liberahi
+	option = {
+		name = tessa.8.a
+		remove_ideas = RNS_Liberahi
+	}
+}
+country_event = {
+	id = tessa.9
+	title = tessa.9.t
+	desc = tessa.9.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_zavery
+	option = {
+		name = tessa.9.a
+		custom_effect_tooltip = tessa.9.aa
+	}
+}
+country_event = {
+	id = tessa.10
+	title = tessa.10.t
+	desc = tessa.10.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_mem
+	option = {
+		name = tessa.10.a
+		swap_ruler_traits = { remove = digging_into_yourself add = adaptation }
+	}
+}
+country_event = {
+	id = tessa.11
+	title = tessa.11.t
+	desc = tessa.11.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_pidori
+	option = {
+		name = tessa.11.a
+		effect_tooltip = {
+			add_stability = 0.02
+			add_ideas = RNS_Family
+		}
+
+	}
+}
+country_event = {
+	id = tessa.12
+	title = tessa.12.t
+	desc = tessa.12.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_sirgay
+	option = {
+		name = tessa.12.a
+		country_event = tessa.27
+	}
+}
+country_event = {
+	id = tessa.13
+	title = tessa.13.t
+	desc = tessa.13.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_shablon
+	option = {
+		name = tessa.13.a
+		
+	}
+}
+country_event = {
+	id = tessa.14
+	title = tessa.14.t
+	desc = tessa.14.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_RNE_stena
+	option = {
+		name = tessa.14.a
+		country_event = {
+			id = tessa.15
+			days = 2
+		}
+	}
+}
+country_event = {
+	id = tessa.15
+	title = tessa.15.t
+	desc = tessa.15.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_barkashov
+	option = {
+		name = tessa.15.a
+		add_popularity = {
+			ideology = bidlo
+			popularity = 0.15
+		}
+		add_war_support = 0.03
+	}
+}
+country_event = {
+	id = tessa.16
+	title = tessa.16.t
+	desc = tessa.16.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_shablon
+	option = {
+		name = tessa.16.a
+		country_event = tessa.17
+	}
+	option = {
+		name = tessa.16.b
+		add_stability = -0.01
+		add_political_power = -666
+	}
+}
+country_event = {
+	id = tessa.17
+	title = tessa.17.t
+	desc = tessa.17.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_shablon
+	option = {
+		name = tessa.17.a
+		country_event = tessa.18
+	}
+}
+country_event = {
+	id = tessa.18
+	title = tessa.18.t
+	desc = tessa.18.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_shablon
+	option = {
+		name = tessa.18.a
+		country_event = tessa.18
+	}
+}
+country_event = {
+	id = tessa.19
+	title = tessa.19.t
+	desc = tessa.19.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_horugb
+	option = {
+		name = tessa.19.a
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = RNS_vera_1
+				add_idea = RNS_vera_1_2
+			}
+		}
+	}
+}
+country_event = {
+	id = tessa.20
+	title = tessa.20.t
+	desc = tessa.20.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_sud
+	option = {
+		name = tessa.20.a
+
+	}
+}
+country_event = {
+	id = tessa.21
+	title = tessa.21.t
+	desc = tessa.21.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_medinsky
+	option = {
+		name = tessa.21.a
+
+	}
+}
+country_event = {
+	id = tessa.22
+	title = tessa.22.t
+	desc = tessa.22.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_kirill
+	option = {
+		name = tessa.22.a
+
+	}
+}
+country_event = {
+	id = tessa.23
+	title = tessa.23.t
+	desc = tessa.23.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_shablon
+	option = {
+		name = tessa.23.a
+
+	}
+}
+country_event = {
+	id = tessa.24
+	title = tessa.24.t
+	desc = tessa.24.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_shablon
+	option = {
+		name = tessa.24.a
+
+	}
+}
+country_event = {
+	id = tessa.25
+	title = tessa.25.t
+	desc = tessa.25.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_govno1
+	option = {
+		name = tessa.25.a
+		country_event = tessa.252
+	}
+}
+country_event = {
+	id = tessa.252
+	title = tessa.252.t
+	desc = tessa.252.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_govno2
+	option = {
+		name = tessa.252.a
+	}
+}
+country_event = {
+	id = tessa.26
+	title = tessa.26.t
+	desc = tessa.26.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_koronacia
+	option = {
+		name = tessa.26.a
+		country_event = {
+			id = tessa.262
+			days = 16
+		}
+	}
+}
+country_event = {
+	id = tessa.262
+	title = tessa.262.t
+	desc = tessa.262.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_liberaha_plachet
+	option = {
+		name = tessa.262.a
+	}
+}
+country_event = {
+	id = tessa.27
+	title = tessa.27.t
+	desc = tessa.27.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_natasha
+	option = {
+		name = tessa.27.a
+	}
+}
+
+
+country_event = {
+	id = tessa.100
+	title = tessa.100.t
+	desc = tessa.100.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_shablon
+	option = {
+		name = tessa.100.a
+		RNS = { add_to_faction = ROOT }
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 100
+				has_government = bidlo
+			}
+		}
+		trigger = {
+			is_in_faction = no
+			is_puppet = no
+		}
+	}
+	option = {
+		name = tessa.100.c
+		RNS = {
+			country_event = tessa.101
+		}
+		ai_chance = {
+			factor = 4
+		}
+	}
+	option = {
+		name = tessa.100.b
+		diplomatic_relation = {
+			country = RNS
+			relation = non_aggression_pact
+			active = yes
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+country_event = {
+	id = tessa.101
+	title = tessa.101.t
+	desc = tessa.101.d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_shablon
+	option = {
+		name = tessa.101.a
+		add_stability = 0.001
+	}
+	option = {
+		name = tessa.101.b
+		create_wargoal = {
+			type = annex_everything
+			target = FROM
+		}
+	}
+}
+
+
+country_event = {
+	id = tessa.
+	title = tessa..t
+	desc = tessa..d
+	is_triggered_only = yes
+	picture = GFX_RNS_event_shablon
+	option = {
+		name = tessa..a
+		swap_ruler_traits = { remove = passivity add = ambitious_empress }
+		remove_country_leader_trait = passivity
+		add_country_leader_trait = ambitious_empress
+	}
+}

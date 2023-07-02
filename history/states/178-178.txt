@@ -1,0 +1,23 @@
+state={
+	id=178
+	name="STATE_178"
+	provinces={
+		11778 11802 11825 11852 11875 12098 12146 12215 12302 12351 
+	}
+
+	state_category = rural
+
+	history={
+		owner = MUH
+		victory_points = {
+			11875 5     }
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MUH
+	}
+
+	manpower=357421
+	buildings_max_level_factor=1.000
+}
+

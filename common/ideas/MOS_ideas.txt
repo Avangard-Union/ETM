@@ -1,0 +1,61 @@
+ideas = {
+    country = {
+	   MOS_isverygood = {
+	    picture = GFX_idea_MOS_isverygood
+	    removal_cost = -1
+		allowed = {
+		 tag = MOS
+		}
+		modifier = {
+		  political_power_gain = -1
+		  political_power_factor = 0.82
+		}
+	   }
+	   MOS_olimpiadniki = {
+	    removal_cost = -1
+		allowed = {
+		  tag = MOS
+		 }
+		 
+		modifier = {
+		  political_power_gain = 0.4 		 
+		  research_speed_factor = 3.06
+		}
+	   }
+	   MOS_perekladyvaut_plitku = {
+	    removal_cost = -1
+		allowed = {
+		  tag = MOS
+		 }
+		 
+		modifier = {
+		  political_power_gain = 2 		 
+		  consumer_goods_factor = 0.5
+		  industrial_capacity_factory = -0.3
+		}
+	   }
+	   MOS_MCD = {
+			picture = GFX_idea_MOS_MCD
+			removal_cost = -1
+			allowed = {}
+			modifier = {
+			   army_speed_factor = 0.19
+			   production_speed_infrastructure_factor = 0.64
+			   production_speed_rail_way_factor = 1.34
+			   supply_consumption_factor = -0.27
+			}
+	   }
+	}
+hidden_ideas = {
+   MOS_bayanistyy = {
+     modifier = {
+	 political_power_gain = -3
+	}
+   }
+   MOS_kostyl = {
+     modifier = {
+	 political_power_gain = 20
+	}
+   }
+  }
+}

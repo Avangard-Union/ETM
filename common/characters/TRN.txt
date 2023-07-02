@@ -1,0 +1,54 @@
+characters={
+	TRN_xatab={
+		name="Xatab"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRN/Xatab.dds"
+			}
+		}
+		country_leader={
+			desc="Xatab_desc"
+			ideology=gribonism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TRN_billy_benbow={
+		name="Billy Benbow"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/TRN/Pirat1.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	TRN_butcher_george={
+		name="Butcher George"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/TRN/Pirat2.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters={
+	PNG_Шкипер={
+		name="Шкипер"
+		portraits={
+			civilian={
+				large="gfx/leaders/PNG/skeper.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

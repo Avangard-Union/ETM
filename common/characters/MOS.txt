@@ -1,0 +1,36 @@
+characters={
+	MOS_knyaz_sergei_doganin={
+		name="Knyaz' Sergei Doganin"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOS/sobyan.dds"
+			}
+		}
+		country_leader={
+			ideology=socdem
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MOS_ruslanchik={
+		name="Rulon Kreditov"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOS/rusik.dds"
+			}
+		}
+	}
+	MOS_ruslancheka={
+		name="Rul 34"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOS/rulon.dds"
+			}
+		}
+		country_leader={
+			ideology=lmaoburgsis
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

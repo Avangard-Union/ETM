@@ -1,0 +1,67 @@
+characters={
+	MAR_lenin_the_mushroom={
+		name="Lenin the mushroom"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAR/Lenin.dds"
+			}
+		}
+		country_leader={
+			ideology=gribonism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MAR_pahan_mushrooms={
+		name="Pahan mushrooms"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAR/Pahan.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MAR_plastic_mushroom={
+		name="Plastic mushroom"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAR/Plastic.dds"
+			}
+		}
+		country_leader={
+			ideology=imperial_putinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MAR_mushroom_gay={
+		name="Mushroom gay"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAR/gay.dds"
+			}
+		}
+		country_leader={
+			ideology=zoomerism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MAR_der_giftpilz={
+		name="Der Giftpilz"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAR/Giftpilz.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

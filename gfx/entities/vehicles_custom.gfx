@@ -1,0 +1,20 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "LET_mechanized_mesh"
+		file = "gfx/models/units/vehicles/SOV_mechanized_01.mesh"
+		
+		animation = { id = "idle"			type = "SOV_mechanized_01_idle_animation" }
+		animation = { id = "move"			type = "SOV_mechanized_01_move_animation" }
+	}
+	
+	pdxmesh = {
+		name = "LET_motorized_mesh"
+		file = "gfx/models/units/vehicles/SOV_motorized_01.mesh"
+		
+		animation = { id = "idle"			type = "SOV_motorized_01_idle_animation" }
+		animation = { id = "move"			type = "SOV_motorized_01_move_animation" }
+	}
+
+	
+}

@@ -1,0 +1,23 @@
+state={
+	id=135
+	name="STATE_135"
+	provinces={
+		16650 16758 16973 
+	}
+
+	state_category = town
+
+	history={
+		owner = LUN
+		victory_points = {
+			              16973 25}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		add_core_of = LUN
+	}
+
+	manpower=1356421
+	buildings_max_level_factor=1.000
+}

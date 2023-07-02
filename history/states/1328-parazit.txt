@@ -1,0 +1,36 @@
+state={
+	id=1328
+	name="STATE_1328"
+
+	resources={
+		steel=10
+	}
+
+	history={
+		owner = MOS
+		victory_points = {
+			15309 10
+		}
+		victory_points = {
+			15152 10
+		}
+		victory_points = {
+			14683 1
+		}
+	    buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 7
+		}
+		add_core_of = MOS
+
+	}
+
+	provinces={
+		14616 14683 15152 15309 
+	}
+	manpower = 2281488
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

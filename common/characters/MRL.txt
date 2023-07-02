@@ -1,0 +1,15 @@
+characters={
+	MRL_willie_tyber={
+		name="Willie Tyber"
+		portraits={
+			civilian={
+				large="gfx/leaders/MRL/Tyber.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

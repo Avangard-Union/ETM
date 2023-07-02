@@ -1,0 +1,19 @@
+state={
+	id=1143
+	name="STATE_1143"
+        manpower = 3000000
+ 
+        history={
+		owner = LAB
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+                        arms_factory = 3
+			}
+		}
+                add_core_of = LAB
+	provinces={
+		2684 2708 2732 2786 2795 2825 2877 
+	}
+
+}

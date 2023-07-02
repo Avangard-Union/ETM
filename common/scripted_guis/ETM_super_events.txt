@@ -1,0 +1,215 @@
+scripted_gui = {
+#шаблон для ВСЕХ супер ивентов
+	ETM_custom_super_event = {
+		context_type = player_context
+		window_name = "ETM_custom_super_event" #графический шаблон для ВСЕХ ивентов
+
+		visible = { #Условие. Только при наличии флага ивент будет виден. 
+			has_country_flag = Super_Event_Visible
+			has_country_flag = SE_Visible
+		}
+		
+		triggers = {
+			Super_Event_Image_Holy_War_visible = { #Эта штука в гуи интерфейса используется
+				has_country_flag = etm_super_event_flag_holy_war #Флаг о начале священной войне
+			}
+		}
+		
+		#Для дальшейних ивентов просто добавляем дальше триггеры
+		#triggers = {
+		#	Super_Event_Image_Second_World_War_visible = {
+		#		has_country_flag = GER_WW2
+		#	}
+		#}
+		
+		triggers = {
+			Super_Event_Image_evrazia_a_visible = { 
+				has_country_flag = etm_super_event_flag_evrazia_a
+			}
+		}
+		
+		triggers = {
+			Super_Event_Image_evrazia_ak_visible = { 
+				has_country_flag = etm_super_event_flag_evrazia_ak
+			}
+		}
+		
+		triggers = {
+			Super_Event_Image_evrazia_al_visible = { 
+				has_country_flag = etm_super_event_flag_evrazia_al
+			}
+		}
+		
+		triggers = {
+			Super_Event_Image_evrazia_an_visible = { 
+				has_country_flag = etm_super_event_flag_evrazia_an
+			}
+		}
+		
+		triggers = {
+			Super_Event_Image_evrazia_k_visible = { 
+				has_country_flag = etm_super_event_flag_evrazia_k
+			}
+		}
+		
+		triggers = {
+			Super_Event_Image_evrazia_kl_visible = { 
+				has_country_flag = etm_super_event_flag_evrazia_kl
+			}
+		}
+		
+		triggers = {
+			Super_Event_Image_evrazia_l_visible = { 
+				has_country_flag = etm_super_event_flag_evrazia_l
+			}
+		}
+		
+		triggers = {
+			Super_Event_Image_evrazia_lg_visible = { 
+				has_country_flag = etm_super_event_flag_evrazia_lg
+			}
+		}
+		
+		triggers = {
+			Super_Event_Image_evrazia_n_visible = { 
+				has_country_flag = etm_super_event_flag_evrazia_n
+			}
+		}
+		
+		triggers = {
+			Super_Event_Image_evrazia_nk_visible = { 
+				has_country_flag = etm_super_event_flag_evrazia_nk
+			}
+		}
+		
+		triggers = {
+			Super_Event_Image_evrazia_nl_visible = { 
+				has_country_flag = etm_super_event_flag_evrazia_nl
+			}
+		}
+		
+		triggers = {
+			Super_Event_Image_letov_wins_visible = { 
+				has_country_flag = etm_super_event_flag_letov_wins
+			}
+		}
+		
+		triggers = {
+			Super_Event_Image_putin_wins_visible = { 
+				has_country_flag = etm_super_event_flag_putin_wins
+			}
+		}
+		
+		effects = {
+			Option_click = {
+				clr_country_flag = Super_Event_Visible #Флаг убирается
+				
+				if = {
+					limit = {
+						has_country_flag = etm_super_event_flag_holy_war
+					}
+					clr_country_flag = etm_super_event_flag_holy_war
+				}
+				
+				#Для дальнейших ивентов просто добавляем условия if.
+				#if = {
+				#	limit = {
+				#		has_country_flag = GER_WW2
+				#	}
+				#	clr_country_flag = GER_WW2
+				#}
+				
+				if = {
+					limit = {
+						has_country_flag = etm_super_event_flag_evrazia_a
+					}
+					clr_country_flag = etm_super_event_flag_evrazia_a
+				}
+				
+				if = {
+					limit = {
+						has_country_flag = etm_super_event_flag_evrazia_ak
+					}
+					clr_country_flag = etm_super_event_flag_evrazia_ak
+				}
+				
+				if = {
+					limit = {
+						has_country_flag = etm_super_event_flag_evrazia_al
+					}
+					clr_country_flag = etm_super_event_flag_evrazia_al
+				}
+				
+				if = {
+					limit = {
+						has_country_flag = etm_super_event_flag_evrazia_an
+					}
+					clr_country_flag = etm_super_event_flag_evrazia_an
+				}
+				
+				if = {
+					limit = {
+						has_country_flag = etm_super_event_flag_evrazia_k
+					}
+					clr_country_flag = etm_super_event_flag_evrazia_k
+				}
+				
+				if = {
+					limit = {
+						has_country_flag = etm_super_event_flag_evrazia_kl
+					}
+					clr_country_flag = etm_super_event_flag_evrazia_kl
+				}
+				
+				if = {
+					limit = {
+						has_country_flag = etm_super_event_flag_evrazia_l
+					}
+					clr_country_flag = etm_super_event_flag_evrazia_l
+				}
+				
+				if = {
+					limit = {
+						has_country_flag = etm_super_event_flag_evrazia_lg
+					}
+					clr_country_flag = etm_super_event_flag_evrazia_lg
+				}
+				
+				if = {
+					limit = {
+						has_country_flag = etm_super_event_flag_evrazia_n
+					}
+					clr_country_flag = etm_super_event_flag_evrazia_n
+				}
+				
+				if = {
+					limit = {
+						has_country_flag = etm_super_event_flag_evrazia_nk
+					}
+					clr_country_flag = etm_super_event_flag_evrazia_nk
+				}
+				
+				if = {
+					limit = {
+						has_country_flag = etm_super_event_flag_evrazia_nl
+					}
+					clr_country_flag = etm_super_event_flag_evrazia_nl
+				}
+				
+				if = {
+					limit = {
+						has_country_flag = etm_super_event_flag_letov_wins
+					}
+					clr_country_flag = etm_super_event_flag_letov_wins
+				}
+				
+				if = {
+					limit = {
+						has_country_flag = etm_super_event_flag_putin_wins
+					}
+					clr_country_flag = etm_super_event_flag_putin_wins
+				}
+			}
+		}
+	}
+}

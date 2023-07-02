@@ -1,0 +1,15 @@
+characters={
+	ORD_drevniy={
+		name=ORD_drevniy
+		portraits={
+			civilian={
+				large="gfx/leaders/ORD/drevniy.dds"
+			}
+		}
+		country_leader={
+			ideology=primitivism
+			traits={  }
+			expire="1965.1.1.1"
+		}
+	}
+}

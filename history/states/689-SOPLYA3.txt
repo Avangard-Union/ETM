@@ -1,0 +1,24 @@
+state={
+	id=689
+	name="STATE_689"
+
+	manpower=1433722
+
+	state_category = town
+
+	history={
+		owner = BRK
+		victory_points = { 9388 15 } # Анальчик
+		victory_points = { 9421 10 } # Черкесск
+		victory_points = { 9543 5 } # Прохладный
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = BRK
+	}
+
+	provinces={
+		9203 9371 9388 9405 9421 9478 9514 9543 9591 9638 
+	}
+	buildings_max_level_factor=1.000
+}

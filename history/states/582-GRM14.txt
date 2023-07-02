@@ -1,0 +1,36 @@
+
+state={
+	id=582
+	name="STATE_582"
+	
+	resources={
+		oil = 3
+	}
+	
+	history={
+		owner = DDR
+		victory_points = {
+			13960 5
+		}
+		victory_points = {
+			14349 13
+		}		
+		buildings = {
+			infrastructure = 4
+			fuel_silo = 1
+            14349 = {
+			 naval_base = 2
+		}
+		}
+		add_core_of = DDR
+		add_core_of = SAU
+
+	}
+
+	provinces={
+		13960 14071 14165 14195 14349 14370 14573 
+	}
+	manpower=1006221
+	buildings_max_level_factor=1.000
+	state_category=town
+}

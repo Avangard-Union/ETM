@@ -1,0 +1,28 @@
+
+state={
+	id=761
+	name="STATE_761"
+	resources={
+		aluminium=6.000
+	}
+
+	history={
+		owner = ZMR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = ZMR
+
+	}
+
+	provinces={
+		15269 15493 15533 15534 15614 15768 15961 
+	}
+	manpower=1635879
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

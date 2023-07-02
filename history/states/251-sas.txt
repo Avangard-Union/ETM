@@ -1,0 +1,24 @@
+state={
+	id=251
+	name="STATE_251"
+	provinces={
+		9422 9447 9603 9604 9677 9707 9832 9890 9936 9952 9989 10112 10147 
+	}
+
+	state_category = rural
+
+	history={
+		owner = ANT
+		victory_points = { 9603 15 } # Актау
+		victory_points = { 9422 15 } # Жанаозен
+		victory_points = { 9890 10 } # Шетпе
+		victory_points = { 9952 5 } # Форт_Шевченко
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = ANT
+	}
+
+	manpower=780915
+	buildings_max_level_factor=1.000
+}

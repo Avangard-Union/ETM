@@ -1,0 +1,19 @@
+state={
+	id=1154
+	name="STATE_1154"
+        manpower = 200000
+ 
+        history={
+		owner = GRI
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+                        arms_factory = 3
+			}
+		}
+                add_core_of = GRI
+	provinces={
+		3524 3564 3686 
+	}
+
+}

@@ -1,0 +1,15 @@
+characters={
+	GON_agronom_syn_agroproma={
+		name="Agronom Syn Agroproma"
+		portraits={
+			civilian={
+				large="gfx/leaders/GON/agronom.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

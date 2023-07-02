@@ -1,0 +1,26 @@
+state={
+	id=772
+	name="STATE_772"
+	manpower = 2795436
+	
+	state_category = rural
+
+	history={
+		owner = DUG
+		victory_points = { 13912 50 } # Самара
+		victory_points = { 14074 15 } # Тольятти
+		victory_points = { 14044 15 } # Сызрань
+		buildings = {
+			infrastructure = 4	
+			industrial_complex = 1
+			arms_factory = 2
+
+		}
+
+		add_core_of = DUG
+	}
+
+	provinces={
+		13459 13552 13676 13787 13788 13878 13899 13912 13967 14044 14045 14074 14125 14168 14169 14225 14294 
+	}
+}

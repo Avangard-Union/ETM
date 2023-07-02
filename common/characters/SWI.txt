@@ -1,0 +1,15 @@
+characters={
+	SWI_swiss_cheese={
+		name="Swiss Cheese"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWI/Cheese.dds"
+			}
+		}
+		country_leader={
+			ideology=tsardemocrasy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

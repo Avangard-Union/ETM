@@ -1,0 +1,30 @@
+
+state={
+	id=261
+	name="STATE_261"
+
+	history={
+		owner = BKH
+		victory_points = {
+			8760 10 
+		}
+		victory_points = {
+			9006 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = BKH
+
+	}
+
+	provinces={
+		8701 8739 8751 8760 8868 8915 8916 9006 9061 
+	}
+	manpower=3712443
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

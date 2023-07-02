@@ -1,0 +1,15 @@
+characters={
+	SHY_bulba_sumkin={
+		name="Bulba Sumkin"
+		portraits={
+			civilian={
+				large="gfx/leaders/SHY/bulba.dds"
+			}
+		}
+		country_leader={
+			ideology=gribonism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

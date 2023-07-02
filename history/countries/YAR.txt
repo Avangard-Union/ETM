@@ -1,0 +1,32 @@
+﻿capital = 393
+
+#oob = "YAR_0002"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_research_slots = 4
+set_convoys = 5
+
+
+set_popularities = { 
+	burjuism = 78
+	pahanism = 22
+}
+
+set_politics = {
+	ruling_party = burjuism
+	last_election = "21.10.2010"
+	election_frequency = 0
+	elections_allowed = no
+}
+	
+recruit_character = YAR_hideo_kojima
+
+
+
+
+
+
+recruit_character = AAA_PUSTYSHKA

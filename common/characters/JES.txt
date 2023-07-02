@@ -1,0 +1,54 @@
+characters={
+	JES_dark_jesus={
+		name="Dark Jesus"
+		portraits={
+			civilian={
+				large="gfx/leaders/JES/Dark.dds"
+			}
+		}
+		country_leader={
+			ideology=zoomerism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JES_ashes={
+		name="Ashes"
+		portraits={
+			civilian={
+				large="gfx/leaders/JES/Ashes.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JES_jesus={
+		name="Jesus"
+		portraits={
+			civilian={
+				large="gfx/leaders/JES/Jesus.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	JES_Солнцеликий_Вождь_Ким_Чен_Ын={
+		name="Солнцеликий Вождь Ким Чен Ын"
+		portraits={
+			civilian={
+				large="gfx/leaders/JES/Ja.dds"
+			}
+		}
+		country_leader={
+			ideology=sralinism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

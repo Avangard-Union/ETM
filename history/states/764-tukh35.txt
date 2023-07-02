@@ -1,0 +1,23 @@
+
+state={
+	id=764
+	name="STATE_764"
+
+	history={
+		owner = KZH
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = KZH
+
+	}
+
+	provinces={
+		12364 12530 12587 20675 
+	}
+	manpower=15600
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+characters={
+	CNB_Карл_Густав_Эмиль_Маннегрейм={
+		name="Карл Густав Эмиль Маннегрейм"
+		portraits={
+			civilian={
+				large="gfx/leaders/CNB/mannernigger.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,29 @@
+state={
+	id=927
+	name="STATE_927"
+	manpower=2100000
+	state_category = large_town
+	
+	history={
+		
+		victory_points = {
+			 621 5
+		}
+		victory_points = {
+			 561 40
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 4
+			air_base = 4
+		}
+		
+	}
+
+	provinces={
+		510 561 564 608 621 671 
+	}
+
+	buildings_max_level_factor=1.000
+}

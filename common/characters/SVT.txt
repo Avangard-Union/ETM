@@ -1,0 +1,15 @@
+characters={
+	SVT_rotmistrov={
+		name="Павел Алексеевич Ротмистров"
+		portraits={
+			civilian={
+				large="gfx/leaders/SVT/rotmistrov.dds"
+			}
+		}
+		country_leader={
+			ideology=sralinism 
+			traits={  }
+			expire="1965.1.1.1"
+		}
+	}
+}

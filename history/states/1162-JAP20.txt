@@ -1,0 +1,19 @@
+state={
+	id=1162
+	name="STATE_1162"
+        manpower = 400000
+ 
+        history={
+		owner = GOY
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+                        arms_factory = 3
+			}
+		}
+                add_core_of = GOY
+	provinces={
+		3240 3322 
+	}
+
+}

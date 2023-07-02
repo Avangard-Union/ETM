@@ -1,0 +1,15 @@
+characters={
+	TRK_gurbanguly_berdimuhamedov={
+		name="Gurbanguly Berdimuhamedov"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRK/Gurban.dds"
+			}
+		}
+		country_leader={
+			ideology=fashiki
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

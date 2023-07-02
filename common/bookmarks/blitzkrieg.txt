@@ -1,0 +1,104 @@
+bookmarks = {
+
+
+	###################################################################
+	##### DON'T DELETE THIS, ALSO EDIT IN the_gathering_storm.txt #####
+	##### DON'T DELETE THIS, ALSO EDIT IN the_gathering_storm.txt #####
+	###################################################################
+
+	bookmark = {
+	    name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 0002.1.1.1
+		picture = "GFX_select_date_1939"
+		default_country = "LET"
+		default = yes
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+
+		#### MAJORS ####
+			"LET" = {
+				history = "LET_GATHERING_STORM_DESC"
+				ideology = borshewism
+				ideas={
+					LET_Peremiriye
+					LET_Zhelezniy_Zanoves
+					LET_Nothing_To_Lose
+					LET_Sistema
+					LET_Corp
+					LET_Edinstvo_Strong
+				}
+				focuses = {
+					LET_6
+				}
+			}
+
+			
+		
+
+		"RNS" = {
+			history = "RNS_GATHERING_STORM_DESC"
+			ideology = bidlo
+			ideas={
+				RNS_Two_Russia 
+				RNS_Liberahi 
+				RNS_Opposition 
+			}
+			focuses = {
+				RNS_L_2
+			}
+		}
+
+
+		"SAU" = {
+			history = "SAU_GATHERING_STORM_DESC"
+			ideology = bidlo
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+
+		"PLA" = {
+			history = "PLA_GATHERING_STORM_DESC"
+			ideology = putinism
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		
+		"DNB" = {
+			history = "DNB_GATHERING_STORM_DESC"
+			ideology = bidlo
+			ideas={
+				dolgaya_war
+			}
+			focuses = {
+				#
+			}
+		}
+		
+		"MUS" = {
+			history = "MUS_GATHERING_STORM_DESC"
+			ideology = bidlo
+			ideas={
+				razdelennaya_italy
+			}
+			focuses = {
+				#
+			}
+		}
+		
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}	
+	}
+}

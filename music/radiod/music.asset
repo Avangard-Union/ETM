@@ -1,0 +1,110 @@
+music = {
+	name = "dth-dasmodel"
+	file = "dth-dasmodel.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ei-eins"
+	file = "ei-eins.ogg"
+	volume = 0.65
+}
+music = {
+	name = "fw-wirbringen"
+	file = "fw-wirbringen.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-amerika"
+	file = "ram-amerika.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-rosenrot"
+	file = "ram-rosenrot.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-auslander"
+	file = "ram-auslander.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-benzin"
+	file = "ram-benzin.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-deutschland"
+	file = "ram-deutschland.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-duhast"
+	file = "ram-duhast.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-duriechst"
+	file = "ram-duriechst.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-eifersucht"
+	file = "ram-eifersucht.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-engel"
+	file = "ram-engel.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-feuerfrei"
+	file = "ram-feuerfrei.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-haifisch"
+	file = "ram-haifisch.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-ichwill"
+	file = "ram-ichwill.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-links"
+	file = "ram-links.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-moskau"
+	file = "ram-moskau.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-pussy"
+	file = "ram-pussy.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-radio"
+	file = "ram-radio.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-reise"
+	file = "ram-reise.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-sonne"
+	file = "ram-sonne.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ram-zwitter"
+	file = "ram-zwitter.ogg"
+	volume = 0.65
+}

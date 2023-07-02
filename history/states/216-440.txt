@@ -1,0 +1,23 @@
+state={
+	id=216
+	name="STATE_216"
+	provinces={
+		16399 16434 16501 16630 16755 16797 16861 
+	}
+
+	state_category = rural
+
+	history={
+		owner = BAD
+				victory_points = {
+			              16630 5}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = BAD
+	}
+
+	manpower=832340
+	buildings_max_level_factor=1.000
+}

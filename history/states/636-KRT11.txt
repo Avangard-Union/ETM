@@ -1,0 +1,23 @@
+state={
+	id=636
+	name="STATE_636"
+	provinces={
+		15078 15093 15150 15218 15265 15308 15368 15410 15436 15488 15506 
+	}
+
+	state_category = town
+
+	history={
+		owner = POD
+		victory_points = { 15265 15 } #Витебск
+		victory_points = { 15488 5 } #Город
+		buildings = {
+			infrastructure = 4
+			air_base = 5
+		}
+		add_core_of = POD
+	}
+	
+	manpower =  1217854
+	buildings_max_level_factor=1.000
+}

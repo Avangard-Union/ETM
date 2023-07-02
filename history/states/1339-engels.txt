@@ -1,0 +1,29 @@
+state={
+	id=1339
+	name="STATE_1339"
+
+
+	history={
+		owner = NJS
+		victory_points = {
+			12917 15 
+		}
+		victory_points = {
+			13186 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = NJS
+
+	}
+	provinces={
+		12461 12529 12584 12606 12678 12721 12789 12840 12917 12942 12986 13186 
+	}
+	manpower=571578
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

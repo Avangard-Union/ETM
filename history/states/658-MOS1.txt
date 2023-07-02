@@ -1,0 +1,22 @@
+state={
+	id=658
+	name="STATE_658"
+	provinces={
+		6457 6467 6585 6635 6662 6684 6804 6831 6845 6857 6936 6956 7042 7057 7196 
+	}
+	state_category = rural
+
+	history={
+		owner = KOK
+		victory_points = {
+                		  6662 20 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = KOK
+	}
+	manpower=1317534
+	buildings_max_level_factor=1.000
+}

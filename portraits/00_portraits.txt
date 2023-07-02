@@ -1,0 +1,958 @@
+default = {
+	#navy = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+	
+	#army = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+
+	operative = {
+		male = {
+			"gfx/leaders/minor/spy1.dds"
+			"gfx/leaders/minor/spy3.dds"
+			"gfx/leaders/minor/spy4.dds"
+			"gfx/leaders/minor/spy5.dds"
+			"gfx/leaders/minor/spy6.dds"
+			"gfx/leaders/minor/spy7.dds"
+			"gfx/leaders/minor/spy8.dds"
+			"gfx/leaders/minor/spy9.dds"
+			"gfx/leaders/minor/spy11.dds"
+			"gfx/leaders/minor/spy12.dds"
+		}
+		female = {
+			"gfx/leaders/minor/spy2.dds"
+			"gfx/leaders/minor/spy10.dds"
+		}
+	}
+
+	male = {
+		"gfx/leaders/leader_unknown.dds"
+	}
+	female = {
+		"gfx/leaders/leader_unknown_female.dds"
+	}
+}
+
+continent = {
+	name = europe
+	army = {
+		male = {
+			"gfx/leaders/minor/general1.dds"
+            "gfx/leaders/minor/general2.dds"
+			"gfx/leaders/minor/general3.dds"
+            "gfx/leaders/minor/general4.dds"
+			"gfx/leaders/minor/general5.dds"
+            "gfx/leaders/minor/general6.dds"
+			"gfx/leaders/minor/general7.dds"
+            "gfx/leaders/minor/general8.dds"			
+
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/minor/flot1.dds"
+			"gfx/leaders/minor/flot2.dds"
+			"gfx/leaders/minor/flot3.dds"
+			"gfx/leaders/minor/flot4.dds"
+			"gfx/leaders/minor/flot5.dds"
+			"gfx/leaders/minor/flot6.dds"			
+		}
+	}
+	
+	political = {
+		borshewism = {
+				male = { 
+					"gfx/leaders/mior/borsh1.dds"
+					"gfx/leaders/mior/borsh2.dds"
+					"gfx/leaders/mior/borsh3.dds"					
+					"gfx/leaders/mior/borsh4.dds"
+					"gfx/leaders/mior/borsh5.dds"
+					"gfx/leaders/mior/borsh6.dds"					
+			}
+				female = {
+		            "gfx/leaders/mior/borsh7.dds"
+	}
+		}
+		burjuism = {
+				male = { 
+					"gfx/leaders/mior/burjui1.dds"
+					"gfx/leaders/mior/burjui2.dds"
+					"gfx/leaders/mior/burjui3.dds"
+					"gfx/leaders/mior/burjui5.dds"
+					"gfx/leaders/mior/burjui6.dds"
+					"gfx/leaders/mior/burjui7.dds"
+					"gfx/leaders/mior/burjui8.dds"
+					"gfx/leaders/mior/burjui11.dds"
+			}
+			female = {
+			        "gfx/leaders/mior/burjui4.dds"
+					"gfx/leaders/mior/burjui9.dds"
+					"gfx/leaders/mior/burjui10.dds"
+			}
+		}
+		bidlo = {
+				male = { 
+					"gfx/leaders/mior/bidlo1.dds"
+					"gfx/leaders/mior/bidlo2.dds"
+					"gfx/leaders/mior/bidlo3.dds"
+					"gfx/leaders/mior/bidlo4.dds"
+					"gfx/leaders/mior/bidlo5.dds"
+					"gfx/leaders/mior/bidlo6.dds"]
+					"gfx/leaders/mior/bidlo8.dds"
+					"gfx/leaders/mior/bidlo9.dds"
+			}
+			    female = {
+				"gfx/leaders/mior/bidlo7.dds"
+				}
+		}
+		pahanism = {
+				male = { 
+					"gfx/leaders/mior/pahanism1.dds"
+					"gfx/leaders/mior/pahanism2.dds" 
+					"gfx/leaders/mior/pahanism3.dds" 
+					"gfx/leaders/mior/pahanism4.dds" 
+					"gfx/leaders/mior/pahanism5.dds" 
+					"gfx/leaders/mior/pahanism6.dds" 
+					"gfx/leaders/mior/pahanism7.dds" 
+					"gfx/leaders/mior/pahanism8.dds" 
+					"gfx/leaders/mior/pahanism9.dds" 
+					"gfx/leaders/mior/pahanism10.dds" 
+					
+			}
+		}
+		putinism = {
+				male = { 
+				    "gfx/leaders/mior/Putin1.dds"
+					"gfx/leaders/mior/Putin2.dds"
+					"gfx/leaders/mior/Putin3.dds"
+					"gfx/leaders/mior/Putin4.dds"
+					"gfx/leaders/mior/Putin5.dds"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = fennoscandia
+	army = {
+		male = {
+			"gfx/leaders/minor/general1.dds"
+            "gfx/leaders/minor/general2.dds"
+			"gfx/leaders/minor/general3.dds"
+            "gfx/leaders/minor/general4.dds"
+			"gfx/leaders/minor/general5.dds"
+            "gfx/leaders/minor/general6.dds"
+			"gfx/leaders/minor/general7.dds"
+            "gfx/leaders/minor/general8.dds"			
+
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/minor/flot1.dds"
+			"gfx/leaders/minor/flot2.dds"
+			"gfx/leaders/minor/flot3.dds"
+			"gfx/leaders/minor/flot4.dds"
+			"gfx/leaders/minor/flot5.dds"
+			"gfx/leaders/minor/flot6.dds"			
+		}
+	}
+	
+	political = {
+		borshewism = {
+				male = { 
+					"gfx/leaders/mior/borsh1.dds"
+					"gfx/leaders/mior/borsh2.dds"
+					"gfx/leaders/mior/borsh3.dds"					
+					"gfx/leaders/mior/borsh4.dds"
+					"gfx/leaders/mior/borsh5.dds"
+					"gfx/leaders/mior/borsh6.dds"	
+                    "gfx/leaders/mior/africa4.dds"					
+			}
+				female = {
+		            "gfx/leaders/mior/borsh7.dds"
+	}
+		}
+		burjuism = {
+				male = { 
+					"gfx/leaders/mior/burjui1.dds"
+					"gfx/leaders/mior/burjui2.dds"
+					"gfx/leaders/mior/burjui3.dds"
+					"gfx/leaders/mior/burjui5.dds"
+					"gfx/leaders/mior/burjui6.dds"
+					"gfx/leaders/mior/burjui7.dds"
+					"gfx/leaders/mior/burjui8.dds"
+					"gfx/leaders/mior/burjui11.dds"
+					"gfx/leaders/mior/africa1.dds"
+					"gfx/leaders/mior/africa5.dds"
+			}
+			female = {
+			        "gfx/leaders/mior/burjui4.dds"
+					"gfx/leaders/mior/burjui9.dds"
+					"gfx/leaders/mior/burjui10.dds"
+			}
+		}
+		bidlo = {
+				male = { 
+					"gfx/leaders/mior/bidlo1.dds"
+					"gfx/leaders/mior/bidlo2.dds"
+					"gfx/leaders/mior/bidlo3.dds"
+					"gfx/leaders/mior/bidlo4.dds"
+					"gfx/leaders/mior/bidlo5.dds"
+					"gfx/leaders/mior/bidlo6.dds"
+					"gfx/leaders/mior/bidlo8.dds"
+					"gfx/leaders/mior/bidlo9.dds"
+					"gfx/leaders/mior/africa2.dds"
+					"gfx/leaders/mior/africa8.dds"
+			}
+			    female = {
+				"gfx/leaders/mior/bidlo7.dds"
+				}
+		}
+		pahanism = {
+				male = { 
+					"gfx/leaders/mior/pahanism1.dds"
+					"gfx/leaders/mior/pahanism2.dds" 
+					"gfx/leaders/mior/pahanism3.dds" 
+					"gfx/leaders/mior/pahanism4.dds" 
+					"gfx/leaders/mior/pahanism5.dds" 
+					"gfx/leaders/mior/pahanism6.dds" 
+					"gfx/leaders/mior/pahanism7.dds" 
+					"gfx/leaders/mior/pahanism8.dds" 
+					"gfx/leaders/mior/pahanism9.dds" 
+					"gfx/leaders/mior/pahanism10.dds" 
+					"gfx/leaders/mior/africa3.dds"
+					
+			}
+		}
+		putinism = {
+				male = { 
+				    "gfx/leaders/mior/Putin1.dds"
+					"gfx/leaders/mior/Putin2.dds"
+					"gfx/leaders/mior/Putin3.dds"
+					"gfx/leaders/mior/Putin4.dds"
+					"gfx/leaders/mior/Putin5.dds"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = siberia
+	army = {
+		male = {
+			"gfx/leaders/minor/general1.dds"
+            "gfx/leaders/minor/general2.dds"
+			"gfx/leaders/minor/general3.dds"
+            "gfx/leaders/minor/general4.dds"
+			"gfx/leaders/minor/general5.dds"
+            "gfx/leaders/minor/general6.dds"
+			"gfx/leaders/minor/general7.dds"
+            "gfx/leaders/minor/general8.dds"			
+
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/minor/flot1.dds"
+			"gfx/leaders/minor/flot2.dds"
+			"gfx/leaders/minor/flot3.dds"
+			"gfx/leaders/minor/flot4.dds"
+			"gfx/leaders/minor/flot5.dds"
+			"gfx/leaders/minor/flot6.dds"			
+		}
+	}
+	political = {
+		borshewism = {
+				male = { 
+					"gfx/leaders/mior/borsh1.dds"
+					"gfx/leaders/mior/borsh2.dds"
+					"gfx/leaders/mior/borsh3.dds"					
+					"gfx/leaders/mior/borsh4.dds"
+					"gfx/leaders/mior/borsh5.dds"
+					"gfx/leaders/mior/borsh6.dds"					
+			}
+				female = {
+		            "gfx/leaders/mior/borsh7.dds"
+	}
+		}
+		burjuism = {
+				male = { 
+					"gfx/leaders/mior/burjui1.dds"
+					"gfx/leaders/mior/burjui2.dds"
+					"gfx/leaders/mior/burjui3.dds"
+					"gfx/leaders/mior/burjui5.dds"
+					"gfx/leaders/mior/burjui6.dds"
+					"gfx/leaders/mior/burjui7.dds"
+					"gfx/leaders/mior/burjui8.dds"
+					"gfx/leaders/mior/burjui11.dds"
+			}
+			female = {
+			        "gfx/leaders/mior/burjui4.dds"
+					"gfx/leaders/mior/burjui9.dds"
+					"gfx/leaders/mior/burjui10.dds"
+			}
+		}
+		bidlo = {
+				male = { 
+					"gfx/leaders/mior/bidlo1.dds"
+					"gfx/leaders/mior/bidlo2.dds"
+					"gfx/leaders/mior/bidlo3.dds"
+					"gfx/leaders/mior/bidlo4.dds"
+					"gfx/leaders/mior/bidlo5.dds"
+					"gfx/leaders/mior/bidlo6.dds"
+					"gfx/leaders/mior/bidlo8.dds"
+					"gfx/leaders/mior/bidlo9.dds"
+			}
+			    female = {
+				"gfx/leaders/mior/bidlo7.dds"
+				}
+		}
+		pahanism = {
+				male = { 
+					"gfx/leaders/mior/pahanism1.dds"
+					"gfx/leaders/mior/pahanism2.dds" 
+					"gfx/leaders/mior/pahanism3.dds" 
+					"gfx/leaders/mior/pahanism4.dds" 
+					"gfx/leaders/mior/pahanism5.dds" 
+					"gfx/leaders/mior/pahanism6.dds" 
+					"gfx/leaders/mior/pahanism7.dds" 
+					"gfx/leaders/mior/pahanism8.dds" 
+					"gfx/leaders/mior/pahanism9.dds" 
+					"gfx/leaders/mior/pahanism10.dds" 
+					
+			}
+		}
+		putinism = {
+				male = { 
+				    "gfx/leaders/mior/Putin1.dds"
+					"gfx/leaders/mior/Putin2.dds"
+					"gfx/leaders/mior/Putin3.dds"
+					"gfx/leaders/mior/Putin4.dds"
+					"gfx/leaders/mior/Putin5.dds"
+			}
+		}		
+	}
+
+}
+
+continent = {
+	name = komerica
+	army = {
+		male = {
+			"gfx/leaders/minor/general1.dds"
+            "gfx/leaders/minor/general2.dds"
+			"gfx/leaders/minor/general3.dds"
+            "gfx/leaders/minor/general4.dds"
+			"gfx/leaders/minor/general5.dds"
+            "gfx/leaders/minor/general6.dds"
+			"gfx/leaders/minor/general7.dds"
+            "gfx/leaders/minor/general8.dds"			
+
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/minor/flot1.dds"
+			"gfx/leaders/minor/flot2.dds"
+			"gfx/leaders/minor/flot3.dds"
+			"gfx/leaders/minor/flot4.dds"
+			"gfx/leaders/minor/flot5.dds"
+			"gfx/leaders/minor/flot6.dds"			
+		}
+	}
+	
+	political = {
+		borshewism = {
+				male = { 
+					"gfx/leaders/mior/borsh1.dds"
+					"gfx/leaders/mior/borsh2.dds"
+					"gfx/leaders/mior/borsh3.dds"					
+					"gfx/leaders/mior/borsh4.dds"
+					"gfx/leaders/mior/borsh5.dds"
+					"gfx/leaders/mior/borsh6.dds"
+					"gfx/leaders/mior/africa4.dds"
+			}
+				female = {
+		            "gfx/leaders/mior/borsh7.dds"
+	}
+		}
+		burjuism = {
+				male = { 
+					"gfx/leaders/mior/burjui1.dds"
+					"gfx/leaders/mior/burjui2.dds"
+					"gfx/leaders/mior/burjui3.dds"
+					"gfx/leaders/mior/burjui5.dds"
+					"gfx/leaders/mior/burjui6.dds"
+					"gfx/leaders/mior/burjui7.dds"
+					"gfx/leaders/mior/burjui8.dds"
+					"gfx/leaders/mior/burjui11.dds"
+					"gfx/leaders/mior/africa1.dds"
+					"gfx/leaders/mior/africa5.dds"
+			}
+			female = {
+			        "gfx/leaders/mior/burjui4.dds"
+					"gfx/leaders/mior/burjui9.dds"
+					"gfx/leaders/mior/burjui10.dds"
+			}
+		}
+		bidlo = {
+				male = { 
+					"gfx/leaders/mior/bidlo1.dds"
+					"gfx/leaders/mior/bidlo2.dds"
+					"gfx/leaders/mior/bidlo3.dds"
+					"gfx/leaders/mior/bidlo4.dds"
+					"gfx/leaders/mior/bidlo5.dds"
+					"gfx/leaders/mior/bidlo6.dds"
+					"gfx/leaders/mior/bidlo8.dds"
+					"gfx/leaders/mior/bidlo9.dds"
+					"gfx/leaders/mior/africa2.dds"
+					"gfx/leaders/mior/africa8.dds"
+			}
+			    female = {
+				"gfx/leaders/mior/bidlo7.dds"
+				}
+		}
+		pahanism = {
+				male = { 
+					"gfx/leaders/mior/pahanism1.dds"
+					"gfx/leaders/mior/pahanism2.dds" 
+					"gfx/leaders/mior/pahanism3.dds" 
+					"gfx/leaders/mior/pahanism4.dds" 
+					"gfx/leaders/mior/pahanism5.dds" 
+					"gfx/leaders/mior/pahanism6.dds" 
+					"gfx/leaders/mior/pahanism7.dds" 
+					"gfx/leaders/mior/pahanism8.dds" 
+					"gfx/leaders/mior/pahanism9.dds" 
+					"gfx/leaders/mior/pahanism10.dds" 
+					"gfx/leaders/mior/africa3.dds"
+					
+			}
+		}
+		putinism = {
+				male = { 
+				    "gfx/leaders/mior/Putin1.dds"
+					"gfx/leaders/mior/Putin2.dds"
+					"gfx/leaders/mior/Putin3.dds"
+					"gfx/leaders/mior/Putin4.dds"
+					"gfx/leaders/mior/Putin5.dds"
+			}
+		}		
+	}
+
+}
+
+continent = {
+	name = fortnite
+	army = {
+		male = {
+			"gfx/leaders/minor/general1.dds"
+            "gfx/leaders/minor/general2.dds"
+			"gfx/leaders/minor/general3.dds"
+            "gfx/leaders/minor/general4.dds"
+			"gfx/leaders/minor/general5.dds"
+            "gfx/leaders/minor/general6.dds"
+			"gfx/leaders/minor/general7.dds"
+            "gfx/leaders/minor/general8.dds"			
+
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/minor/flot1.dds"
+			"gfx/leaders/minor/flot2.dds"
+			"gfx/leaders/minor/flot3.dds"
+			"gfx/leaders/minor/flot4.dds"
+			"gfx/leaders/minor/flot5.dds"
+			"gfx/leaders/minor/flot6.dds"			
+		}
+	}
+
+	political = {
+		borshewism = {
+				male = { 
+					"gfx/leaders/mior/borsh1.dds"
+					"gfx/leaders/mior/borsh2.dds"
+					"gfx/leaders/mior/borsh3.dds"					
+					"gfx/leaders/mior/borsh4.dds"
+					"gfx/leaders/mior/borsh5.dds"
+					"gfx/leaders/mior/borsh6.dds"					
+			}
+				female = {
+		            "gfx/leaders/mior/borsh7.dds"
+	}
+		}
+		burjuism = {
+				male = { 
+					"gfx/leaders/mior/burjui1.dds"
+					"gfx/leaders/mior/burjui2.dds"
+					"gfx/leaders/mior/burjui3.dds"
+					"gfx/leaders/mior/burjui5.dds"
+					"gfx/leaders/mior/burjui6.dds"
+					"gfx/leaders/mior/burjui7.dds"
+					"gfx/leaders/mior/burjui8.dds"
+					"gfx/leaders/mior/burjui11.dds"
+			}
+			female = {
+			        "gfx/leaders/mior/burjui4.dds"
+					"gfx/leaders/mior/burjui9.dds"
+					"gfx/leaders/mior/burjui10.dds"
+			}
+		}
+		bidlo = {
+				male = { 
+					"gfx/leaders/mior/bidlo1.dds"
+					"gfx/leaders/mior/bidlo2.dds"
+					"gfx/leaders/mior/bidlo3.dds"
+					"gfx/leaders/mior/bidlo4.dds"
+					"gfx/leaders/mior/bidlo5.dds"
+					"gfx/leaders/mior/bidlo6.dds"
+					"gfx/leaders/mior/bidlo8.dds"
+					"gfx/leaders/mior/bidlo9.dds"
+			}
+			    female = {
+				"gfx/leaders/mior/bidlo7.dds"
+				}
+		}
+		pahanism = {
+				male = { 
+					"gfx/leaders/mior/pahanism1.dds"
+					"gfx/leaders/mior/pahanism2.dds" 
+					"gfx/leaders/mior/pahanism3.dds" 
+					"gfx/leaders/mior/pahanism4.dds" 
+					"gfx/leaders/mior/pahanism5.dds" 
+					"gfx/leaders/mior/pahanism6.dds" 
+					"gfx/leaders/mior/pahanism7.dds" 
+					"gfx/leaders/mior/pahanism8.dds" 
+					"gfx/leaders/mior/pahanism9.dds" 
+					"gfx/leaders/mior/pahanism10.dds" 
+					
+			}
+		}
+		putinism = {
+				male = { 
+				    "gfx/leaders/mior/Putin1.dds"
+					"gfx/leaders/mior/Putin2.dds"
+					"gfx/leaders/mior/Putin3.dds"
+					"gfx/leaders/mior/Putin4.dds"
+					"gfx/leaders/mior/Putin5.dds"
+			}
+		}		
+	}
+
+}
+
+continent = {
+	name = amfrica
+	army = {
+		male = {
+			"gfx/leaders/minor/general1.dds"
+            "gfx/leaders/minor/general2.dds"
+			"gfx/leaders/minor/general3.dds"
+            "gfx/leaders/minor/general4.dds"
+			"gfx/leaders/minor/general5.dds"
+            "gfx/leaders/minor/general6.dds"
+			"gfx/leaders/minor/general7.dds"
+            "gfx/leaders/minor/general8.dds"			
+
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/minor/flot1.dds"
+			"gfx/leaders/minor/flot2.dds"
+			"gfx/leaders/minor/flot3.dds"
+			"gfx/leaders/minor/flot4.dds"
+			"gfx/leaders/minor/flot5.dds"
+			"gfx/leaders/minor/flot6.dds"			
+		}
+	}
+	
+	political = {
+		borshewism = {
+				male = { 
+					"gfx/leaders/mior/borsh1.dds"
+					"gfx/leaders/mior/borsh2.dds"
+					"gfx/leaders/mior/borsh3.dds"					
+					"gfx/leaders/mior/borsh4.dds"
+					"gfx/leaders/mior/borsh5.dds"
+					"gfx/leaders/mior/borsh6.dds"					
+			}
+				female = {
+		            "gfx/leaders/mior/borsh7.dds"
+	}
+		}
+		burjuism = {
+				male = { 
+					"gfx/leaders/mior/burjui1.dds"
+					"gfx/leaders/mior/burjui2.dds"
+					"gfx/leaders/mior/burjui3.dds"
+					"gfx/leaders/mior/burjui5.dds"
+					"gfx/leaders/mior/burjui6.dds"
+					"gfx/leaders/mior/burjui7.dds"
+					"gfx/leaders/mior/burjui8.dds"
+					"gfx/leaders/mior/burjui11.dds"
+			}
+			female = {
+			        "gfx/leaders/mior/burjui4.dds"
+					"gfx/leaders/mior/burjui9.dds"
+					"gfx/leaders/mior/burjui10.dds"
+			}
+		}
+		bidlo = {
+				male = { 
+					"gfx/leaders/mior/bidlo1.dds"
+					"gfx/leaders/mior/bidlo2.dds"
+					"gfx/leaders/mior/bidlo3.dds"
+					"gfx/leaders/mior/bidlo4.dds"
+					"gfx/leaders/mior/bidlo5.dds"
+					"gfx/leaders/mior/bidlo6.dds"
+					"gfx/leaders/mior/bidlo8.dds"
+					"gfx/leaders/mior/bidlo9.dds"
+			}
+			    female = {
+				"gfx/leaders/mior/bidlo7.dds"
+				}
+		}
+		pahanism = {
+				male = { 
+					"gfx/leaders/mior/pahanism1.dds"
+					"gfx/leaders/mior/pahanism2.dds" 
+					"gfx/leaders/mior/pahanism3.dds" 
+					"gfx/leaders/mior/pahanism4.dds" 
+					"gfx/leaders/mior/pahanism5.dds" 
+					"gfx/leaders/mior/pahanism6.dds" 
+					"gfx/leaders/mior/pahanism7.dds" 
+					"gfx/leaders/mior/pahanism8.dds" 
+					"gfx/leaders/mior/pahanism9.dds" 
+					"gfx/leaders/mior/pahanism10.dds" 
+					
+			}
+		}
+		putinism = {
+				male = { 
+				    "gfx/leaders/mior/Putin1.dds"
+					"gfx/leaders/mior/Putin2.dds"
+					"gfx/leaders/mior/Putin3.dds"
+					"gfx/leaders/mior/Putin4.dds"
+					"gfx/leaders/mior/Putin5.dds"
+			}
+		}		
+	}
+
+}
+
+continent = {
+	name = antarcherv
+	army = {
+		male = {
+			"gfx/leaders/minor/general1.dds"
+            "gfx/leaders/minor/general2.dds"
+			"gfx/leaders/minor/general3.dds"
+            "gfx/leaders/minor/general4.dds"
+			"gfx/leaders/minor/general5.dds"
+            "gfx/leaders/minor/general6.dds"
+			"gfx/leaders/minor/general7.dds"
+            "gfx/leaders/minor/general8.dds"			
+
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/minor/flot1.dds"
+			"gfx/leaders/minor/flot2.dds"
+			"gfx/leaders/minor/flot3.dds"
+			"gfx/leaders/minor/flot4.dds"
+			"gfx/leaders/minor/flot5.dds"
+			"gfx/leaders/minor/flot6.dds"			
+		}
+	}
+	
+	political = {
+		borshewism = {
+				male = { 
+					"gfx/leaders/mior/borsh1.dds"
+					"gfx/leaders/mior/borsh2.dds"
+					"gfx/leaders/mior/borsh3.dds"					
+					"gfx/leaders/mior/borsh4.dds"
+					"gfx/leaders/mior/borsh5.dds"
+					"gfx/leaders/mior/borsh6.dds"					
+			}
+				female = {
+		            "gfx/leaders/mior/borsh7.dds"
+	}
+		}
+		burjuism = {
+				male = { 
+					"gfx/leaders/mior/burjui1.dds"
+					"gfx/leaders/mior/burjui2.dds"
+					"gfx/leaders/mior/burjui3.dds"
+					"gfx/leaders/mior/burjui5.dds"
+					"gfx/leaders/mior/burjui6.dds"
+					"gfx/leaders/mior/burjui7.dds"
+					"gfx/leaders/mior/burjui8.dds"
+					"gfx/leaders/mior/burjui11.dds"
+			}
+			female = {
+			        "gfx/leaders/mior/burjui4.dds"
+					"gfx/leaders/mior/burjui9.dds"
+					"gfx/leaders/mior/burjui10.dds"
+			}
+		}
+		bidlo = {
+				male = { 
+					"gfx/leaders/mior/bidlo1.dds"
+					"gfx/leaders/mior/bidlo2.dds"
+					"gfx/leaders/mior/bidlo3.dds"
+					"gfx/leaders/mior/bidlo4.dds"
+					"gfx/leaders/mior/bidlo5.dds"
+					"gfx/leaders/mior/bidlo6.dds"
+					"gfx/leaders/mior/bidlo8.dds"
+					"gfx/leaders/mior/bidlo9.dds"
+			}
+			    female = {
+				"gfx/leaders/mior/bidlo7.dds"
+				}
+		}
+		pahanism = {
+				male = { 
+					"gfx/leaders/mior/pahanism1.dds"
+					"gfx/leaders/mior/pahanism2.dds" 
+					"gfx/leaders/mior/pahanism3.dds" 
+					"gfx/leaders/mior/pahanism4.dds" 
+					"gfx/leaders/mior/pahanism5.dds" 
+					"gfx/leaders/mior/pahanism6.dds" 
+					"gfx/leaders/mior/pahanism7.dds" 
+					"gfx/leaders/mior/pahanism8.dds" 
+					"gfx/leaders/mior/pahanism9.dds" 
+					"gfx/leaders/mior/pahanism10.dds" 
+					
+			}
+		}
+		putinism = {
+				male = { 
+				    "gfx/leaders/mior/Putin1.dds"
+					"gfx/leaders/mior/Putin2.dds"
+					"gfx/leaders/mior/Putin3.dds"
+					"gfx/leaders/mior/Putin4.dds"
+					"gfx/leaders/mior/Putin5.dds"
+			}
+		}		
+	}
+
+}
+
+
+continent = {
+	name = islenia
+	army = {
+		male = {
+			"gfx/leaders/minor/general1.dds"
+            "gfx/leaders/minor/general2.dds"
+			"gfx/leaders/minor/general3.dds"
+            "gfx/leaders/minor/general4.dds"
+			"gfx/leaders/minor/general5.dds"
+            "gfx/leaders/minor/general6.dds"
+			"gfx/leaders/minor/general7.dds"
+            "gfx/leaders/minor/general8.dds"			
+
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/minor/flot1.dds"
+			"gfx/leaders/minor/flot2.dds"
+			"gfx/leaders/minor/flot3.dds"
+			"gfx/leaders/minor/flot4.dds"
+			"gfx/leaders/minor/flot5.dds"
+			"gfx/leaders/minor/flot6.dds"			
+		}
+	}
+
+	political = {
+		borshewism = {
+				male = { 
+					"gfx/leaders/mior/borsh1.dds"
+					"gfx/leaders/mior/borsh2.dds"
+					"gfx/leaders/mior/borsh3.dds"					
+					"gfx/leaders/mior/borsh4.dds"
+					"gfx/leaders/mior/borsh5.dds"
+					"gfx/leaders/mior/borsh6.dds"					
+			}
+				female = {
+		            "gfx/leaders/mior/borsh7.dds"
+	}
+		}
+		burjuism = {
+				male = { 
+					"gfx/leaders/mior/burjui1.dds"
+					"gfx/leaders/mior/burjui2.dds"
+					"gfx/leaders/mior/burjui3.dds"
+					"gfx/leaders/mior/burjui5.dds"
+					"gfx/leaders/mior/burjui6.dds"
+					"gfx/leaders/mior/burjui7.dds"
+					"gfx/leaders/mior/burjui8.dds"
+					"gfx/leaders/mior/burjui11.dds"
+			}
+			female = {
+			        "gfx/leaders/mior/burjui4.dds"
+					"gfx/leaders/mior/burjui9.dds"
+					"gfx/leaders/mior/burjui10.dds"
+			}
+		}
+		bidlo = {
+				male = { 
+					"gfx/leaders/mior/bidlo1.dds"
+					"gfx/leaders/mior/bidlo2.dds"
+					"gfx/leaders/mior/bidlo3.dds"
+					"gfx/leaders/mior/bidlo4.dds"
+					"gfx/leaders/mior/bidlo5.dds"
+					"gfx/leaders/mior/bidlo6.dds"
+					"gfx/leaders/mior/bidlo8.dds"
+					"gfx/leaders/mior/bidlo9.dds"					
+			}
+			    female = {
+				"gfx/leaders/mior/bidlo7.dds"
+				}
+		}
+		pahanism = {
+				male = { 
+					"gfx/leaders/mior/pahanism1.dds"
+					"gfx/leaders/mior/pahanism2.dds" 
+					"gfx/leaders/mior/pahanism3.dds" 
+					"gfx/leaders/mior/pahanism4.dds" 
+					"gfx/leaders/mior/pahanism5.dds" 
+					"gfx/leaders/mior/pahanism6.dds" 
+					"gfx/leaders/mior/pahanism7.dds" 
+					"gfx/leaders/mior/pahanism8.dds" 
+					"gfx/leaders/mior/pahanism9.dds" 
+					"gfx/leaders/mior/pahanism10.dds" 
+					
+			}
+		}
+		putinism = {
+				male = { 
+					"gfx/leaders/mior/Putin1.dds" 
+			}
+		}
+	}	
+
+}
+
+continent = {
+	name = eastan
+	army = {
+		male = {
+			"gfx/leaders/minor/general1.dds"
+            "gfx/leaders/minor/general2.dds"
+			"gfx/leaders/minor/general3.dds"
+            "gfx/leaders/minor/general4.dds"
+			"gfx/leaders/minor/general5.dds"
+            "gfx/leaders/minor/general6.dds"
+			"gfx/leaders/minor/general7.dds"
+            "gfx/leaders/minor/general8.dds"			
+
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/minor/flot1.dds"
+			"gfx/leaders/minor/flot2.dds"
+			"gfx/leaders/minor/flot3.dds"
+			"gfx/leaders/minor/flot4.dds"
+			"gfx/leaders/minor/flot5.dds"
+			"gfx/leaders/minor/flot6.dds"			
+		}
+	}
+	
+	political = {
+		borshewism = {
+				male = { 
+					"gfx/leaders/mior/borsh1.dds"
+					"gfx/leaders/mior/borsh2.dds"
+					"gfx/leaders/mior/borsh3.dds"					
+					"gfx/leaders/mior/borsh4.dds"
+					"gfx/leaders/mior/borsh5.dds"
+					"gfx/leaders/mior/borsh6.dds"					
+			}
+				female = {
+		            "gfx/leaders/mior/borsh7.dds"
+	}
+		}
+		burjuism = {
+				male = { 
+					"gfx/leaders/mior/burjui1.dds"
+					"gfx/leaders/mior/burjui2.dds"
+					"gfx/leaders/mior/burjui3.dds"
+					"gfx/leaders/mior/burjui5.dds"
+					"gfx/leaders/mior/burjui6.dds"
+					"gfx/leaders/mior/burjui7.dds"
+					"gfx/leaders/mior/burjui8.dds"
+					"gfx/leaders/mior/burjui11.dds"
+			}
+			female = {
+			        "gfx/leaders/mior/burjui4.dds"
+					"gfx/leaders/mior/burjui9.dds"
+					"gfx/leaders/mior/burjui10.dds"
+			}
+		}
+		bidlo = {
+				male = { 
+					"gfx/leaders/mior/bidlo1.dds"
+					"gfx/leaders/mior/bidlo2.dds"
+					"gfx/leaders/mior/bidlo3.dds"
+					"gfx/leaders/mior/bidlo4.dds"
+					"gfx/leaders/mior/bidlo5.dds"
+					"gfx/leaders/mior/bidlo6.dds"
+					"gfx/leaders/mior/bidlo8.dds"
+					"gfx/leaders/mior/bidlo9.dds"
+			}
+			    female = {
+				"gfx/leaders/mior/bidlo7.dds"
+				}
+		}
+		pahanism = {
+				male = { 
+					"gfx/leaders/mior/pahanism1.dds"
+					"gfx/leaders/mior/pahanism2.dds" 
+					"gfx/leaders/mior/pahanism3.dds" 
+					"gfx/leaders/mior/pahanism4.dds" 
+					"gfx/leaders/mior/pahanism5.dds" 
+					"gfx/leaders/mior/pahanism6.dds" 
+					"gfx/leaders/mior/pahanism7.dds" 
+					"gfx/leaders/mior/pahanism8.dds" 
+					"gfx/leaders/mior/pahanism9.dds" 
+					"gfx/leaders/mior/pahanism10.dds" 
+					
+			}
+		}
+
+	putinism = {
+				male = { 
+				    "gfx/leaders/mior/Putin1.dds"
+					"gfx/leaders/mior/Putin2.dds"
+					"gfx/leaders/mior/Putin3.dds"
+					"gfx/leaders/mior/Putin4.dds"
+					"gfx/leaders/mior/Putin5.dds" 
+			}
+		}
+}
+}

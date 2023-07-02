@@ -1,0 +1,2729 @@
+focus_tree = {
+	id = sosisocka
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SAU
+		}
+	}
+	default = no
+	focus = {
+		id = SAU_5
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 6
+		y = 0
+			ai_will_do = {
+					factor = 12
+				}
+			search_filters = { FOCUS_FILTER_RESEARCH  FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+					add_tech_bonus = {
+							name = GER_four_year_plan
+							bonus = 1.0
+							uses = 2
+							category = industry
+						}
+					add_timed_idea = {
+							idea = four_plan
+							days = 1460
+						}
+				}
+			ai_will_do = {
+					factor = 100
+					modifier = {
+				}
+			}
+	}
+	focus = {
+		id = SAU_16
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 12
+		y = 0
+		complete_tooltip = {
+			air_experience = 25
+			add_tech_bonus = {
+				name = air_sup_bonus
+				bonus = 1.0
+				uses = 2
+				category = battlefield_support_tree
+			}
+			every_state = {
+				limit = { has_state_flag = GER_air_innovation_2air }
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			every_state = {
+				limit = { has_state_flag = GER_air_innovation_6air }
+				add_building_construction = {
+					type = air_base
+					level = 6
+					instant_build = yes
+				}
+			}
+			custom_effect_tooltip = available_chief_of_airforce
+			show_ideas_tooltip = ritter_von_greim
+		}
+		
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			
+			air_experience = 25
+
+			add_tech_bonus = {
+				name = air_sup_bonus
+				bonus = 1.0
+				uses = 2
+				category = battlefield_support_tree
+			}
+
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							air_base > 3
+							air_base < 9
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 5
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 6
+						instant_build = yes
+					}
+					set_state_flag = GER_air_innovation_6air
+				}				
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					air_base > 3
+					air_base < 9
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_air_innovation_2air
+			}
+			random_owned_controlled_state = {
+				limit = {
+					air_base > 3
+					air_base < 9
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_air_innovation_2air
+			}
+			random_owned_controlled_state = {
+				limit = {
+					air_base > 2
+					air_base < 9
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_air_innovation_2air
+			}
+			custom_effect_tooltip = available_chief_of_airforce
+			show_ideas_tooltip = ritter_von_greim
+		}
+	}
+	focus = {
+		id = SAU_25
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 15
+		y = 0
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			# Balance research bonus for 2 techs under land_doctrine
+			
+			army_experience = 10
+
+			
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 2
+				category = land_doctrine
+			}
+			custom_effect_tooltip = available_chief_of_army
+			show_ideas_tooltip = walther_von_brauchitsch			
+		}
+	}
+	focus = {
+		id = SAU_28
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = SAU_54
+		}
+		x = 20
+		y = 0
+			completion_reward = {
+					add_political_power = 100
+					add_stability = 0.1
+				}
+			ai_will_do = {
+					factor = 99
+					modifier = {
+					}
+				}
+
+	}
+	focus = {
+		id = SAU_54
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = SAU_28
+		}
+		x = 23
+		y = 0
+			completion_reward = {
+					add_political_power = -50
+					add_stability = -0.5
+					add_popularity = {
+							ideology = bidlo
+							popularity = -0.5
+						}
+					add_popularity = {
+							ideology = burjuism
+							popularity = -0.06
+						}
+					add_popularity = {
+							ideology = borshewism
+							popularity = 0.06
+						}
+				}
+
+	}
+	focus = {
+		id = SAU_6
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_5
+		}
+		x = 3
+		y = 1
+			ai_will_do = {
+					factor = 93
+				}
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+					add_timed_idea = {
+							idea = grosraumwirtschaft
+							days = 360
+						}
+				}
+
+	}
+	focus = {
+		id = SAU_9
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_6
+		}
+		x = 3
+		y = 3
+			ai_will_do = {
+					factor = 92
+				}
+			search_filters = { FOCUS_FILTER_RESEARCH  FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+					add_tech_bonus = {
+							name = GER_autarky
+							bonus = 1.0
+							uses = 2
+							technology = excavation1
+							technology = excavation2
+							technology = excavation3
+							technology = excavation4
+							technology = excavation5
+						}
+					add_ideas = autarky_idea
+				}
+
+	}
+	focus = {
+		id = SAU_11
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_9
+		}
+		x = 3
+		y = 4
+
+		available = {
+			has_full_control_of_state = 577
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_tech_bonus = {
+				name = GER_coal_liquidization
+				bonus = 3.0
+				uses = 1
+				category = synth_resources
+			}
+			if = {
+				limit = {
+					has_full_control_of_state = 577
+				}
+				577 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = synthetic_refinery
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = SAU_13
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_11
+		}
+		x = 3
+		y = 5
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+        	modify_building_resources = {
+        	   building = synthetic_refinery
+        	   resource = rubber
+        	   amount = 2
+        	}
+		}
+	}
+	focus = {
+		id = SAU_14
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_9
+		}
+		x = 5
+		y = 4
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_industrial_effort_2IC
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_industrial_effort_2IC
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_industrial_effort_2IC
+			}
+		}
+	}
+	focus = {
+		id = SAU_15
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_14
+		}
+		x = 5
+		y = 5
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_industrial_effort_2_2IC
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_industrial_effort_2_2IC
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_industrial_effort_2_2IC
+			}
+		}
+	}
+	focus = {
+		id = SAU_22
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_13
+			focus = SAU_15
+		}
+		x = 5
+		y = 6
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = SAU_7
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_5
+		}
+		x = 6
+		y = 1
+			ai_will_do = {
+					factor = 1
+				}
+			available_if_capitulated = yes
+			bypass = {
+					custom_trigger_tooltip = {
+							tooltip = naval_effort_tt
+							NOT = {
+									any_owned_state = {
+											free_building_slots = {
+													building = dockyard
+													size > 1
+													include_locked = yes
+												}
+										}
+								}
+						}
+				}
+			complete_tooltip = {
+					every_state = {
+							limit = {
+									has_state_flag = GER_naval_rearmament_2dockyards
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+						}
+					every_state = {
+							limit = {
+									has_state_flag = GER_naval_rearmament_1dockyard
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = dockyard
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									dockyard > 0
+									free_building_slots = {
+											building = dockyard
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = GER_naval_rearmament_2dockyards
+						}
+					random_owned_controlled_state = {
+							limit = {
+									dockyard > 0
+									free_building_slots = {
+											building = dockyard
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = dockyard
+									level = 1
+									instant_build = yes
+								}
+							set_state_flag = GER_naval_rearmament_1dockyard
+						}
+				}
+
+	}
+	focus = {
+		id = SAU_8
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_7
+		}
+		x = 6
+		y = 2
+			ai_will_do = {
+					factor = 1
+				}
+			available_if_capitulated = yes
+			complete_tooltip = {
+					navy_experience = 25
+					every_state = {
+							limit = {
+									has_state_flag = GER_naval_effort_2dockyards
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+						}
+					add_tech_bonus = {
+							name = dd_bonus
+							bonus = 1.0
+							uses = 1
+							category = dd_tech
+						}
+					add_tech_bonus = {
+							name = cr_bonus
+							bonus = 1.0
+							uses = 1
+							category = cl_tech
+							category = ca_tech
+						}
+				}
+			search_filters = { FOCUS_FILTER_RESEARCH  FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+					navy_experience = 25
+					random_owned_controlled_state = {
+							limit = {
+									dockyard > 0
+									free_building_slots = {
+											building = dockyard
+											size > 2
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = GER_naval_effort_2dockyards
+						}
+					add_tech_bonus = {
+							name = dd_bonus
+							bonus = 1.0
+							uses = 1
+							category = dd_tech
+						}
+					add_tech_bonus = {
+							name = cr_bonus
+							bonus = 1.0
+							uses = 1
+							category = cl_tech
+							category = ca_tech
+						}
+				}
+
+	}
+	focus = {
+		id = SAU_10
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_9
+		}
+		x = 7
+		y = 4
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+				569 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+				573 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+				576 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+				577 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+					
+		}
+		ai_will_do = {
+					factor = 91
+					modifier = {
+				}
+			}
+	}
+	focus = {
+		id = SAU_12
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_10
+		}
+		x = 7
+		y = 5
+		available = {
+			has_war_support > 0.49
+		}
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = GER_german_war_economy }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = { has_idea = war_economy }
+					NOT = { has_idea = tot_economic_mobilisation }
+				}
+				add_ideas = war_economy
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_german_war_economy
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_german_war_economy
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_german_war_economy
+			}
+		}
+	}
+	focus = {
+		id = SAU_1
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_5
+		}
+		x = 8
+		y = 1
+			available = {
+					586 = {
+							is_owned_and_controlled_by = SAU
+						}
+					575 = {
+							is_owned_and_controlled_by = SAU
+						}
+					578 = {
+							is_owned_and_controlled_by = SAU
+						}
+				}
+			completion_reward = {
+					586 = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					575 = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					578 = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					574 = {
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+			ai_will_do = {
+					factor = 98
+					modifier = {
+				}
+			}
+	}
+	focus = {
+		id = SAU_2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_1
+		}
+		x = 8
+		y = 2
+			available = {
+					568 = {
+							is_owned_and_controlled_by = SAU
+						}
+					569 = {
+							is_owned_and_controlled_by = SAU
+						}
+					570 = {
+							is_owned_and_controlled_by = SAU
+						}
+					573 = {
+							is_owned_and_controlled_by = SAU
+						}
+					572 = {
+							is_owned_and_controlled_by = SAU
+						}
+					576 = {
+							is_owned_and_controlled_by = SAU
+						}
+				}
+			completion_reward = {
+					568 = {
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					569 = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					570 = {
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+						}
+					573 = {
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					572 = {
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					576 = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+			ai_will_do = {
+					factor = 95
+					modifier = {
+				}
+			}
+	}
+	focus = {
+		id = SAU_4
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_2
+		}
+		prerequisite = {
+			focus = SAU_8
+		}
+		x = 8
+		y = 3
+			available = {
+					579 = {
+							is_owned_and_controlled_by = SAU
+						}
+					577 = {
+							is_owned_and_controlled_by = SAU
+						}
+					580 = {
+							is_owned_and_controlled_by = SAU
+						}
+					583 = {
+							is_owned_and_controlled_by = SAU
+						}
+				}
+			completion_reward = {
+					579 = {
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+						}
+					577 = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					580 = {
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+						}
+					583 = {
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SAU_3
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_1
+		}
+		x = 10
+		y = 2
+			available = {
+					571 = {
+							is_owned_and_controlled_by = SAU
+						}
+					518 = {
+							is_owned_and_controlled_by = SAU
+						}
+					515 = {
+							is_owned_and_controlled_by = SAU
+						}
+					516 = {
+							is_owned_and_controlled_by = SAU
+						}
+					519 = {
+							is_owned_and_controlled_by = SAU
+						}
+					517 = {
+							is_owned_and_controlled_by = SAU
+						}
+					582 = {
+							is_owned_and_controlled_by = SAU
+						}
+				}
+			completion_reward = {
+					if = {
+							limit = {
+									571 = {
+											infrastructure < 7
+										}
+								}
+							571 = {
+									set_building_level = {
+											type = infrastructure
+											level = 7
+											instant_build = yes
+										}
+								}
+						}
+					if = {
+							limit = {
+									581 = {
+											infrastructure < 7
+										}
+								}
+							581 = {
+									set_building_level = {
+											type = infrastructure
+											level = 7
+											instant_build = yes
+										}
+								}
+						}
+					if = {
+							limit = {
+									1306 = {
+											infrastructure < 7
+										}
+								}
+							1306 = {
+									set_building_level = {
+											type = infrastructure
+											level = 7
+											instant_build = yes
+										}
+								}
+						}
+					if = {
+							limit = {
+									518 = {
+											infrastructure < 7
+										}
+								}
+							518 = {
+									set_building_level = {
+											type = infrastructure
+											level = 7
+											instant_build = yes
+										}
+								}
+						}
+					if = {
+							limit = {
+									515 = {
+											infrastructure < 7
+										}
+								}
+							515 = {
+									set_building_level = {
+											type = infrastructure
+											level = 7
+											instant_build = yes
+										}
+								}
+						}
+					if = {
+							limit = {
+									516 = {
+											infrastructure < 7
+										}
+								}
+							516 = {
+									set_building_level = {
+											type = infrastructure
+											level = 7
+											instant_build = yes
+										}
+								}
+						}
+					if = {
+							limit = {
+									519 = {
+											infrastructure < 7
+										}
+								}
+							519 = {
+									set_building_level = {
+											type = infrastructure
+											level = 7
+											instant_build = yes
+										}
+								}
+						}
+					if = {
+							limit = {
+									517 = {
+											infrastructure < 7
+										}
+								}
+							517 = {
+									set_building_level = {
+											type = infrastructure
+											level = 7
+											instant_build = yes
+										}
+								}
+						}
+					if = {
+							limit = {
+									582 = {
+											infrastructure < 7
+										}
+								}
+							582 = {
+									set_building_level = {
+											type = infrastructure
+											level = 7
+											instant_build = yes
+										}
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SAU_17
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_16
+		}
+		mutually_exclusive = {
+			focus = SAU_18
+		}
+		x = 11
+		y = 3
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			# Balance research bonus for 2 techs in battlefield_support_tree
+			add_tech_bonus = {
+				name = strat_dest_bonus
+				bonus = 1.0
+				uses = 2
+				category = battlefield_support_tree
+			}
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.0
+				uses = 1
+				category = cat_strategic_bomber
+			}
+		}
+	}
+	focus = {
+		id = SAU_18
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_16
+		}
+		mutually_exclusive = {
+			focus = SAU_17
+		}
+		x = 13
+		y = 3
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = op_dest_bonus
+				bonus = 1.0
+				uses = 2
+				category = battlefield_support_tree
+			}
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.0
+				uses = 1
+				category = tactical_bomber
+				category = cas_bomber			
+			}
+		}
+	}
+	focus = {
+		id = SAU_21
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_18
+			focus = SAU_17
+		}
+		x = 11
+		y = 6
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = { 
+			air_experience = 50
+
+			add_ideas = GER_air_innovations_2_idea
+			# Balance research bonus to next tech among radio, radio_detection, decimetric_radar, improved_decimetric_radar, centimetric_radar, improved_centimetric_radar, advanced_centimetric_radar
+			add_tech_bonus = {
+				name = radar_tech_bonus
+				bonus = 1.0
+				uses = 1
+				category = radar_tech
+			}
+		}
+	}
+	focus = {
+		id = SAU_23
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_21
+		}
+		prerequisite = {
+			focus = SAU_22
+		}
+		x = 8
+		y = 7
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_ideas = GER_rocketry_idea
+			add_tech_bonus = {
+				name = GER_rocketry_focus
+				bonus = 1.0
+				uses = 2
+				category = rocketry
+			}
+			add_tech_bonus = {
+				name = GER_rocketry_focus
+				bonus = 1.0
+				uses = 2
+				category = jet_technology
+			}
+		}
+	}
+	focus = {
+		id = SAU_19
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_18
+			focus = SAU_17
+		}
+		x = 12
+		y = 5
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = GER_long_range_escorts
+				bonus = 1.0
+				uses = 2
+				category = cat_heavy_fighter
+			}
+		}
+	}
+	focus = {
+		id = SAU_20
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_18
+		}
+		x = 13
+		y = 6
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = nav_bomber_bonus
+				bonus = 1.0
+				uses = 2
+				category = naval_bomber
+			}
+		}
+	}
+	focus = {
+		id = SAU_26
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_25
+		}
+		x = 15
+		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				name = GER_soviet_treaty
+				ahead_reduction = 2
+				technology = basic_medium_tank
+			}
+			add_tech_bonus = {
+				name = GER_soviet_treaty
+				bonus = 1.0
+				uses = 2
+				category = armor
+			}
+		}
+	}
+	focus = {
+		id = SAU_27
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_26
+		}
+		x = 15
+		y = 6
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			# Balance research bonus to 2 techs in land_doctrine
+			army_experience = 20
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 2
+				category = land_doctrine
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				name = mech_army_bonus
+				technology = basic_medium_tank
+				technology = improved_medium_tank
+				technology = advanced_medium_tank
+				technology = mechanised_infantry
+			}	
+			# REVISIT Might want to add bonuses to Soviet through event, since focus branches from treaty
+		}
+	}
+	focus = {
+		id = SAU_29
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_28
+		}
+		x = 20
+		y = 1
+			completion_reward = {
+					add_popularity = {
+							ideology = bidlo
+							popularity = 0.15
+							add_war_support = 0.2
+						}
+				}
+			ai_will_do = {
+					factor = 97
+					modifier = {
+				}
+			}
+
+	}
+	focus = {
+		id = SAU_30
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = SAU_29
+		}
+		x = 20
+		y = 2
+			completion_reward = {
+					add_threat = 10
+					NIG = {
+							country_event = bnx.1
+						}
+					VAL = {
+							country_event = bnx.11
+						}
+				}
+			ai_will_do = {
+					factor = 96
+					modifier = {
+
+}
+				}
+
+	}
+	focus = {
+		id = SAU_31
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_30
+		}
+		x = 20
+		y = 3
+			completion_reward = {
+					if = {
+							limit = {
+									NIG = {
+											NOT = {
+													is_puppet_of = SAU
+												}
+										}
+								}
+							create_wargoal = {
+									type = annex_everything
+									target = NIG
+								}
+						}
+					if = {
+							limit = {
+									VAL = {
+											NOT = {
+													is_puppet_of = SAU
+												}
+										}
+								}
+							create_wargoal = {
+									type = annex_everything
+									target = VAL
+								}
+						}
+				}
+			bypass = {
+					NIG = {
+							is_puppet_of = SAU
+						}
+					VAL = {
+							is_puppet_of = SAU
+						}
+				}
+			ai_will_do = {
+					factor = 14
+					modifier = {
+
+}
+				}
+
+	}
+	focus = {
+		id = SAU_33
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_31
+		}
+		x = 20
+		y = 4
+			available = {
+					OR = {
+							AND = {
+									VAL = {
+											is_puppet_of = SAU
+										}
+									NIG = {
+											is_puppet_of = SAU
+										}
+								}
+							AND = {
+									NIG = {
+											is_puppet_of = SAU
+										}
+									SAU = {
+											owns_state = 587
+											owns_state = 585
+											owns_state = 584
+											owns_state = 566
+										}
+								}
+							AND = {
+									SAU = {
+											owns_state = 588
+											owns_state = 589
+											owns_state = 590
+										}
+									VAL = {
+											is_puppet_of = SAU
+										}
+								}
+							AND = {
+									SAU = {
+											owns_state = 587
+											owns_state = 585
+											owns_state = 584
+											owns_state = 566
+										}
+									SAU = {
+											owns_state = 588
+											owns_state = 589
+											owns_state = 590
+										}
+								}
+						}
+				}
+			completion_reward = {
+					HIT = {
+							country_event = hit.1
+						}
+				}
+			bypass = {
+					SAU = {
+							owns_state = 562
+							owns_state = 561
+							owns_state = 560
+						}
+				}
+			ai_will_do = {
+					factor = 90
+					modifier = {
+
+}
+				}
+
+	}
+	focus = {
+		id = SAU_34
+		icon = GFX_goal_unknown
+		cost = 0,20
+		prerequisite = {
+			focus = SAU_33
+		}
+		x = 20
+		y = 5
+			available = {
+					SAU = {
+							owns_state = 562
+							owns_state = 561
+							owns_state = 560
+						}
+				}
+			completion_reward = {
+					country_event = sau.2
+				}
+			ai_will_do = {
+					factor = 89
+					modifier = {
+				}
+			}
+	}
+	focus = {
+		id = SAU_35
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_34
+		}
+		mutually_exclusive = {
+			focus = SAU_36
+		}
+		x = 19
+		y = 6
+			available = {
+					PAS = {
+							is_puppet = no
+						}
+					OR = {
+							PAS = {
+									has_war_with = MUS
+								}
+							OR = {
+									country_exists = PAS
+								}
+						}
+				}
+			completion_reward = {
+					if = {
+							limit = {
+									NOT = {
+											SAU = {
+													is_in_faction_with = PAS
+												}
+										}
+									PAS = {
+											has_war_with = MUS
+										}
+								}
+							SAU = {
+									create_faction = "Lebensmittel"
+									add_to_faction = PAS
+								}
+						}
+					add_political_power = 120
+				}
+			bypass = {
+					SAU = {
+							is_in_faction_with = PAS
+						}
+				}
+			ai_will_do = {
+					factor = 88
+					modifier = {
+					}
+				}
+
+	}
+	focus = {
+		id = SAU_38
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_35
+		}
+		x = 16
+		y = 7
+			available = {
+				}
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = SWI
+						}
+				}
+			ai_will_do = {
+					factor = 87
+					modifier = {
+					}
+				}
+
+	}
+	focus = {
+		id = SAU_39
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_35
+		}
+		mutually_exclusive = {
+			focus = SAU_41
+		}
+		x = 18
+		y = 7
+			available = {
+					SAU = {
+						NOT = {
+							has_war_with = CZE
+							}
+						}
+				}
+			completion_reward = {
+					CZE = {
+							country_event = pivo.1
+						}
+				}
+			ai_will_do = {
+					factor = 86
+					modifier = {
+					}
+			}
+	}
+	focus = {
+		id = SAU_41
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_35
+		}
+		mutually_exclusive = {
+			focus = SAU_39
+		}
+		x = 20
+		y = 7
+			available = {
+				}	
+			completion_reward = {
+				if = {
+					limit = {
+						SAU = {
+							NOT = {
+								has_war_with = CZE 
+								}
+							}
+						}
+					CZE = {
+							country_event = pivo.2
+						}
+					}
+				if = {
+					limit = {
+						SAU = {
+								has_war_with = CZE 
+							}
+						}
+						521 = {
+							if = {
+								limit = { is_owned_by = CZE }
+								add_core_of = SAU
+								}
+							}
+						520 = {
+							if = {
+								limit = { is_owned_by = CZE }
+								add_core_of = SAU
+								}
+							}
+						522 = {
+							if = {
+								limit = { is_owned_by = CZE }
+								add_core_of = SAU
+								}
+							}
+						785 = {
+							if = {
+								limit = { is_owned_by = CZE }
+								add_core_of = SAU
+								}
+							}
+						create_wargoal = {
+							type = puppet_wargoal_focus
+							target = CZE
+							expire = 0
+						}
+					}
+				}
+
+	}
+	focus = {
+		id = SAU_36
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_34
+		}
+		mutually_exclusive = {
+			focus = SAU_35
+		}
+		x = 21
+		y = 6
+			available = {
+					PAS = {
+							OR = {
+									exists = no
+									is_puppet = yes
+								}
+						}
+					has_war = no
+				}
+			completion_reward = {
+					add_stability = -0.1
+					add_political_power = -80
+					add_war_support = -0.1
+				}
+
+	}
+	focus = {
+		id = SAU_55
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_54
+		}
+		x = 23
+		y = 1
+
+	}
+	focus = {
+		id = SAU_44
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_36
+		}
+		x = 23
+		y = 7
+			completion_reward = {
+					create_faction = "central_powers"
+					HOR = {
+							country_event = hun.1
+						}
+				}
+
+	}
+	focus = {
+		id = SAU_45
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_44
+		}
+		x = 25
+		y = 8
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = SWI
+						}
+				}
+
+	}
+	focus = {
+		id = SAU_46
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_45
+		}
+		mutually_exclusive = {
+			focus = SAU_47
+		}
+		x = 24
+		y = 9
+			completion_reward = {
+					create_wargoal = {
+							type = puppet_wargoal_focus
+							target = MUS
+						}
+				}
+
+	}
+	focus = {
+		id = SAU_48
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_46
+		}
+		x = 24
+		y = 10
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = NEK
+						}
+				}
+
+	}
+	focus = {
+		id = SAU_56
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_54
+		}
+		x = 25
+		y = 1
+			completion_reward = {
+					if = {
+							limit = {
+									has_government = burjuism
+								}
+							start_civil_war = {
+									ruling_party = borshewism
+									ideology = burjuism
+									size = 0.4
+								}
+						}
+					if = {
+							limit = {
+									has_government = bidlo
+								}
+							start_civil_war = {
+									ruling_party = borshewism
+									ideology = bidlo
+									size = 0.4
+								}
+						}
+					if = {
+							limit = {
+									has_government = pahanism
+								}
+							start_civil_war = {
+									ruling_party = borshewism
+									ideology = pahanism
+									size = 0.4
+								}
+						}
+					random_other_country = {
+							limit = {
+									original_tag = SAU
+									has_government = borshewism
+								}
+						}
+				}
+		bypass = {
+			SAU = { 	
+				has_government = borshewism
+			}
+		}
+	
+	}
+	focus = {
+		id = SAU_47
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_45
+		}
+		mutually_exclusive = {
+			focus = SAU_46
+		}
+		x = 26
+		y = 9
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = NEK
+						}
+				}
+
+	}
+	focus = {
+		id = SAU_49
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_47
+		}
+		x = 26
+		y = 10
+			completion_reward = {
+					create_wargoal = {
+							type = puppet_wargoal_focus
+							target = MUS
+						}
+				}
+
+	}
+	focus = {
+		id = SAU_51
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_48
+			focus = SAU_49
+		}
+		x = 25
+		y = 11
+			completion_reward = {
+					CZE = {
+							country_event = pivo.2
+						}
+				}
+
+	}
+	focus = {
+		id = SAU_57
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_56
+		}
+		x = 27
+		y = 2
+			available = {
+				is_subject = no
+				has_civil_war = no
+			any_country_with_original_tag = {
+				original_tag_to_check = ROOT
+				NOT = { has_government = bidlo }
+				}
+			}
+			completion_reward = {
+				add_stability = 0.1
+				add_political_power = 120
+				add_timed_idea = {
+					idea = SAU_clamp_down_on_fascism
+					days = 720
+					}
+				}
+
+	}
+	focus = {
+		id = SAU_58
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_57
+		}
+		x = 29
+		y = 3
+		completion_reward = {
+			set_rule = { can_join_factions = no }
+			add_ideas = SAU_make_doctorreich
+			set_rule = { can_send_volunteers = yes }
+			add_named_threat = { threat = 5 name = SAU_make_doctorreich }
+			if = {
+				limit = { is_in_faction = yes }
+				leave_faction = yes
+			}
+					add_popularity = {
+							ideology = borshewism
+							popularity = 0.1
+						}
+		}
+	}
+	focus = {
+		id = SAU_62
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_58
+		}
+		x = 29
+		y = 4
+		completion_reward = {
+			add_ideas = GER_collectiv
+		}
+	}
+	focus = {
+		id = SAU_64
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_62
+		}
+		x = 27
+		y = 5
+		completion_reward = {
+			add_popularity = { ideology = borshewism popularity = 0.1 }
+			add_ideas = GER_revolt_liderstvo
+		}
+	}
+	focus = {
+		id = SAU_63
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_62
+		}
+		x = 29
+		y = 5
+		completion_reward = {
+			add_ideas = GER_naz_mobil
+		}
+	}
+	focus = {
+		id = SAU_65
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_64
+		}
+		prerequisite = {
+			focus = SAU_63
+		}
+		x = 28
+		y = 6
+		completion_reward = {
+			add_ideas = GER_bulwark_against_bolshevism
+			DDR = { 
+				add_opinion_modifier = { target = SAU modifier = embargo } 
+			}
+			HOJ = { 
+				add_opinion_modifier = { target = SAU modifier = embargo } 
+			}
+			POD = { 
+				add_opinion_modifier = { target = SAU modifier = embargo } 
+			}
+			ZLS = { 
+				add_opinion_modifier = { target = SAU modifier = embargo } 
+			}
+			CCT = { 
+				add_opinion_modifier = { target = SAU modifier = embargo } 
+			}
+			BRK = { 
+				add_opinion_modifier = { target = SAU modifier = embargo } 
+			}
+		}
+	}
+	focus = {
+		id = SAU_66
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_65
+		}
+		x = 28
+		y = 7
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = DDR
+						}
+				}
+	}
+	focus = {
+		id = SAU_67
+		icon = GFX_goal_unknown
+		cost = 10
+		available = {
+				NOT = { country_exists = DDR }
+					571 = {
+							is_owned_and_controlled_by = SAU
+						}
+					518 = {
+							is_owned_and_controlled_by = SAU
+						}
+					515 = {
+							is_owned_and_controlled_by = SAU
+						}
+					516 = {
+							is_owned_and_controlled_by = SAU
+						}
+					519 = {
+							is_owned_and_controlled_by = SAU
+						}
+					517 = {
+							is_owned_and_controlled_by = SAU
+						}
+					582 = {
+							is_owned_and_controlled_by = SAU
+						}
+				
+			}
+		prerequisite = {
+			focus = SAU_66
+		}
+		x = 29
+		y = 8
+		completion_reward = {
+			add_political_power = 100
+			hidden_effect = { set_rule = { can_join_factions = yes } }
+			set_rule = { can_create_factions = yes }
+			create_faction = "euro_internast"
+		}
+	}
+	focus = {
+		id = SAU_68
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_67
+		}
+		x = 31
+		y = 9
+
+	}
+	focus = {
+		id = SAU_70
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_68
+		}
+		x = 30
+		y = 10
+
+	}
+	focus = {
+		id = SAU_72
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_70
+		}
+		x = 30
+		y = 11
+
+	}
+	focus = {
+		id = SAU_74
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_72
+		}
+		x = 30
+		y = 12
+
+	}
+	focus = {
+		id = SAU_76
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_74
+		}
+		x = 30
+		y = 13
+
+	}
+	focus = {
+		id = SAU_59
+		icon = GFX_goal_unknown
+		cost = 10
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = SAU_58
+		}
+		x = 31
+		y = 4
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = SAU_60
+		icon = GFX_goal_unknown
+		cost = 10
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = SAU_59
+		}
+		x = 31
+		y = 5
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = computing_tech
+			}
+		}
+	}
+	focus = {
+		id = SAU_61
+		icon = GFX_goal_unknown
+		cost = 10
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus = SAU_60
+		}
+		x = 31
+		y = 6
+		completion_reward = {
+			add_ideas = GER_the_great_nauka
+		}
+	}
+	focus = {
+		id = SAU_77
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_68
+		}
+		x = 32
+		y = 10
+
+	}
+	focus = {
+		id = SAU_78
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_77
+		}
+		x = 32
+		y = 11
+
+	}
+	focus = {
+		id = SAU_79
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_78
+		}
+		x = 32
+		y = 12
+
+	}
+	focus = {
+		id = SAU_80
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_79
+		}
+		x = 32
+		y = 13
+
+	}
+	focus = {
+		id = SAU_24
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_23
+		}
+		x = 8
+		y = 8
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 1.0
+				uses = 1
+				category = nuclear
+				category = rocketry
+			}
+		}
+	}
+	focus = {
+		id = SAU_40
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_39
+		}
+		mutually_exclusive = {
+			focus = SAU_32
+		}
+		x = 16
+		y = 8
+			available = {
+					CZE = {
+							is_in_faction_with = SAU
+						}
+				}
+			completion_reward = {
+					SAU = {
+							declare_war_on = {
+									target = CCA
+									type = annex_everything
+								}
+						}
+					CZE = {
+							declare_war_on = {
+									target = CCA
+									type = annex_everything
+								}
+						}
+					CZE = {
+							add_state_core = 506
+							add_state_core = 501
+							add_state_core = 505
+							add_state_core = 504
+							add_state_core = 502
+							add_state_core = 503
+						}
+				}
+			ai_will_do = {
+					factor = 85
+					modifier = {
+
+}
+				}
+
+	}
+	focus = {
+		id = SAU_32
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_39
+		}
+		mutually_exclusive = {
+			focus = SAU_40
+		}
+		x = 18
+		y = 8
+			available = {
+					CZE = {
+							NOT = {
+									is_in_faction_with = SAU
+								}
+						}
+				}
+			completion_reward = {
+					add_political_power = -100
+					add_war_support = -0.05
+				}
+
+	}
+	focus = {
+		id = SAU_42
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_41
+			focus = SAU_40
+			focus = SAU_32
+		}
+		x = 19
+		y = 9
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = DDR
+						}
+				}
+			ai_will_do = {
+					factor = 84
+					modifier = {
+
+}
+				}
+
+	}
+	focus = {
+		id = SAU_43
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_42
+		}
+		x = 19
+		y = 10
+			completion_reward = {
+					if = {
+							limit = {
+									CZE = {
+											NOT = {
+													is_in_faction_with = SAU
+												}
+										}
+								}
+							create_wargoal = {
+									type = take_state_focus
+									target = POL
+									expire = 0
+									generator = { 514  513  510 }
+								}
+							SAU = {
+									add_state_core = 514
+									add_state_core = 513
+									add_state_core = 510
+								}
+						}
+					if = {
+							limit = {
+									CZE = {
+											is_in_faction_with = SAU
+										}
+								}
+							SAU = {
+									declare_war_on = {
+											target = POL
+											type = annex_everything
+										}
+								}
+							CZE = {
+									declare_war_on = {
+											target = POL
+											type = annex_everything
+										}
+								}
+							SAU = {
+									add_state_core = 514
+									add_state_core = 513
+									add_state_core = 510
+									add_state_core = 509
+									add_state_core = 512
+									add_state_core = 511
+									add_state_core = 508
+								}
+							CZE = {
+									add_state_core = 507
+								}
+						}
+				}
+			ai_will_do = {
+					factor = 83
+					modifier = {
+
+}
+				}
+
+	}
+	focus = {
+		id = SAU_52
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_51
+		}
+		x = 25
+		y = 12
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = DDR
+						}
+				}
+
+	}
+	focus = {
+		id = SAU_53
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_52
+		}
+		x = 25
+		y = 13
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = POL
+						}
+				}
+
+	}
+	focus = {
+		id = SAU_69
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_68
+		}
+		x = 28
+		y = 10
+
+	}
+	focus = {
+		id = SAU_71
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_69
+		}
+		x = 28
+		y = 11
+
+	}
+	focus = {
+		id = SAU_73
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_71
+		}
+		x = 28
+		y = 12
+
+	}
+	focus = {
+		id = SAU_75
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_73
+		}
+		x = 28
+		y = 13
+
+	}
+	focus = {
+		id = SAU_81
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_68
+		}
+		x = 34
+		y = 10
+
+	}
+	focus = {
+		id = SAU_82
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_81
+		}
+		x = 34
+		y = 11
+
+	}
+	focus = {
+		id = SAU_83
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_82
+		}
+		x = 34
+		y = 12
+
+	}
+	focus = {
+		id = SAU_84
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_83
+		}
+		x = 34
+		y = 13
+
+	}
+	focus = {
+		id = SAU_85
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_84
+		}
+		prerequisite = {
+			focus = SAU_80
+		}
+		prerequisite = {
+			focus = SAU_76
+		}
+		prerequisite = {
+			focus = SAU_75
+		}
+		x = 31
+		y = 14
+
+	}
+	focus = {
+		id = SAU_86
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_85
+		}
+		x = 30
+		y = 15
+
+	}
+	focus = {
+		id = SAU_87
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_86
+		}
+		x = 30
+		y = 16
+
+	}
+	focus = {
+		id = SAU_88
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_87
+		}
+		x = 30
+		y = 17
+
+	}
+	focus = {
+		id = SAU_89
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_88
+		}
+		x = 30
+		y = 18
+
+	}
+	focus = {
+		id = SAU_90
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_89
+		}
+		x = 30
+		y = 19
+
+	}
+	focus = {
+		id = SAU_91
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_90
+		}
+		x = 30
+		y = 20
+
+	}
+	focus = {
+		id = SAU_92
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_91
+		}
+		x = 30
+		y = 21
+
+	}
+	focus = {
+		id = SAU_94
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_93
+		}
+		x = 32
+		y = 21
+
+	}
+	focus = {
+		id = SAU_93
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_85
+		}
+		x = 32
+		y = 15
+
+	}
+	focus = {
+		id = SAU_95
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_94
+		}
+		prerequisite = {
+			focus = SAU_92
+		}
+		x = 31
+		y = 22
+
+	}
+	focus = {
+		id = SAU_96
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SAU_95
+		}
+		x = 31
+		y = 23
+
+	}
+}

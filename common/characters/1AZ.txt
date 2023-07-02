@@ -1,0 +1,15 @@
+characters={
+	1AZ_drevniy={
+		name=1AZ_drevniy
+		portraits={
+			civilian={
+				large="gfx/leaders/1AZ/drevniy.dds"
+			}
+		}
+		country_leader={
+			ideology=primitivism
+			traits={  }
+			expire="1965.1.1.1"
+		}
+	}
+}

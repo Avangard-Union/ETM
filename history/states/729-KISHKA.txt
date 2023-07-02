@@ -1,0 +1,26 @@
+state={
+	id=729
+	name="STATE_729"
+	manpower = 16045874
+	
+	state_category = rural
+
+	history={
+		owner = 3AZ
+		victory_points = { 10162 30 } # Цемесск
+		victory_points = { 10440 10 } # Приморско-Ахтарск
+		victory_points = { 10525 5 } # Ясенск
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+
+		add_core_of = 3AZ
+	}
+
+	provinces={
+		10053 10067 10162 10290 10327 10361 10440 10505 10525 
+	}
+}

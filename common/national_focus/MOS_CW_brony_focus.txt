@@ -1,0 +1,78 @@
+focus_tree = {
+	id = MOS_test_position
+	country = {
+		factor = 0
+		modifier = {
+			add = 30
+			tag = MOS
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 100 y = 1600 }
+	
+	
+focus = {
+    id = MOS_broni_geo_3
+	icon = GFX_MOSmap_new_big
+	x = 1
+	y = 3
+	cost = 1
+	completion_reward = {
+		add_tech_bonus = {
+			name = industrial_bonus
+			bonus = 1.0
+			uses = 2
+			category = industry
+		}
+	}
+}
+focus = {
+    id = MOS_broni_geo_1
+	icon = GFX_MOS_map_broni1
+	x = 0
+	y = 0
+	cost = 1
+	completion_reward = {
+		add_tech_bonus = {
+			name = industrial_bonus
+			bonus = 1.0
+			uses = 2
+			category = industry
+		}
+	}
+}
+focus = {
+    id = MOS_broni_geo
+	icon = GFX_MOSmap_ldpr_big
+	x = 3
+	y = 1
+	cost = 1
+	completion_reward = {
+		add_tech_bonus = {
+			name = industrial_bonus
+			bonus = 1.0
+			uses = 2
+			category = industry
+		}
+	}
+}
+focus = {
+    id = MOS_broni_geo_2
+	icon = GFX_MOSmap_main_big
+	x = 3
+	y = 1
+	cost = 1
+	completion_reward = {
+		add_tech_bonus = {
+			name = industrial_bonus
+			bonus = 1.0
+			uses = 2
+			category = industry
+		}
+	}
+}
+
+	
+	
+	
+}

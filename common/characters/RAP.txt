@@ -1,0 +1,28 @@
+characters={
+	RAP_german_sterligov={
+		name="German Sterligov"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAP/GermanS.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	RAP_Сергей_Безруков={
+		name="Сергей Безруков"
+		portraits={
+			civilian={
+				large="gfx/leaders/RAP/bezrukov.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,19 @@
+state={
+	id=1183
+	name="STATE_1183"
+        manpower = 500000
+ 
+        history={
+		owner = BLI
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+                        arms_factory = 2
+			}
+		}
+		add_core_of = BLI
+	provinces={
+		2956 2969 3059 3076 
+	}
+
+}

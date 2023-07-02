@@ -1,0 +1,19 @@
+state={
+	id=1208
+	name="STATE_1208"
+        manpower = 300000
+
+         history={
+		owner = RON
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+                        arms_factory = 1
+			}
+		}
+		add_core_of = RON
+	provinces={
+		3972 4028 4086 4150 
+	}
+
+}

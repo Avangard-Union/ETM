@@ -1,0 +1,23 @@
+state={
+	id=290
+	name="STATE_290"
+
+	state_category = rural
+
+	history={
+		owner = LTZ
+		victory_points = {
+                		  13071 5 }
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+		add_core_of = LTZ
+	}
+
+	provinces={
+		12141 12212 12321 12653  12725 12766 13071
+	}
+	manpower=596764
+	buildings_max_level_factor=1.000
+}

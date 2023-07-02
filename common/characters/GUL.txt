@@ -1,0 +1,41 @@
+characters={
+	GUL_devilish_stalin={
+		name="Devilish Stalin"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUL/GUL_N.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GUL_cattyr_stalin={
+		name="Cattyr Stalin"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUL/GUL_C.dds"
+			}
+		}
+		country_leader={
+			ideology=sralinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GUL_pokayan_besprufovich_nepolzhitsyn={
+		name="Pokayan Besprufovich Nepolzhitsyn"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUL/GUL_bi.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,25 @@
+state={
+	id=1311
+	name="STATE_1311"
+	state_category = town
+	
+	history={
+		owner = SAV
+		victory_points = { 1734 30 } # Ебатория
+		buildings = {
+			industrial_complex = 1
+			dockyard = 1
+			1734 = {
+				naval_base = 1
+			}
+			arms_factory = 1
+		}
+		add_core_of = SAV
+	}
+	
+	provinces={
+		1734 
+	}
+	manpower=147542
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=782
+	name="STATE_782"
+
+	history={
+		owner = TAR
+		victory_points = {
+			15869 15 
+		}
+		victory_points = {
+			15414 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+		add_core_of = TAR
+
+	}
+
+	provinces={
+		15336 15393 15413 15414 15523 15557 15689 15708 15869 15870 
+	}
+	manpower=792379
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

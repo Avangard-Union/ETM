@@ -1,0 +1,32 @@
+
+
+state={
+	id=616
+	name="STATE_616"
+	manpower = 15000000
+	
+	state_category = rural
+    resources = {
+	             tungsten = 9
+	}
+	history={
+		owner = MEE
+		victory_points = {
+			              15263 15 }
+		victory_points = {				  
+			              15074 5 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			15135 = {
+				naval_base = 1
+			}
+		}
+
+		add_core_of = MEE
+	}
+
+	provinces={
+		15074 15075 15135 15263 
+	}
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=382
+	name="STATE_382"
+
+	history={
+		owner = UCH
+		victory_points = {
+			18302 20 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 2
+
+		}
+		add_core_of = UCH
+
+	}
+
+	provinces={
+		18273 18290 18302 18534 
+	}
+	manpower=490742
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

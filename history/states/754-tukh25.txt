@@ -1,0 +1,21 @@
+state={
+	id=754
+	name="STATE_754"
+	provinces={
+		18345 18439 18459 18588 18589 18668 
+	}
+
+	state_category = pastoral
+
+	history={
+		owner = TUC
+		victory_points = { 18588 5 } # Печора
+		buildings = {
+			infrastructure = 2
+		}		
+		add_core_of = TUC
+	}
+	
+	manpower=107405
+	buildings_max_level_factor=1.000
+}

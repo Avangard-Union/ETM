@@ -1,0 +1,26 @@
+state={
+	id=1319
+	name="STATE_1319"
+	state_category = town
+	
+	history={
+		owner = SUS
+		victory_points = { 20667 15 } # Родус
+		victory_points = { 19792 5 } # Кос
+		buildings = {
+			industrial_complex = 1
+			dockyard = 2
+			20667 = {
+				naval_base = 1
+			}
+			arms_factory = 1
+		}
+		add_core_of = SUS
+	}
+	
+	provinces={
+		19792 20667
+	}
+	manpower=287413
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,277 @@
+﻿
+division_template = {
+	name = "Гайдамаки"
+
+	division_names_group = UNR_GAR_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Регулярная армия Украинской Народной Республики"
+
+	division_names_group = UNR_GAR_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Партизанско-добровольческие части"
+
+	division_names_group = UNR_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+}
+units = {	
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "1 Дивизия"	
+		location = 11730
+		division_template = "Гайдамаки"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "2 Дивизия"	
+		location = 11730
+		division_template = "Гайдамаки"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "3 Дивизия"	
+		location = 11730
+		division_template = "Гайдамаки"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "1-й Партизанско-добровольческий корпус"	
+		location = 11730
+		division_template = "Партизанско-добровольческие части"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "2-й Партизанско-добровольческий корпус"	
+		location = 11730
+		division_template = "Партизанско-добровольческие части"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "3-й Партизанско-добровольческий корпус"	
+		location = 11730
+		division_template = "Партизанско-добровольческие части"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "1-я Регулярная армия Украинской Народной Республики"	
+		location = 11730
+		division_template = "Регулярная армия Украинской Народной Республики"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+	}	
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "2-я Регулярная армия Украинской Народной Республики"	
+		location = 11730
+		division_template = "Регулярная армия Украинской Народной Республики"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+	}	
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "3-я Регулярная армия Украинской Народной Республики"	
+		location = 11730
+		division_template = "Регулярная армия Украинской Народной Республики"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+	}	
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "4-я Регулярная армия Украинской Народной Республики"	
+		location = 11730
+		division_template = "Регулярная армия Украинской Народной Республики"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+	}	
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "5-я Регулярная армия Украинской Народной Республики"	
+		location = 11730
+		division_template = "Регулярная армия Украинской Народной Республики"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "6-я Регулярная армия Украинской Народной Республики"	
+		location = 11730
+		division_template = "Регулярная армия Украинской Народной Республики"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+	}	
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "7-я Регулярная армия Украинской Народной Республики"	
+		location = 11730
+		division_template = "Регулярная армия Украинской Народной Республики"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+	}	
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "8-я Регулярная армия Украинской Народной Республики"	
+		location = 11730
+		division_template = "Регулярная армия Украинской Народной Республики"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+	}	
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "9-я Регулярная армия Украинской Народной Республики"	
+		location = 11730
+		division_template = "Регулярная армия Украинской Народной Республики"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+	}	
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "10-я Регулярная армия Украинской Народной Республики"	
+		location = 11730
+		division_template = "Регулярная армия Украинской Народной Республики"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "11-я Регулярная армия Украинской Народной Республики"	
+		location = 11730
+		division_template = "Регулярная армия Украинской Народной Республики"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+	}	
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "12-я Регулярная армия Украинской Народной Республики"	
+		location = 11730
+		division_template = "Регулярная армия Украинской Народной Республики"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+	}	
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "13-я Регулярная армия Украинской Народной Республики"	
+		location = 11730
+		division_template = "Регулярная армия Украинской Народной Республики"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+	}	
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "14-я Регулярная армия Украинской Народной Республики"	
+		location = 11730
+		division_template = "Регулярная армия Украинской Народной Республики"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+	}	
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "15-я Регулярная армия Украинской Народной Республики"	
+		location = 11730
+		division_template = "Регулярная армия Украинской Народной Республики"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "16-я Регулярная армия Украинской Народной Республики"	
+		location = 11730
+		division_template = "Регулярная армия Украинской Народной Республики"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+	}	
+	division= {	
+		division_name = {
+			is_name_ordered = no
+			}
+		name = "17-я Регулярная армия Украинской Народной Республики"	
+		location = 11730
+		division_template = "Регулярная армия Украинской Народной Республики"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+	}
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=659
+	name="STATE_659"
+
+	resources={
+		steel=16 # was: 24
+	}
+
+	history={
+		owner = RNS
+		victory_points = { 15648 15 } # Тверь
+		victory_points = { 15808 10 } # Ржев
+		victory_points = { 15219 10 } # Кимры
+        buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+		}
+		add_core_of = RNS
+
+	}
+
+	provinces={
+		15219 15392 15437 15489 15611 15627 15648 15688 15794 15808 15886 15909 15927 16036 16037 
+	}
+	manpower = 1325458
+	buildings_max_level_factor=1.000
+	state_category = town
+}

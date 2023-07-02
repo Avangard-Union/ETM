@@ -1,0 +1,54 @@
+﻿capital = 2
+
+#oob = "JES_0002"
+
+set_technology = {
+	
+}
+
+set_research_slots = 2
+set_stability = 0.89
+set_war_support = 0.1
+set_convoys = 5
+
+set_popularities = {
+	pahanism = 100
+}
+
+set_politics = {
+	ruling_party = pahanism
+	last_election = "1.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+recruit_character = JES_dark_jesus
+recruit_character = JES_ashes
+recruit_character = JES_jesus
+recruit_character = JES_Солнцеликий_Вождь_Ким_Чен_Ын
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+recruit_character = AAA_PUSTYSHKA

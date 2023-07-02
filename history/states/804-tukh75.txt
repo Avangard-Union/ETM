@@ -1,0 +1,24 @@
+
+state={
+	id=804
+	name="STATE_804"
+
+	history={
+		owner = DUD
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+
+		}
+		add_core_of = DUD
+
+	}
+
+	provinces={
+		16112 16220 16254 16340 16355 16429 16498 16539 16582 
+	}
+	manpower=76500
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

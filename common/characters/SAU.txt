@@ -1,0 +1,54 @@
+characters={
+	SAU_wieners={
+		name="Wieners"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/SAS_D.dds"
+			}
+		}
+		country_leader={
+			ideology=conserva
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	SAU_bavarian_sausage={
+		name="Bavarian Sausage"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/SAS_F.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SAU_sausage={
+		name="Sausage"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/SAS_N.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SAU_doctor_sausage={
+		name="Doctor Sausage"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/SAS_C.dds"
+			}
+		}
+		country_leader={
+			ideology=gribonism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

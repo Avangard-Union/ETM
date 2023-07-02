@@ -1,0 +1,26 @@
+state={
+	id=547
+	name="STATE_547"
+
+	history={
+		owner = MUS
+		victory_points = { 9523 10 } # Анкона
+		victory_points = { 9330 10 } # Пердушка
+		buildings = {
+			infrastructure = 4
+
+		}
+		
+		add_core_of = MUS
+        add_core_of = PAS
+
+
+	}
+
+	provinces={
+		9444 9274 9330 9382 9414 9457 9522 9523 
+	}
+	manpower=546545
+	buildings_max_level_factor=1.000
+	state_category=town
+}

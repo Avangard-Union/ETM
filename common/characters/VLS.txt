@@ -1,0 +1,15 @@
+characters={
+	VLS_Чёрный_Властелин={
+		name="Чёрный Властелин"
+		portraits={
+			civilian={
+				large="gfx/leaders/VLS/Vlastelin.dds"
+			}
+		}
+		country_leader={
+			ideology=gachism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

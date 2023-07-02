@@ -1,0 +1,31 @@
+
+state={
+	id=703
+	name="STATE_703"
+
+	history={
+		owner = CRM
+		victory_points = {
+			10359 10 
+		}
+		victory_points = {
+			10257 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = CRM
+
+	}
+
+	provinces={
+		10108 10109 10211 10257 10346 10358 10359 10391 10472 10486 
+	}
+	manpower=14890427
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

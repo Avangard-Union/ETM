@@ -1,0 +1,15 @@
+characters={
+	GAY_Лев_Алекс={
+		name="Лев Алекс"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAY/Alex.dds"
+			}
+		}
+		country_leader={
+			ideology=conserva
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

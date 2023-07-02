@@ -1,0 +1,23 @@
+state={
+	id=430
+	name="STATE_430"
+	provinces={
+		17810 17868 18304 
+	}
+
+	state_category = rural
+
+	history={
+		owner = NOD
+		victory_points = {
+			17868 5      }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = NOD
+	}
+
+	manpower=205124
+	buildings_max_level_factor=1.000
+}

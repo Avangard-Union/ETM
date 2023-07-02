@@ -1,0 +1,24 @@
+state={
+	id=964
+	name="STATE_964"
+
+	manpower=526264
+
+	state_category = rural
+	
+	history={
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 4
+		}
+		
+	}
+
+
+	provinces={
+		2740 2778 2791 2808 2870 2897 2904 2965 3043 
+	}
+	buildings_max_level_factor=1.000
+}

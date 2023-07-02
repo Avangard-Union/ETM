@@ -1,0 +1,23 @@
+state={
+	id=837
+	name="STATE_837"
+	provinces={
+		20268 20282 20368 
+	}
+
+	state_category = rural
+
+	history={
+		owner = GUL
+		victory_points = {
+			              20368 1}		
+		buildings = {
+			infrastructure = 2
+			arms_factory = 3
+		}		
+		add_core_of = GUL
+	}
+	
+	manpower=78700
+	buildings_max_level_factor=1.000
+}

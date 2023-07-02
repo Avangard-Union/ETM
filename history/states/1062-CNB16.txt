@@ -1,0 +1,24 @@
+#кольская
+state={
+	id=1062
+	name="STATE_1062"
+	manpower = 3485
+	
+	state_category = rural
+
+	history={
+		owner = DUM
+
+		buildings = {
+			infrastructure = 4
+		}
+
+		add_core_of = DUM
+		victory_points = {5061 1}
+		victory_points = {4778 10}
+	}
+
+	provinces={
+		4601 4728 4778 5061 
+	}
+}

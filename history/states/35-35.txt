@@ -1,0 +1,30 @@
+
+state={
+	id=35
+	name="STATE_35"
+
+	history={
+		owner = ISL
+		victory_points = {
+			7317 10 
+		}
+		victory_points = {
+			7621 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = ISL
+
+	}
+
+	provinces={
+		7317 7356 7412 7438 7439 7508 7539 7613 7621 7670 7676 7707 7747 7772 7798 7799 7840 7900 7918 7926 7927 7977 8010 8105 
+	}
+	manpower=4574120
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

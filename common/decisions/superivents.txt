@@ -1,0 +1,42 @@
+superivents = {
+	superivents_nevidno = {
+		icon = decision_unknown
+		available = { has_country_flag = SE_Visible }
+		visible = { has_country_flag = SE_Visible }
+		complete_effect = { clr_country_flag = SE_Visible
+							clr_country_flag = SE_zvuk }
+	}
+	superivents_vidno = {
+		icon = decision_unknown
+		available = { 	NOT = { 
+							has_country_flag = SE_Visible }
+						}
+		visible = { NOT = { 
+						has_country_flag = SE_Visible }
+					}
+		complete_effect = { set_country_flag = SE_Visible
+							set_country_flag = SE_zvuk	}
+	}
+	superivents_sozvuk = {
+		icon = decision_unknown
+		available = { has_country_flag = SE_Visible
+					  NOT = {
+						has_country_flag = SE_zvuk } 
+					}
+		visible = { has_country_flag = SE_Visible
+					NOT = {
+						has_country_flag = SE_zvuk } 
+					}
+		complete_effect = { set_country_flag = SE_zvuk }
+	}
+	superivents_bezzvuk = {
+		icon = decision_unknown
+		available = { has_country_flag = SE_Visible
+					  has_country_flag = SE_zvuk 
+						}
+		visible = { has_country_flag = SE_Visible
+					has_country_flag = SE_zvuk 
+						}
+		complete_effect = { clr_country_flag = SE_zvuk }
+	}
+}

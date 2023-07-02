@@ -1,0 +1,15 @@
+characters={
+	ETH_biba_and_boba={
+		name="Biba and Boba"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Aboba.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

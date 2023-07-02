@@ -1,0 +1,45 @@
+spriteTypes = {
+
+
+SpriteType = {
+	name = "GFX_promka_odin"
+	texturefile = "gfx/interface/goals/mobilize_prom_okrain.dds"			
+	}
+
+SpriteType = {
+		name = "GFX_MOS_map_broni"
+		texturefile = "gfx/interface/goals/xoyopixel.dds"			
+	}
+SpriteType = {
+		name = "GFX_MOS_map_broni1"
+		texturefile = "gfx/interface/goals/x1y0pixel.dds"			
+	}
+SpriteType = {
+		name = "GFX_MOS_map_broni2"
+		texturefile = "gfx/interface/goals/x0y1pixel.dds"			
+	}
+SpriteType = {
+		name = "GFX_MOS_map_broni3"
+		texturefile = "gfx/interface/goals/x1y1pixel.dds"			
+	}
+SpriteType = {
+		name = "GFX_MOSmap_main_big"
+		texturefile = "gfx/interface/goals/MOS_map_MSK1.dds"			
+	}
+SpriteType = {
+		name = "GFX_MOSmap_new_big"
+		texturefile = "gfx/interface/goals/MOS_map_MSK2.dds"			
+	}
+SpriteType = {
+		name = "GFX_MOSmap_ldpr_big"
+		texturefile = "gfx/interface/goals/MOS_map_MSK3.dds"			
+	}
+SpriteType = {
+		name = "GFX_blank_back"
+		texturefile = "gfx/interface/goals/MOS_cw_map.dds"			
+	}
+	
+	
+	
+	
+}

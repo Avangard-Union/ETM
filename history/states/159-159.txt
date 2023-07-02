@@ -1,0 +1,22 @@
+state={
+	id=159
+	name="STATE_159"
+	provinces={
+		18222 18336 18489 18537 18671 18798 18877 19007 
+	}
+
+	state_category = rural
+
+	history={
+		owner = ABR
+		           victory_points = {
+	                         18798 5}		
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ABR
+	}
+
+	manpower=387451
+	buildings_max_level_factor=1.000
+}

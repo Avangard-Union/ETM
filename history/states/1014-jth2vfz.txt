@@ -1,0 +1,21 @@
+state={
+	id=1014
+	name="STATE_1014"
+	manpower=895164
+	state_category = rural
+	
+	history={
+		
+		victory_points = { 1731 30 } # Леопольдвилль
+		victory_points = { 1732 5 } # Вазелин
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		
+	}
+	provinces={
+		1619 1639 1655 1684 1694 1700 1731 1732 1749 1786 1787 1796 1801 
+	}
+	buildings_max_level_factor=1.000
+}

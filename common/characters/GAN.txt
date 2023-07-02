@@ -1,0 +1,15 @@
+characters={
+	GAN_nuclear_gandhi={
+		name="Nuclear Gandhi"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAN/Gandi.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

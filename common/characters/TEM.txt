@@ -1,0 +1,54 @@
+characters={
+	TEM_king_foltest={
+		name="King Foltest"
+		portraits={
+			civilian={
+				large="gfx/leaders/TEM/TEM_N.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TEM_radovid_v_fierce={
+		name="Radovid V Fierce"
+		portraits={
+			civilian={
+				large="gfx/leaders/TEM/TEM_F.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TEM_geralt_from_rivia={
+		name="Geralt from Rivia"
+		portraits={
+			civilian={
+				large="gfx/leaders/TEM/TEM_C.dds"
+			}
+		}
+		country_leader={
+			ideology=gribonism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TEM_roach={
+		name="Roach"
+		portraits={
+			civilian={
+				large="gfx/leaders/TEM/TEM_D.dds"
+			}
+		}
+		country_leader={
+			ideology=jididoism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

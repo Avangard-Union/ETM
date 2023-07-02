@@ -1,0 +1,26 @@
+state={
+	id=692
+	name="STATE_692"
+
+	manpower=825315
+
+	state_category = town
+
+	history={
+		owner = CSS
+		victory_points = { 9771 10 } # Майкоп
+		victory_points = { 10034 10 } # Кропоткин
+		victory_points = { 9917 10 } # Армавир
+		victory_points = { 9829 10 } # Лабинск
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = CSS
+	}
+
+	provinces={
+		9590 9676 9722 9771 9829 9871 9872 9917 10014 10034 
+	}
+	buildings_max_level_factor=1.000
+}

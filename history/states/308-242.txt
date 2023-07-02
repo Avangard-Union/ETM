@@ -1,0 +1,31 @@
+
+state={
+	id=308
+	name="STATE_308"
+	resources={
+		oil=15.000
+	}
+
+	history={
+		owner = BSK
+		victory_points = {
+			18660 25 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = BSK
+
+	}
+
+	provinces={
+		18755  
+	}
+	manpower=270450
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

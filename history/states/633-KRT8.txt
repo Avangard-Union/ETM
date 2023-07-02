@@ -1,0 +1,23 @@
+state={
+	id=633
+	name="STATE_633"
+	provinces={
+		13380 13455 13533 13724 13806 13827 14041 14147 14314 14329 14373 
+	}
+
+	state_category = rural
+
+	history={
+		owner = POD
+		victory_points = { 13724 20 } # Гомик
+		victory_points = { 14329 5 } # Большевик
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+		}
+		add_core_of = POD
+	}
+	
+	manpower = 943422
+	buildings_max_level_factor=1.000
+}

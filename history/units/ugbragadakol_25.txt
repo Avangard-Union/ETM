@@ -1,0 +1,247 @@
+﻿
+division_template = {
+	name = "Московская Бригада имени батьки Махно"
+
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+	priority = 1
+}
+
+units = {	
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15425
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15289
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15425
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15289
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15425
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15289
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15425
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15289
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15425
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15289
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15425
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15289
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15425
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15289
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15289
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15425
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15289
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15425
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15289
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15425
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15289
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15425
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15289
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15425
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15289
+		division_template = "Московская Бригада имени батьки Махно"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+}

@@ -1,0 +1,38 @@
+capital = 189
+
+#oob = "KNR_0002"
+
+set_research_slots = 2
+add_ideas = {
+}
+
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_stability = 0.15
+set_war_support = 0.8
+
+
+set_politics = {
+	ruling_party = pahanism
+	elections_allowed = no
+}
+
+set_popularities = {
+	burjuism = 15
+	bidlo = 25
+	borshewism = 25
+	pahanism = 35
+}
+
+recruit_character = MOD_Горком_Мододельска
+
+
+
+
+
+
+recruit_character = AAA_PUSTYSHKA

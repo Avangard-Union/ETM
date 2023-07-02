@@ -1,0 +1,19 @@
+add_namespace = world
+
+news_event = { 
+	id = world.2000
+	immediate = {log = "[GetDateText]: [Root.GetName]: world.2000"}
+	title = world.2000.t
+	desc = world.2000.desc
+	picture = GFX_GREAT_AFRICAN_WAR
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.2084.a
+		if = {
+			limit = { is_ai = no }
+			set_country_flag = etm_super_event_great_african_war
+		}
+	}
+}

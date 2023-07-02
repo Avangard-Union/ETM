@@ -1,0 +1,24 @@
+state={
+	id=1122
+	name="STATE_1122"
+
+	state_category = rural
+
+	history={
+		owner = N2N
+		victory_points = {
+			19234 25     }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 3
+			arms_factory = 1
+		}
+		add_core_of = N2N
+	}
+
+	provinces={
+		18988 19005 19048 19234 
+	}
+	manpower=869076
+	buildings_max_level_factor=1.000
+}

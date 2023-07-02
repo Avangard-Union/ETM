@@ -1,0 +1,20 @@
+characters={
+	BLO_shrek={
+		name="Shrek"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLO/shrek.dds"
+			}
+		}
+		country_leader={
+			ideology=conserva
+			expire="1953.3.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=tsardemocrasy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

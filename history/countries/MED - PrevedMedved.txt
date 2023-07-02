@@ -1,0 +1,36 @@
+capital = 357
+
+#oob = "MED_0002"
+
+set_research_slots = 1
+set_stability = 0.5
+set_war_support = 0.5
+
+add_ideas = {
+	
+	}
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_popularities = {
+	borshewism = 0
+	burjuism = 0
+	bidlo = 15
+	pahanism = 85
+}
+
+set_politics = {
+	ruling_party = pahanism
+	elections_allowed = no
+}
+
+recruit_character = MED_ПреведМедвед
+
+
+
+
+
+
+recruit_character = AAA_PUSTYSHKA

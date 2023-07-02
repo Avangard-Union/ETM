@@ -1,0 +1,433 @@
+focus_tree = {
+	id = MOS_cau_sobyan
+	country = {
+		factor = 0
+		modifier = {
+			add = 40
+			tag = MOS
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 5555 y = 900 }
+	
+	focus = {
+	    id = MOS_sob_beg
+		icon = GFX_MOS_cau_0001
+		cost = 8
+		x = 8
+		y = 0
+		prerequisite = {}
+		completion_reward = {
+		 add_political_power = 228
+		}
+			
+	}
+	focus = {
+	    id = MOS_sob_sec
+		icon = GFX_MOS_cau_kaef
+		cost = 10
+		x = 12
+		y = 0
+		prerequisite = {
+			focus = MOS_sob_beg }
+		completion_reward = {
+		 hidden_effect = {
+		  add_to_variable = { var = libloyal_delta   value = 0.2 }
+		 }
+		}
+			
+	}
+	focus = {
+	    id = MOS_sob_leavequo
+		icon = GFX_MOS_cau_lq
+		cost = 12
+		x = 8
+		y = 1
+		prerequisite = {
+			focus = MOS_sob_sec 
+			}
+		available = {
+				OR = { has_global_flag = RNS_reneval_naverno has_global_flag = RNS_na_puti_dimona }
+			}
+		completion_reward = {
+		  army_experience = 21
+		  add_tech_bonus = {
+		    bonus = 11.3
+			uses = 2
+			category = infantry_weapons
+		  }
+		}
+			
+	}
+	focus = {
+	    id = MOS_sob_def1
+		icon = GFX_MOS_cau_d1
+		cost = 6
+		x = 7
+		y = 2
+		prerequisite = {
+			focus = MOS_sob_leavequo 
+			}
+		completion_reward = {
+			add_tech_bonus = {
+			  bonus = 13.37
+			  uses = 2
+			  category = recon_tech
+			}
+		}
+			
+	}
+	focus = {
+	    id = MOS_sob_defnext
+		icon = GFX_net_tech
+		cost = 1488
+		x = 7
+		y = 4
+		prerequisite = {
+			focus = MOS_sob_leavequo 
+			}
+		available = { always = no }
+		completion_reward = {
+		}
+			
+	}
+	
+	focus = {
+	    id = MOS_sob_stroydef1
+		icon = GFX_MOS_cau_zeld1
+		cost = 7
+		x = 9
+		y = 2
+		prerequisite = {
+			focus = MOS_sob_leavequo 
+			}
+		prerequisite = {
+			focus = MOS_sob_ind1
+			}
+		available = { NOT = { has_country_flag = MOS_stroydef }}
+		completion_reward = {
+		  custom_effect_tooltip = MOS_stroydef1_tt
+		  1322 = {
+		    add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 14860
+			}
+		  }
+		  set_country_flag = MOS_stroydef_zelenograd
+		}
+			
+	}
+	focus = {
+	    id = MOS_sob_stroydef2
+		icon = GFX_MOS_cau_mosd1
+		cost = 7
+		x = 9
+		y = 4
+		prerequisite = {
+			focus = MOS_sob_stroydef1
+			}
+		prerequisite = {
+			focus = MOS_sob_ind1
+			}
+		available = { NOT = { has_country_flag = MOS_stroydef }}
+		completion_reward = {
+		  custom_effect_tooltip = MOS_stroydef2_tt
+		  set_country_flag = MOS_stroydef_coreland
+		}
+			
+	}
+	focus = {
+	    id = MOS_sob_stroydef3
+		icon = GFX_MOS_cau_noimosd1
+		cost = 7
+		x = 9
+		y = 6
+		prerequisite = {
+			focus = MOS_sob_stroydef1
+			}
+		prerequisite = {
+			focus = MOS_sob_ind1
+			}
+		available = { NOT = { has_country_flag = MOS_stroydef }}
+		completion_reward = {
+		  custom_effect_tooltip = MOS_stroydef2_tt
+		  set_country_flag = MOS_stroydef_coreland
+		  set_country_flag = MOS_stroydef
+		}
+			
+	}
+	focus = {
+	    id = MOS_sob_stroydef4
+		icon = GFX_MOS_cau_sd4
+		cost = 7
+		x = 9
+		y = 8
+		prerequisite = {
+			focus = MOS_sob_stroydef1
+			focus = MOS_sob_stroydef2
+			focus = MOS_sob_stroydef3
+			}
+		completion_reward = {
+		}
+			
+	}
+	focus = {
+	    id = MOS_sob_stroydef5
+		icon = GFX_MOS_cau_sd5
+		cost = 7
+		x = 9
+		y = 10
+		prerequisite = {
+			focus = MOS_sob_stroydef5
+			}
+		completion_reward = {
+		}
+			
+	}
+	
+	focus = {
+	    id = MOS_sob_ind1
+		icon = GFX_promka_odin
+		cost = 7
+		x = 10
+		y = 1
+		prerequisite = {
+			focus = MOS_sob_sec }
+		completion_reward = {
+			add_tech_bonus = {
+		    bonus = 4.9
+			uses = 1
+			category = industry
+		  }
+		}
+	}
+	focus = {
+	    id = MOS_sob_ind2
+		icon = GFX_MOS_promka_mcd
+		cost = 11
+		x = 11
+		y = 2
+		prerequisite = {
+			focus = MOS_sob_ind1 }
+		select_effect = {
+			consumer_goods_factor = 0.1
+		}
+		completion_reward = {
+			add_ideas = MOS_MCD
+		}
+			
+	}
+	focus = {
+	    id = MOS_sob_ind3
+		icon = GFX_MOS_ZILS
+		cost = 21
+		x = 11
+		y = 6
+		prerequisite = {
+			focus = MOS_sob_ind4 }
+		prerequisite = {
+			focus = MOS_sob_leavequo }
+		select_effect = {
+			event = { id = mosdef.41 hours = 9}
+		}
+		completion_reward = {
+			add_dynamic_modifier = {
+				modifier = MOS_ZIS_factory
+				scope = MOS
+			}
+			add_offsite_building = {
+				type = arms_factory
+				level = 3
+			}
+			664 = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+			
+	}
+	focus = {
+	    id = MOS_sob_ind4
+		icon = GFX_MOS_promka4
+		cost = 12
+		x = 11
+		y = 4
+		prerequisite = {
+			focus = MOS_sob_ind2 }
+		prerequisite = {
+			focus = MOS_sob_stroydef1 }
+		completion_reward = {
+		  1322 = {
+		    add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		  }
+		}
+			
+	}
+	focus = {
+	    id = MOS_sob_ind5
+		icon = GFX_MOS_promka5
+		cost = 11
+		x = 11
+		y = 8
+		prerequisite = {
+			focus = MOS_sob_ind3 }
+		completion_reward = {
+		}
+			
+	}
+	focus = {
+	    id = MOS_sob_ind6
+		icon = GFX_MOS_promka5
+		cost = 11
+		x = 11
+		y = 10
+		prerequisite = {
+			focus = MOS_sob_ind5 }
+		completion_reward = {
+		}
+			
+	}
+	#lib vetka#
+	focus = {
+	    id = MOS_sob_lib1
+		icon = GFX_MOS_liberda
+		cost = 5
+		x = 12
+		y = 1
+		prerequisite = {
+			focus = MOS_sob_sec }
+		completion_reward = {
+		 if = { limit = { has_country_flag = MOS_liberda_burlit }
+		  add_political_power = 300
+		  custom_effect_tooltip = sob_libnew_tt
+		  set_country_flag = MOS_tiktok_allow
+		 }
+		}	
+	}
+	focus = {
+	    id = MOS_sob_lib2
+		icon = GFX_MOS_BSfest
+		cost = 5
+		x = 13
+		y = 2
+		prerequisite = {
+			focus = MOS_sob_lib1}
+		completion_reward = {
+		 if = { limit = { has_country_flag = MOS_liberda_burlit }
+		  add_political_power = 404
+		  custom_effect_tooltip = sob_libnew_tt
+		  set_country_flag = MOS_brawl_allow
+		 }
+		}	
+	}
+	focus = {
+	    id = MOS_sob_lib3
+		icon = GFX_MOS_soins
+		cost = 10
+		x = 13
+		y = 4
+		prerequisite = {
+			focus = MOS_sob_lib2 }
+		completion_reward = {
+		 if = { limit = { has_country_flag = MOS_liberda_burlit }
+		  add_political_power = 503
+		  custom_effect_tooltip = sob_libnew_tt
+		  set_country_flag = MOS_olimpa_allow
+		 }
+		}	
+	}
+	focus = {
+	    id = MOS_sob_lib4
+		icon = GFX_MOS_shkila
+		cost = 7
+		x = 13
+		y = 6
+		prerequisite = {
+			focus = MOS_sob_lib3 }
+		completion_reward = {
+		 if = { limit = { has_country_flag = MOS_liberda_burlit }
+		  add_political_power = 300
+		  custom_effect_tooltip = sob_lib4_tt
+		  hidden_effect = {
+		  add_to_variable = {
+             var = libloyal_delta
+              value = 0.76
+            }
+          add_to_variable = {
+             var = libloyal
+             value = 10
+            }
+          MOS_libloyal_check = yes  
+		  }
+		 }
+		}
+	}
+	focus = {
+	    id = MOS_sob_lib5
+		icon = GFX_MOS_naval
+		cost = 9
+		x = 13
+		y = 8
+		prerequisite = {
+			focus = MOS_sob_lib4 }
+		completion_reward = {
+		  add_political_power = 300
+		  custom_effect_tooltip = sob_lib5_tt
+		  hidden_effect = {
+		    set_country_flag = MOS_rassledovanije
+			event = moslib.20 hours = 7
+		  }
+		}
+	}
+	focus = {
+	    id = MOS_sob_lib6
+		icon = GFX_MOS_corrupt
+		cost = 9
+		x = 13
+		y = 10
+		prerequisite = {
+			focus = MOS_sob_lib5 }
+		available = {
+			NOT = { has_country_flag = MOS_rassledovanije }
+			}
+		completion_reward = {
+		  add_political_power = 130
+		  custom_effect_tooltip = sob_lib6_tt
+		  hidden_effect = {
+		     event = { moslib.30 hours = 4 }
+			 set_country_flag = MOS_rassledovanije
+		  }
+		}
+	}
+	
+	
+	
+	
+}
+focus_tree = {
+	id = MOS_noeconomic
+	country = {
+		factor = 0
+		modifier = {
+			add = 30
+			tag = MOS
+		}
+	}
+	default = no
+	
+}

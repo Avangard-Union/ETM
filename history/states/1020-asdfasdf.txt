@@ -1,0 +1,22 @@
+state={
+	id=1020
+	name="STATE_1020"
+	manpower=980000
+	state_category = rural
+	
+	history={
+		
+		victory_points = { 1578 25 } # Лубумбабы
+		buildings = {
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 4
+			air_base = 4
+		}
+		
+	}
+	provinces={
+		1567 1568 1578 1600 1605 1635 1660 1675 
+	}
+	buildings_max_level_factor=1.000
+}

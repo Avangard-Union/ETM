@@ -1,0 +1,27 @@
+
+state={
+	id=1052
+	name="STATE_1052"
+	manpower = 1281323
+	
+	state_category = large_city 
+
+	history={
+		owner = CNB
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 3
+			dockyard = 0
+		}
+
+		add_core_of = CNB
+		victory_points = {2157 1}
+		victory_points = {2084 5}
+	}
+
+	provinces={
+		1951 2047 2084 2135 2157 2213 2243 2265 2367 2371 2411 2471 
+	}
+}

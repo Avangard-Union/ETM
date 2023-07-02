@@ -1,0 +1,59 @@
+ideas = {
+    country = {
+		molodoe_gos = {
+			picture = idea_MAH_1
+			allowed = {
+				always = yes
+				original_tag = MAH
+			}
+			available = {
+				
+			}
+            removal_cost = -1
+			modifier = {
+				surrender_limit  = 1000
+				stable_weekly_factor = -0.2
+				war_support_factor = 0.2
+				offence = 0.3
+				defence = 0.4
+
+				targeted_modifier = {
+				}
+        	}
+		}
+		zahvat_tehniki = {
+			picture = idea_MAH_2
+			allowed = {
+				always = yes
+				original_tag = MAH
+			}
+			available = {
+				
+			}
+            removal_cost = -1
+			modifier = {
+				equipment_capture_factor = 0.9 
+
+				targeted_modifier = {
+				}
+        	}
+		}
+		remont = {
+			picture = idea_MAH_2
+			allowed = {
+				always = yes
+				original_tag = MAH
+			}
+			available = {
+				
+			}
+            removal_cost = -1
+			modifier = {
+				industry_free_repair_factor = 0.346
+
+				targeted_modifier = {
+				}
+        	}
+		}
+	}
+}

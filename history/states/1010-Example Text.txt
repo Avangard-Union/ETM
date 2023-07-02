@@ -1,0 +1,23 @@
+state={
+	id=1010
+	name="STATE_1010"
+	manpower=1498204
+	state_category = rural
+	
+	history={
+		
+		victory_points = { 2036 30 } # Кинза (Леопольдвиль)
+		victory_points = { 1980 5 } # Ротз
+		victory_points = { 2252 5 } # Кутья (Кютю)
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		
+	}
+	provinces={
+		1972 1979 1980 2036 2062 2111 2133 2160 2194 2200 2201 2252 
+	}
+	buildings_max_level_factor=1.000
+}

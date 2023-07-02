@@ -1,0 +1,59 @@
+state={
+	id=592
+	name="STATE_592"
+	provinces={
+		8906 8978 8991 9003 9042 9094 9124 9163 9197 
+	}
+
+	resources={
+		aluminium=2
+		chromium=2
+	}
+
+	state_category = town
+
+	history={
+		owner = HOJ
+		victory_points = {
+			 9003 100
+		}
+		victory_points = {
+			 9197 1
+		}		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2 
+			air_base = 3
+			8906 = {
+				naval_base = 4
+				bunker = 1
+			}
+			8978 = {
+				bunker = 1
+			}
+			8991 = {
+				bunker = 1
+			}
+			9003 = {
+				bunker = 4
+			}
+			9042 = {
+				bunker = 1
+			}
+			9124 = {
+				bunker = 1
+			}
+			9163 = {
+				bunker = 1
+			}
+			9197 = {
+				bunker = 10
+			}			
+		}
+		add_core_of = HOJ
+	}
+
+	manpower=740800
+	buildings_max_level_factor=1.000
+}

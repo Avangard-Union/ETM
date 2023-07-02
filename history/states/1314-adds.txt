@@ -1,0 +1,23 @@
+state={
+	id=1314
+	name="STATE_1314"
+	state_category = town
+	
+	history={
+		owner = SPA
+		victory_points = { 4590 15 } # Коринф
+		victory_points = { 3983 10 } # Олимпия
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = SPA
+	}
+	
+	provinces={
+		3470 3821 3983 4590 
+	}
+	manpower=387231
+	buildings_max_level_factor=1.000
+}

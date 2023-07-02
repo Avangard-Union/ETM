@@ -1,0 +1,25 @@
+state={
+	id=693
+	name="STATE_693"
+
+	manpower=655145
+
+	state_category = city
+
+	history={
+		owner = CSS
+		victory_points = { 9433 15 } # Сочи
+		victory_points = { 9623 10 } # Туапсе
+		buildings = {
+			infrastructure = 4
+			air_base = 5
+
+		}
+		add_core_of = CSS
+	}
+
+	provinces={
+		9433 9513 9560 9602 9623 9721 
+	}
+	buildings_max_level_factor=1.000
+}

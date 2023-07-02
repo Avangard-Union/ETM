@@ -1,0 +1,130 @@
+music = {
+	name = "ko-polka"
+	file = "ko-polka.ogg"
+	volume = 0.65
+}
+music = {
+	name = "lm-star"
+	file = "lm-star.ogg"
+	volume = 0.65
+}
+music = {
+	name = "lm-backinblack"
+	file = "lm-backinblack.ogg"
+	volume = 0.65
+}
+music = {
+	name = "lm-blackbetty"
+	file = "lm-blackbetty.ogg"
+	volume = 0.65
+}
+music = {
+	name = "lm-carry"
+	file = "lm-carry.ogg"
+	volume = 0.65
+}
+music = {
+	name = "lm-doktorjones"
+	file = "lm-doktorjones.ogg"
+	volume = 0.65
+}
+music = {
+	name = "lm-gimme"
+	file = "lm-gimme.ogg"
+	volume = 0.65
+}
+music = {
+	name = "lm-lovin"
+	file = "lm-lovin.ogg"
+	volume = 0.65
+}
+music = {
+	name = "lm-armynow"
+	file = "lm-armynow.ogg"
+	volume = 0.65
+}
+music = {
+	name = "lm-tricky"
+	file = "lm-tricky.ogg"
+	volume = 0.65
+}
+music = {
+	name = "lm-paintitblack"
+	file = "lm-paintitblack.ogg"
+	volume = 0.65
+}
+music = {
+	name = "lm-rasputin"
+	file = "lm-rasputin.ogg"
+	volume = 0.65
+}
+music = {
+	name = "lm-wallerman"
+	file = "lm-wallerman.ogg"
+	volume = 0.65
+}
+music = {
+	name = "lm-whatislove"
+	file = "lm-whatislove.ogg"
+	volume = 0.65
+}
+music = {
+	name = "mb-duhast"
+	file = "mb-duhast.ogg"
+	volume = 0.65
+}
+music = {
+	name = "tu-rasputin"
+	file = "tu-rasputin.ogg"
+	volume = 0.65
+}
+music = {
+	name = "umc-badguy"
+	file = "umc-badguy.ogg"
+	volume = 0.65
+}
+music = {
+	name = "umc-blue"
+	file = "umc-blue.ogg"
+	volume = 0.65
+}
+music = {
+	name = "umc-shape"
+	file = "umc-shape.ogg"
+	volume = 0.65
+}
+music = {
+	name = "umc-sweetdreams"
+	file = "umc-sweetdreams.ogg"
+	volume = 0.65
+}
+music = {
+	name = "umc-rhythm"
+	file = "umc-rhythm.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ap-vosemnatsat"
+	file = "ap-vosemnatsat.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ap-vseidetpoplanu"
+	file = "ap-vseidetpoplanu.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ap-kaknavoyne"
+	file = "ap-kaknavoyne.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ap-otvinta"
+	file = "ap-otvinta.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ap-travaudoma"
+	file = "ap-travaudoma.ogg"
+	volume = 0.65
+}

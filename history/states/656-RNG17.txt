@@ -1,0 +1,22 @@
+state={
+	id=656
+	name="STATE_656"
+
+	history={
+		owner = RNS
+		victory_points = { 14862 15 } # Рязань
+		victory_points = { 14492 10 } # Скопин
+		victory_points = { 14352 10 } # Сасаево
+		buildings = {
+			infrastructure = 4
+		}
+
+	}
+
+	provinces={
+		14167 14223 14315 14333 14352 14374 14492 14546 14577 14684 14752 14765 14818 14862 14962 15005 15095 15173 
+	}
+	manpower=1200832
+	buildings_max_level_factor=1.000
+	state_category=town
+}

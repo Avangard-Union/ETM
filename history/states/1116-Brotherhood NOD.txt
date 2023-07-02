@@ -1,0 +1,25 @@
+state={
+	id=1116
+	name="STATE_1116"
+	manpower = 900300
+	
+	state_category = town
+
+	history={
+		owner = NOD
+        victory_points = {
+			17364 25     }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+
+		add_core_of = NOD
+	}
+
+	provinces={
+	  17440 18108 17364 17583 18198 17936
+	}
+}

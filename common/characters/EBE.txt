@@ -1,0 +1,24 @@
+characters={
+	EBE_happy_wolf={
+		name="Happy Wolf"
+		portraits={
+			civilian={
+				large="gfx/leaders/EBE/Eben.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=gopniki
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

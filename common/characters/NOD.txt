@@ -1,0 +1,16 @@
+characters={
+	NOD_Кейн={
+		name="Кейн"
+		portraits={
+			civilian={
+				large="gfx/leaders/NOD/Kane.dds"
+			}
+		}
+		country_leader={
+			desc="О великий Кейн, даруй нам господство над всем миром!"
+			ideology=naziborshewism
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,24 @@
+state={
+	id=200
+	name="STATE_200"
+	provinces={
+		16026 16120 16223 16328 16329 16374 16472 16489 16490 16591 
+	}
+
+	state_category = town
+
+	history={
+		owner = WGA
+		victory_points = {
+			              16490 20}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = WGA
+	}
+
+	manpower=914521
+	buildings_max_level_factor=1.000
+}

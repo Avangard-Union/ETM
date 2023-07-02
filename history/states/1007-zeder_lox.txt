@@ -1,0 +1,30 @@
+state={
+	id=1007
+	name="STATE_1007"
+	manpower=983040
+	state_category = rural
+	
+	history={
+		
+                victory_points = {
+			 1851 20
+                }
+                victory_points = {
+			 1935 10
+                }
+                victory_points = {
+			 1938 10
+                }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 4
+			air_base = 4
+		}
+		
+	}
+	provinces={
+		1851 1874 1875 1876 1877 1906 1935 1938 1981 
+	}
+	buildings_max_level_factor=1.000
+}

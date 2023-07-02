@@ -1,0 +1,22 @@
+state={
+	id=627
+	name="STATE_627"
+	provinces={
+		15003 15077 15172 15195 15217 15254 15264 15332 15367 15391 15458 15505 
+	}
+
+	state_category = rural
+
+	history={
+		owner = POD
+		victory_points = { 15003 15 } #Молодечно
+		victory_points = { 15367 5 } #Глубокое проникновение
+		buildings = {
+			infrastructure = 4
+		}	
+		add_core_of = POD
+	}
+	
+	manpower = 726000
+	buildings_max_level_factor=1.000
+}

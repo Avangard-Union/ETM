@@ -1,0 +1,38 @@
+
+state={
+	id=332
+	name="STATE_332"
+	resources={
+		rubber=15.000
+	}
+
+	history={
+		owner = PLA
+		victory_points = {
+			13857 50 
+		}
+		victory_points = {
+			14419 25 
+		}
+		victory_points = {
+			14987 20 
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 2
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+		add_core_of = PLA
+
+	}
+
+	provinces={
+		13857 13945 14048 14296 14337 14419 14533 14552 14662 14663 14689 14823 14838 14907 14949 14987 15007 
+	}
+	manpower=1488228
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

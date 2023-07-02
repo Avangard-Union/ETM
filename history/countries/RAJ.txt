@@ -1,0 +1,33 @@
+﻿capital = 54
+
+#oob = "RAJ_0002"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_research_slots = 4
+set_convoys = 5
+
+
+set_popularities = { 
+	burjuism = 0
+	borshewism = 15
+	pahanism = 85
+	bidlo = 0
+}
+
+set_politics = {
+	ruling_party = pahanism
+	last_election = "2010.10.21"
+	election_frequency = 0
+	elections_allowed = no
+}
+	
+recruit_character = RAJ_tea_raja
+
+
+
+
+
+recruit_character = AAA_PUSTYSHKA

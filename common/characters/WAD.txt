@@ -1,0 +1,16 @@
+characters={
+	WAD_haffaz_aladeen={
+		name="Haffaz Aladeen"
+		portraits={
+			civilian={
+				large="gfx/leaders/WAD/Dick.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			traits={ dictator }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,24 @@
+state={
+	id=620
+	name="STATE_620"
+	provinces={
+		13896 13909 14039 14244 14311 
+	}
+
+	state_category = rural
+
+	history={
+		owner = VEY
+		victory_points = {
+			              13896 45}		
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		add_core_of = VEY
+	}
+
+	manpower=980798
+	buildings_max_level_factor=1.000
+}

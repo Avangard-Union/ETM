@@ -1,0 +1,41 @@
+characters={
+	CSS_misha_octane={
+		name="Misha Octane"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSS/Octane.dds"
+			}
+		}
+		country_leader={
+			ideology=imperial_putinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CSS_evdokia_bershanskaya={
+		name="Evdokia Bershanskaya"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSS/Evdokia.dds"
+			}
+		}
+		country_leader={
+			ideology=socialanarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CSS_vasily_boldyrev={
+		name="Vasily Boldyrev"
+		portraits={
+			civilian={
+				large="gfx/leaders/CSS/Vasily.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

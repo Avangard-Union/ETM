@@ -1,0 +1,24 @@
+state={
+	id=556
+	name="STATE_556"
+	provinces={
+		10282 10283 10436 10464 10551 10607 10191 10266 10284 10372 10437 10532 
+	}
+
+	state_category = rural
+
+	history={
+		owner = MUS
+		victory_points = { 10266 20 } # Турин
+		victory_points = { 10283 15 } # Гренобыль
+		buildings = {
+			infrastructure = 4
+			
+		}
+		add_core_of = MUS
+		add_core_of = PAS
+	}
+
+	manpower=1620708
+	buildings_max_level_factor=1.000
+}

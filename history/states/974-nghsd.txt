@@ -1,0 +1,28 @@
+state={
+	id=974
+	name="STATE_974"
+	manpower=1780000
+	state_category = town
+	
+	history={
+		
+		victory_points = {
+			 2723 10
+		}
+			
+		victory_points = {
+			 2950 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		
+	}
+	
+	provinces={
+		2723 2750 2806 2838 2852 2903 2950 
+	}
+	buildings_max_level_factor=1.000
+}

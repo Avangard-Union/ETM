@@ -1,0 +1,28 @@
+state={
+	id=359
+	name="STATE_359"
+	provinces={
+		14423 14602 14618 14636 14737 14935 14968 15163 15179 15180 15270 15401 15461 
+	}
+
+	state_category = rural
+	resources={
+		tungsten=5
+		oil=11
+		steel=7
+	}
+
+	history={
+		owner = MUR
+		victory_points = {
+                		  14737 5 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = MUR
+	}
+
+	manpower=183547
+	buildings_max_level_factor=1.000
+}

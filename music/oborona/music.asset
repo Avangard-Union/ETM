@@ -1,0 +1,5 @@
+music = {
+	name = "letov-ubivatchas"
+	file = "letov-ubivatchas.ogg"
+	volume = 0.65
+}

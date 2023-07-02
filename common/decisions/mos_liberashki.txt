@@ -1,0 +1,350 @@
+##uspokoit' liberashek##
+interact_liberahi_category = {
+  MOS_il_brawl = {
+     allowed = {}
+     available = {
+          NOT = {
+	        MOS = { 
+	         has_war = yes
+	        }
+	    }
+	 }
+	 visible = {
+		MOS = {
+		 has_country_flag = MOS_brawl_allow
+		}
+	 }
+     cost = 1103
+     days_remove = 6
+     days_re_enable = 130
+     complete_effect = {}
+     remove_effect = {
+	 custom_effect_tooltip = MOS_brawl_loc_tt
+        hidden_effect = {
+		    add_to_variable = {
+               var = libloyal_delta
+               value = 0.04
+            }
+            add_to_variable = {
+              var = libloyal
+              value = 9.85
+            }
+		MOS_libloyal_check = yes
+		}
+      }
+	}
+  MOSkau_olimpiadniki = {
+     allowed = {}
+	 visible = {
+		has_country_flag = MOS_olimpa_allow
+	 }
+     cost = 981
+     days_remove = 60
+     days_re_enable = 180
+     complete_effect = {}
+     remove_effect = {
+	 custom_effect_tooltip = MOS_olimp_tt
+	   hidden_effect = {
+         add_to_variable = {
+             var = libloyal_delta
+             value = 1
+        }
+          add_to_variable = {
+              var = libloyal
+              value = 4
+            }
+        add_timed_idea = {
+          idea = MOS_olimpiadniki
+	      days = 54
+        }
+		MOS_libloyal_check = yes
+	  }
+    }
+  }
+  MOS_promise_sth = {
+     allowed = {}
+     available = {
+          NOT = {
+	        MOS = { 
+	         has_war = yes
+	        }
+	    }
+	 }
+     cost = 300
+     days_remove = 5
+     days_re_enable = 5
+     complete_effect = {}
+     remove_effect = {
+	 custom_effect_tooltip = MOS_napizdeli_tt
+	   hidden_effect = {
+        add_to_variable = {
+             var = libloyal_delta
+              value = -0.07
+            }
+        add_to_variable = {
+             var = libloyal
+             value = 7.7
+            }
+		MOS_libloyal_check = yes 
+		}}
+    }
+  MOS_tellemtruth = {
+     allowed = {}
+     available = {
+          NOT = {
+	        MOS = { 
+	         has_war = yes
+	        }
+	    }
+	 }
+     cost = 333
+     days_remove = 6
+     days_re_enable = 5
+     complete_effect = {}
+     remove_effect = {
+	 custom_effect_tooltip = MOS_nenapizdeli_tt
+	  hidden_effect = {
+        add_to_variable = {
+             var = libloyal_delta
+              value = 0.06
+            }
+        add_to_variable = {
+             var = libloyal
+             value = -7
+            }
+        MOS_libloyal_check = yes
+		}
+	 }
+    }
+	MOS_lib_tiktok1 = {
+     allowed = {}
+     available = {}
+     cost = 289
+	 visible = {
+	    NOT = {
+		 has_idea = MOS_bayanistyy
+		}
+	  }
+     days_remove = 2
+     complete_effect = { hidden_effect = { add_timed_idea = {
+		    idea = MOS_bayanistyy
+			days = 6
+		    }	 }}
+     remove_effect = {
+	 custom_effect_tooltip = MOS_lib_tiktok1_tt
+	 hidden_effect = {
+        add_to_variable = {
+             var = libloyal_delta
+              value = 0.04
+            }
+        add_to_variable = {
+             var = libloyal
+             value = 2
+            }
+        MOS_libloyal_check = yes
+		 
+		  }
+		}
+		}
+    
+	MOS_lib_tiktok2 = {
+     allowed = {}
+     available = {}
+	 visible = {
+	    NOT = {
+		 has_idea = MOS_bayanistyy
+		}
+		has_country_flag = MOS_tiktok_allow
+	  }
+     cost = 324
+     days_remove = 3
+     complete_effect = { hidden_effect = { add_timed_idea = {
+		    idea = MOS_bayanistyy
+			days = 11
+		    }	 }}
+     remove_effect = {
+	 custom_effect_tooltip = MOS_lib_tiktok2_tt
+	  hidden_effect = {
+        add_to_variable = {
+             var = libloyal_delta
+              value = 0.05
+            }
+        add_to_variable = {
+             var = libloyal
+             value = 4.8
+            }
+        MOS_libloyal_check = yes
+		  }
+		}
+		}
+    
+	MOS_lib_tiktok3 = {
+     allowed = {}
+     available = {}
+	 visible = {
+	    NOT = {
+		 has_idea = MOS_bayanistyy
+		}
+		has_country_flag = MOS_tiktok_allow
+	  }
+     cost = 503
+     days_remove = 6
+     complete_effect = { hidden_effect = { add_timed_idea = {
+		    idea = MOS_bayanistyy
+			days = 45
+		    }	 }}
+     remove_effect = {
+	 custom_effect_tooltip = MOS_lib_tiktok3_tt
+	  hidden_effect = {
+        add_to_variable = {
+             var = libloyal_delta
+              value = 0.06
+            }
+        add_to_variable = {
+             var = libloyal
+             value = 10
+            }
+        MOS_libloyal_check = yes
+		 
+		  }
+		}
+    }
+	MOS_lib_endgovno = {
+     allowed = {}
+     available = {}
+	 visible = {
+		 always = no
+	    }
+     cost = 4
+     days_remove = 16
+     complete_effect = {}
+     remove_effect = {
+		}
+    }
+	
+  
+  
+  MOS_liberda_buhtit = {
+   
+   allowed = {
+		}
+
+		activation = {
+			always = no
+		}
+
+		available = {
+			hidden_trigger = {
+				check_variable { libloyal < 0.5 }
+			}
+		}
+		visible = {
+		  hidden_trigger = {
+		   NOT = {
+		    has_country_flag = MOS_polilos
+		   }
+		  }
+		}
+
+		cancel_if_not_visible = yes
+
+		days_mission_timeout = 7
+
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Liberda zabuhtela"
+			custom_effect_tooltip = WRS_increase_zhukov_influence_low_tt
+			hidden_effect = {
+				add_to_variable = {
+				  var = libloyal_delta  
+				  value = -0.04
+				  }
+				add_to_variable = {
+				  var = libloyal 
+				  value = libloyal_delta 
+				  }
+				MOS_libloyal_check = yes
+				activate_mission = MOS_liberda_buhtit
+			}
+		}
+		complete_effect = {
+		    set_country_flag = MOS_polilos
+			MOS_libloyal_check = yes
+		}
+    }
+   
+   MOS_The_Konets = {
+   
+        allowed = {
+			tag = MOS
+		}
+
+		activation = {
+			always = no
+		}
+
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		visible = {
+		  has_country_flag = MOS_polilos
+		}
+
+		cancel_if_not_visible = yes
+
+		days_mission_timeout = 14
+
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout WRS_zhukov_influence_ticker"
+			custom_effect_tooltip = WRS_increase_zhukov_influence_low_tt
+			hidden_effect = {
+				country_event = {id = moslib.12, days = 1}
+			}
+        }
+	  }
+    }
+ #####  ##      #### ######## ##   ##       ###
+ ##  ## ##       ##     ##    ##  ##       ## ##
+ ##  ## ##       ##     ##    ## ##       ##   ##
+ #####  ##       ##     ##    ####       ##     ##
+ ##     ##       ##     ##    ## ##     ###########
+ ##     ##       ##     ##    ##  ##   ##         ##
+####    ######  ####    ##    ##   ## ##           ##
+the_bitch_of_MOS_category = {
+   MOS_the_bitch_incoming = {
+     allowed = {
+		}
+
+		activation = {
+			always = no
+		}
+
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+	 cancel_if_not_visible = yes
+	 days_mission_timeout = 150
+	 timeout_effect = {
+	   custom_effect_tooltip = WRS_decrease_zhukov_influence_low_tt
+	   hidden_effect = {
+	   add_timed_idea = {
+		  idea = MOS_perekladyvaut_plitku
+		  days = 45
+		 }
+		add_to_variable = {
+             var = libloyal_delta
+              value = -0.15
+            }
+        add_to_variable = {
+             var = libloyal
+             value = -7
+            }
+		MOS_libloyal_check = yes
+	    country_event = { id = mosdef.2  days = 1}
+		}
+	 }
+    }
+ }

@@ -1,0 +1,24 @@
+state={
+	id=851
+	name="STATE_851"
+
+	manpower=75120
+
+	state_category = rural
+
+	history={
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+		}
+		
+	}
+
+
+	provinces={
+		5125 5231 5263 5296 5311 5428 5445 5452 5493 5580 5597 5627 5646 5647 5675 5759 5783 5784 5785 5795 5822 5885 5976 5977 5999 6038 6052 6128 
+	}
+	buildings_max_level_factor=1.000
+}

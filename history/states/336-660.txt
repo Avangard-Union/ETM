@@ -1,0 +1,26 @@
+
+state={
+	id=336
+	name="STATE_336"
+	resources={
+		tungsten=15.000
+	}
+
+	history={
+		owner = ZMR
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ZMR
+
+	}
+
+	provinces={
+		13916 14601 20681 20682 20683 20684 20685 20686 20687 20688 20689 20695 20702 
+	}
+	manpower=403000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

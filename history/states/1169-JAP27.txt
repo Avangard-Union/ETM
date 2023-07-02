@@ -1,0 +1,19 @@
+state={
+	id=1169
+	name="STATE_1169"
+        manpower = 300000
+ 
+        history={
+		owner = EVA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+                        arms_factory = 1
+			}
+		}
+		add_core_of = EVA
+	provinces={
+		3007 3067 3091 3097 3206 3212 3221 
+	}
+
+}

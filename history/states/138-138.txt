@@ -1,0 +1,23 @@
+state={
+	id=138
+	name="STATE_138"
+	provinces={
+		18179 18327 18464 18606 18654 18710 18876 18931 
+	}
+
+	state_category = rural
+
+	history={
+		owner = LUN
+		victory_points = {
+			              18654 10}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+		}
+		add_core_of = LUN
+	}
+
+	manpower=946874
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,64 @@
+state={
+	id=901
+	name="STATE_901"
+
+	manpower=1421243
+
+	state_category = rural
+
+	history={
+		
+		victory_points = {
+			 3816 1
+		}
+		victory_points = {
+			 3830 1
+		}
+		victory_points = {
+			 3852 1
+		}
+		victory_points = {
+			 3922 1
+		}
+		victory_points = {
+			 3951 1
+		}
+		victory_points = {
+			 3969 1
+		}
+		victory_points = {
+			 4046 1
+		}
+		victory_points = {
+			 4081 1
+		}
+		victory_points = {
+			 4106 1
+		}
+		victory_points = {
+			 4126 1
+		}
+		victory_points = {
+			 4259 1
+		}
+		victory_points = {
+			 4282 1
+		}
+		victory_points = {
+			 4291 1
+		}
+		victory_points = {
+			 3935 1
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+		}
+		
+	}
+
+	provinces={
+		3816 3830 3852 3922 3935 3951 3969 4046 4081 4106 4126 4259 4282 4291 
+	}
+	buildings_max_level_factor=1.000
+}

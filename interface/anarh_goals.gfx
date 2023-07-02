@@ -1,0 +1,100 @@
+spriteTypes = {
+
+
+SpriteType = {
+	name = "GFX_osnov"
+	texturefile = "gfx/interface/goals/anarh/osnov.dds"			
+	}	
+SpriteType = {
+	name = "GFX_osnov2"
+	texturefile = "gfx/interface/goals/anarh/osnov2.dds"			
+	}	
+SpriteType = {
+	name = "GFX_attack_kolhoz"
+	texturefile = "gfx/interface/goals/anarh/attack_kolhoz.dds"			
+	}	
+SpriteType = {
+	name = "GFX_eto_nashe_vso"
+	texturefile = "gfx/interface/goals/anarh/eto_nashe_vso.dds"			
+	}	
+SpriteType = {
+	name = "GFX_katakombi"
+	texturefile = "gfx/interface/goals/anarh/katakombi.dds"			
+	}	
+SpriteType = {
+	name = "GFX_kiev"
+	texturefile = "gfx/interface/goals/anarh/kiev.dds"			
+	}	
+SpriteType = {
+	name = "GFX_nado_brat_tsaritsin"
+	texturefile = "gfx/interface/goals/anarh/nado_brat_tsaritsin.dds"			
+	}	
+SpriteType = {
+	name = "GFX_nasha_strana"
+	texturefile = "gfx/interface/goals/anarh/nasha_strana.dds"			
+	}	
+SpriteType = {
+	name = "GFX_NOD"
+	texturefile = "gfx/interface/goals/anarh/NOD.dds"			
+	}	
+SpriteType = {
+	name = "GFX_novoe_gosvo"
+	texturefile = "gfx/interface/goals/anarh/novoe_gosvo.dds"			
+	}	
+SpriteType = {
+	name = "GFX_obyezd_ugodii"
+	texturefile = "gfx/interface/goals/anarh/obyezd_ugodii.dds"			
+	}	
+SpriteType = {
+	name = "GFX_odessa"
+	texturefile = "gfx/interface/goals/anarh/odessa.dds"			
+	}	
+SpriteType = {
+	name = "GFX_regular_army"
+	texturefile = "gfx/interface/goals/anarh/regular_army.dds"			
+	}	
+SpriteType = {
+	name = "GFX_Ukrainian_empire"
+	texturefile = "gfx/interface/goals/anarh/Ukrainian_empire.dds"			
+	}	
+SpriteType = {
+	name = "GFX_voennoye_vryemya"
+	texturefile = "gfx/interface/goals/anarh/voennoye_vryemya.dds"			
+	}	
+SpriteType = {
+	name = "GFX_Voslresit_mahno"
+	texturefile = "gfx/interface/goals/anarh/Voslresit_mahno.dds"			
+	}	
+SpriteType = {
+	name = "GFX_vsyeobshii_remont"
+	texturefile = "gfx/interface/goals/anarh/vsyeobshii_remont.dds"			
+	}	
+SpriteType = {
+	name = "GFX_war_with_banan"
+	texturefile = "gfx/interface/goals/anarh/war_with_banan.dds"			
+	}	
+SpriteType = {
+	name = "GFX_war_with_RNS"
+	texturefile = "gfx/interface/goals/anarh/war_with_RNS.dds"			
+	}	
+SpriteType = {
+	name = "GFX_warlords"
+	texturefile = "gfx/interface/goals/anarh/warlords.dds"			
+	}	
+SpriteType = {
+	name = "GFX_west_ukr"
+	texturefile = "gfx/interface/goals/anarh/west_ukr.dds"			
+	}	
+SpriteType = {
+	name = "GFX_zahvat_tehniki"
+	texturefile = "gfx/interface/goals/anarh/zahvat_tehniki.dds"			
+	}	
+SpriteType = {
+	name = "GFX_zeleniy_soyuz"
+	texturefile = "gfx/interface/goals/anarh/zeleniy_soyuz.dds"			
+	}	
+SpriteType = {
+	name = "GFX_ZOMBIE_LENIN"
+	texturefile = "gfx/interface/goals/anarh/ZOMBIE_LENIN.dds"			
+	}	
+}

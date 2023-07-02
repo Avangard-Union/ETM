@@ -1,0 +1,15 @@
+characters={
+	TRA_vlad_drakula={
+		name="Vlad Drakula"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRA/drakula.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,154 @@
+﻿
+division_template = {
+	name = "Московская Пехота"
+	priority = 1
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+}
+
+units = {	
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15490
+		division_template = "Московская Пехота"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15809
+		division_template = "Московская Пехота"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15490
+		division_template = "Московская Пехота"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15809
+		division_template = "Московская Пехота"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15490
+		division_template = "Московская Пехота"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15809
+		division_template = "Московская Пехота"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15490
+		division_template = "Московская Пехота"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15809
+		division_template = "Московская Пехота"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15490
+		division_template = "Московская Пехота"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15809
+		division_template = "Московская Пехота"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15490
+		division_template = "Московская Пехота"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15809
+		division_template = "Московская Пехота"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15490
+		division_template = "Московская Пехота"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15809
+		division_template = "Московская Пехота"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			}	
+		location = 15809
+		division_template = "Московская Пехота"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+}

@@ -1,0 +1,15 @@
+characters={
+	UKE_petro_poroshenko={
+		name="Petro Poroshenko"
+		portraits={
+			civilian={
+				large="gfx/leaders/UKE/poroh.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

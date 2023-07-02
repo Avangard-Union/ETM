@@ -1,0 +1,31 @@
+
+state={
+	id=330
+	name="STATE_330"
+	resources={
+		tungsten=6.000
+		steel=6.000
+		aluminium=6.000
+	}
+
+	history={
+		owner = LTZ
+		victory_points = {
+			13810 5 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = LTZ
+
+	}
+
+	provinces={
+		13367 13462 13537 13555 13581 13810 13861 13902 13919 13968 
+	}
+	manpower=53424
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

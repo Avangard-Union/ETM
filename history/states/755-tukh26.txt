@@ -1,0 +1,31 @@
+
+state={
+	id=755
+	name="STATE_755"
+	resources={
+		oil=12.000
+	}
+
+	history={
+		owner = PCY 
+		buildings = {
+			infrastructure = 4
+			dockyard = 3
+			18571 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = PCY 
+
+	}
+
+	provinces={
+		18163 18195 18234 18288 18299 18411 18412 18427 18469 18518 18571 18623 
+	}
+	manpower=404000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,24 @@
+KIV_smuta = {
+	KIV_time_smuta = {
+		allowed = { tag = KIV }
+		available = {
+			NOT = {
+				has_idea = smuta
+			}
+		}
+		activation = {
+			has_idea = smuta
+		}
+		Is_good = no
+		days_mission_timeout = 30
+		timeout_effect = {
+			kill_country_leader = yes
+			hidden_effect = {
+				activate_mission = KIV_time_smuta
+			}
+		}
+		complete_effect = {
+		
+		}
+	}
+}

@@ -1,0 +1,358 @@
+focus_tree = {
+	 id = nezal
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NEZ
+		}
+	}
+	
+	default = no
+		
+	focus = {
+		id = NEZ_f0
+		icon = GFX_Ekonomika_v_zhope
+		cost = 4
+		x = 10
+		y = 0
+			ai_will_do = {
+					factor = 12
+			}
+			search_filters = { FOCUS_FILTER_RESEARCH  FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+				add_political_power = 100
+				add_stability = 0.35	
+			}
+			ai_will_do = {
+					factor = 100
+					modifier = {
+			}
+			}
+	}
+	
+	focus = {
+		id = NEZ_f0_1
+		icon = GFX_Ekonomika_v_zhope
+		prerequisite = 
+		{focus = NEZ_f0}
+		cost = 10
+		x = 10
+		y = 2
+			ai_will_do = {
+					factor = 12
+			}
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+			add_stability = -0.05
+            add_popularity = {
+              ideology = burjuism
+              popularity = 0.05
+            }		    
+			}
+			ai_will_do = {
+					factor = 100
+					modifier = {
+			}
+			}	
+	}
+	
+	focus = {
+		id = NEZ_f0_2
+		icon = GFX_Ekonomika_v_zhope
+		prerequisite = 
+		{focus = NEZ_f0_1}
+		cost = 10
+		x = 8
+		y = 3
+			ai_will_do = {
+					factor = 12
+			}
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+            add_political_power = -100
+            add_popularity = {
+              ideology = burjuism
+              popularity = 0.1
+            }		    
+			}
+			ai_will_do = {
+					factor = 100
+					modifier = {
+			}
+			}	
+	}
+	focus = {
+		id = NEZ_f0_3
+		icon = GFX_Ekonomika_v_zhope
+		prerequisite = 
+		{focus = NEZ_f0_2}
+		cost = 10
+		x = 8
+		y = 5
+			ai_will_do = {
+					factor = 12
+			}
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+			consumer_goods_factor = 0.05
+			add_stability = -0.2
+            add_popularity = {
+              ideology = burjuism
+              popularity = 0.2
+            }		    
+			}
+			ai_will_do = {
+					factor = 100
+					modifier = {
+			}
+			}	
+	}
+	
+		focus = {
+		id = NEZ_f01
+		icon = GFX_Ekonomika_v_zhope
+		prerequisite = 
+		{focus = NEZ_f0_1}
+		cost = 10
+		x = 12
+		y = 3
+			ai_will_do = {
+					factor = 12
+			}
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+			add_stability = 0.1
+            add_popularity = {
+              ideology = burjuism
+              popularity = 0.05
+            }		    
+			}
+			ai_will_do = {
+					factor = 100
+					modifier = {
+			}
+			}	
+	}
+	
+	focus = {
+		id = NEZ_f02
+		icon = GFX_Ekonomika_v_zhope
+		prerequisite = 
+		{focus = NEZ_f01}
+		cost = 10
+		x = 12
+		y = 5
+			ai_will_do = {
+					factor = 12
+			}
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+			consumer_goods_factor = 0.1
+			add_stability = -0.2
+			set_political_power -100
+            add_popularity = {
+              ideology = burjuism
+              popularity = 0.25
+            }		    
+			}
+			ai_will_do = {
+					factor = 100
+					modifier = {
+			}
+			}	
+	}
+	
+	focus = {
+		id = NEZ_f03
+		icon = GFX_Ekonomika_v_zhope
+		prerequisite = 
+		{focus = NEZ_f02}
+		prerequisite = 
+		{focus = NEZ_f0_3}
+		cost = 10
+		x = 10
+		y = 6
+			ai_will_do = {
+					factor = 12
+			}
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+			start_civil_war = {
+            ruling_party = borshewism
+            ideology = root 
+             size = 0.5
+            only_own_territory = yes
+            capital = 859
+            states = { 
+            899 898 895 859 863 
+            }
+            }            
+            }	
+	}
+	
+		focus = {
+		id = NEZ_f1
+		icon = GFX_Ekonomika_v_zhope
+		cost = 1
+		x = 16
+		y = 0
+			ai_will_do = {
+					factor = 12
+			}
+			available = {
+			has_government = borshewism
+		}
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+			 add_popularity = {
+             ideology = borshewism
+             popularity = 1		
+			}
+			add_stability = 0.15
+			}
+			ai_will_do = {
+					factor = 100
+					modifier = {
+			}
+			}	
+	}
+	
+	focus = {
+		id = NEZ_f1_1
+		icon = GFX_Ekonomika_v_zhope
+	    prerequisite = 
+		{focus = NEZ_f1}
+		cost = 1
+		x = 16
+		y = 2
+			ai_will_do = {
+					factor = 12
+			}
+			available = {
+			has_government = borshewism
+		}
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+			 add_stability = 0.1
+			}
+			ai_will_do = {
+					factor = 100
+					modifier = {
+			}
+			}	
+	}
+	
+	focus = {
+		id = NEZ_f1_2
+		icon = GFX_Ekonomika_v_zhope
+	    prerequisite = 
+		{focus = NEZ_f1_1}
+		cost = 1
+		x = 16
+		y = 4
+			ai_will_do = {
+					factor = 12
+			}
+			available = {
+			has_government = borshewism
+		}
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+            add_war_support = 0.15
+			add_stability = 0.15
+			}
+			ai_will_do = {
+					factor = 100
+					modifier = {
+			}
+			}	
+	}	
+	
+	focus = {
+		id = NEZ_f1_3
+		icon = GFX_Ekonomika_v_zhope
+	    prerequisite = 
+		{focus = NEZ_f1_2}
+		cost = 1
+		x = 16
+		y = 6
+			ai_will_do = {
+					factor = 12
+			}
+			available = {
+			has_government = borshewism
+		}
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+			add_stability = -0.1
+			add_political_power = 200
+			}
+			ai_will_do = {
+					factor = 100
+					modifier = {
+			}
+			}	
+	}
+	
+	focus = {
+		id = NEZ_f1_4
+		icon = GFX_Ekonomika_v_zhope
+	    prerequisite = 
+		{focus = NEZ_f1_3}
+		cost = 1
+		x = 16
+		y = 8
+			ai_will_do = {
+					factor = 12
+			}
+			available = {
+			has_government = borshewism
+		}
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+			add_stability = 0.12
+			add_manpower = 150000
+			}
+			ai_will_do = {
+					factor = 100
+					modifier = {
+			}
+			}	
+	}
+	
+		
+	focus = {
+		id = NEZ_f1_5
+		icon = GFX_Ekonomika_v_zhope
+	    prerequisite = 
+		{focus = NEZ_f1_4}
+		cost = 1
+		x = 16
+		y = 10
+			ai_will_do = {
+					factor = 12
+			}
+			available = {
+			has_government = borshewism
+		}
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+			random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 4
+					add_building_construction = {
+						 type = industrial_complex 
+						level = 4
+						instant_build = yes
+			}
+			}
+		    add_ideas = collect_nez
+			}
+			ai_will_do = {
+					factor = 100
+					modifier = {
+			}
+			}	
+	}
+}	

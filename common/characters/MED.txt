@@ -1,0 +1,15 @@
+characters={
+	MED_ПреведМедвед={
+		name="Превед-Медвед"
+		portraits={
+			civilian={
+				large="gfx/leaders/MED/preved_medved.dds"
+			}
+		}
+		country_leader={
+			ideology=postironism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

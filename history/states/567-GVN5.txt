@@ -1,0 +1,49 @@
+
+state={
+	id=567
+	name="STATE_567"
+
+	history={
+		owner = SWI
+		victory_points = {
+			              11418 15}		
+		victory_points = {
+			11274 25 
+		}
+		victory_points = {
+			10976 10 
+		}		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			anti_air_building = 5
+			10976 = {
+				bunker = 3
+			}
+			11032 = {
+				bunker = 3
+			}
+			11125 = {
+				bunker = 3
+			}
+			11161 = {
+				bunker = 3
+			}
+			11275 = {
+				bunker = 3
+			}
+			11418 = {
+				bunker = 3
+			}
+		}
+		add_core_of = SWI
+
+	}
+
+	provinces={
+		10976 11032 11125 11161 11274 11275 11418 
+	}
+	manpower=740320
+	buildings_max_level_factor=1.000
+	state_category=town
+}

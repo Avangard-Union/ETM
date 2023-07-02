@@ -1,0 +1,227 @@
+ideas = {
+	country = {
+		razdelennaya_italy = {
+			picture = razdelennaya_italy
+			allowed = {
+				OR = {
+					original_tag = MUS
+					original_tag = PAS
+				}
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				AND = {
+					controls_state = 546
+					controls_state = 559
+				}
+			}
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = 0.15
+				political_power_gain = -7.8
+				offence = 0.05
+				army_org_factor = -0.2
+				local_manpower = 0.3
+				mobilization_speed = 0.15
+			}
+		}
+		idea_mus_1 = {
+			picture = idea_mus_1
+			allowed = {
+				original_tag = MUS
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			available = {
+				 OR = {
+					has_government = bidlo
+					has_government = pahanism
+				 }
+			}
+			modifier = {
+				political_power_gain = 13
+				stability_factor = 0.05
+				drift_defence_factor = 0.75
+				consumer_goods_factor = 0.025
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		idea_mus_3 = {
+			picture = idea_mus_3
+			allowed = {
+				original_tag = MUS
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			available = {
+				 OR = {
+					has_government = bidlo
+					has_government = pahanism
+				 }
+			}
+			modifier = {
+				offence = -0.05
+				defence = 0.1
+				dig_in_speed_factor = 0.15
+				training_time_factor = -0.1
+				production_factory_efficiency_gain_factor = 0.2
+			}
+		}
+		idea_mus_8 = {
+			picture = idea_mus_8
+			allowed = {
+				original_tag = MUS
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			available = {
+				 has_government = bidlo
+			}
+			modifier = {
+				offence = -0.15
+				defence = 0.2
+				training_time_factor = -0.2
+				production_speed_bunker_factor = 0.2
+			}
+		}
+		idea_mus_4 = {
+			picture = idea_mus_4
+			allowed = {
+				original_tag = MUS
+				always = yes
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			available = {
+				 has_government = bidlo
+			}
+			modifier = {
+				
+			}
+		}
+		idea_mus_9 = {
+			picture = idea_mus_9
+			allowed = {
+				original_tag = MUS
+				always = yes
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			available = {
+				 has_government = bidlo
+			}
+			modifier = {
+				acclimatization_hot_climate_gain_factor = 0.2
+				heat_attrition = -0.2
+				army_attack_factor = 0.1
+				army_fuel_consumption_factor = -0.1
+				army_morale_factor = 0.1
+				army_org_factor = -0.05
+			}
+		}
+		idea_mus_5 = {
+			picture = idea_mus_5
+			allowed = {
+				original_tag = MUS
+				always = yes
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			cancel = {
+				has_war_with = POL
+			}
+			available = {
+				 has_government = bidlo
+			}
+			modifier = {
+				cavalry_attack_factor = 0.2
+				cavalry_defence_factor = 0.3
+			}
+		}
+		idea_mus_1_a = {
+			picture = idea_mus_1_a
+			allowed = {
+				original_tag = MUS
+				always = yes
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -390
+				stability_factor = -0.4
+				war_support_factor = -0.35
+				drift_defence_factor = -1.5
+				disabled_ideas = 1
+				army_leader_cost_factor = 100
+				military_leader_cost_factor = 100
+				navy_leader_cost_factor = 100
+			}
+		}
+		idea_mus_2_a = {
+			picture = idea_mus_2_a
+			allowed = {
+				original_tag = MUS
+				always = yes
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 370
+				stability_factor = 0.1
+				war_support_factor = 0.05
+				offence = 0.1
+				defence = 0.05
+				bidlo_drift = 0.15
+			}
+		}
+		idea_mus_52 = {
+			picture = idea_mus_52
+			allowed = {
+				original_tag = MUS
+				always = yes
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			available = {
+				 has_government = bidlo
+			}
+			modifier = {
+				war_support_factor = 0.25
+				offence = 0.3
+				defence = -0.2
+				army_speed_factor = 0.1
+				army_morale_factor = 0.1
+				army_org_factor = -0.15
+				army_org_regain = 0.25
+				breakthrough_factor = 0.1
+				dig_in_speed_factor = -0.15
+				max_planning_factor = -0.1
+				supply_consumption_factor = 0.3
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters={
+	LUM_illuminat={
+		name="Illuminat"
+		portraits={
+			civilian={
+				large="gfx/leaders/LUM/illuminat.dds"
+			}
+		}
+		country_leader={
+			ideology=conserva
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

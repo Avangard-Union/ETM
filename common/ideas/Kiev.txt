@@ -1,0 +1,17 @@
+ideas = {
+    country = {
+		smuta = {
+			picture = idea_KIV_1
+			allowed = {
+				always = yes
+				original_tag = KIV
+			}
+            removal_cost = -1
+			modifier = {
+				stability_weekly = -0.015
+				war_support_factor = -0.3
+				political_power_factor = -0.93
+        	}
+		}
+	}
+}

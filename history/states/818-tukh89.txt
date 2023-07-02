@@ -1,0 +1,23 @@
+
+state={
+	id=818
+	name="STATE_818"
+
+	history={
+		owner = SHY
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SHY
+
+	}
+
+	provinces={
+		16748 16793 16919 16920 17179 17341 17342 17425 17451 
+	}
+	manpower=184051
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

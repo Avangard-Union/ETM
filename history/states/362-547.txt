@@ -1,0 +1,27 @@
+state={
+	id=362
+	name="STATE_362"
+	provinces={
+		15162 15223 15315 15316 15441 15584 15795 
+	}
+
+	state_category = rural
+	resources={
+		oil=15
+		steel=4
+		rubber=15
+	}
+
+	history={
+		owner = DUR
+		victory_points = {
+                		  15223 5 }
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = DUR
+	}
+
+	manpower=543211
+	buildings_max_level_factor=1.000
+}

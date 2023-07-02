@@ -1,0 +1,62 @@
+characters = {
+	SUS_amogus_bidlo = {
+		name = "Amogus-Bidlo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SUS/Bidlo.dds"
+			}
+		}
+		country_leader = {
+			ideology=fashiki
+			expire = "1965.1.1.1"
+		}
+	}
+	SUS_amogus_borshewism = {
+		name = "Amogus-Borshewism"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SUS/Borshewism.dds"
+			}
+		}
+		country_leader = {
+			ideology=gribonism
+			expire = "1965.1.1.1"
+		}
+	}
+	SUS_amogus_burjuism = {
+		name = "Amogus-Burjuism"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SUS/Burjuism.dds"
+			}
+		}
+		country_leader = {
+			ideology=conserva
+			expire = "1965.1.1.1"
+		}
+	}
+	SUS_amogus_pahanism = {
+		name = "Amogus-Pahanism"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SUS/Pahanism.dds"
+			}
+		}
+		country_leader = {
+			ideology=typicalauthoritarism
+			expire = "1965.1.1.1"
+		}
+	}
+	SUS_amogus_putinism = {
+		name = "Amogus-Putinism"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SUS/Putinism.dds"
+			}
+		}
+		country_leader = {
+			ideology=oligarhiya
+			expire = "1965.1.1.1"
+		}
+	}
+}

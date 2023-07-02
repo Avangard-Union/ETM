@@ -1,0 +1,84 @@
+sound = {
+	name = "super_holy_war"
+	file = "menu/etm_se_custom_holy_war.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "super_putin_wins"
+	file = "menu/etm_se_custom_putin_wins.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "super_letov_wins"
+	file = "menu/etm_se_custom_letov_wins.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "super_evrazia_a"
+	file = "menu/etm_se_custom_evrazia_a.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "super_evrazia_n"
+	file = "menu/etm_se_custom_evrazia_n.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "super_evrazia_lg"
+	file = "menu/etm_se_custom_evrazia_lg.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "super_evrazia_k"
+	file = "menu/etm_se_custom_evrazia_k.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "super_evrazia_l"
+	file = "menu/etm_se_custom_evrazia_l.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "super_evrazia_ak"
+	file = "menu/etm_se_custom_evrazia_ak.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "super_evrazia_al"
+	file = "menu/etm_se_custom_evrazia_al.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "super_evrazia_an"
+	file = "menu/etm_se_custom_evrazia_an.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "super_evrazia_nk"
+	file = "menu/etm_se_custom_evrazia_nk.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "super_evrazia_nl"
+	file = "menu/etm_se_custom_evrazia_nl.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "super_evrazia_kl"
+	file = "menu/etm_se_custom_evrazia_kl.wav"
+	volume = 1
+	always_load = yes
+}

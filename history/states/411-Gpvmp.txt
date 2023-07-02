@@ -1,0 +1,22 @@
+state={
+	id=411
+	name="STATE_411"
+
+	state_category = rural
+
+	history={
+		owner = CKD
+				victory_points = {
+			              20050 5}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CKD
+	}
+
+	provinces={
+		20050 20095 20318 
+	}
+	manpower=85675
+	buildings_max_level_factor=1.000
+}

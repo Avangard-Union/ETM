@@ -1,0 +1,30 @@
+state={
+	id=437
+	name="STATE_437"
+	provinces={
+		18863 19102 19161 19210 19367 19512 
+	}
+
+	state_category = rural
+	resources={
+		tungsten=2
+		steel=4
+		chromium=2
+		aluminium=2
+	}
+
+	history={
+		owner = GDI
+		victory_points = {
+			19512 10    }
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		add_core_of = GDI
+	}
+
+	manpower=385777
+	buildings_max_level_factor=1.000
+}

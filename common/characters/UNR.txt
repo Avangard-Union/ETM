@@ -1,0 +1,36 @@
+characters={
+	UNR_Симон_Васильович_Петлюра={
+		name="Симон Васильович Петлюра"
+		portraits={
+			civilian={
+				large="gfx/leaders/UNR/petlura.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ADOLF_HITLER_DESC"
+			ideology=reznya
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	UNR_Степан_Бандера={
+		name="Степан Бандера"
+		portraits={
+			army={
+				small="gfx/leaders/UNR/bandera.dds"
+			}
+			army={
+				large="gfx/leaders/UNR/bandera.dds"
+			}
+		}
+		field_marshal={
+			traits={ inflexible_strategist trait_cautious media_personality organizer logistics_wizard offensive_doctrine }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+}

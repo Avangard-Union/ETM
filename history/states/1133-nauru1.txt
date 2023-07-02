@@ -1,0 +1,25 @@
+state={
+	id=1133
+	name="STATE_1133"
+
+	state_category = rural
+	
+	resources={
+		rubber=50 # was: 72
+		oil=12 # was: 18
+	}
+
+	history={
+		owner = NAU
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NAU
+	}
+
+	provinces={
+		7499 8019 8296 8425 8502 8535 
+	}
+	manpower=14253
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,30 @@
+state={
+	id=380
+	name="STATE_380"
+	provinces={
+		17867 18027 
+	}
+
+	state_category = rural
+	resources={
+		tungsten=12
+		steel=6
+		chromium=6
+		aluminium=10
+	}
+
+	history={
+		owner = UCH
+		victory_points = {
+                		  18027 10 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = UCH
+	}
+
+	manpower=369850
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,19 @@
+state={
+	id=1204
+	name="STATE_1204"
+        manpower = 490000
+
+         history={
+		owner = YAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+                        arms_factory = 2
+			}
+		}
+		add_core_of = YAB
+	provinces={
+		3728 3825 3859 3921 
+	}
+
+}

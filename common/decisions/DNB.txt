@@ -1,0 +1,294 @@
+DNB_war = {
+	DNB_war_0 = {
+		allowed = { tag = DNB }
+		available = {
+			has_war = no
+		}
+		activation = {
+			has_war_with = PRA
+		}
+		Is_good = no
+		days_mission_timeout = 60
+        fire_only_once = yes
+		timeout_effect = {
+			swap_ideas = {
+				remove_idea = dolgaya_war
+				add_idea = dolgaya_war_1
+			}	
+			
+			hidden_effect = {
+				activate_mission = DNB_war_1
+				
+			}
+		}
+		complete_effect = {
+		
+		}
+	}
+	DNB_war_1 = {
+		allowed = {
+			has_idea = dolgaya_war_1
+		}
+        visible = {
+			has_idea = dolgaya_war_1
+        }
+		available = {
+			has_war = no
+		}
+		activation = {
+			has_idea = dolgaya_war_1
+		}
+		Is_good = no
+		days_mission_timeout = 60
+        fire_only_once = yes
+		timeout_effect = {
+			swap_ideas = {
+				remove_idea = dolgaya_war_1
+				add_idea = dolgaya_war_2
+			}	
+			
+			hidden_effect = {
+				activate_mission = DNB_war_2
+			}
+		}
+		complete_effect = {
+		
+		}
+	}
+	DNB_war_2 = {
+		allowed = {
+			has_idea = dolgaya_war_2
+		}
+        visible = {
+			has_idea = dolgaya_war_2
+        }
+		available = {
+			has_war = no
+		}
+		activation = {
+			has_idea = dolgaya_war_2
+		}
+		Is_good = no
+		days_mission_timeout = 60
+        fire_only_once = yes
+		timeout_effect = {
+			swap_ideas = {
+				remove_idea = dolgaya_war_2
+				add_idea = dolgaya_war_3
+			}	
+			hidden_effect = {
+				activate_mission = DNB_war_3
+			}
+		}
+		complete_effect = {
+		
+		}
+	}
+	DNB_war_3 = {
+		allowed = {
+			has_idea = dolgaya_war_3
+		}
+        visible = {
+			has_idea = dolgaya_war_3
+        }
+		available = {
+			has_war = no
+		}
+		activation = {
+			has_idea = dolgaya_war_3
+		}
+		Is_good = no
+		days_mission_timeout = 60
+        fire_only_once = yes
+		timeout_effect = {
+			swap_ideas = {
+				remove_idea = dolgaya_war_3
+				add_idea = dolgaya_war_4
+			}	
+			hidden_effect = {
+				activate_mission = DNB_war_4
+			}
+		}
+		complete_effect = {
+		
+		}
+	}
+	DNB_war_4 = {
+		allowed = {
+			has_idea = dolgaya_war_4
+		}
+        visible = {
+			has_idea = dolgaya_war_4
+        }
+		available = {
+			has_war = no
+		}
+		activation = {
+			has_idea = dolgaya_war_4
+		}
+		Is_good = no
+		days_mission_timeout = 60
+        fire_only_once = yes
+		timeout_effect = {
+			swap_ideas = {
+				remove_idea = dolgaya_war_4
+				add_idea = dolgaya_war_5
+			}	
+			hidden_effect = {
+				activate_mission = DNB_war_5
+			}
+		}
+		complete_effect = {
+		
+		}
+	}
+	DNB_war_5 = {
+		allowed = {
+			has_idea = dolgaya_war_5
+		}
+        visible = {
+			has_idea = dolgaya_war_5
+        }
+		available = {
+			has_war = no
+		}
+		activation = {
+			has_idea = dolgaya_war_5
+		}
+		Is_good = no
+		days_mission_timeout = 60
+        fire_only_once = yes
+		timeout_effect = {
+			swap_ideas = {
+				remove_idea = dolgaya_war_5
+				add_idea = dolgaya_war_6
+			}	
+			hidden_effect = {
+				activate_mission = DNB_war_6
+			}
+		}
+		complete_effect = {
+		
+		}
+	}
+	DNB_war_6 = {
+		allowed = {
+			has_idea = dolgaya_war_6
+		}
+        visible = {
+			has_idea = dolgaya_war_6
+        }
+		available = {
+			has_war = no
+		}
+		activation = {
+			has_idea = dolgaya_war_6
+		}
+		Is_good = no
+		days_mission_timeout = 60
+        fire_only_once = yes
+		timeout_effect = {
+			swap_ideas = {
+				remove_idea = dolgaya_war_6
+				add_idea = dolgaya_war_7
+			}	
+			hidden_effect = {
+				activate_mission = DNB_war_7
+			}
+		}
+		complete_effect = {
+		
+		}
+	}
+	DNB_war_7 = {
+		allowed = {
+			has_idea = dolgaya_war_7
+		}
+        visible = {
+			has_idea = dolgaya_war_7
+        }
+		available = {
+			has_war = no
+		}
+		activation = {
+			has_idea = dolgaya_war_7
+		}
+		Is_good = no
+		days_mission_timeout = 60
+        fire_only_once = yes
+		timeout_effect = {
+			swap_ideas = {
+				remove_idea = dolgaya_war_7
+				add_idea = dolgaya_war_8
+			}	
+			hidden_effect = {
+				activate_mission = DNB_war_8
+			}
+		}
+		complete_effect = {
+		
+		}
+	}
+	DNB_war_8 = {
+		allowed = {
+			has_idea = dolgaya_war_8
+		}
+        visible = {
+			has_idea = dolgaya_war_8
+        }
+		available = {
+			has_war = no
+		}
+		activation = {
+			has_idea = dolgaya_war_8
+		}
+		Is_good = no
+		days_mission_timeout = 60
+        fire_only_once = yes
+		timeout_effect = {
+			swap_ideas = {
+				remove_idea = dolgaya_war_8
+				add_idea = dolgaya_war_9
+			}	
+			hidden_effect = {
+				activate_mission = DNB_war_9
+			}
+		}
+		complete_effect = {
+		
+		}
+	}
+	DNB_war_9 = {
+		allowed = {
+			has_idea = dolgaya_war_9
+		}
+        visible = {
+			has_idea = dolgaya_war_9
+        }
+		available = {
+			has_war = no
+		}
+		activation = {
+			has_idea = dolgaya_war_9
+		}
+		Is_good = no
+		days_mission_timeout = 60
+        fire_only_once = yes
+		timeout_effect = {
+			add_political_power = -200000
+			swap_ideas = {
+				remove_idea = dolgaya_war_9
+				add_idea = dolgaya_war_10
+			}
+			add_ideas = {
+				net_deneg
+			}
+			hidden_effect = {
+				activate_mission = DNB_war_10
+			}
+		}
+		complete_effect = {
+		
+		}
+	}
+}

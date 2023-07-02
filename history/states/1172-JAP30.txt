@@ -1,0 +1,19 @@
+state={
+	id=1172
+	name="STATE_1172"
+        manpower = 430000
+ 
+        history={
+		owner = BAT
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+                        arms_factory = 2
+			}
+		}
+		add_core_of = BAT
+	provinces={
+		3255 3339 3359 
+	}
+
+}

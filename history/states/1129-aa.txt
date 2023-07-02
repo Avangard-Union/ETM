@@ -1,0 +1,21 @@
+state={
+	id=1129
+	name="STATE_1129"
+
+	state_category = rural
+
+	history={
+		owner = LUN
+		victory_points = {
+			              17411 15}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LUN
+	}
+	provinces={
+		16900 16927 17018 17411 
+	}
+	manpower=874758
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,25 @@
+
+
+state={
+	id=186
+	name="STATE_186"
+	provinces={
+		10854 10992 10993 11139 11214 11236 
+	}
+
+	state_category = rural
+
+	history={
+		owner = MUH
+		victory_points = {
+			10992 15
+		}
+		buildings = {
+			industrial_complex = 3
+		}
+		add_core_of = MUH
+	}
+
+	manpower=2312874
+	buildings_max_level_factor=1.000
+}

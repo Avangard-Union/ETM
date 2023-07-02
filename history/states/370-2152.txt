@@ -1,0 +1,22 @@
+state={
+	id=370
+	name="STATE_370"
+
+	state_category = rural
+
+	history={
+		owner = STH
+		victory_points = {
+                		  17581 15 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+		}
+		add_core_of = STH
+	}
+	provinces={
+		16922 
+	}
+	manpower=1320435
+	buildings_max_level_factor=1.000
+}

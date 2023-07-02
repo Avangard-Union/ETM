@@ -1,0 +1,112 @@
+category = 
+{
+ name = "Voices"
+ soundeffects = {
+	UKE_infantry_idle
+	UKE_infantry_neutral_combat
+	UKE_infantry_positive_combat
+	UKE_infantry_retreat
+	UKE_infantry_move_out
+ }
+  compressor = 
+ {
+	enabled = yes
+	pregain = 0.0
+	postgain = 2.0
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 1.2
+ }
+}
+
+
+soundeffect = 
+{
+    name = "UKE_infantry_idle"
+    sounds = {
+        sound = hohol_idle
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "UKE_infantry_neutral_combat"
+    sounds = {
+        sound = hohol_walk
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "UKE_infantry_positive_combat"
+    sounds = {
+        sound = hohol_atk_1
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "UKE_infantry_retreat"
+    sounds = {
+        sound = hohol_retreat_1
+		sound = hohol_retreat_2
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "UKE_infantry_move_out"
+    sounds = {
+        sound = hohol_atk_1
+		sound = hohol_walk
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+
+sound = 
+{
+	name = "hohol_atk_1"
+	file = "hohli/hohol_atk_1.wav"
+}
+sound = 
+{
+	name = "hohol_idle"
+	file = "hohli/hohol_idle.wav"
+}
+sound = 
+{
+	name = "hohol_retreat_1"
+	file = "hohli/hohol_retreat_1.wav"
+}
+sound = 
+{
+	name = "hohol_retreat_1"
+	file = "hohli/hohol_retreat_2.wav"
+}
+sound = 
+{
+	name = "hohol_walk"
+	file = "hohli/hohol_walk.wav"
+}

@@ -1,0 +1,28 @@
+characters={
+	TAR_kremleshtern={
+		name="Kremleshtern"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAR/Kremlin.dds"
+			}
+		}
+		country_leader={
+			ideology=imperial_putinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TAR_morgayslave={
+		name="MorGaySlave"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAR/MorGaySlave.dds"
+			}
+		}
+		country_leader={
+			ideology=pedophilia
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

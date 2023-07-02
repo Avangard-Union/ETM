@@ -1,0 +1,19 @@
+state={
+	id=1147
+	name="STATE_1147"
+        manpower = 1000000
+ 
+        history={
+		owner = BS1
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+                        arms_factory = 3
+			}
+		}
+                add_core_of = BS1
+	provinces={
+		3211 3286 3295 3358 3400 3472 3500 3523 
+	}
+
+}

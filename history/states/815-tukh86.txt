@@ -1,0 +1,26 @@
+
+state={
+	id=815
+	name="STATE_815"
+
+	history={
+		owner = SHY
+		buildings = {
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 4
+			air_base = 4
+
+		}
+		add_core_of = SHY
+
+	}
+
+	provinces={
+		17474 17594 17616 17656 17726 17820 
+	}
+	manpower=369169
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

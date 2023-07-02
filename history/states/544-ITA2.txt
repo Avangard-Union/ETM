@@ -1,0 +1,30 @@
+state={
+	id=544
+	name="STATE_544"
+	provinces={
+		8835 8931 8958 9002 9069 9138 
+	}
+
+	state_category = town
+
+	history={
+		owner = MUS
+		victory_points = { 9002 10 } # Латино
+		victory_points = { 8835 10 } # Фондю
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+                        dockyard = 5
+
+                        8835 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = MUS
+                add_core_of = PAS
+	}
+
+	manpower=652694
+	buildings_max_level_factor=1.000
+}

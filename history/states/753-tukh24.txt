@@ -1,0 +1,27 @@
+state={
+	id=753
+	name="STATE_753"
+	provinces={
+		18458 18547 18570 18632 18650 18740 18741 18742 18837 18845 
+	}
+
+	state_category = rural
+
+	history={
+		owner = TUC
+		victory_points = { 18742 5 } # Воркута
+		victory_points = { 18458 1 } # Школяр
+		buildings = {
+			infrastructure = 2
+			dockyard = 2
+
+			18837 = {
+				naval_base = 3
+			}
+		}	
+		add_core_of = TUC
+	}
+	
+	manpower=82140
+	buildings_max_level_factor=1.000
+}

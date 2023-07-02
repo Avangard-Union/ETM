@@ -1,0 +1,32 @@
+
+state={
+	id=53
+	name="STATE_53"
+	provinces={
+		3336 3367 3385 3498 3511 
+	}
+
+	state_category = rural
+
+	history={
+		owner = RAJ
+		victory_points = {
+			              3511 20 }
+		
+		victory_points = {
+                		  3498 10 }
+						  
+		victory_points = {
+                		  3367 10 }
+						  
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = RAJ 
+	}
+
+	manpower=8090785
+	buildings_max_level_factor=1.000
+}

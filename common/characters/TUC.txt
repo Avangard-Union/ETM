@@ -1,0 +1,15 @@
+characters={
+	TUC_mikhail_tukhachevsky={
+		name="Mikhail Tukhachevsky"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUC/NEW_Tukhach.dds"
+			}
+		}
+		country_leader={
+			ideology=naziborshewism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

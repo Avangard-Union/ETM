@@ -1,0 +1,335 @@
+focus_tree = {
+	id = chernmorsk_notagress
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DUK
+		}
+	}
+	continuous_focus_position = { x = 1479 y = 150 }
+	
+	default = no
+	focus = {
+		id = tehi
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = infrastrukt
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = ideologe
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = voenka
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = infrastrukt
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = voenka_1
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = voenka
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = gragdanka
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = infrastrukt
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = gragdanka_2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = gragdanka
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = infrastrukt_2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = voenka_1
+		}
+		prerequisite = {
+			focus = gragdanka_2
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = voenka_3
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = infrastrukt_2
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = gragdanka_3
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = infrastrukt_2
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = gragdanka_4
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = gragdanka_3
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = voenka_4
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = voenka_3
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = infrastrukt_3
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = gragdanka_4
+		}
+		prerequisite = {
+			focus = voenka_4
+		}
+		x = 7
+		y = 7
+
+	}
+	focus = {
+		id = voenka_5
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = infrastrukt_3
+		}
+		x = 6
+		y = 8
+
+	}
+	focus = {
+		id = gragdanka_5
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = infrastrukt_3
+		}
+		x = 8
+		y = 8
+
+	}
+	focus = {
+		id = voenka_6
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = voenka_5
+		}
+		x = 6
+		y = 9
+
+	}
+	focus = {
+		id = gragdanka_6
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = gragdanka_5
+		}
+		x = 8
+		y = 9
+
+	}
+	focus = {
+		id = infrastrukt_4
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = gragdanka_6
+		}
+		prerequisite = {
+			focus = voenka_6
+		}
+		x = 7
+		y = 10
+
+	}
+	focus = {
+		id = voenka_7
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = infrastrukt_4
+		}
+		x = 6
+		y = 11
+
+	}
+	focus = {
+		id = gragdanka_7
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = infrastrukt_4
+		}
+		x = 8
+		y = 11
+
+	}
+	focus = {
+		id = voenka_8
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = voenka_7
+		}
+		x = 6
+		y = 12
+
+	}
+	focus = {
+		id = gragdanka_8
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = gragdanka_7
+		}
+		x = 8
+		y = 12
+
+	}
+	focus = {
+		id = infrastrukt_5
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = voenka_8
+		}
+		prerequisite = {
+			focus = gragdanka_8
+		}
+		x = 7
+		y = 13
+
+	}
+	focus = {
+		id = shablony
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ideologe
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = molodedg
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = shablony
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = propoganda
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = molodedg
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = staba
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = propoganda
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = politka
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = staba
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = agenstvo
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = politka
+		}
+		x = 11
+		y = 7
+
+	}
+}

@@ -1,0 +1,31 @@
+state={
+	id=936
+	name="STATE_936"
+	manpower=1980000
+	state_category = large_town
+	
+	history={
+		
+		victory_points = {
+			 2661 50
+		}
+	victory_points = {
+			 2837 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 5
+			industrial_complex = 3
+			dockyard = 2
+			2661 = {
+				naval_base = 4
+			}
+		}
+		
+	}
+
+	provinces={
+		2581 2606 2644 2661 2675 2722 2735 2749 2763 2785 2837 2866 2881 
+	}
+	buildings_max_level_factor=1.000
+}

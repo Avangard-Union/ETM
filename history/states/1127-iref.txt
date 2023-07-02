@@ -1,0 +1,24 @@
+state={
+	id=1127
+	name="STATE_1127"
+
+	state_category = rural
+
+	history={
+		owner = BUG
+		victory_points = {
+			17777 30     }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 1
+		}
+		add_core_of = BUG
+	}
+
+	provinces={
+		17688 17777 17823 18142 18349 18367 18535 18813 
+	}
+	manpower=1347478
+	buildings_max_level_factor=1.000
+}

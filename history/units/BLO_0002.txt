@@ -1,0 +1,70 @@
+﻿division_template = {
+	name = "Болотные твари"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+units = {
+	division= {
+		name = "Болотники"	
+		location = 17128
+		division_template = "Болотные твари"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {
+		name = "Болотники"	
+		location = 17012
+		division_template = "Болотные твари"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {
+		name = "Болотники"	
+		location = 16958
+		division_template = "Болотные твари"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {
+		name = "Болотники"	
+		location = 16959
+		division_template = "Болотные твари"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {
+		name = "Болотники"	
+		location = 16917
+		division_template = "Болотные твари"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {
+		name = "Болотники"	
+		location = 17058
+		division_template = "Болотные твари"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {
+		name = "Болотники"	
+		location = 17193
+		division_template = "Болотные твари"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {
+		name = "Болотники"	
+		location = 17251
+		division_template = "Болотные твари"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+}

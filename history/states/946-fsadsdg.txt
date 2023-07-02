@@ -1,0 +1,37 @@
+state={
+	id=946
+	name="STATE_946"
+	manpower=1500000
+	state_category = rural
+	
+	history={
+		
+                victory_points = {
+			 2083 20
+                }
+                victory_points = {
+			 2210 10
+                }
+                victory_points = {
+			 2369 10
+                }
+                victory_points = {
+			 2222 20
+                }
+                victory_points = {
+			 2140 10
+                }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 4
+                        air_base = 2
+		}
+		
+	}
+
+	provinces={
+		2083 2094 2140 2155 2187 2203 2210 2222 2280 2290 2319 2369 2408 2412 2472 
+	}
+	buildings_max_level_factor=1.000
+}

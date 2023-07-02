@@ -1,0 +1,26 @@
+
+state={
+	id=327
+	name="STATE_327"
+	resources={
+		chromium=20.000
+	}
+
+	history={
+		owner = ZMR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ZMR
+
+	}
+
+	provinces={
+		15061 15176 20693 20694 20696 20697 20701 20703 20704 20705 
+	}
+	manpower=524600
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

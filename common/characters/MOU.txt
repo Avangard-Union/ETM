@@ -1,0 +1,15 @@
+characters={
+	MOU_Армяне={
+		name="Армяне"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOU/armyane.dds"
+			}
+		}
+		country_leader={
+			ideology=tsardemocrasy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

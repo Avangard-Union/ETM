@@ -1,0 +1,23 @@
+state={
+	id=353
+	name="STATE_353"
+
+	state_category = rural
+
+	history={
+		owner = STA
+		victory_points = {
+                		  12389 5 }
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+		add_core_of = STA
+	}
+
+	provinces={
+		11994 12037 12388 12389 12567 12701 12743 
+	}
+	manpower=634789
+	buildings_max_level_factor=1.000
+}

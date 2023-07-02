@@ -1,0 +1,29 @@
+state={
+	id=678
+	name="STATE_678"
+
+	history={
+		victory_points = { 11195 50 }
+		victory_points = { 11075 10 } # Северный Таганрог
+		victory_points = { 11168 10 }
+		victory_points = { 11490 10 } # Новошахтинск
+		victory_points = { 11076 10 } # Батайск
+		owner = PRA
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = PRA
+
+	}
+
+	provinces={
+		11039 11064 11075 11076 11098 11099 11168 11193 11194 11195 11196 11357 11358 11490 
+	}
+	manpower=1801076
+	buildings_max_level_factor=1.000
+	state_category=city
+}

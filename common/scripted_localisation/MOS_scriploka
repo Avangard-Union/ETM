@@ -1,0 +1,57 @@
+defined_text = {
+	name = libdeltatxt
+	text = {
+		trigger = {
+			check_variable = { libloyal_delta < -3.1 }
+		}
+		localization_key = libdelta_2low
+	}
+	text = {
+		trigger = {
+			check_variable = {libloyal_delta < -1.8}
+		}
+		localization_key = libdelta_vlow
+	}
+	text = {
+		trigger = {
+			check_variable = { libloyal_delta < -0.7 }
+		}
+		localization_key = libdelta_low
+	}
+	text = {
+		trigger = {
+			check_variable = { libloyal_delta < -0.1 }
+		}
+		localization_key = libdelta_low_nezh
+	}
+	text = {
+		trigger = {
+			check_variable = { libloyal_delta < 0.1 }
+		}
+		localization_key = libdelta_stagn
+	}
+	text = {
+		trigger = {
+			check_variable = { libloyal_delta < 0.7 }
+		}
+		localization_key = libdelta_up_nezh
+	}
+	text = {
+		trigger = {
+			check_variable = { libloyal_delta < 1.8 }
+		}
+		localization_key = libdelta_up
+	}
+	text = {
+		trigger = {
+			check_variable = { libloyal_delta < 3 }
+		}
+		localization_key = libdelta_up_fast
+	}
+	text = {
+		trigger = {
+			check_variable = { { var = libloyal_delta  value 1.5  compare = greater_than_or_equals } }
+		}
+		localization_key = libdelta_up_vfast
+	}
+}

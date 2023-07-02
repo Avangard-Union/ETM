@@ -1,0 +1,31 @@
+
+state={
+	id=344
+	name="STATE_344"
+
+	history={
+		owner = PLA
+		victory_points = {
+			18025 25 
+		}
+		victory_points = {
+			17728 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = PLA
+
+	}
+
+	provinces={
+		16858 17001 17234 17361 17362 17377 17439 17465 17658 17659 17660 17683 17728 17757 17821 17865 17886 17945 17987 18025 18059 18076 18130 18139 18196 18259 20732 20735 20736 20739 
+	}
+	manpower=1345674
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,37 @@
+characters={
+	ANT_khan_zamay={
+		name="Khan Zamay"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANT/khan_zamay.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_reckless media_personality }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=nazi
+			expire="123.1.1.1"
+			id=-1
+		}
+	}
+	ANT_glory_to_cpsu={
+		name="Glory to CPSU"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANT/slava_kpss.dds"
+			}
+		}
+		country_leader={
+			ideology=gribonism
+			expire="123.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,24 @@
+state={
+	id=226
+	name="STATE_226"
+	provinces={
+		16564 16669 16707 16808 16942 16971 16985 17093 17183 17238 17380 
+	}
+
+	state_category = town
+
+	history={
+		owner = BAD
+				victory_points = {
+			              16669 5
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		add_core_of = BAD
+	}
+
+	manpower=1312473
+	buildings_max_level_factor=1.000
+}

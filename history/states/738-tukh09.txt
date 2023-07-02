@@ -1,0 +1,23 @@
+state={
+	id=738
+	name="STATE_738"
+	provinces={
+		18173 18256 18321 18386 18504 18583 
+	}
+
+	state_category = rural
+	
+	history={
+		owner = NAP
+		victory_points = { 18583 15 } # Холмогоры
+		victory_points = { 18256 5 } # Карпогоры
+		buildings = {
+			infrastructure = 3
+
+		
+		}
+		add_core_of = NAP
+	}
+	manpower=395701
+	buildings_max_level_factor=1.000
+}

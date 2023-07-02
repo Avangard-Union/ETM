@@ -1,0 +1,50 @@
+characters={
+	KNR_Альберт_Шпеер={
+		name="Альберт Шпеер"
+		portraits={
+			civilian={
+				small="_small"
+			}
+			civilian={
+				large=""
+			}
+		}
+		country_leader={
+			ideology=fashiki
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	KNR_Дэн_Сяопин={
+		name="Дэн Сяопин"
+		portraits={
+			civilian={
+				small="_small"
+			}
+			civilian={
+				large=""
+			}
+		}
+		country_leader={
+			ideology=velikiyxi
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	KNR_Комания_ИКЕЯ={
+		name="Комания ИКЕЯ"
+		portraits={
+			civilian={
+				small="_small"
+			}
+			civilian={
+				large=""
+			}
+		}
+		country_leader={
+			ideology=jididoism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

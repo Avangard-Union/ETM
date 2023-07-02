@@ -1,0 +1,22 @@
+state={
+	id=377
+	name="STATE_377"
+	provinces={
+		17429 17466 
+	}
+
+	state_category = rural
+
+	history={
+		owner = NOD
+		victory_points = {
+			17466 3     }
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NOD
+	}
+
+	manpower=219143
+	buildings_max_level_factor=1.000
+}

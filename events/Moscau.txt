@@ -1,0 +1,353 @@
+add_namespace = moslib
+add_namespace = mosdef
+add_namespace = mosconf
+   
+   country_event = {
+     id = moslib.0
+	 title = moslib.0.t
+	 desc = moslib.0.d
+	 picture = GFX_RNS_event_liberaha_plachet
+	 trigger = {
+	     original_tag = MOS
+	    }
+	 mean_time_to_happen = {
+	   days = 2
+	  }
+	 fire_only_once = yes
+	 option = {
+		trigger = {
+			is_ai = no
+		}
+	  name = moslib.0.o
+	  hidden_effect = {
+	    activate_mission = MOS_liberda_buhtit
+		set_country_flag = MOS_liberda_burlit
+		add_dynamic_modifier = {
+		   modifier = MOS_govno_burlit
+		   scope = MOS
+		}
+		country_event = { id = mosdef.0  days = 5 }
+	  }
+	 }
+	 option = {
+		trigger = {
+			is_ai = yes
+		}
+	  name = moslib.0.alt
+	  hidden_effect = {
+		log = "[GetDateText]: [Root.GetName]: moslib.0.alt zaebashil"
+	    set_variable = {
+			var = libloyal
+			value = 44
+		}
+		set_country_flag = MOS_liberda_burlit
+		add_dynamic_modifier = {
+		   modifier = MOS_govno_burlit
+		   scope = MOS
+		}
+		country_event = { id = mosdef.0  days = 5 }
+	  }
+	 }
+    }
+   country_event = {
+     id = moslib.1
+	 title = moslib.1.t
+	 desc = moslib.1.d
+	 picture = GFX_no_pic
+	 is_triggered_only = yes
+	 
+	 option = {
+	  name = moslib.1.o
+	  hidden_effect = {
+	    set_country_flag = MOS_polilos
+	    activate_mission = MOS_The_Konets
+	   }
+	 }
+    }
+   country_event = {
+     id = moslib.12
+	 title = moslib.12.t
+	 desc = moslib.12.d
+	 picture = GFX_no_pic
+	 immediate = {log = "[GetDateText]: [Root.GetName]: event moslib.12"}
+	 is_triggered_only = yes
+	 fire_only_once = yes
+	 option = {
+	  name = moslib.12.o
+	  country_event = { id = mosconf.1 hours = 3 }
+	 }
+    }
+   country_event = {
+     id = moslib.11
+	 title = moslib.11.t
+	 desc = moslib.11.d
+	 picture = GFX_no_pic
+	 is_triggered_only = yes
+	 
+	 option = {
+	  name = moslib.11.o
+	  hidden_effect = {
+	    activate_mission = MOS_liberda_buhtit
+		set_variable = {
+		    var = libloyal_delta
+			value = -0.8
+		  }
+		add_to_variable = {
+		    var = libloyal
+			value = 2.28
+		  }
+	   }
+	 }
+    }
+#--MOS_SOB_LIB5_VETKA--#
+	country_event = {
+		id = moslib.20
+		title = moslib.20.t
+		desc = moslib.20.d
+		picture = GFX_nevel_ny
+		is_triggered_only = yes
+		option = {
+			name = moslib.20.a
+		}
+		option = {
+			name = moslib.20.b
+		}
+	}
+
+   
+   country_event = {
+     id = mosdef.0
+	 title = mosdef.0.t
+	 desc = mosdef.0.d
+	 picture = GFX_no_pic
+	 is_triggered_only = yes
+	 fire_only_once = yes
+	 option = {
+	  name = mosdef.0.o
+	  hidden_effect = {
+	  set_country_flag = MOS_plitka_uklad
+		activate_mission = MOS_the_bitch_incoming
+		add_timed_idea = {
+		  idea = MOS_perekladyvaut_plitku
+		  days = 39
+		 }
+	  }
+	 }
+    }
+   country_event = {
+     id = mosdef.2
+	 title = mosdef.2.t
+	 desc = mosdef.2.d
+	 picture = GFX_RNS_event_liberaha_plachet
+	 is_triggered_only = yes
+	 option = {
+	  name = mosdef.2.o
+	  hidden_effect = {
+	    activate_mission = MOS_the_bitch_incoming
+		add_timed_idea = {
+	     idea = MOS_perekladyvaut_plitku
+		 days = 39
+	   }
+	  }
+	 }
+    }
+	
+	
+
+ country_event = {
+	id = mosdef.404
+	title = mosdef.404.t
+	desc = mosdef.404.t
+	is_triggered_only = yes
+	option = {
+		name = mosdef.404.o
+		custom_effect_tooltip = mos_rnsrise_tt
+		set_country_flag = MOS_ECONOM_PISDEZ
+		add_focus_tree = MOS_noeconomic
+	}
+ }
+#-------------MLP-momento------------------#
+ country_event = {
+     id = mosconf.1
+	 title = mosconf.1.t
+	 desc = mosconf.1.d
+	 picture = GFX_no_pic
+	 is_triggered_only = yes
+	 immediate = {log = "[GetDateText]: [Root.GetName]: event mosconf.1"}
+	 fire_only_once = yes
+	 option = {
+	  name = mosconf.1.o
+	  retire_character = MOS_knyaz_sergei_doganin
+	  custom_effect_tooltip = BRONY_coup_tt
+	   hidden_effect = {
+	    add_country_leader_role = {
+			Character = MOS_ruslanchik
+			Promote_leader = yes
+			Country_leader = {
+				ideology = zoomerism
+				expire = "1965.1.1.1"
+				traits={}
+            }
+		}
+	    set_cosmetic_tag = M_BRONY
+	    set_politics = {
+	        ruling_party = burjuism
+	        last_election = "21.10.2010"
+	        election_frequency = 0
+	        elections_allowed = no
+        }
+		set_popularities = { 
+	        burjuism = 52
+	        borshewism = 20
+	        pahanism = 25
+	        putinism = 3
+	        bidlo = 0
+        } 
+		set_party_name = { 
+            ideology = burjuism 
+            long_name = BRONY_party_burj_l
+            name = BRONY_party_burj
+        }
+		set_province_name = {
+		  id = 14683
+		  name = 14683_NEWPONVILE
+		}
+		  clr_country_flag = MOS_liberda_burlit
+		  remove_dynamic_modifier = { modifier = MOS_govno_burlit }
+		  clr_country_flag = MOS_plitka_uklad
+		  1328 = { set_demilitarized_zone = yes }
+			ROOT = {  delete_unit = {
+				state = 667
+				disband = yes
+			  }
+			  delete_unit = {
+				state = 1322
+				disband = yes
+			  }
+			  delete_unit = {
+				state = 1323
+				disband = yes
+			  }
+			  delete_unit = {
+				state = 1324
+				disband = yes
+			  }
+			  delete_unit = {
+				state = 1325
+				disband = yes
+			  }
+			  delete_unit = {
+				state = 1326
+				disband = yes
+			  }
+			 }
+		    }
+		country_event = { id = mosconf.2  hours = 100 }
+	  }
+	  
+    }
+	country_event = {
+	   id = mosconf.2
+	   title = mosconf.2.t
+	   desc = mosconf.2.d
+	   picture = GFX_no_pic
+	   immediate = {log = "[GetDateText]: [Root.GetName]: event mosconf.2"}
+	   
+	   is_triggered_only = yes
+	   
+	   option = {
+	   name = mosconf.2.a
+	   1323 = { set_state_name = KIL_kolhoz }
+	  KIL = {
+		 add_state_core = 1328
+	     transfer_state = 1328
+		 add_state_core = 1323
+		 set_capital = 1328
+		 add_state_core = 664
+		 add_state_core = 1326
+		 add_state_core = 1322
+		 add_state_core = 1327
+		 add_state_core = 1324
+		 add_state_core = 1325
+		 
+		 inherit_technology = MOS
+	   }
+	   1322 = { set_demilitarized_zone = yes }
+	   1326 = { set_demilitarized_zone = yes }
+	   set_province_name = {
+		  id = 14683
+		  name = 14683_GRUDININ
+		}
+	   set_province_name = {
+		  id = 15152
+		  name = 15152_GRUDININ
+		}
+		hidden_effect = {
+		remove_ideas = MOS_isverygood
+		1323 = { set_demilitarized_zone = no }
+		    }
+		country_event = { id = mosconf.3 hours = 29}
+		}
+	 option = {
+	  name = mosconf.2.b
+	  1323 = { set_state_name = KIL_kolhoz }
+	  1322 = { set_demilitarized_zone = yes }
+	  1326 = { set_demilitarized_zone = yes }
+	  KIL = {
+	     transfer_state = 1323
+		 add_state_core = 1323
+		 set_capital = 1323
+		 add_state_core = 664
+		 add_state_core = 1326
+		 add_state_core = 1322
+		 add_state_core = 1327
+		 add_state_core = 1324
+		 add_state_core = 1325
+		 change_tag_from = ROOT
+	   }
+	   set_province_name = {
+		  id = 14683
+		  name = 14683_GRUDININ
+		}
+	   set_province_name = {
+		  id = 15152
+		  name = 15152_GRUDININ
+		}
+		hidden_effect = {
+		remove_ideas = MOS_isverygood
+		1323 = { set_demilitarized_zone = no }
+		
+		KIL = {
+			  
+			  inherit_technology = MOS
+			}
+		  }
+		country_event = { id = mosconf.3 hours = 27}
+		}
+	}
+	country_event = {
+	   id = mosconf.3
+	   title = mosconf.3.t
+	   desc = mosconf.3.d
+	   picture = GFX_no_pic
+	   immediate = {log = "[GetDateText]: [Root.GetName]: event mosconf.3"}
+	   is_triggered_only = yes
+	   
+	   option = {
+	     name = mosconf.3.a
+		 
+		 hidden_effect = {
+		   MOS_zhir_revolt = yes
+		 }
+	   }
+	   option = {
+	     name = mosconf.3.b
+		 
+		 ZHI = {
+		   change_tag_from = ROOT
+		 }
+		 hidden_effect = {
+		   MOS_zhir_revolt = yes
+		 }
+	   }
+	}

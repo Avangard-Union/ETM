@@ -1,0 +1,15 @@
+characters={
+	HIP_Хипарь={
+		name="Хипарь"
+		portraits={
+			civilian={
+				large="gfx/leaders/HIP/hip.dds"
+			}
+		}
+		country_leader={
+			ideology=zoomerism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

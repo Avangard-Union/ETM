@@ -1,0 +1,176 @@
+﻿add_namespace = unr
+country_event = {
+	id = unr.1
+	title = unr.1.t
+	desc = unr.1.d
+	picture = GFX_report_event_unclow
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ZPU
+		MAH = {
+			has_completed_focus = eto_vse_nashe
+			}  
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {		
+		name = unr.1.a				
+	}
+}
+
+country_event = {
+	id = unr.11
+	title = unr.11.t
+	desc = unr.11.d
+	picture = GFX_report_event_unclow
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ZPU
+		MAH = {
+			has_completed_focus = remont
+			}  
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {		
+		name = unr.11.a				#оживление
+		ai_chance = { factor = 1 }
+		UNR = { change_tag_from = ROOT }
+		UNR = { 
+			add_state_core = 469
+			add_state_core = 472
+			add_state_core = 470
+			add_state_core = 473
+			add_state_core = 471
+			add_state_core = 474
+			set_capital = 469
+			set_state_owner = 469
+			set_state_owner = 472
+			set_state_owner = 470
+			set_state_owner = 473
+			set_state_controller = 469
+			set_state_controller = 472
+			set_state_controller = 470
+			set_state_controller = 473
+			load_oob = "UNR_0002"
+			declare_war_on = {
+				target = ZPU
+				type = annex_everything
+				}
+			}
+		ZPU = {
+			set_politics = {
+				ruling_party = burjuism
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			set_popularities = {
+				burjuism = 100
+				bidlo = 0
+				borshewism = 0
+				pahanism = 0
+			}
+		}
+	}
+	option = {		
+		name = unr.11.c		#оживление на стороне демократов
+		ai_chance = { factor = 1 }
+		UNR = { 
+			add_state_core = 469
+			add_state_core = 472
+			add_state_core = 470
+			add_state_core = 473
+			add_state_core = 471
+			add_state_core = 474
+			set_capital = 469
+			set_state_owner = 469
+			set_state_owner = 472
+			set_state_owner = 470
+			set_state_owner = 473
+			set_state_controller = 469
+			set_state_controller = 472
+			set_state_controller = 470
+			set_state_controller = 473
+			load_oob = "UNR_0002"
+			declare_war_on = {
+				target = ZPU
+				type = annex_everything
+				}
+			}
+		ZPU = {
+			set_politics = {
+				ruling_party = burjuism
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			set_popularities = {
+				burjuism = 100
+				bidlo = 0
+				borshewism = 0
+				pahanism = 0
+			}
+		}
+	}
+	option = {
+		name = unr.11.b		
+	}
+}
+
+country_event = {
+	id = unr.2
+	title = unr.2.t
+	desc = unr.2.d
+	picture = GFX_report_event_unclow
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = UNR
+		date > 0003.5.1
+		NOT = { country_exists = ZPU }
+			469 = {
+				is_owned_and_controlled_by = UNR
+			}
+			472 = {
+				is_owned_and_controlled_by = UNR
+			}
+			470 = {
+				is_owned_and_controlled_by = UNR
+			}
+			473 = {
+				is_owned_and_controlled_by = UNR
+			}
+			471 = {
+				is_owned_and_controlled_by = UNR
+			}
+			474	= {
+				is_owned_and_controlled_by = UNR
+			}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {		
+		name = unr.2.a				#погром
+		ai_chance = { factor = 1 }
+		UNR = {
+			declare_war_on = {
+				target = KIV
+				type = annex_everything
+			}
+		}
+	}
+	option = {		
+		name = unr.2.b			
+	}
+}

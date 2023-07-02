@@ -1,0 +1,19 @@
+state={
+	id=1222
+	name="STATE_1222"
+        manpower = 500000
+
+         history={
+		owner = BAS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+                        arms_factory = 4
+			}
+		}
+		add_core_of = BAS
+	provinces={
+		20651 20655 
+	}
+
+}

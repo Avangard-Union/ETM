@@ -1,0 +1,15 @@
+characters={
+	VEY_council_of_indepedent_veyshnoria={
+		name="Council of Indepedent Veyshnoria"
+		portraits={
+			civilian={
+				large="gfx/leaders/VEY/Sobraniye.dds"
+			}
+		}
+		country_leader={
+			ideology=socdem
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

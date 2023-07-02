@@ -1,0 +1,631 @@
+
+category = 
+{
+ name = "Voices"
+ soundeffects = {
+	LET_infantry_idle
+	LET_infantry_neutral_combat
+	LET_infantry_positive_combat
+	LET_infantry_retreat
+	LET_infantry_move_out
+ }
+  compressor = 
+ {
+	enabled = yes
+	pregain = 0.0
+	postgain = 2.0
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 1.2
+ }
+}
+
+########## 
+
+soundeffect = 
+{
+    name = "LET_infantry_idle"
+    sounds = {
+        sound = let_Idle_001
+        sound = let_Idle_002
+        sound = let_Idle_003
+        sound = let_Idle_004
+        sound = let_Idle_005
+        sound = let_Idle_006
+        sound = let_Idle_007
+        sound = let_Idle_008
+        sound = let_Idle_009
+        sound = let_Idle_010
+        sound = let_Idle_011
+        sound = let_Idle_012
+        sound = let_Idle_013
+        sound = let_Idle_014
+        sound = let_Idle_015
+        sound = let_Idle_016
+        sound = let_Idle_017
+        sound = let_Idle_018
+        sound = let_Idle_019
+        sound = let_Idle_020
+        sound = let_Idle_021
+        sound = let_Idle_022
+        sound = let_Idle_023
+        sound = let_Idle_024
+        sound = let_Idle_025
+        sound = let_Idle_026
+        sound = let_Idle_027
+	
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "LET_infantry_neutral_combat"
+    sounds = {
+        sound = let_Neutral_001
+        sound = let_Neutral_002
+        sound = let_Neutral_003
+        sound = let_Neutral_004
+        sound = let_Neutral_005
+        sound = let_Neutral_006
+        sound = let_Neutral_007
+        sound = let_Neutral_008
+        sound = let_Neutral_009
+        sound = let_Neutral_010
+        sound = let_Neutral_011
+        sound = let_Neutral_012
+        sound = let_Neutral_013
+        sound = let_Neutral_014
+        sound = let_Neutral_015
+        sound = let_Neutral_016
+        sound = let_Neutral_017
+        sound = let_Neutral_018
+        sound = let_Neutral_019
+        sound = let_Neutral_020
+		sound = let_Neutral_021
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "LET_infantry_positive_combat"
+    sounds = {
+        sound = let_Positive_001
+        sound = let_Positive_002
+        sound = let_Positive_003
+        sound = let_Positive_004
+        sound = let_Positive_005
+        sound = let_Positive_006
+        sound = let_Positive_007
+        sound = let_Positive_008
+        sound = let_Positive_009
+        sound = let_Positive_010
+        sound = let_Positive_011
+        sound = let_Positive_012
+        sound = let_Positive_013
+        sound = let_Positive_014
+        sound = let_Positive_015
+        sound = let_Positive_016
+        sound = let_Positive_017
+        sound = let_Positive_018
+        sound = let_Positive_019
+        sound = let_Positive_020
+        sound = let_Positive_021
+        sound = let_Positive_022
+        sound = let_Positive_023
+        sound = let_Positive_024
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "LET_infantry_retreat"
+    sounds = {
+        sound = let_Retreat_001
+        sound = let_Retreat_002
+        sound = let_Retreat_003
+        sound = let_Retreat_004
+        sound = let_Retreat_005
+        sound = let_Retreat_006
+        sound = let_Retreat_007
+        sound = let_Retreat_008
+        sound = let_Retreat_009
+        sound = let_Retreat_010
+        sound = let_Retreat_011
+        sound = let_Retreat_012
+        sound = let_Retreat_013
+        sound = let_Retreat_014
+        sound = let_Retreat_015
+        sound = let_Retreat_016
+        sound = let_Retreat_017
+        sound = let_Retreat_018
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "LET_infantry_move_out"
+    sounds = {
+        sound = let_Positive_010
+        sound = let_Positive_011
+        sound = let_Positive_012
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+########## 
+
+############## AUDIO ASSETS
+
+############### LET
+sound = 
+{
+	name = "let_Idle_001"
+	file = "let/let_Idle_001.wav"
+}
+sound = 
+{
+	name = "let_Idle_002"
+	file = "let/let_Idle_002.wav"
+}
+sound = 
+{
+	name = "let_Idle_003"
+	file = "let/let_Idle_003.wav"
+}
+sound = 
+{
+	name = "let_Idle_004"
+	file = "let/let_Idle_004.wav"
+}
+sound = 
+{
+	name = "let_Idle_005"
+	file = "let/let_Idle_005.wav"
+}
+sound = 
+{
+	name = "let_Idle_006"
+	file = "let/let_Idle_006.wav"
+}
+sound = 
+{
+	name = "let_Idle_007"
+	file = "let/let_Idle_007.wav"
+}
+sound = 
+{
+	name = "let_Idle_008"
+	file = "let/let_Idle_008.wav"
+}
+sound = 
+{
+	name = "let_Idle_009"
+	file = "let/let_Idle_009.wav"
+}
+sound = 
+{
+	name = "let_Idle_010"
+	file = "let/let_Idle_010.wav"
+}
+sound = 
+{
+	name = "let_Idle_011"
+	file = "let/let_Idle_011.wav"
+}
+sound = 
+{
+	name = "let_Idle_012"
+	file = "let/let_Idle_012.wav"
+}
+sound = 
+{
+	name = "let_Idle_013"
+	file = "let/let_Idle_013.wav"
+}
+sound = 
+{
+	name = "let_Idle_014"
+	file = "let/let_Idle_014.wav"
+}
+sound = 
+{
+	name = "let_Idle_015"
+	file = "let/let_Idle_015.wav"
+}
+sound = 
+{
+	name = "let_Idle_016"
+	file = "let/let_Idle_016.wav"
+}
+sound = 
+{
+	name = "let_Idle_017"
+	file = "let/let_Idle_017.wav"
+}
+sound = 
+{
+	name = "let_Idle_018"
+	file = "let/let_Idle_018.wav"
+}
+sound = 
+{
+	name = "let_Idle_019"
+	file = "let/let_Idle_019.wav"
+}
+sound = 
+{
+	name = "let_Idle_020"
+	file = "let/let_Idle_020.wav"
+}
+sound = 
+{
+	name = "let_Idle_021"
+	file = "let/let_Idle_021.wav"
+}
+sound = 
+{
+	name = "let_Idle_022"
+	file = "let/let_Idle_022.wav"
+}
+sound = 
+{
+	name = "let_Idle_023"
+	file = "let/let_Idle_023.wav"
+}
+sound = 
+{
+	name = "let_Idle_024"
+	file = "let/let_Idle_024.wav"
+}
+sound = 
+{
+	name = "let_Idle_025"
+	file = "let/let_Idle_025.wav"
+}
+sound = 
+{
+	name = "let_Idle_026"
+	file = "let/let_Idle_026.wav"
+}
+sound = 
+{
+	name = "let_Idle_027"
+	file = "let/let_Idle_027.wav"
+}
+sound = 
+{
+	name = "let_Neutral_001"
+	file = "let/let_Neutral_001.wav"
+}
+sound = 
+{
+	name = "let_Neutral_002"
+	file = "let/let_Neutral_002.wav"
+}
+sound = 
+{
+	name = "let_Neutral_003"
+	file = "let/let_Neutral_003.wav"
+}
+sound = 
+{
+	name = "let_Neutral_004"
+	file = "let/let_Neutral_004.wav"
+}
+sound = 
+{
+	name = "let_Neutral_005"
+	file = "let/let_Neutral_005.wav"
+}
+sound = 
+{
+	name = "let_Neutral_006"
+	file = "let/let_Neutral_006.wav"
+}
+sound = 
+{
+	name = "let_Neutral_007"
+	file = "let/let_Neutral_007.wav"
+}
+sound = 
+{
+	name = "let_Neutral_008"
+	file = "let/let_Neutral_008.wav"
+}
+sound = 
+{
+	name = "let_Neutral_009"
+	file = "let/let_Neutral_009.wav"
+}
+sound = 
+{
+	name = "let_Neutral_010"
+	file = "let/let_Neutral_010.wav"
+}
+sound = 
+{
+	name = "let_Neutral_011"
+	file = "let/let_Neutral_011.wav"
+}
+sound = 
+{
+	name = "let_Neutral_012"
+	file = "let/let_Neutral_012.wav"
+}
+sound = 
+{
+	name = "let_Neutral_013"
+	file = "let/let_Neutral_013.wav"
+}
+sound = 
+{
+	name = "let_Neutral_014"
+	file = "let/let_Neutral_014.wav"
+}
+sound = 
+{
+	name = "let_Neutral_015"
+	file = "let/let_Neutral_015.wav"
+}
+sound = 
+{
+	name = "let_Neutral_016"
+	file = "let/let_Neutral_016.wav"
+}
+sound = 
+{
+	name = "let_Neutral_017"
+	file = "let/let_Neutral_017.wav"
+}
+sound = 
+{
+	name = "let_Neutral_018"
+	file = "let/let_Neutral_018.wav"
+}
+sound = 
+{
+	name = "let_Neutral_019"
+	file = "let/let_Neutral_019.wav"
+}
+sound = 
+{
+	name = "let_Neutral_020"
+	file = "let/let_Neutral_020.wav"
+}
+sound = 
+{
+	name = "let_Neutral_021"
+	file = "let/let_Neutral_021.wav"
+}
+sound = 
+{
+	name = "let_Positive_001"
+	file = "let/let_Positive_001.wav"
+}
+sound = 
+{
+	name = "let_Positive_002"
+	file = "let/let_Positive_002.wav"
+}
+sound = 
+{
+	name = "let_Positive_003"
+	file = "let/let_Positive_003.wav"
+}
+sound = 
+{
+	name = "let_Positive_004"
+	file = "let/let_Positive_004.wav"
+}
+sound = 
+{
+	name = "let_Positive_005"
+	file = "let/let_Positive_005.wav"
+}
+sound = 
+{
+	name = "let_Positive_006"
+	file = "let/let_Positive_006.wav"
+}
+sound = 
+{
+	name = "let_Positive_007"
+	file = "let/let_Positive_007.wav"
+}
+sound = 
+{
+	name = "let_Positive_008"
+	file = "let/let_Positive_008.wav"
+}
+sound = 
+{
+	name = "let_Positive_009"
+	file = "let/let_Positive_009.wav"
+}
+sound = 
+{
+	name = "let_Positive_010"
+	file = "let/let_Positive_010.wav"
+}
+sound = 
+{
+	name = "let_Positive_011"
+	file = "let/let_Positive_011.wav"
+}
+sound = 
+{
+	name = "let_Positive_012"
+	file = "let/let_Positive_012.wav"
+}
+sound = 
+{
+	name = "let_Positive_013"
+	file = "let/let_Positive_013.wav"
+}
+sound = 
+{
+	name = "let_Positive_014"
+	file = "let/let_Positive_014.wav"
+}
+sound = 
+{
+	name = "let_Positive_015"
+	file = "let/let_Positive_015.wav"
+}
+sound = 
+{
+	name = "let_Positive_016"
+	file = "let/let_Positive_016.wav"
+}
+sound = 
+{
+	name = "let_Positive_017"
+	file = "let/let_Positive_017.wav"
+}
+sound = 
+{
+	name = "let_Positive_018"
+	file = "let/let_Positive_018.wav"
+}
+sound = 
+{
+	name = "let_Positive_019"
+	file = "let/let_Positive_019.wav"
+}
+sound = 
+{
+	name = "let_Positive_020"
+	file = "let/let_Positive_020.wav"
+}
+sound = 
+{
+	name = "let_Positive_021"
+	file = "let/let_Positive_021.wav"
+}
+sound = 
+{
+	name = "let_Positive_022"
+	file = "let/let_Positive_022.wav"
+}
+sound = 
+{
+	name = "let_Positive_023"
+	file = "let/let_Positive_023.wav"
+}
+sound = 
+{
+	name = "let_Positive_024"
+	file = "let/let_Positive_024.wav"
+}
+sound = 
+{
+	name = "let_Retreat_001"
+	file = "let/let_Retreat_001.wav"
+}
+sound = 
+{
+	name = "let_Retreat_002"
+	file = "let/let_Retreat_002.wav"
+}
+sound = 
+{
+	name = "let_Retreat_003"
+	file = "let/let_Retreat_003.wav"
+}
+sound = 
+{
+	name = "let_Retreat_004"
+	file = "let/let_Retreat_004.wav"
+}
+sound = 
+{
+	name = "let_Retreat_005"
+	file = "let/let_Retreat_005.wav"
+}
+sound = 
+{
+	name = "let_Retreat_006"
+	file = "let/let_Retreat_006.wav"
+}
+sound = 
+{
+	name = "let_Retreat_007"
+	file = "let/let_Retreat_007.wav"
+}
+sound = 
+{
+	name = "let_Retreat_008"
+	file = "let/let_Retreat_008.wav"
+}
+sound = 
+{
+	name = "let_Retreat_009"
+	file = "let/let_Retreat_009.wav"
+}
+sound = 
+{
+	name = "let_Retreat_010"
+	file = "let/let_Retreat_010.wav"
+}
+sound = 
+{
+	name = "let_Retreat_011"
+	file = "let/let_Retreat_011.wav"
+}
+sound = 
+{
+	name = "let_Retreat_012"
+	file = "let/let_Retreat_012.wav"
+}
+sound = 
+{
+	name = "let_Retreat_013"
+	file = "let/let_Retreat_013.wav"
+}
+sound = 
+{
+	name = "let_Retreat_014"
+	file = "let/let_Retreat_014.wav"
+}
+sound = 
+{
+	name = "let_Retreat_015"
+	file = "let/let_Retreat_015.wav"
+}
+sound = 
+{
+	name = "let_Retreat_016"
+	file = "let/let_Retreat_016.wav"
+}
+sound = 
+{
+	name = "let_Retreat_017"
+	file = "let/let_Retreat_017.wav"
+}
+sound = 
+{
+	name = "let_Retreat_018"
+	file = "let/let_Retreat_018.wav"
+}

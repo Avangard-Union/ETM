@@ -1,0 +1,35 @@
+characters={
+	EMO_Эмарь={
+		name="Эмарь"
+		portraits={
+			civilian={
+				large="gfx/leaders/EMO/emo.dds"
+			}
+		}
+		country_leader={
+			ideology=socdem
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	EMO_Верните_мой_2007={
+		name="Верните мой 2007"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/EMO/emo2.dds"
+			}
+		}
+		field_marshal={
+			traits={ trickster }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+}

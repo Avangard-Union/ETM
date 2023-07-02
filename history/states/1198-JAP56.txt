@@ -1,0 +1,21 @@
+state={
+	id=1198
+	name="STATE_1198"
+        manpower = 111111   
+ 
+         history={
+		owner = GRG
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+                        arms_factory = 1
+			}
+		}
+		add_core_of = GRG
+      
+
+	provinces={
+		3514 3624 3753 
+	}
+
+}

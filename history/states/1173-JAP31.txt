@@ -1,0 +1,19 @@
+state={
+	id=1173
+	name="STATE_1173"
+        manpower = 300000
+ 
+        history={
+		owner = NVN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+                        arms_factory = 1
+			}
+		}
+		add_core_of = NVN
+	provinces={
+		3432 3504 3525 3557 3645 
+	}
+
+}

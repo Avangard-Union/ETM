@@ -1,0 +1,27 @@
+
+state={
+	id=180
+	name="STATE_180"
+
+	state_category = rural
+
+	history={
+		owner = BRJ
+		victory_points = {
+			11385 15 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+		add_core_of = BRJ
+
+	}
+
+	provinces={
+		11174 11213 11385 11386 11554 11678 
+	}
+	manpower=754101
+	buildings_max_level_factor=1.000
+}

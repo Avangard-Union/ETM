@@ -1,0 +1,29 @@
+
+state={
+	id=756
+	name="STATE_756"
+
+	history={
+		owner = PCY 
+		buildings = {
+			infrastructure = 4
+			dockyard = 2
+			industrial_complex = 2
+			18519 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = PCY 
+
+	}
+
+	provinces={
+		18075 18187 18188 18205 18248 18258 18272 18289 18346 18375 18376 18460 18470 18519 
+	}
+	manpower=420700
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

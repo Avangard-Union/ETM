@@ -1,0 +1,20 @@
+state={
+	id=1202
+	name="STATE_1202"
+        manpower = 2300000
+
+         history={
+		owner = RKB
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+                        arms_factory = 4
+			}
+		}
+		add_core_of = RKB
+
+	provinces={
+		3785 3843 3882 3932 
+	}
+
+}

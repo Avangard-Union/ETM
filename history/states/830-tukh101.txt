@@ -1,0 +1,27 @@
+state={
+	id=830
+	name="STATE_830"
+	provinces={
+		19307 19409 
+	}
+	
+	state_category = rural
+
+	resources={
+		aluminium=15
+	}
+
+	history={
+		owner = GUL
+		victory_points = {
+			              19307 1}		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}	
+		add_core_of = GUL
+	}
+	
+	manpower=76478
+	buildings_max_level_factor=1.000
+}

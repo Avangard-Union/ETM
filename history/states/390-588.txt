@@ -1,0 +1,34 @@
+state={
+	id=390
+	name="STATE_390"
+
+	state_category = rural
+	resources={
+		tungsten=8
+		oil=2
+		steel=8
+		chromium=8
+		rubber=2
+		aluminium=8
+	}
+
+	history={
+		owner = MUR
+		victory_points = {
+                		  14319 5 }
+		victory_points = {
+                		  14810 10 }				  
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		add_core_of = MUR
+	}
+
+	provinces={
+		13879 13970 14020 14155 14182 14251 14299 14318 14340 14473 14518 14619 14694 14770 14791 14810 14909 15029 15043 
+	}
+	manpower=1294567
+	buildings_max_level_factor=1.000
+}

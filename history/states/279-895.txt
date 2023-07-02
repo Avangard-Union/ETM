@@ -1,0 +1,33 @@
+
+state={
+	id=279
+	name="STATE_279"
+	resources={
+		oil=10.000
+		chromium=15.000
+	}
+
+	history={
+		owner = KZH
+		victory_points = {
+			11200 10 
+		}
+		victory_points = {
+			11258 10 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = KZH
+
+	}
+
+	provinces={
+		10510 10563 10618 10660 10726 10741 10830 10831 10946 10984 10985 11229 11258 11288 
+	}
+	manpower=986025
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

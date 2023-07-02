@@ -1,0 +1,15 @@
+characters={
+	BUL_cat_boris={
+		name="Cat Boris"
+		portraits={
+			civilian={
+				large="gfx/leaders/BUL/kotboris.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

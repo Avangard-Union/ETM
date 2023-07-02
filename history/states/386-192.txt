@@ -1,0 +1,26 @@
+state={
+	id=386
+	name="STATE_386"
+	provinces={
+		18894 18907 18926 19034 19089 19129 19152 19167 19168 19280 
+	}
+
+	state_category = rural
+	resources={
+		steel=4
+	}
+
+	history={
+		owner = CHH
+		victory_points = {
+                		  19034 10 }
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+		add_core_of = CHH
+	}
+
+	manpower=54120
+	buildings_max_level_factor=1.000
+}

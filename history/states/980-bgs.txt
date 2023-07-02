@@ -1,0 +1,22 @@
+state={
+	id=980
+	name="STATE_980"
+	manpower=1250000
+	state_category = rural
+	
+	history={
+		
+		victory_points = { 2110 20 } # Шварцер-Штранд (Пуэнт-Нуар)
+		victory_points = { 2029 15 } # Кабинейа (Кабинда)
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		
+	}
+	provinces={
+		2029 2061 2110 2139 2182 2183 2220 
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,54 @@
+characters={
+	ROA_gypsy_council={
+		name="Gypsy Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/ROA/Portrait_Roa_D.dds"
+			}
+		}
+		country_leader={
+			ideology=conserva
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ROA_gypsy_camp={
+		name="Gypsy Camp"
+		portraits={
+			civilian={
+				large="gfx/leaders/ROA/Portrait_Roa_C.dds"
+			}
+		}
+		country_leader={
+			ideology=naziborshewism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ROA_gypsy_baron={
+		name="Gypsy Baron"
+		portraits={
+			civilian={
+				large="gfx/leaders/ROA/Portrait_Roa_F.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ROA_gypsy_king={
+		name="Gypsy King"
+		portraits={
+			civilian={
+				large="gfx/leaders/ROA/Portrait_Roa_N.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

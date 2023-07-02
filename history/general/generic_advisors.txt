@@ -1,0 +1,612 @@
+every_possible_country = {
+	limit = {
+		NOT = { has_country_flag = est_ideas }
+	}
+	generate_character = {
+		name = fortification_engineer
+		token_base = fortification_engineer
+		advisor = {
+			cost = 3899
+			slot = political_advisor
+			traits = { fortification_engineer }
+		}
+		portraits = {
+			civilian = { small = GFX_idea_generic_fortification_engineer }
+		}
+	}
+	generate_character = {
+		name = armaments_organizer
+		token_base = armaments_organizer
+		advisor = {
+			cost = 3899
+			slot = political_advisor
+			traits = { armaments_organizer }
+		}
+		portraits = {
+			civilian = { small = GFX_idea_generic_armaments_organizer }
+		}
+	}
+	generate_character = {
+		name = captain_of_industry
+		token_base = captain_of_industry
+		advisor = {
+			cost = 3899
+			slot = political_advisor
+			traits = { captain_of_industry }
+		}
+		portraits = {
+			civilian = { small = GFX_idea_generic_captain_of_industry }
+		}
+	}
+	generate_character = {
+		name = war_industrialist
+		token_base = war_industrialist
+		advisor = {
+			cost = 3899
+			slot = political_advisor
+			traits = { war_industrialist }
+		}
+		portraits = {
+			civilian = { small = GFX_idea_generic_war_industrialist }
+		}
+	}
+	generate_character = {
+		name = borshewism_revolutionary
+		token_base = borshewism_revolutionary
+		advisor = {
+			cost = 3899
+			slot = political_advisor
+			traits = { borshewism_revolutionary }
+		}
+		portraits = {
+			civilian = { small = GFX_idea_generic_borshewism_revolutionary }
+		}
+	}
+	generate_character = {
+		name = burjuism_reformer
+		token_base = burjuism_reformer
+		advisor = {
+			cost = 3899
+			slot = political_advisor
+			traits = { burjuism_reformer }
+		}
+		portraits = {
+			civilian = { small = GFX_idea_generic_burjuism_reformer }
+		}
+	}
+	generate_character = {
+		name = bidlo_demagogue
+		token_base = bidlo_demagogue
+		advisor = {
+			cost = 3899
+			slot = political_advisor
+			traits = { bidlo_demagogue }
+		}
+		portraits = {
+			civilian = { small = GFX_idea_generic_bidlo_demagogue }
+		}
+	}
+	generate_character = {
+		name = pahanism_monarchist
+		token_base = pahanism_monarchist
+		advisor = {
+			cost = 3899
+			slot = political_advisor
+			traits = { pahanism_monarchist }
+		}
+		portraits = {
+			civilian = { small = GFX_idea_generic_pahanism_monarchist }
+		}
+	}
+	generate_character = {
+		name = silent_workhorse
+		token_base = silent_workhorse
+		advisor = {
+			cost = 3899
+			slot = political_advisor
+			traits = { silent_workhorse }
+		}
+		portraits = {
+			civilian = { small = GFX_idea_generic_silent_workhorse }
+		}
+	}
+	generate_character = {
+		name = prince_of_terror
+		token_base = prince_of_terror
+		advisor = {
+			cost = 3899
+			slot = political_advisor
+			traits = { prince_of_terror }
+		}
+		portraits = {
+			civilian = { small = GFX_idea_generic_prince_of_terror }
+		}
+	}
+	generate_character = {
+		name = silent_workhorse
+		token_base = silent_workhorse
+		advisor = {
+			cost = 3899
+			slot = political_advisor
+			traits = { silent_workhorse }
+		}
+		portraits = {
+			civilian = { small = GFX_idea_generic_silent_workhorse }
+		}
+	}
+	generate_character = {
+		name = backroom_backstabber
+		token_base = backroom_backstabber
+		advisor = {
+			cost = 3899
+			slot = political_advisor
+			traits = { backroom_backstabber }
+		}
+		portraits = {
+			civilian = { small = GFX_idea_generic_backroom_backstabber }
+		}
+	}
+	generate_character = {
+		name = smooth_talking_charmer
+		token_base = smooth_talking_charmer
+		advisor = {
+			cost = 3899
+			slot = political_advisor
+			traits = { smooth_talking_charmer }
+		}
+		portraits = {
+			civilian = { small = GFX_idea_generic_smooth_talking_charmer }
+		}
+	}
+	generate_character = {
+		name = head_of_intelligence
+		token_base = head_of_intelligence
+		advisor = {
+			cost = 3899
+			slot = political_advisor
+			traits = { head_of_intelligence }
+		}
+		portraits = {
+			civilian = { small = GFX_idea_generic_head_of_intelligence }
+		}
+	}
+	
+	generate_character = {
+		name = rocket_scientist
+		token_base = rocket_scientist_advisor
+		advisor = {
+			cost = 3999
+			slot = theorist
+			traits = { rocket_scientist }
+			research_bonus = {
+				rocketry = 0.10
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_rocket_scientist }
+		}
+	}
+	generate_character = {
+		name = nuclear_scientist_advisor
+		token_base = 
+		advisor = {
+			cost = 3999
+			slot = theorist
+			traits = { nuclear_scientist }
+			research_bonus = {
+				nuclear = 0.10
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_nuclear_scientist }
+		}
+	}
+	generate_character = {
+		name = grand_battle_plan_expert_advisor
+		token_base = grand_battle_plan_expert
+		advisor = {
+			cost = 3999
+			slot = theorist
+			traits = { grand_battle_plan_expert }
+			research_bonus = {
+				cat_grand_battle_plan = 0.10
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_grand_battle_plan_expert }
+		}
+	}
+	generate_character = {
+		name = mobile_warfare_expert_advisor
+		token_base = mobile_warfare_expert
+		advisor = {
+			cost = 3999
+			slot = theorist
+			traits = { mobile_warfare_expert }
+			research_bonus = {
+				cat_mobile_warfare = 0.10
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_mobile_warfare_expert }
+		}
+	}
+	generate_character = {
+		name = mass_assault_expert_advisor
+		token_base = mass_assault_expert
+		advisor = {
+			cost = 3999
+			slot = theorist
+			traits = { mass_assault_expert }
+			research_bonus = {
+				cat_mass_assault = 0.10
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_mass_assault_expert }
+		}
+	}
+	generate_character = {
+		name = superior_firepower_expert_advisor
+		token_base = superior_firepower_expert
+		advisor = {
+			cost = 3999
+			slot = theorist
+			traits = { superior_firepower_expert }
+			research_bonus = {
+				cat_superior_firepower = 0.10
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_superior_firepower_expert }
+		}
+	}
+	generate_character = {
+		name = close_air_support_proponent_advisor
+		token_base = close_air_support_proponent
+		advisor = {
+			cost = 3999
+			slot = theorist
+			traits = { close_air_support_proponent }
+			research_bonus = {
+				cat_battlefield_support = 0.10
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_close_air_support_proponent }
+		}
+	}
+	generate_character = {
+		name = air_warfare_theorist_advisor
+		token_base = air_warfare_theorist
+		advisor = {
+			cost = 3999
+			slot = theorist
+			traits = { air_warfare_theorist }
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_air_warfare_theorist }
+		}
+	}
+	generate_character = {
+		name = dive_bomber_advisor
+		token_base = dive_bomber
+		advisor = {
+			cost = 3999
+			slot = theorist
+			traits = { dive_bomber }
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_dive_bomber }
+		}
+	}
+	generate_character = {
+		name = submarine_specialist_advisor
+		token_base = submarine_specialist
+		advisor = {
+			cost = 3999
+			slot = theorist
+			traits = { submarine_specialist }
+			research_bonus = {
+				cat_trade_interdiction = 0.20
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_submarine_specialist }
+		}
+	}
+	generate_character = {
+		name = naval_theorist_advisor
+		token_base = naval_theorist
+		advisor = {
+			cost = 3999
+			slot = theorist
+			traits = { naval_theorist }
+			research_bonus = {
+				naval_doctrine = 0.07
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_naval_theorist }
+		}
+	}
+	
+	generate_character = {
+		name = army_chief_organizational_2_advisor
+		token_base = army_chief_organizational_2
+		advisor = {
+			cost = 3979
+			slot = army_chief
+			traits = { army_chief_organizational_2 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_chief_organizational_2 }
+		}
+	}
+	generate_character = {
+		name = army_chief_drill_2_advisor
+		token_base = army_chief_drill_2
+		advisor = {
+			cost = 3979
+			slot = army_chief
+			traits = { army_chief_drill_2 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_chief_drill_2 }
+		}
+	}
+	generate_character = {
+		name = army_chief_offensive_2_advisor
+		token_base = army_chief_offensive_2
+		advisor = {
+			cost = 3979
+			slot = army_chief
+			traits = { army_chief_offensive_2 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_chief_offensive_2 }
+		}
+	}
+	generate_character = {
+		name = army_chief_maneuver
+		token_base = army_chief_maneuver_2
+		advisor = {
+			cost = 3979
+			slot = army_chief
+			traits = { army_chief_maneuver_2 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_chief_maneuver_2 }
+		}
+	}
+	
+	generate_character = {
+		name = navy_chief_decisive_battle_2_advisor
+		token_base = navy_chief_decisive_battle_2
+		advisor = {
+			cost = 3979
+			slot = navy_chief
+			traits = { navy_chief_decisive_battle_2 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_navy_chief_decisive_battle_2 }
+		}
+	}
+	generate_character = {
+		name = navy_chief_commerce_raiding_3_advisor
+		token_base = navy_chief_commerce_raiding_3
+		advisor = {
+			cost = 3979
+			slot = navy_chief
+			traits = { navy_chief_commerce_raiding_3 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_navy_chief_commerce_raiding_3 }
+		}
+	}
+	
+	generate_character = {
+		name = air_chief_ground_support_2_advisor
+		token_base = air_chief_ground_support_2
+		advisor = {
+			cost = 3979
+			slot = air_chief
+			traits = { air_chief_ground_support_2 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_air_chief_ground_support_2 }
+		}
+	}
+	generate_character = {
+		name = air_chief_all_weather_2_advisor
+		token_base = air_chief_all_weather_2
+		advisor = {
+			cost = 3979
+			slot = air_chief
+			traits = { air_chief_all_weather_2 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_air_chief_all_weather_2 }
+		}
+	}
+	generate_character = {
+		name = air_chief_reform_2_advisor
+		token_base = air_chief_reform_2
+		advisor = {
+			cost = 3979
+			slot = air_chief
+			traits = { air_chief_reform_2 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_air_chief_reform_2 }
+		}
+	}
+	
+	generate_character = {
+		name = army_infantry_2_advisor
+		token_base = army_infantry_2
+		advisor = {
+			cost = 3979
+			slot = high_command
+			traits = { army_infantry_2 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_infantry_2 }
+		}
+	}
+	generate_character = {
+		name = tank_expert_advisor
+		token_base = army_armored_3
+		advisor = {
+			cost = 3979
+			slot = high_command
+			traits = { army_armored_3 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_armored_3 }
+		}
+	}
+	generate_character = {
+		name = army_regrouping_2_advisor
+		token_base = army_regrouping_2
+		advisor = {
+			cost = 3979
+			slot = high_command
+			traits = { army_regrouping_2 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_regrouping_2 }
+		}
+	}
+	generate_character = {
+		name = army_logistics_2_advisor
+		token_base = army_logistics_2
+		advisor = {
+			cost = 3979
+			slot = high_command
+			traits = { army_logistics_2 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_logistics_2 }
+		}
+	}
+	generate_character = {
+		name = air_close_air_support_2_advisor
+		token_base = air_close_air_support_2
+		advisor = {
+			cost = 3979
+			slot = high_command
+			traits = { air_close_air_support_2 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_air_close_air_support_2 }
+		}
+	}
+	generate_character = {
+		name = air_bomber_interception_2_advisor
+		token_base = air_bomber_interception_2
+		advisor = {
+			cost = 3979
+			slot = high_command
+			traits = { air_bomber_interception_2 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_air_bomber_interception_2 }
+		}
+	}
+	generate_character = {
+		name = air_airborne_2_advisor
+		token_base = air_airborne_2
+		advisor = {
+			cost = 3979
+			slot = high_command
+			traits = { air_airborne_2 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_air_airborne_2 }
+		}
+	}
+	generate_character = {
+		name = navy_naval_air_defense_2_advisor
+		token_base = navy_naval_air_defense_2
+		advisor = {
+			cost = 3979
+			slot = high_command
+			traits = { navy_naval_air_defense_2 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_navy_naval_air_defense_2 }
+		}
+	}
+	generate_character = {
+		name = navy_fleet_logistics_2_advisor
+		token_base = navy_fleet_logistics_2
+		advisor = {
+			cost = 3979
+			slot = high_command
+			traits = { navy_fleet_logistics_2 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_navy_fleet_logistics_2 }
+		}
+	}
+	generate_character = {
+		name = navy_anti_submarine_1_advisor
+		token_base = navy_anti_submarine_1
+		advisor = {
+			cost = 3979
+			slot = high_command
+			traits = { navy_anti_submarine_1 }
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_navy_anti_submarine_1 }
+		}
+	}
+}
+
+
+every_possible_country = {
+	limit = {
+		has_dlc = "La Resistance"
+		if = {
+			limit = {
+				has_dlc = "Battle for the Bosporus"
+			}
+			NOT = {
+				tag = GRE
+				tag = TUR
+			}
+		}
+		NOT = {
+			has_allowed_idea_with_traits = { idea = head_of_intelligence characters = yes }
+		}
+		is_dynamic_country = no
+	}
+	generate_character = {
+		token_base = generic_head_of_intelligence # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			cost = 3899
+			traits = { head_of_intelligence }
+			available = {
+				has_intelligence_agency = yes
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					has_intelligence_agency = no
+					factor = 0
+				}
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_head_of_intelligence }
+		}
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=1099
+	name="STATE_1099"
+	manpower = 2282827
+	
+	state_category = large_city 
+ 
+        resources={
+		steel=12
+	}
+
+	history={
+		owner = PLS
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+                        air_base = 4
+
+                        1177 = {
+				naval_base = 5
+				
+			}
+
+		}
+
+		add_core_of = PLS
+		victory_points = {1177 25}
+		victory_points = {1287 15}
+	}
+
+	provinces={
+	    997 1072 1082 1177 1185 1195 1287 1288 1360 1412 
+	}
+}

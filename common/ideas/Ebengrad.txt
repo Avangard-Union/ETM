@@ -1,0 +1,62 @@
+ideas = {
+    country = {
+		24smena = {
+			picture = 
+			allowed = {
+				always = yes
+				original_tag = EBE
+			}
+			available = {
+				
+			}
+            removal_cost = -1
+			modifier = {
+				stability_factor = -0.25
+				weekly_manpower = -50
+				production_factory_efficiency_gain_factor = 0.25
+				production_factory_max_efficiency_factor = 0.25
+				production_factory_start_efficiency_factor = 0.25
+				line_change_production_efficiency_factor = 0.25
+				
+				targeted_modifier = {
+				}
+        	}
+		}
+		orkproletar = {
+			picture = 
+			allowed = {
+				always = yes
+				original_tag = EBE
+			}
+			available = {
+				
+			}
+            removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				
+
+				targeted_modifier = {
+				}
+        	}
+		}
+		horrors = {
+			picture = 
+			allowed = {
+				always = yes
+				original_tag = EBE
+			}
+			available = {
+				
+			}
+            removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.02
+				targeted_modifier = {
+				}
+        	}
+		}
+	}
+}

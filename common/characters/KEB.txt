@@ -1,0 +1,30 @@
+characters={
+	KEB_kebab={
+		name="Kebab"
+		portraits={
+			civilian={
+				large="gfx/leaders/KEB/Kebab.dds"
+			}
+		}
+		country_leader={
+			ideology=conserva
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=naziborshewism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=nazi
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=islamism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

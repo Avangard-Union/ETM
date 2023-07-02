@@ -1,0 +1,191 @@
+focus_tree = {
+	id = geroy_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = 3DG
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = GRG_0 #Я не смотрю аниме
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 14
+		y = 1
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+                        add_stability = 0.1
+		
+		}
+	}
+
+
+	focus = {
+		id = GRG_1 #Я посмотрел первое аниме
+		icon = GFX_goal_unknown
+        prerequisite = { focus = GRG_0 }
+		cost = 3
+		x = 14
+		y = 2
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = 
+		available = { has_completed_focus = GRG_0 } 
+		available_if_capitulated = no
+		completion_reward = {
+                        add_stability = -0.05
+		
+		}
+	}
+
+	focus = {
+		id = GRG_2 #Нот бэд
+		icon = GFX_goal_unknown
+        prerequisite = { focus = GRG_1 }
+		cost = 3
+		x = 14
+		y = 3
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available = { has_completed_focus = GRG_1 } 
+		available_if_capitulated = no
+		completion_reward = {
+                        add_stability = -0.1
+                        add_political_power = 5000
+		
+		}
+	}
+
+	focus = {
+		id = GRG_3 # ЯРЕ ЯРЕ ДОСЕ
+		icon = GFX_goal_unknown
+        prerequisite = { focus = GRG_2 }
+		cost = 3
+		x = 14
+		y = 4
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available = { has_completed_focus = GRG_2 } 
+		available_if_capitulated = no
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GRG_4
+		icon = GFX_goal_unknown
+		prerequisite = { focus = GRG_3 }
+		cost = 10
+		x = 10
+		y = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no 
+		available_if_capitulated = no
+		available = { has_completed_focus = GRG_3 } 
+		completion_reward = {
+			if = {
+				limit = { has_idea = uchimsya_1 }
+			
+		    swap_ideas = {
+				remove_idea = uchimsya_1
+			    add_idea = uchimsya_2
+            }		
+			}
+			if = {
+			    limit = { NOT = { has_idea = uchimsya_1 } }
+		    
+			add_ideas = uchimsya_1
+			}
+		} 
+    }		
+	focus = {
+		id = GRG_5
+		icon = GFX_goal_unknown
+		prerequisite = { focus = GRG_3 }
+		cost = 10
+		x = 18
+		y = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no 
+		available_if_capitulated = no
+		available = { has_completed_focus = GRG_3 } 
+		completion_reward = {
+			if = {
+				limit = {
+					
+					has_idea = uchimsya_1
+					NOT = { 
+						has_idea = uchimsya_2 
+						}
+					
+				}
+		    swap_ideas = {
+				remove_idea = uchimsya_1
+			    add_idea = uchimsya_2
+				}				
+			}
+			
+			if = {
+			    limit = { 
+					NOT = { 
+						OR = {
+						has_idea = uchimsya_1 
+						has_idea = uchimsya_2 
+						}
+						
+						}
+					}
+			add_ideas = uchimsya_1
+			}
+		}
+		
+	}
+}

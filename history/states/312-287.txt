@@ -1,0 +1,33 @@
+
+state={
+	id=312
+	name="STATE_312"
+	resources={
+		oil=20.000
+	}
+
+	history={
+		owner = PLA
+		victory_points = {
+			17910 10 
+		}
+		victory_points = {
+			18389 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = PLA
+
+	}
+
+	provinces={
+		17260 
+	}
+	manpower=2142113
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

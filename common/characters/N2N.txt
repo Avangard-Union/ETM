@@ -1,0 +1,15 @@
+characters={
+	N2N_ebanko={
+		name="Eban'ko"
+		portraits={
+			civilian={
+				large="gfx/leaders/N2N/Ebanko.dds"
+			}
+		}
+		country_leader={
+			ideology=tsardemocrasy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

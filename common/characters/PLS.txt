@@ -1,0 +1,15 @@
+characters={
+	PLS_sosiska_killer={
+		name="Sosiska Killer"
+		portraits={
+			civilian={
+				large="gfx/leaders/PLS/Sosiska_Killer.dds"
+			}
+		}
+		country_leader={
+			ideology=gribonism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=306
+	name="STATE_306"
+	provinces={
+		19899 19913 19939 19940 20072 20194 20224 20353 
+	}
+	resources={
+		steel=5}
+	state_category = rural
+
+	history={
+		owner = EBE
+		victory_points = {
+			              19913 15 }	#Фрост-ГУЛАГ
+		victory_points = {
+			              20353 5}		
+		victory_points = {
+			              19939 5}							  
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = EBE
+	}
+
+	manpower=356240
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=499
+	name="STATE_499"
+	resources={
+		aluminium=5.000
+	}
+
+	history={
+		owner = TRA
+		victory_points = {
+			10194 10 
+		}
+		victory_points = {
+			10413 30 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+		add_core_of = TRA
+
+	}
+
+	provinces={
+		9865 9886 9933 9982 10032 10047 10157 10194 10237 10323 10376 10413 10438 10484 10534 10639 10652 10734 
+	}
+	manpower=2124904
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

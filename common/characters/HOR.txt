@@ -1,0 +1,67 @@
+characters={
+	HOR_miklos_horty={
+		name="Miklos Horty"
+		portraits={
+			civilian={
+				large="gfx/leaders/HOR/horty.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HOR_semyon_timoshenko={
+		name="Semyon Timoshenko"
+		portraits={
+			civilian={
+				large="gfx/leaders/HOR/Semyon.dds"
+			}
+		}
+		country_leader={
+			ideology=sralinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HOR_women_с_подвохом={
+		name="Women с подвохом"
+		portraits={
+			civilian={
+				large="gfx/leaders/HOR/Women.dds"
+			}
+		}
+		country_leader={
+			ideology=pedophilia
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HOR_ferenc_salashi={
+		name="Ferenc Salashi"
+		portraits={
+			civilian={
+				large="gfx/leaders/HOR/Ferenc.dds"
+			}
+		}
+		country_leader={
+			ideology=fashiki
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HOR_viktor_orban={
+		name="Viktor Orban"
+		portraits={
+			civilian={
+				large="gfx/leaders/HOR/Viktor.dds"
+			}
+		}
+		country_leader={
+			ideology=imperial_putinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

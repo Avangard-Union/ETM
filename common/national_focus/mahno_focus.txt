@@ -1,0 +1,850 @@
+focus_tree = {
+	id = mahno_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MAH
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 100 y = 150 }
+	
+	focus = {
+		id = novoegos
+		icon = GFX_novoe_gosvo
+		cost = 1
+		x = 9
+		y = 1
+		available = {
+			
+		}
+		bypass = {
+			
+		}
+			search_filters = { FOCUS_FILTER_RESEARCH }
+			completion_reward = {
+					MAH = {
+							country_event = mah.4
+						}
+				}
+
+	}
+	focus = {
+		id = zahvat_tehniki
+		icon = GFX_zahvat_tehniki
+		cost = 1
+		prerequisite = {
+			focus = novoegos
+		}
+		x = 9
+		y = 2
+			available = {
+
+}
+			bypass = {
+
+}
+			search_filters = { FOCUS_FILTER_RESEARCH }
+			completion_reward = {
+					add_ideas = zahvat_tehniki
+				}
+
+	}
+	focus = {
+		id = voennoe_vremy
+		icon = GFX_voennoye_vryemya
+		cost = 2
+		prerequisite = {
+			focus = zahvat_tehniki
+		}
+		x = 9
+		y = 3
+			available = {
+
+}
+			bypass = {
+
+}
+			search_filters = { FOCUS_FILTER_RESEARCH }
+			completion_reward = {
+					add_ideas = war_economy
+					add_ideas = extensive_conscription
+				}
+
+	}
+	focus = {
+		id = eto_vse_nashe
+		icon = GFX_eto_nashe_vso
+		cost = 10
+		prerequisite = {
+			focus = voennoe_vremy
+		}
+		x = 9
+		y = 4
+			available = {
+					NOT = {
+							country_exists = DNB
+						}
+					NOT = {
+							country_exists = PRA
+						}
+				}
+			bypass = {
+
+}
+			search_filters = { FOCUS_FILTER_RESEARCH }
+			completion_reward = {
+					MAH = {
+							country_event = mah.2
+						}
+				}
+
+	}
+	focus = {
+		id = tsaritsin
+		icon = GFX_nado_brat_tsaritsin
+		cost = 10
+		prerequisite = {
+			focus = eto_vse_nashe
+		}
+		x = 9
+		y = 5
+		available = {
+		}
+			bypass = {
+
+		}
+			search_filters = { FOCUS_FILTER_RESEARCH }
+			completion_reward = {
+				if = {
+					limit = {
+						country_exists = RAP
+					}
+					create_wargoal = {
+							type = annex_everything
+							target = RAP
+							expire = 0
+						}
+					}
+				}
+
+	}
+	focus = {
+		id = remont
+		icon = GFX_vsyeobshii_remont
+		cost = 10
+		prerequisite = {
+			focus = tsaritsin
+		}
+		x = 9
+		y = 6
+		available = {
+			NOT = {
+				has_wargoal_against = RAP
+			}
+			has_war = no
+		}
+		bypass = {
+
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_timed_idea = {
+				idea = remont
+				days = 100
+			}
+			if = {
+				limit = {
+					owns_state = 667
+				}
+				add_state_core =667
+			}
+			if = {
+				limit = {
+					owns_state = 673
+				}
+				add_state_core = 673
+			}
+			if = {
+				limit = {
+					owns_state = 674
+				}
+				add_state_core = 674
+			}
+			if = {
+				limit = {
+					owns_state = 675
+				}
+				add_state_core = 675
+			}
+			if = {
+				limit = {
+					owns_state = 680
+				}
+				add_state_core = 680
+			}
+			if = {
+				limit = {
+					owns_state = 681
+				}
+				add_state_core = 681
+			}
+			if = {
+				limit = {
+					owns_state = 682
+				}
+				add_state_core = 682
+			}
+		}
+	}
+	focus = {
+		id = regulyari
+		icon = GFX_regular_army
+		cost = 14.4
+		prerequisite = {
+			focus = remont
+		}
+		x = 9
+		y = 7
+		available = {
+
+}
+		bypass = {
+
+}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			load_oob = "MAH_DNB"
+			load_oob = "MAH_0002"
+		}
+	}
+	focus = {
+		id = zeleny_souz
+		icon = GFX_zeleniy_soyuz
+		cost = 14.4
+		prerequisite = {
+			focus = regulyari
+		}
+		available = {
+			
+		}
+		bypass = {
+			NOT = {
+				country_exists = ZLS
+			}
+			
+		}
+		completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = ZLS
+			}
+		}
+		x = 9
+		y = 8
+
+	}
+	focus = {
+		id = kiev
+		icon = GFX_kiev
+		cost = 10
+		prerequisite = {
+			focus = zeleny_souz
+		}
+		available = {
+			OR = {
+				NOT = {
+					country_exists = ZLS
+				}
+				has_war_with = KIV
+			}
+		}
+		bypass = {
+			NOT = {
+				country_exists = KIV
+			}
+			
+		}
+		completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = KIV
+			}
+		}
+		x = 9
+		y = 9
+
+	}
+	focus = {
+		id = odesa
+		icon = GFX_odessa
+		cost = 10
+		prerequisite = {
+			focus = zeleny_souz
+		}
+		available = {
+			OR = {
+				NOT = {
+					country_exists = ZLS
+				}
+				has_war_with = ODE
+			}
+		}
+		bypass = {
+			NOT = {
+				country_exists = ODE
+			}
+			
+		}
+		completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = ODE
+			}
+		}
+		x = 7
+		y = 9
+
+	}
+	focus = {
+		id = zapadnaya_ukraina
+		icon = GFX_west_ukr
+		cost = 10
+		prerequisite = {
+			focus = zeleny_souz
+		}
+		available = {
+			OR = {
+				AND = {
+					NOT = {
+						country_exists = ZLS
+					}
+					NOT = {
+						country_exists = KIV
+					}
+					NOT = {
+						country_exists = ODE
+					}
+				}
+				has_war_with = UNR
+				has_war_with = ZPU
+			}
+		}
+		bypass = {
+			NOT = {
+				country_exists = UNR
+			}
+			NOT = {
+				country_exists = ZPU
+			}	
+		}
+		completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = UNR
+			}
+		create_wargoal = {
+			type = annex_everything
+			target = ZPU
+			}
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = nacionalis
+		icon = GFX_nasha_strana
+		cost = 10
+		prerequisite = {
+			focus = kiev
+		}
+		prerequisite = {
+			focus = odesa
+		}
+		prerequisite = {
+			focus = zapadnaya_ukraina
+		}
+		x = 9
+		y = 10
+		available = {
+			NOT = {
+				country_exists = ZLS
+			}
+			NOT = {
+				country_exists = KIV
+			}
+			NOT = {
+				country_exists = ODE
+			}
+			NOT = {
+				country_exists = UNR
+			}
+			NOT = {
+				country_exists = ZPU
+			}
+			MAH = {
+					owns_state = 483
+				
+			}
+		}
+		bypass = {
+
+}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			if = {
+				limit = {
+					owns_state = 469
+				}
+				add_state_core = 469
+			}
+			if = {
+				limit = {
+					owns_state = 470
+				}
+				add_state_core = 470
+			}
+			if = {
+				limit = {
+					owns_state = 471
+				}
+				add_state_core = 471
+			}
+			if = {
+				limit = {
+					owns_state = 472
+				}
+				add_state_core = 472
+			}
+			if = {
+				limit = {
+					owns_state = 473
+				}
+				add_state_core = 473
+			}
+			if = {
+				limit = {
+					owns_state = 474
+				}
+				add_state_core = 474
+			}
+			if = {
+				limit = {
+					owns_state = 475
+				}
+				add_state_core = 475
+			}
+			if = {
+				limit = {
+					owns_state = 476
+				}
+				add_state_core = 476
+			}
+			if = {
+				limit = {
+					owns_state = 477
+				}
+				add_state_core = 477
+			}
+			if = {
+				limit = {
+					owns_state = 478
+				}
+				add_state_core = 478
+			}
+			if = {
+				limit = {
+					owns_state = 479
+				}
+				add_state_core = 479
+			}
+			if = {
+				limit = {
+					owns_state = 481
+				}
+				add_state_core = 481
+			}
+			if = {
+				limit = {
+					owns_state = 482
+				}
+				add_state_core = 482
+			}
+			if = {
+				limit = {
+					owns_state = 483
+				}
+				add_state_core = 483
+				add_victory_points = {
+					province = 10920
+					value = 30
+				}
+				set_capital = {
+					state = 483 
+					remember_old_capital = no
+				}
+			}
+			if = {
+				limit = {
+					owns_state = 487
+				}
+				add_state_core = 487
+			}
+			if = {
+				limit = {
+					owns_state = 488
+				}
+				add_state_core = 488
+			}
+			if = {
+				limit = {
+					owns_state = 489
+				}
+				add_state_core = 489
+			}
+		}
+	}
+	focus = {
+		id = obezd_ugodiy
+		icon = GFX_obyezd_ugodii
+		cost = 10
+		prerequisite = {
+			focus = nacionalis
+		}
+		x = 9
+		y = 11
+			available = {
+
+}
+			bypass = {
+
+}
+			search_filters = { FOCUS_FILTER_RESEARCH }
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = ukrain_imperia
+		icon = GFX_Ukrainian_empire
+		cost = 10
+		prerequisite = {
+			focus = obezd_ugodiy
+		}
+		available = {
+			
+		}
+		bypass = {
+			NOT = {
+				country_exists = UKE
+			}
+			
+		}
+		completion_reward = {
+				if = {
+					limit = {
+						country_exists = UKE
+					}
+		create_wargoal = {
+			type = annex_everything
+			target = UKE
+			}
+			}
+		}
+		x = 6
+		y = 12
+
+	}
+	focus = {
+		id = a_belgorod
+		icon = GFX_war_with_banan
+		cost = 10
+		prerequisite = {
+			focus = obezd_ugodiy
+		}
+		available = {
+			
+		}
+		bypass = {
+			NOT = {
+				country_exists = CCT
+			}
+			
+		}
+		completion_reward = {
+				if = {
+					limit = {
+						country_exists = CCT
+					}
+		create_wargoal = {
+			type = annex_everything
+			target = CCT
+			}
+			}
+		}
+		x = 8
+		y = 12
+
+	}
+	focus = {
+		id = a_voronedz
+		icon = GFX_attack_kolhoz
+		cost = 10
+		prerequisite = {
+			focus = obezd_ugodiy
+		}
+		available = {
+			
+		}
+		bypass = {
+			NOT = {
+				country_exists = KOL
+			}
+			
+		}
+		completion_reward = { 
+				if = {
+					limit = {
+					
+						country_exists = KOL
+						
+					}
+		create_wargoal = {
+			type = annex_everything
+			target = KOL
+			}
+			}
+		}
+		x = 10
+		y = 12
+
+	}
+	focus = {
+		id = a_nod
+		icon = GFX_NOD
+		cost = 10
+		prerequisite = {
+			focus = obezd_ugodiy
+		}
+		available = {
+			
+		}
+		bypass = {
+			NOT = {
+				country_exists = NJS
+			}
+			
+		}
+		completion_reward = {
+				if = {
+					limit = {
+						country_exists = NJS
+					}
+		create_wargoal = {
+			type = annex_everything
+			target = NJS
+			}
+			}
+		}
+		x = 12
+		y = 12
+
+	}
+	focus = {
+		id = voyna_rng
+		icon = GFX_war_with_RNS
+		cost = 10
+		prerequisite = {
+			focus = ukrain_imperia
+		}
+		prerequisite = {
+			focus = a_belgorod
+			}
+		prerequisite = {
+			focus = a_voronedz
+			}
+		prerequisite = {
+			focus = a_nod
+		}
+		mutually_exclusive = {
+			focus = katakomby
+			focus = varlordy
+		}
+		available = {
+			NOT = {
+				has_wargoal_against = UKE
+				has_wargoal_against = NJS
+				has_wargoal_against = CCT
+				has_wargoal_against = KOL
+			}
+			has_war = no
+			RNS = {
+				
+					has_completed_focus = RNS_L_21
+				
+			}
+			NOT = {
+				country_exists = MOS
+				country_exists = KIL
+				country_exists = ZHI
+			}
+			is_neighbor_of = RNS
+		}
+		bypass = {
+			
+		}
+		completion_reward = {
+		}
+		x = 9
+		y = 13
+
+	}
+	focus = {
+		id = katakomby
+		icon = GFX_katakombi
+		cost = 10
+		prerequisite = {
+			focus = ukrain_imperia
+		}
+		prerequisite = {
+			focus = a_belgorod
+			}
+		prerequisite = {
+			focus = a_voronedz
+			}
+		prerequisite = {
+			focus = a_nod
+		}
+		mutually_exclusive = {
+			focus = voyna_rng
+			focus = varlordy
+		}
+		available = {
+			NOT = {
+				has_wargoal_against = UKE
+				has_wargoal_against = NJS
+				has_wargoal_against = CCT
+				has_wargoal_against = KOL
+			}
+			has_war = no
+			RNS = {
+				NOT = {
+					has_completed_focus = RNS_L_20
+				}
+			}
+			OR = {
+				country_exists = MOS
+				country_exists = KIL
+				country_exists = ZHI
+			}
+			is_neighbor_of = RNS
+			owns_state = 651
+		}
+		bypass = {
+			
+		}
+		completion_reward = {
+			unlock_decision_category_tooltip = catacomb_MAH 
+		}
+		x = 7
+		y = 13
+
+	}
+	focus = {
+		id = varlordy
+		icon = GFX_warlords
+		cost = 10
+		x = 11
+		y = 13
+		prerequisite = {
+			focus = ukrain_imperia
+		}
+		prerequisite = {
+			focus = a_belgorod
+			}
+		prerequisite = {
+			focus = a_voronedz
+			}
+		prerequisite = {
+			focus = a_nod
+		}
+		mutually_exclusive = {
+			focus = voyna_rng
+			focus = katakomby
+		}
+		available = {
+			NOT = {
+				has_wargoal_against = UKE
+				has_wargoal_against = NJS
+				has_wargoal_against = CCT
+				has_wargoal_against = KOL
+			}
+			has_war = no
+			NOT = {
+				country_exists = RNS
+			}
+			
+		}
+		bypass = {
+			
+		}
+		completion_reward = {
+		}
+
+	}
+	focus = {
+		id = vozrod_lenin
+		icon = GFX_ZOMBIE_LENIN
+		cost = 10
+		prerequisite = {
+			focus = katakomby
+			focus = voyna_rng
+			focus = varlordy
+		}
+		available = {
+			owns_state = 1328
+			owns_state = 1326
+			owns_state = 1327
+			owns_state = 664
+			owns_state = 1322
+			owns_state = 1325
+			owns_state = 1324
+			has_war = no
+		}
+		bypass = {
+			
+		}
+		completion_reward = {
+		}
+		x = 9
+		y = 14
+
+	}
+	focus = {
+		id = vozrod_mahno
+		icon = GFX_Voslresit_mahno
+		cost = 10
+		prerequisite = {
+			focus = vozrod_lenin
+		}
+		available = {
+			
+			has_war = no
+		}
+		bypass = {
+			
+		}
+		completion_reward = {
+			MAH = {
+				country_event = mah.5
+			}
+			
+		}
+		x = 9
+		y = 15
+
+	}
+}

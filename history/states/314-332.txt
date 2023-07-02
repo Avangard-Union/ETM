@@ -1,0 +1,26 @@
+
+state={
+	id=314
+	name="STATE_314"
+	resources={
+		chromium=10.000
+	}
+
+	history={
+		owner = PLA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = PLA
+
+	}
+
+	provinces={
+		18260 18261 18461 18506 
+	}
+	manpower=1625435
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

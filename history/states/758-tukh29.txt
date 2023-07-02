@@ -1,0 +1,24 @@
+
+state={
+	id=758
+	name="STATE_758"
+
+	history={
+		owner = ELF
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+
+		}
+		add_core_of = ELF
+
+	}
+
+	provinces={
+		17207 17306 17320 17321 17376 17545 17563 17564 17681 17716 17727 17785 20734 
+	}
+	manpower=620200
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

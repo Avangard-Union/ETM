@@ -1,0 +1,16 @@
+characters={
+	SRB_rodoljub_vulović={
+		name="Rodoljub Vulović"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRB/roki.dds"
+			}
+		}
+		country_leader={
+			desc="Remove Kebab"
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters={
+	CCT_sergey_banana_sokolov={
+		name="Sergey 'Banana' Sokolov"
+		portraits={
+			civilian={
+				large="gfx/leaders/CCT/Banana.dds"
+			}
+		}
+		country_leader={
+			ideology=sralinism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

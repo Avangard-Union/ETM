@@ -1,0 +1,15 @@
+characters={
+	IZM_drevniy={
+		name=IZM_drevniy
+		portraits={
+			civilian={
+				large="gfx/leaders/IZM/drevniy.dds"
+			}
+		}
+		country_leader={
+			ideology=primitivism
+			traits={  }
+			expire="1965.1.1.1"
+		}
+	}
+}

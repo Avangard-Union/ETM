@@ -1,0 +1,113 @@
+MOS_libloyal_check = {
+   custom_effect_tooltip = MOS_libloyal_check
+   hidden_effect = {
+     if = { limit = { check_variable = { libloyal < 1} }
+	    if = { limit = {has_country_flag = MOS_polilos} 
+		 hidden_effect = {
+	      country_event = { id = moslib.1  days = 1}
+		  set_variable = {
+		    var = libloyal_delta
+			value = -0.01
+		    }
+	    }}
+		set_variable = {
+		    var = pepeMOS
+			value = -4.20
+		  }
+		set_variable = {
+		    var = stabkaMOS
+			value = -0.19
+		  }
+	}
+	 else_if = {
+	    limit = { check_variable = { libloyal < 10} }
+		     if = { limit = { has_country_flag = MOS_polilos }
+		     clr_country_flag = MOS_polilos
+			 country_event = { id = moslib.11  days = 1}
+		     }
+		set_variable = {
+		    var = pepeMOS
+			value = -0.788
+		  }
+		set_variable = {
+		    var = stabkaMOS
+			value = -0.11
+		  }
+	}
+	 else_if = {
+	    limit = { check_variable = { libloyal < 25} }
+		if = { limit = { has_country_flag = MOS_polilos }
+		     clr_country_flag = MOS_polilos
+			 country_event = { id = moslib.11  days = 1}
+		     }
+		set_variable = {
+		    var = pepeMOS
+			value = -0.39
+		  }
+		set_variable = {
+		    var = stabkaMOS
+			value = -0.08
+		  }
+	}
+	 else_if = {
+	    limit = { check_variable = { libloyal < 45} }
+		set_variable = {
+		    var = pepeMOS
+			value = -0.14
+		  }
+		set_variable = {
+		    var = stabkaMOS
+			value = -0.07
+		  }
+	}
+	 else_if = {
+	    limit = { check_variable = { libloyal < 65} }
+		set_variable = {
+		    var = pepeMOS
+			value = 0
+		  }
+		set_variable = {
+		    var = stabkaMOS
+			value = 0
+		  }
+	}
+	 else_if = {
+	    limit = { check_variable = { libloyal < 80} }
+		set_variable = {
+		    var = pepeMOS
+			value = 0.11
+		  }
+		set_variable = {
+		    var = stabkaMOS
+			value = 0.03
+		  }
+		research_speed_factor = 0.02
+	}
+	  else_if = {
+	    limit = { check_variable = { libloyal < 100} }
+		set_variable = {
+		    var = pepeMOS
+			value = 0.3
+		  }
+		set_variable = {
+		    var = stabkaMOS
+			value = 0.07
+		  }
+		research_speed_factor = 0.05
+	}
+  }
+}
+MOS_zhir_revolt = {
+  ZHI = {
+     transfer_state = 1322
+	 set_capital = 1322
+	 transfer_state = 1326
+	 add_state_core = 1323
+	 add_state_core = 664
+	 add_state_core = 1326
+	 add_state_core = 1322
+	 add_state_core = 1327
+	 add_state_core = 1324
+	 add_state_core = 1325
+  }
+}

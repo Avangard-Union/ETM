@@ -1,0 +1,29 @@
+
+state={
+	id=301
+	name="STATE_301"
+	provinces={
+		19494 19522 
+	}
+
+	state_category = rural
+	resources={
+		steel=15 }
+
+	history={
+		owner = EBE
+		victory_points = {
+			              19494 85}			
+		buildings = {
+			infrastructure = 3
+                        air_base = 1
+						19494 = {
+				     naval_base = 3
+					}			
+		}
+		add_core_of = EBE
+	}
+
+	manpower=125335
+	buildings_max_level_factor=1.000
+}

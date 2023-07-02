@@ -1,0 +1,23 @@
+spriteTypes = {
+
+	SpriteType = {
+	name = "GFX_DUG_pivo"
+	texturefile = "gfx/interface/goals/vipit_piva.dds"			
+	}
+		SpriteType = {
+	name = "GFX_DUG_trolling"
+	texturefile = "gfx/interface/goals/troll_liberah.dds"			
+	}
+		SpriteType = {
+	name = "GFX_DUG_kote"
+	texturefile = "gfx/interface/goals/pogladit_kote.dds"			
+	}
+		SpriteType = {
+	name = "GFX_DUG_floppa"
+	texturefile = "gfx/interface/goals/pogladit_floppu.dds"			
+	}
+		SpriteType = {
+	name = "GFX_DUG_book"
+	texturefile = "gfx/interface/goals/napisat_noomahiu.dds"			
+	}
+}

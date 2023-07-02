@@ -1,0 +1,52 @@
+﻿capital = 543
+
+#oob = "TAR_0002"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_popularities = { 
+	burjuism = 54
+	putinism = 46
+}
+
+set_politics = {
+	ruling_party = putinism
+	last_election = "2010.10.21"
+	election_frequency = 0
+	elections_allowed = no
+}
+	
+recruit_character = TAR_kremleshtern
+recruit_character = TAR_morgayslave
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+recruit_character = AAA_PUSTYSHKA

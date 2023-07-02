@@ -1,0 +1,24 @@
+state={
+	id=750
+	name="STATE_750"
+	provinces={
+		19306 19325 19403 19408 19475 19510 
+	}
+
+	state_category = rural
+
+	history={
+		owner = GUL
+		victory_points = {
+			              19306 5}	
+		victory_points = {
+			              19510 1}							  
+		buildings = {
+			infrastructure = 4
+		}	
+		add_core_of = GUL
+	}
+	
+	manpower=24000
+	buildings_max_level_factor=1.000
+}

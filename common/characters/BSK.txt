@@ -1,0 +1,15 @@
+characters={
+	BSK_vladimir_potanin={
+		name="Vladimir Potanin"
+		portraits={
+			civilian={
+				large="gfx/leaders/BSK/Potanin.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarhiya
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

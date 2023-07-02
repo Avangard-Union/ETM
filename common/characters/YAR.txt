@@ -1,0 +1,15 @@
+characters={
+	YAR_hideo_kojima={
+		name="Hideo Kojima"
+		portraits={
+			civilian={
+				large="gfx/leaders/YAR/GayNiy.dds"
+			}
+		}
+		country_leader={
+			ideology=conserva
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

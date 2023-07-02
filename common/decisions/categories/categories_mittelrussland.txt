@@ -1,0 +1,19 @@
+interact_liberahi_category = {
+icon = kalyan #in_combat for mission
+allowed = {
+ tag = MOS 
+}
+visible = {
+  has_country_flag = MOS_liberda_burlit
+   is_ai = no
+}
+}
+the_bitch_of_MOS_category = {
+icon = #pereukl
+allowed = {
+ tag = MOS
+  }
+visible = {
+ has_country_flag = MOS_plitka_uklad
+}
+}

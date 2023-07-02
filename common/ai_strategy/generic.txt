@@ -1,0 +1,1168 @@
+generic_ally = {
+	enable = {
+		always = yes
+	}
+	abort = {
+		is_in_faction = yes
+	}
+	ai_strategy = {
+		type = alliance
+		id = BL9
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = FCK
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = KOK
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = GOM
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = ANT
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = AFG
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = JES
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = EJI
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = DOR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = GAN
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = PPT
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = ISL
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = KUR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = IRQ
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = MOU
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = BKH
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = SHA
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = PNK
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = KRI
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = RAJ
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = KZH
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = DVA
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = EBE
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = BYD
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = LET
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = PLA
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = DVR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = SIB
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = LAT
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = ELT
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = YAR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = LUN
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = MRD
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = TUN
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = TRK
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = GBQ
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = BSK
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = PRE
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = DUR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = NRT
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = IPR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = SKY
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = GVN
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = ABR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = KIN
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = CKD
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = NAU
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = LUK
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = HIK
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = 3DG
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = SHI
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = BAS
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = SRM
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = GCH
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = HIR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = SLR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = DRE
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = TRP
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = GAD
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = DTH
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = TKG
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = OPM
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = PKM
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = HVF
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = MRJ
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = VIB
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = BIB
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = ANK
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = REI
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = BRS
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = WHM
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = GRB
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = ZDM
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = NAR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = NIT
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = DKC
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = THJ
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = KNM
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = BKK
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = YRI
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = LOL
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = PO2
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = VLP
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = YAY
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = 1NA
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = 2NA
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = 3NA
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = 4NA
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = 5NA
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = 6NA
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = SBD
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = BSV
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = IZM
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = CRM
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = KER
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = SIN
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = ORD
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = PTC
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = 1AZ
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = 2AZ
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = 3AZ
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = HUY
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = JOJ
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = SC1
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = TM1
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = CH2
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = BR2
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = IR3
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = BUL
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = CZE
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = DDR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = HIT
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = HOR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = MAR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = MUS
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = BNP
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = NAP
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = NEK
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = NIG
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = PAS
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = POP
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = SAU
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = SRB
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = SWI
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = TRA
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = VAL
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = GDI
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = NOD
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = RIC
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = SAH
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = NEZ
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = MNG
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = VOD
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = WAD
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = LUM
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = PNG
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = INK
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = COM
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = TAG
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = ZIM
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = KNG
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = VLS
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = VAK
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = YGA
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = OBZ
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = MDR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = TRN
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = ETH
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = PTL
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = GAY
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = BAL
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = EST
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = POL
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = HOJ
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = VEY
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = DNB
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = ZLS
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = ZPU
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = KIV
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = ROA
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = ODE
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = CCA
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = TEM
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = POD
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = MEE
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = RNS
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = MOS
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = BLO
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = GUL
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = TUC
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = OZO
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = ZMR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = SHY
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = GON
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = UMO
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = ROC
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = CHE
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = BRK
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = PRA
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = RAP
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = CSS
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = NJS
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = KOL
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = CCT
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = UKE
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = CHR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = KEB
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = TSA
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = DUG
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = TAR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = VNM
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = CNB
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = SAB
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = PLS
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = VKN
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = PRX
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = CUB
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = MRK
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = BAR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = CRO
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = MRL
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = PRD
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = UCH
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = CHH
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = MUR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = TNH
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = N2N
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = MUH
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = ZEK
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = JEW
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = LTZ
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = MAH
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = EMO
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = HIP
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = KMI
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = UNR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = MED
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = STH
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = KNR
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = MOD
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = BRJ
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = MUH
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = YAK
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = BUG
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = WGA
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = BAD
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = STA
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = KAZ
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = SUS
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = SPA
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = KRT
+		value = -35
+	}
+	ai_strategy = {
+		type = alliance
+		id = GRE
+		value = -35
+	}
+}

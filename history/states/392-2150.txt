@@ -1,0 +1,22 @@
+state={
+	id=392
+	name="STATE_392"
+
+	state_category = rural
+
+	history={
+		owner = BUG
+		victory_points = {
+			15933 5      }
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BUG
+	}
+
+	provinces={
+		15655 15933 15967 16237 16587 16860 
+	}
+	manpower=75788
+	buildings_max_level_factor=1.000
+}

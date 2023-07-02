@@ -1,0 +1,698 @@
+focus_tree = {
+	id = DUG
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = DUG 
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = DUG_pivo
+		icon = GFX_DUG_pivo
+		picture = DUGIN_PIC_1
+		x = 10
+		y = 1
+		cost = 5
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 6000
+			country_event = dug.1
+		}
+	}	
+
+	focus = {
+		id = DUG_trolling
+		icon = GFX_DUG_trolling
+		prerequisite = {focus = DUG_pivo}
+		x = 10
+		y = 3
+		cost = 5
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 12000
+			country_event = dug.2
+		}
+	}	
+
+	focus = {
+		id = DUG_kote
+		icon = GFX_DUG_kote
+		prerequisite = {focus = DUG_trolling}
+		x = 9
+		y = 5
+		cost = 5
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_stability = 0.3
+		}
+	}	
+
+	focus = {
+		id = DUG_floppa
+		icon = GFX_DUG_floppa
+		prerequisite = {focus = DUG_trolling}
+		x = 11
+		y = 5
+		cost = 5
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_war_support = 0.3
+			country_event = dug.3
+		}
+	}	
+
+	focus = {
+		id = DUG_book
+		prerequisite = {focus = DUG_floppa}
+		prerequisite = {focus = DUG_kote}
+		icon = GFX_DUG_book
+		x = 10
+		y = 7
+		cost = 77589
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1488
+			country_event = dug.1488
+		}
+	}	
+
+	focus = {
+		id = DUG_antihlobo
+        icon = GFX_DUG_book
+		x = 40
+		y = 1
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}
+	}
+		focus = {
+		id = DUG_kazahs
+		prerequisite = {focus = DUG_antihlobo}		
+        icon = GFX_DUG_book
+		x = 37
+		y = 3
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}
+	}
+		focus = {
+		id = DUG_zaviodiki
+		prerequisite = {focus = DUG_antihlobo}		
+        icon = GFX_DUG_book
+		x = 39
+		y = 3
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}
+		focus = {
+		id = DUG_horses
+		prerequisite = {focus = DUG_antihlobo}		
+        icon = GFX_DUG_book
+		x = 41
+		y = 3
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+		focus = {
+		id = DUG_aviacia
+		prerequisite = {focus = DUG_antihlobo}		
+        icon = GFX_DUG_book
+		x = 43
+		y = 3
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}	
+			focus = {
+		id = DUG_samara
+		prerequisite = {focus = DUG_kazahs}
+        prerequisite = {focus = DUG_zaviodiki}	
+        prerequisite = {focus = DUG_horses}	
+        prerequisite = {focus = DUG_aviacia}			
+        icon = GFX_DUG_book
+		x = 35
+		y = 5
+		cost = 2
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}
+				focus = {
+		id = DUG_cars
+		prerequisite = {focus = DUG_samara}			
+        icon = GFX_DUG_book
+		x = 35
+		y = 7
+		cost = 5
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}
+				focus = {
+		id = DUG_ugross
+		prerequisite = {focus = DUG_kazahs}
+        prerequisite = {focus = DUG_zaviodiki}	
+        prerequisite = {focus = DUG_horses}	
+        prerequisite = {focus = DUG_aviacia}		
+        icon = GFX_DUG_book
+		x = 40
+		y = 5
+		cost = 4
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}	
+				focus = {
+		id = DUG_steal_guns
+		prerequisite = {focus = DUG_kazahs}
+        prerequisite = {focus = DUG_zaviodiki}	
+        prerequisite = {focus = DUG_horses}	
+        prerequisite = {focus = DUG_aviacia}		
+        icon = GFX_DUG_book
+		x = 42
+		y = 5
+		cost = 4
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}
+				focus = {
+		id = DUG_udar_po_ukram
+		prerequisite = {focus = DUG_ugross}			
+        icon = GFX_DUG_book
+		x = 38
+		y = 7
+		cost = 4
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}	
+				focus = {
+		id = DUG_urk_nationalize
+		prerequisite = {focus = DUG_udar_po_ukram}			
+        icon = GFX_DUG_book
+		x = 38
+		y = 9
+		cost = 7
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}	
+				focus = {
+		id = DUG_attak_rns
+		prerequisite = {focus = DUG_ugross}			
+        icon = GFX_DUG_book
+		x = 40
+		y = 9
+		cost = 7
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}
+				focus = {
+		id = DUG_ships
+		prerequisite = {focus = DUG_ugross}			
+        icon = GFX_DUG_book
+		x = 42
+		y = 7
+		cost = 5
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}	
+				focus = {
+		id = DUG_tanks
+		prerequisite = {focus = DUG_urk_nationalize}
+		prerequisite = {focus = DUG_cars}		
+        icon = GFX_DUG_book
+		x = 36
+		y = 11
+		cost = 7
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}
+				focus = {
+		id = DUG_slaves
+		prerequisite = {focus = DUG_attak_rns}	
+        icon = GFX_DUG_book
+		x = 38
+		y = 11
+		cost = 7
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}	
+				focus = {
+		id = DUG_volk
+		prerequisite = {focus = DUG_attak_rns}	
+        icon = GFX_DUG_book
+		x = 42
+		y = 11
+		cost = 7
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}
+				focus = {
+		id = DUG_han
+		prerequisite = {focus = DUG_tanks}	
+		prerequisite = {focus = DUG_slaves}			
+        icon = GFX_DUG_book
+		x = 37
+		y = 13
+		cost = 7
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}	
+				focus = {
+		id = DUG_mordor
+		prerequisite = {focus = DUG_tanks
+		                focus = DUG_slaves}			
+        icon = GFX_DUG_book
+		x = 39
+		y = 13
+		cost = 7
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}
+				focus = {
+		id = fastattak
+		prerequisite = {focus = DUG_mordor
+		                focus = DUG_han}			
+        icon = GFX_DUG_book
+		x = 37
+		y = 15
+		cost = 7
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}
+				focus = {
+		id = DUG_eurassia
+		prerequisite = {focus = fastattak}			
+        icon = GFX_DUG_book
+		x = 37
+		y = 15
+		cost = 1
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}
+				focus = {
+		id = DUG_ungernfriend
+		prerequisite = {focus = DUG_eurassia}			
+        icon = GFX_DUG_book
+		x = 35
+		y = 17
+		cost = 4
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}
+				focus = {
+		id = DUG_ungernkill
+		prerequisite = {focus = DUG_ungernfriend}			
+        icon = GFX_DUG_book
+		x = 35
+		y = 19
+		cost = 4
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}	
+				focus = {
+		id = DUG_ungernkill
+		prerequisite = {focus = DUG_eurassia}			
+        icon = GFX_DUG_book
+		x = 37
+		y = 21
+		cost = 4
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}
+				focus = {
+		id = DUG_pelmeni			
+        icon = GFX_DUG_book
+		x = 51
+		y = 1
+		cost = 3
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}	
+				focus = {
+		id = DUG_kolichestvo
+		prerequisite = {focus = DUG_pelmeni}		
+        icon = GFX_DUG_book
+		x = 50
+		y = 3
+		cost = 3
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}	
+				focus = {
+		id = DUG_taktika
+		prerequisite = {focus = DUG_kolichestvo}		
+        icon = GFX_DUG_book
+		x = 52
+		y = 5
+		cost = 3
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}	
+				focus = {
+		id = DUG_raid
+		prerequisite = {focus = DUG_taktika}		
+        icon = GFX_DUG_book
+		x = 51
+		y = 7
+		cost = 3
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}	
+				focus = {
+		id = DUG_stralbishe
+		prerequisite = {focus = DUG_raid}		
+        icon = GFX_DUG_book
+		x = 51
+		y = 9
+		cost = 3
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}	
+				focus = {
+		id = DUG_maski	
+        icon = GFX_DUG_book
+		x = 59
+		y = 1
+		cost = 3
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}	
+				focus = {
+		id = DUG_maslo	
+		prerequisite = {focus = DUG_maski}		
+        icon = GFX_DUG_book
+		x = 56
+		y = 3
+		cost = 3
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}	
+				focus = {
+		id = DUG_maslo	
+		prerequisite = {focus = DUG_maski}		
+        icon = GFX_DUG_book
+		x = 59
+		y = 3
+		cost = 3
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}	
+				focus = {
+		id = DUG_ihliderov	
+		prerequisite = {focus = DUG_maski}		
+        icon = GFX_DUG_book
+		x = 60
+		y = 3
+		cost = 3
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}
+		id = DUG_krisi	
+		prerequisite = {focus = DUG_maski}		
+        icon = GFX_DUG_book
+		x = 61
+		y = 3
+		cost = 3
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}	
+				focus = {
+		id = DUG_laststand	
+		prerequisite = {focus = DUG_krisi
+		                focus = DUG_ihliderov
+                		focus = DUG_maslo
+						}		
+        icon = GFX_DUG_book
+		x = 59
+		y = 5
+		cost = 3
+			ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 1000
+		}		
+	}	
+}

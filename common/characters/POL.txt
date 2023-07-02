@@ -1,0 +1,15 @@
+characters={
+	POL_polandball={
+		name="Polandball"
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/Pizdaboll.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

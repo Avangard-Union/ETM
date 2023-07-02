@@ -1,0 +1,26 @@
+
+state={
+	id=337
+	name="STATE_337"
+	resources={
+		tungsten=25.000
+	}
+
+	history={
+		owner = HAR
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = HAR
+
+	}
+
+	provinces={
+		5871 5907 5921 12485 12510 12560 12763 12843 12872 12945 12946 13118 13119 13162 13188 13211 13261 13338 13408 13409 13410 13678 13829 13900 20673 20674 
+	}
+	manpower=3342124
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

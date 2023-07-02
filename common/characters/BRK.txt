@@ -1,0 +1,30 @@
+characters={
+	BRK_Барков={
+		name="Барков"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRK/BARKOV.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ADOLF_HITLER_DESC"
+			ideology=naziborshewism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BRK_И._С._Барков={
+		name="И. С. Барков"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRK/Poet.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ADOLF_HITLER_DESC"
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

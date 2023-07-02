@@ -1,0 +1,22 @@
+state={
+	id=1004
+	name="STATE_1004"
+	manpower=973541
+	state_category = rural
+	
+	history={
+		
+		victory_points = { 1362 15 } # Лилонегве
+		buildings = {
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 4
+			air_base = 4
+		}
+		
+	}
+	provinces={
+		1362 1381 1411 1425 1435 1452 
+	}
+	buildings_max_level_factor=1.000
+}

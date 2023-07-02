@@ -1,0 +1,16 @@
+characters={
+	LNN_leninmumia={
+		name="Владимир Ильич Ульянов-Ленин"
+		portraits={
+			civilian={
+				large="gfx/leaders/LNN/leninmumia.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_WILHELM_PIECK_DESC"
+			ideology=gribonism  
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

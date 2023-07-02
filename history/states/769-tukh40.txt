@@ -1,0 +1,27 @@
+
+state={
+	id=769
+	name="STATE_769"
+
+	history={
+		owner = OR4
+		victory_points = {
+			13764 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+		add_core_of = OR4
+
+	}
+
+	provinces={
+		13677 13740 13764 13913 13941 
+	}
+	manpower=328780
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

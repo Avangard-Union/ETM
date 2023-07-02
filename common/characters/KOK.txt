@@ -1,0 +1,15 @@
+characters={
+	KOK_natalia_poklonskaya={
+		name="Natalia Poklonskaya"
+		portraits={
+			civilian={
+				large="gfx/leaders/KOK/poklonskaya.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

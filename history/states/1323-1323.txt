@@ -1,0 +1,27 @@
+state={
+	id=1323
+	name="STATE_1323"
+	state_category = town
+	
+	history={
+		owner = SUS
+		victory_points = { 20665 30 } # Наксус
+		victory_points = { 20664 15 } # Аморгус
+		victory_points = { 20666 5 } # Тирус
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 2
+			20665 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = SUS
+	}
+	
+	provinces={
+		20664 20665 20666
+	}
+	manpower=380139
+	buildings_max_level_factor=1.000
+}

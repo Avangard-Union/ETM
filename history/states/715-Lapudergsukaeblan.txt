@@ -1,0 +1,28 @@
+state={
+	id=715
+	name="STATE_715"
+	manpower = 14881488
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+			9559 10
+		} # Хохлосочи
+		owner = PTC
+		victory_points = { 9336 5 } # Харча
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+
+		add_core_of = PTC
+	}
+
+	provinces={
+		9336 9337 9462 9463 9529 9559 
+	}
+}

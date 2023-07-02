@@ -1,0 +1,15 @@
+characters={
+	VNM_vanomas={
+		name="Vanomas"
+		portraits={
+			civilian={
+				large="gfx/leaders/VNM/Vano.dds"
+			}
+		}
+		country_leader={
+			ideology=gribonism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

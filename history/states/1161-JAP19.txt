@@ -1,0 +1,19 @@
+state={
+	id=1161
+	name="STATE_1161"
+        manpower = 500000
+ 
+        history={
+		owner = ZDM
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+                        arms_factory = 3
+			}
+		}
+                add_core_of = ZDM
+	provinces={
+		3431 3455 3556 
+	}
+
+}

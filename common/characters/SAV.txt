@@ -1,0 +1,15 @@
+characters={
+	SAV_vlad_savelev={
+		name="Влад Савельев"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAV/Vlad_Savelev.dds"
+			}
+		}
+		country_leader={
+			ideology=onlyfansism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

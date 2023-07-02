@@ -1,0 +1,59 @@
+capital = 174
+
+#oob = "MUH_0002"
+
+set_research_slots = 2
+add_ideas = {
+}
+
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_stability = 0.05
+set_war_support = 0.05
+
+
+set_politics = {
+	ruling_party = pahanism
+	elections_allowed = no
+}
+
+set_popularities = {
+	burjuism = 20
+	bidlo = 20
+	borshewism = 20
+	pahanism = 20
+	putinism = 20
+}
+
+recruit_character = MUH_Горком_Мухосранска
+recruit_character = MUH_Виталий_Наливкин
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+recruit_character = AAA_PUSTYSHKA

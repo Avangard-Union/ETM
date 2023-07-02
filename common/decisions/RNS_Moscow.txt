@@ -1,0 +1,368 @@
+RNS_Moscow = {
+	RNS_launch_attack_on_MOS = {
+		allowed = {
+		}
+		visible = {
+			
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = war_preparation_tt
+				check_variable = { RNSWarPreparedness > 74.99 }
+			}
+		}
+		cost = 1000
+		fire_only_once = yes
+		days_remove = 10
+		complete_effect = {
+		}
+		remove_effect = {
+			declare_war_on = {
+				target = MOS
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ZHI
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KIL
+				type = annex_everything
+			}
+			if = {
+				limit = {
+					has_country_flag = RNS_partisans_flag
+				}
+				MOS = {
+					add_timed_idea = {
+						idea = RNS_partisans_idea
+						days = 20
+					}
+				}
+				ZHI = {
+					add_timed_idea = {
+						idea = RNS_partisans_idea
+						days = 20
+					}
+				}
+				KIL = {
+					add_timed_idea = {
+						idea = RNS_partisans_idea
+						days = 20
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	RNS_fortifications_1 = {
+		allowed = {
+		}
+		visible = {
+
+		}
+		available = {
+			has_war = no
+		}
+		cost = 500
+		fire_only_once = yes
+		days_remove = 60
+		complete_effect = {
+		}
+		remove_effect = {
+			add_to_variable = { RNSWarPreparedness = 20 }
+			custom_effect_tooltip = RNS_Moscow_20_tt
+			if = {
+				limit = {
+					owns_state = 659
+				}
+				659 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 15392
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 15219
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 15627
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 15886
+					}
+				}
+			}
+			if = {
+				limit = {
+					owns_state = 646
+				}
+				646 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 15255
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 15057
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	RNS_fortifications_2 = {
+		allowed = {
+		}
+		visible = {
+
+		}
+		available = {
+			has_war = no
+		}
+		cost = 500
+		fire_only_once = yes
+		days_remove = 60
+		complete_effect = {
+		}
+		remove_effect = {
+			add_to_variable = { RNSWarPreparedness = 20 }
+			custom_effect_tooltip = RNS_Moscow_20_tt
+			if = {
+				limit = {
+					owns_state = 656
+				}
+				656 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 14818
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 15005
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 15173
+					}
+				}
+			}
+			if = {
+				limit = {
+					owns_state = 669
+				}
+				669 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 15472
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 15612
+					}
+				}
+			}
+			if = {
+				limit = {
+					owns_state = 660
+				}
+				660 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 15810
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 15868
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	RNS_airbase_expansion = {
+		allowed = {
+		}
+		visible = {
+
+		}
+		available = {
+			has_war = no
+		}
+		cost = 500
+		fire_only_once = yes
+		days_remove = 45
+		complete_effect = {
+		}
+		remove_effect = {
+			add_to_variable = { RNSWarPreparedness = 15 }
+			custom_effect_tooltip = RNS_Moscow_15_tt
+			569 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			670 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			656 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			air_experience = 20
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	RNS_raise_additional_reserves = {
+		allowed = {
+		}
+		visible = {
+
+		}
+		available = {
+			has_war = no
+		}
+		fire_only_once = yes
+		days_remove = 45
+		custom_cost_trigger = { command_power > 19.99 }
+		custom_cost_text = decision_cost_20_cp
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -20
+			}
+		}
+		remove_effect = {
+			add_to_variable = { RNSWarPreparedness = 15 }
+			custom_effect_tooltip = RNS_Moscow_15_tt
+			add_manpower = 50000
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	RNS_recon = {
+		allowed = {
+		}
+		visible = {
+
+		}
+		available = {
+			has_war = no
+		}
+		custom_cost_trigger = { command_power > 19.99 }
+		custom_cost_text = decision_cost_20_cp
+		fire_only_once = yes
+		days_remove = 20
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -20
+			}
+		}
+		remove_effect = {
+			add_to_variable = { RNSWarPreparedness = 15 }
+			custom_effect_tooltip = RNS_Moscow_15_tt
+			army_experience = 25
+			add_tech_bonus = {
+				bonus = 2
+				uses = 2
+				category = recon_tech
+			}
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	RNS_partisans = {
+		allowed = {
+		}
+		visible = {
+
+		}
+		available = {
+			has_war = no
+		}
+		custom_cost_trigger = { command_power > 19.99 }
+		custom_cost_text = decision_cost_20_cp
+		fire_only_once = yes
+		days_remove = 20
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -20
+			}
+		}
+		remove_effect = {
+			add_to_variable = { RNSWarPreparedness = 15 }
+			custom_effect_tooltip = RNS_Moscow_15_tt
+			custom_effect_tooltip = RNS_partisans_tt
+			set_country_flag = RNS_partisans_flag
+			effect_tooltip = {
+				MOS = {
+					add_timed_idea = {
+						idea = RNS_partisans_idea
+						days = 20
+					}
+				}
+				ZHI = {
+					add_timed_idea = {
+						idea = RNS_partisans_idea
+						days = 20
+					}
+				}
+				KIL = {
+					add_timed_idea = {
+						idea = RNS_partisans_idea
+						days = 20
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+}

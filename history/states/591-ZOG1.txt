@@ -1,0 +1,61 @@
+state={
+	id=591
+	name="STATE_591"
+	provinces={
+		8725 8736 8774 8781 8787 8808 8857 8858 8900 8932 
+	}
+
+	resources={
+		chromium=45 
+		steel = 10 
+	}
+
+	state_category = pastoral
+
+	history={
+		owner = HOJ
+		victory_points = {				  
+			              8725 1 }	
+		victory_points = {				  
+			              8808 1 }							  
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 3
+			8725 = {
+				bunker = 10
+			}
+			8736 = {
+				bunker = 1
+			}
+			8774 = {
+				bunker = 1
+			}
+			8781 = {
+				bunker = 1
+			}
+			8787 = {
+				bunker = 1
+			}
+			8808 = {
+				bunker = 10
+			}
+			8857 = {
+				bunker = 1
+			}
+			8858 = {
+				bunker = 1
+			}
+			8900 = {
+				bunker = 1
+			}
+			8932 = {
+				bunker = 1
+			}			
+		}
+		add_core_of = HOJ 
+	}
+
+	manpower=1473209
+	buildings_max_level_factor=1.000
+}

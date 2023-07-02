@@ -1,0 +1,38 @@
+state={
+	id=469
+	name="STATE_469"
+	manpower = 3227800
+	
+	resources={
+		
+	}
+	
+	state_category = city
+	
+	history={
+		owner = ZPU
+		victory_points = { 11730 50 } # Львів
+		victory_points = { 12177 5 } # Кам'янка-Бузька
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			air_base = 5
+		}
+
+		add_core_of = ZPU
+		add_core_of = KIV
+		add_core_of = ODE
+		add_core_of = ZLS
+		add_core_of = DNB
+		add_core_of = UKE
+	
+    }
+	
+	provinces={    		
+     	  11730 11789 11903 11926 12028 12176 12177 12207 12316 12383 12453 
+ 	} 
+ }
+
+
+
+

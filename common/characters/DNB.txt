@@ -1,0 +1,76 @@
+characters={
+	DNB_alexsandr_zaharchenko={
+		name="Alexsandr Zaharchenko"
+		portraits={
+			civilian={
+				large="gfx/leaders/DNB/Zaharchenko.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ADOLF_HITLER_DESC"
+			ideology=nazi
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	DNB_Александр_Захарченко={
+		name="Александр Захарченко"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DNB/Zaharchenko.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist politically_connected war_hero }
+			skill=5
+			attack_skill=3
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DNB_shahter={
+		name="Shahter"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DNB/Zhopa.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DNB_Рэмбочок,_откусит_твой_бочок={
+		name="Рэмбочок, откусит твой бочок"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DNB/svin.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless infantry_officer infantry_leader }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,44 @@
+characters={
+	AFG_mohammed_omar={
+		name="Mohammed Omar"
+		portraits={
+			civilian={
+				large="gfx/leaders/AFG/mohammed_omar.dds"
+			}
+		}
+		country_leader={
+			ideology=naziborshewism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	AFG_osama_bin_laden={
+		name="Osama bin Laden"
+		portraits={
+			civilian={
+				large="gfx/leaders/AFG/ben_laden.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_reckless }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=5
+			logistics_skill=5
+			legacy_id=-1
+		}
+		country_leader={
+			desc="Почётный овцеёб"
+			ideology=gopniki
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="Почётный овцеёб"
+			ideology=typicalauthoritarism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=771
+	name="STATE_771"
+
+	history={
+		owner = GON
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = GON
+
+	}
+
+	provinces={
+		14098 14126 14149 14205 14295 14317 14353 14377 14418 14450 14516 14531 14600 14635 
+	}
+	manpower=120400
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

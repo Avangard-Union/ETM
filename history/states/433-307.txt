@@ -1,0 +1,29 @@
+state={
+	id=433
+	name="STATE_433"
+	provinces={
+		17236 17822 
+	}
+
+	state_category = rural
+	resources={
+		tungsten=8
+		steel=8
+		chromium=8
+		aluminium=15
+	}
+
+	history={
+		owner = NOD
+		victory_points = {
+			17822 3     }
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+		add_core_of = NOD
+	}
+
+	manpower=239241
+	buildings_max_level_factor=1.000
+}

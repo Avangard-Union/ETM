@@ -1,0 +1,37 @@
+
+
+state={
+	id=189
+	name="STATE_189"
+	provinces={
+		9407 9437 9466 9534 9563 9712 9727 9774 9977 9978 10021 10055 10298 
+	}
+
+	state_category = rural
+
+	history={
+		owner = MOD
+		victory_points = {
+			9407 50
+		}
+		victory_points = {
+			9437 15
+		}
+		victory_points = {
+			9563 15
+		}
+		victory_points = {
+			9466 15
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+		}
+		add_core_of = MOD
+	}
+
+	manpower=2281472
+	buildings_max_level_factor=1.000
+}

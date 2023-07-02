@@ -1,0 +1,21 @@
+state={
+	id=428
+	name="STATE_428"
+	provinces={
+		8083 8120 8167 8176 8184 8266 
+	}
+	state_category = rural
+
+	history={
+		owner = FCK
+		victory_points = {
+                		  8167 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		add_core_of = FCK
+	}
+	manpower=6372646
+	buildings_max_level_factor=1.000
+}

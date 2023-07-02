@@ -1,0 +1,22 @@
+state={
+	id=1120
+	name="STATE_1120"
+
+	state_category = rural
+
+	history={
+		owner = UCH
+		victory_points = {
+                		  18366 5 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = UCH
+	}
+	provinces={
+		18366 
+	}
+	manpower=401532
+	buildings_max_level_factor=1.000
+}

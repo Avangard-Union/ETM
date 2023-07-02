@@ -1,0 +1,15 @@
+characters={
+	KER_drevniy={
+		name=KER_drevniy
+		portraits={
+			civilian={
+				large="gfx/leaders/KER/drevniy.dds"
+			}
+		}
+		country_leader={
+			ideology=primitivism
+			traits={  }
+			expire="1965.1.1.1"
+		}
+	}
+}

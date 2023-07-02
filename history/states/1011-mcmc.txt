@@ -1,0 +1,19 @@
+state={
+	id=1011
+	name="STATE_1011"
+	manpower=897064
+	state_category = rural
+	
+	history={
+		
+		victory_points = { 2057 10 } # Муттер (Киквит)
+		buildings = {
+			infrastructure = 4
+		}
+		
+	}
+	provinces={
+		1965 2002 2050 2057 2112 2123 
+	}
+	buildings_max_level_factor=1.000
+}

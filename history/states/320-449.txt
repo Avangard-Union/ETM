@@ -1,0 +1,32 @@
+
+state={
+	id=320
+	name="STATE_320"
+	resources={
+		oil=5.000
+	}
+
+	history={
+		owner = PLA
+		victory_points = {
+			16704 10 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = PLA
+
+	}
+
+	provinces={
+		16382 16614 16705 16751 
+	}
+	manpower=308826
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

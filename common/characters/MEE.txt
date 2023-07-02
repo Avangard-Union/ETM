@@ -1,0 +1,54 @@
+characters={
+	MEE_pepe_demokratov={
+		name="Pepe Demokratov"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEE/Portrait_Pepe_Demokratov.dds"
+			}
+		}
+		country_leader={
+			ideology=jididoism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MEE_pepe_komunistov={
+		name="Pepe Komunistov"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEE/Portrait_Pepe_Komunistov.dds"
+			}
+		}
+		country_leader={
+			ideology=gribonism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MEE_pepe_fashistov={
+		name="Pepe Fashistov"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEE/Portrait_Pepe_Fashistov.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MEE_pepe_neytralov={
+		name="Pepe Neytralov"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEE/Portrait_Pepe_Neytralov.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

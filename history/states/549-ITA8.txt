@@ -1,0 +1,31 @@
+state={
+	id=549
+	name="STATE_549"
+	provinces={
+		9718 9736 9824 9899 10012 10075 10090 10208 10286 
+	}
+
+	state_category = large_city
+
+	resources={
+		aluminium=15 
+	}
+
+	history={
+		owner = MUS
+		victory_points = { 9736 15 } # Флоренция
+		victory_points = { 10208 15 } # Болонья
+		victory_points = { 9824 10 } # Рим Мини
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		add_core_of = MUS
+                add_core_of = PAS
+	}
+
+	manpower = 2202401
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,88 @@
+spriteTypes = {
+
+	
+	spriteType = {
+		name = "GFX_oborona_album_art"
+		textureFile = "//gfx//interface//topbar//musicplayer//oborona_album_art.dds"
+		noOfFrames = 2
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_oborona_album_art_anim"
+		textureFile = "//gfx//interface//topbar//musicplayer//oborona_album_art_anim.dds"
+		noOfFrames = 2
+		animation_rate_fps = 1
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+
+	spriteType = {
+		name = "GFX_anarhia_album_art"
+		textureFile = "//gfx//interface//topbar//musicplayer//anarhia_album_art.dds"
+		noOfFrames = 2
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_anarhia_album_art_anim"
+		textureFile = "//gfx//interface//topbar//musicplayer//anarhia_album_art_anim.dds"
+		noOfFrames = 2
+		animation_rate_fps = 1
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_metall_album_art"
+		textureFile = "//gfx//interface//topbar//musicplayer//metall_album_art.dds"
+		noOfFrames = 2
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_metall_album_art_anim"
+		textureFile = "//gfx//interface//topbar//musicplayer//metall_album_art_anim.dds"
+		noOfFrames = 2
+		animation_rate_fps = 1
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_radiod_album_art"
+		textureFile = "//gfx//interface//topbar//musicplayer//radiod_album_art.dds"
+		noOfFrames = 2
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_radiod_album_art_anim"
+		textureFile = "//gfx//interface//topbar//musicplayer//radiod_album_art_anim.dds"
+		noOfFrames = 2
+		animation_rate_fps = 1
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_disko_album_art"
+		textureFile = "//gfx//interface//topbar//musicplayer//disko_album_art.dds"
+		noOfFrames = 2
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_disko_album_art_anim"
+		textureFile = "//gfx//interface//topbar//musicplayer//disko_album_art_anim.dds"
+		noOfFrames = 2
+		animation_rate_fps = 1
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+}

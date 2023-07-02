@@ -1,0 +1,27 @@
+state={
+	id=828
+	name="STATE_828"
+	provinces={
+		19476 19636 
+	}
+
+	state_category = rural
+	resources={
+		steel=15
+	}
+
+
+	history={
+		owner = GUL
+		victory_points = {
+			              19476 1}				
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+		}	
+		add_core_of = GUL
+	}
+	
+	manpower=666666
+	buildings_max_level_factor=1.000
+}

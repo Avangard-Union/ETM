@@ -1,0 +1,54 @@
+characters={
+	CRO_victor_rootcrop={
+		name="Victor root-crop"
+		portraits={
+			civilian={
+				large="GFX_rootcrop"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CRO_dobroslav={
+		name="Dobroslav"
+		portraits={
+			civilian={
+				large="gfx/leaders/CRO/Dobroslav.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CRO_neuromonakh_feofan={
+		name="Neuromonakh Feofan"
+		portraits={
+			civilian={
+				large="gfx/leaders/CRO/feofan.dds"
+			}
+		}
+		country_leader={
+			ideology=conserva
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	CRO_gribabas={
+		name="Gribabas"
+		portraits={
+			civilian={
+				large="gfx/leaders/CRO/gribabas.dds"
+			}
+		}
+		country_leader={
+			ideology=gribonism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,31 @@
+state={
+	id=890
+	name="STATE_890"
+
+	manpower=1823313
+
+	state_category = rural
+
+	history={
+		
+				victory_points = {
+			 5336 10
+		}
+				victory_points = {
+			 5578 10
+		}
+				victory_points = {
+			 5026 5
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+		}
+		
+	}
+
+	provinces={
+		5025 5026 5184 5274 5336 5413 5424 5489 5578 5624 5633 
+	}
+	buildings_max_level_factor=1.000
+}

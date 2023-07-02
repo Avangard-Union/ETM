@@ -1,0 +1,30 @@
+
+state={
+	id=775
+	name="STATE_775"
+	resources={
+		steel=25.000
+	}
+
+	history={
+		owner = TAR
+		victory_points = {
+			15200 25 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+
+		}
+		add_core_of = TAR
+
+	}
+
+	provinces={
+		14885 14929 14930 15006 15118 15139 15199 15200 
+	}
+	manpower=2761291
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

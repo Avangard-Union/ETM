@@ -1,0 +1,23 @@
+state={
+	id=774
+	name="STATE_774"
+	manpower = 488228
+	
+	state_category = town
+
+	history={
+		owner = DUG
+		victory_points = { 14551 10 } # Отрадный
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+
+		add_core_of = DUG
+	}
+
+	provinces={
+		14249 14376 14400 14495 14551 14634 14733 14767 14808 
+	}
+}

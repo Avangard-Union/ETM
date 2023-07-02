@@ -1,0 +1,82 @@
+characters={
+	BAD_Никита_Михалков={
+		name="Никита Михалков"
+		portraits={
+			civilian={
+				small="_small"
+			}
+			civilian={
+				large=""
+			}
+		}
+		country_leader={
+			ideology=conserva
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	BAD_Евгений_Баженов={
+		name="Евгений Баженов"
+		portraits={
+			civilian={
+				small="_small"
+			}
+			civilian={
+				large=""
+			}
+		}
+		country_leader={
+			ideology=gribonism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BAD_Константин_Эрнст={
+		name="Константин Эрнст"
+		portraits={
+			civilian={
+				small="_small"
+			}
+			civilian={
+				large=""
+			}
+		}
+		country_leader={
+			ideology=oligarhiya
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BAD_Александр_Невский={
+		name="Александр Невский"
+		portraits={
+			civilian={
+				small="_small"
+			}
+			civilian={
+				large=""
+			}
+		}
+		country_leader={
+			ideology=gachism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BAD_Жора_Крыжовников={
+		name="Жора Крыжовников"
+		portraits={
+			civilian={
+				small="_small"
+			}
+			civilian={
+				large=""
+			}
+		}
+		country_leader={
+			ideology=gopniki
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

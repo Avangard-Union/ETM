@@ -1,0 +1,19 @@
+state={
+	id=1196
+	name="STATE_1196"
+        manpower = 1500000
+
+        history={
+		owner = TPS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+                        arms_factory = 3
+			}
+		}
+		add_core_of = TPS
+	provinces={
+		3150 3160 3182 3195 3243 3248 3266 3313 
+	}
+
+}

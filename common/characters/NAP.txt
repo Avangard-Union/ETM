@@ -1,0 +1,16 @@
+characters={
+	NAP_vladislav_pozdnyakov={
+		name="Vladislav Pozdnyakov"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAP/MG.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ADOLF_HITLER_DESC"
+			ideology=gopniki
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

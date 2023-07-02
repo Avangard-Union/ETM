@@ -1,0 +1,26 @@
+state={
+	id=1310
+	name="STATE_1310"
+	state_category = town
+	
+	history={
+		owner = GRE
+		victory_points = { 7877 15 } # Лариса
+		victory_points = { 6475 10 } # Нина
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			6475 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = GRE
+	}
+	
+	provinces={
+		3066 6475 7737 7877 7885 8077 8445
+	}
+	manpower=637842
+	buildings_max_level_factor=1.000
+}

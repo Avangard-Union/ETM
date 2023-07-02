@@ -1,0 +1,27 @@
+state={
+	id=1313
+	name="STATE_1313"
+	state_category = town
+	
+	history={
+		owner = SPA
+		victory_points = { 4264 50 } # Спарта
+		victory_points = { 4326 5 } # Картофельное поле
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+			4264 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = SPA
+	}
+	
+	provinces={
+		4101 4111 4264 4325 4326 
+	}
+	manpower=1300300
+	buildings_max_level_factor=1.000
+}

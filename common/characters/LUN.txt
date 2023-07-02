@@ -1,0 +1,15 @@
+characters={
+	LUN_part_of_a_plane_that_lies_inside_a_circle={
+		name="part of a plane that lies inside a circle"
+		portraits={
+			civilian={
+				large="gfx/leaders/LUN/krug.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

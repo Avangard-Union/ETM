@@ -1,0 +1,21 @@
+state={
+	id=1321
+	name="STATE_1321"
+	state_category = town
+	
+	history={
+		owner = SUS
+		victory_points = { 20672 5 } # Серифус
+		buildings = {
+			
+		}
+
+		add_core_of = SUS
+	}
+	
+	provinces={
+		20164 20672
+	}
+	manpower=37592
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,24 @@
+state={
+	id=679
+	name="STATE_679"
+
+	manpower=545200
+
+	state_category = town
+
+	history={
+		owner = PRA
+		victory_points = { 11574 15 } # Волгодонск
+		victory_points = { 11642 10 } # Морозовск
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		add_core_of = PRA
+	}
+
+	provinces={
+		11197 11198 11226 11283 11302 11378 11404 11428 11504 11527 11573 11574 11642 11712 11768 11769 11821 11952 
+	}
+	buildings_max_level_factor=1.000
+}

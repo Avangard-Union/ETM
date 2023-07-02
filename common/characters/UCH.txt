@@ -1,0 +1,15 @@
+characters={
+	UCH_anton_lapenko={
+		name="Anton Lapenko"
+		portraits={
+			civilian={
+				large="gfx/leaders/UCH/Anton.dds"
+			}
+		}
+		country_leader={
+			ideology=tsardemocrasy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

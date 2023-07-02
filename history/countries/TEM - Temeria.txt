@@ -1,0 +1,64 @@
+﻿capital = 614
+
+#oob = "TEM_0002"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	early_fighter = 1
+}
+
+set_politics = {
+	ruling_party = pahanism
+	last_election = "0001.1.1" 
+	election_frequency = 48 
+	elections_allowed = no 
+}
+
+set_popularities = {
+	burjuism = 25
+	borshewism = 25
+	bidlo = 20
+	pahanism = 30
+}
+
+recruit_character = TEM_king_foltest
+recruit_character = TEM_radovid_v_fierce
+recruit_character = TEM_geralt_from_rivia
+recruit_character = TEM_roach
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+recruit_character = AAA_PUSTYSHKA

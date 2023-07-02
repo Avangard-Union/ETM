@@ -1,0 +1,23 @@
+state={
+	id=364
+	name="STATE_364"
+	provinces={
+		15691 
+	}
+
+	state_category = rural
+
+	history={
+		owner = DOR
+		victory_points = {
+                		  15691 10 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = DOR
+	}
+
+	manpower=531423
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,25 @@
+state={
+	id=676
+	name="STATE_676"
+
+	manpower=254388
+
+	state_category = town
+
+	history={
+		owner = PRA
+		victory_points = { 12032 10 } # Миллерово
+		victory_points = { 11688 10 } # Белая Калитва
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+		}
+		add_core_of = PRA
+		add_core_of = PRA
+	}
+
+	provinces={
+		11572 11688 11734 11820 11867 11988 12032 12033 12179 
+	}
+	buildings_max_level_factor=1.000
+}

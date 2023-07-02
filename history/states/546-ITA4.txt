@@ -1,0 +1,36 @@
+state={
+	id=546
+	name="STATE_546"
+	provinces={
+		9106 9185 9244 9260 
+	}
+
+	state_category = city
+
+	resources={
+		rubber = 7
+	}
+	history={
+		owner = POP
+		victory_points = {
+			 9185 90
+		}
+		victory_points = {
+			 9106 5
+		}		
+		buildings = {
+			infrastructure = 4
+			air_base = 8
+			arms_factory = 2
+			industrial_complex = 4
+                        9185 = {
+				naval_base = 5
+			} 
+                       
+		}
+		add_core_of = POP
+	}
+
+	manpower = 2781971
+	buildings_max_level_factor=1.000
+}

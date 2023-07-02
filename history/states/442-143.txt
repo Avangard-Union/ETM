@@ -1,0 +1,27 @@
+state={
+	id=442
+	name="STATE_442"
+	provinces={
+		19047 19393 19452 19453 
+	}
+
+	state_category = rural
+	resources={
+		oil=4
+		rubber=4
+	}
+
+	history={
+		owner = GDI
+		victory_points = {
+			19453 5    }
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+		}
+		add_core_of = GDI
+	}
+
+	manpower=168574
+	buildings_max_level_factor=1.000
+}

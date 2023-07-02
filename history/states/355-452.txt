@@ -1,0 +1,24 @@
+state={
+	id=355
+	name="STATE_355"
+	provinces={
+		15892 15947 16115 16183 16205 16236 16325 16414 16415 16585 16706 
+	}
+
+	state_category = rural
+
+	history={
+		victory_points = {
+                		  16115 5 }	
+		victory_points = {
+                		  16414 5 }	
+		owner = DOR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = DOR
+	}
+
+	manpower=288743
+	buildings_max_level_factor=1.000
+}

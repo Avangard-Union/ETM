@@ -1,0 +1,692 @@
+ideas = {
+	country = {
+		RNS_Two_Russia = {
+			picture = chi_incompetent_officers
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1	
+			modifier = {
+				production_speed_buildings_factor = -0.25
+				line_change_production_efficiency_factor = -0.05
+				trade_opinion_factor = -0.3
+				consumer_goods_factor = 0.15
+				research_speed_factor = -0.1
+            }
+			targeted_modifier = {
+				tag = MOS
+				cic_to_target_factor = 0.2
+				mic_to_target_factor = 0.05
+				extra_trade_to_target_factor = 0.5
+				trade_cost_for_target_factor = -0.35
+			}
+        }
+		RNS_Liberahi = {
+			picture = chi_incompetent_officers
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}	
+			modifier = {
+				burjuism_drift = 0.05
+				war_support_factor = -0.3
+				stability_weekly_factor = -0.005
+				political_power_factor = -0.05
+            }
+        }
+		RNS_Opposition = {
+			picture = chi_incompetent_officers
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				borshewism_drift = 0.1
+				stability_factor = -0.25
+				political_power_factor = -0.25
+				consumer_goods_factor = 0.05
+			}
+		}
+		RNS_12_Hour = {
+			picture = RNS_12_Hour
+			allowed = {
+				original_tag = RNS
+			}
+			removal_cost = -1	
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				consumer_goods_factor = -0.01
+				stability_factor = -0.03
+            }
+        }
+		RNS_economic_miracle = {
+			picture = RNS_economic_miracle
+			allowed = {
+				original_tag = RNS
+			}
+			removal_cost = -1	
+			modifier = {
+				production_factory_max_efficiency_factor = 0.10
+				industrial_capacity_factory = 0.10
+				consumer_goods_factor = -0.05
+            }
+			equipment_bonus = {
+				infantry_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				artillery_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				support_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+        }
+		RNS_RV = {
+			picture = GRF_militias
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				training_time_factor = -0.1
+				army_speed_factor = 0.05
+				experience_gain_army_factor = 0.1
+				land_reinforce_rate = 0.02
+			}
+		}
+		RNS_honoured_workers = {
+			picture = RNS_honoured_workers
+			allowed = {
+				always = yes
+			}
+			available = { has_government = bidlo }
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.10
+			}	
+		}
+		RNS_empress_support = {
+			picture = generic_foreign_capital
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = 0.05
+				political_power_factor = 0.05
+			}
+		}
+		RNS_Plati = {
+			picture = generic_foreign_capital
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.1
+				stability_factor = -0.02
+				production_speed_industrial_complex_factor = 0.01
+				civilian_factory_use = -3
+			}
+		}
+		RNS_Capital = {
+			picture = generic_foreign_capital
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				production_speed_industrial_complex_factor = 0.14
+				cic_to_overlord_factor = 0.2
+				trade_opinion_factor = 0.05
+			}
+		}
+		RNS_Urbanization = {
+			picture = generic_foreign_capital
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+		RNS_Baza = {
+			picture = generic_foreign_capital
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 1.5
+			}
+		}
+		RNS_Verhovniki = {
+			picture = generic_foreign_capital
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 1
+				political_advisor_cost_factor = -0.1
+				party_popularity_stability_factor = 0.1
+				production_speed_buildings_factor = 0.03 
+			}
+		}
+		RNS_vera = {
+			picture = generic_foreign_capital
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.02
+				political_power_factor = 0.01
+				bidlo_drift = 0.01
+			}
+		}
+		RNS_vera_1 = {
+			picture = generic_foreign_capital
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = 0.04
+				bidlo_drift = 0.03
+				party_popularity_stability_factor = 0.03
+				non_core_manpower = -0.01
+				conscription = 0.005
+				resistance_growth = 0.2
+			}
+		}
+		RNS_vera_1_2 = {
+			picture = generic_foreign_capital
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.05
+				political_power_factor = 0.06
+				bidlo_drift = 0.1
+				party_popularity_stability_factor = 0.05
+				non_core_manpower = -0.01
+				conscription = 0.015
+				resistance_growth = 0.35
+				resistance_damage_to_garrison = 0.05
+				consumer_goods_factor = -0.02
+			}
+		}
+		RNS_vera_2 = {
+			picture = generic_foreign_capital
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.02
+				non_core_manpower = 0.05
+				resistance_damage_to_garrison = -0.1
+				resistance_decay = 0.05
+				conscription_factor = -0.02
+			}
+		}
+		RNS_vera_2_1 = {
+			picture = generic_foreign_capital
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.03
+				non_core_manpower = 0.07
+				resistance_damage_to_garrison = -0.15
+				resistance_decay = 0.1
+				conscription_factor = -0.01
+				consumer_goods_factor = 0.01
+			}
+		}
+		RNS_Chistki = {
+			picture = chi_incompetent_officers
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				weekly_manpower = -10
+				army_org_factor = -0.2
+				army_attack_factor = -0.2
+				max_command_power = -30
+				land_reinforce_rate = -0.05
+				war_support_factor = -0.15
+				max_planning = -0.1
+				experience_gain_army_factor = -0.1
+				conscription_factor = -0.2
+			}
+		}
+		RNS_Family = {
+			picture = chi_incompetent_officers
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.1
+				recruitable_population_factor = 0.01
+			}
+		}
+		RNS_Ybezhishe = {
+			picture = chi_incompetent_officers
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.05
+				stability_factor = -0.01
+				consumer_goods_factor = 0.01
+			}
+		}
+		RNS_RasPod = {
+			picture = chi_incompetent_officers
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				minimum_training_level = 0.15
+				max_command_power = 125
+				experience_loss_factor = -0.1
+				army_attack_factor = 0.025
+				army_defence_factor = 0.025
+				acclimatization_cold_climate_gain_factor = 0.1
+			}
+		}
+		RNS_Boevoi_duh = {
+			picture = chi_incompetent_officers
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_morale = 5
+				army_org = 5
+				army_org_regain = 0.015
+				consumer_goods_factor = 0.01
+			}
+		}
+		RNS_Sudebka = {
+			picture = chi_incompetent_officers
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_weekly_factor = 0.002
+				political_power_factor = -0.15
+			}
+		}
+		RNS_partisans_idea = {
+			picture = chi_incompetent_officers
+			available = { has_government = bidlo }
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				weekly_manpower = -100
+				army_org_factor = -0.1
+				max_command_power = -30
+				land_reinforce_rate = -0.05
+				war_support_factor = -0.05
+				max_planning = -0.1
+				army_core_defence_factor = -0.05
+			}
+		}
+	}
+	tank_manufacturer = {
+		
+		designer = yes
+		
+		morozov_design_bureau = {
+			
+			
+			allowed = {
+				OR = {
+					original_tag = RNS
+					AND = {
+						OR = {
+							is_literally_china = yes
+							tag = MAN
+						}
+						has_dlc = "Waking the Tiger"
+					}
+				}
+			}
+
+			available = {
+				if = {
+					limit = {
+						OR = {
+							is_literally_china = yes
+							tag = MAN
+						}
+					}
+					has_completed_focus = CHI_hire_soviet_designer
+					NOT = {
+						has_war_with = SOV
+					}
+				}
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { fast_tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		astrov_design_bureau = {
+			
+			
+			allowed = {
+				original_tag = RNS
+			}
+			
+
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { medium_tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		okmo = {
+			
+			
+			allowed = {
+				original_tag = RNS
+			}
+			
+
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { heavy_tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+	
+	aircraft_manufacturer = {
+		
+		designer = yes
+		
+		mig_design_bureau = {
+			
+			
+			allowed = {
+				original_tag = RNS
+			}
+			
+
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		ilyushin_design_bureau = {
+			
+			
+			allowed = {
+				original_tag = RNS
+			}
+			
+
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		tupolev_design_bureau = {
+			
+			
+			allowed = {
+				original_tag = RNS
+			}
+			
+
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		yakovlev_design_bureau = {
+			
+			
+			allowed = {
+				original_tag = RNS
+			}
+			
+
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}	
+	
+	
+	industrial_concern = {
+				
+		stalingrad_tractor_factory = {
+		
+			
+			allowed = {
+				original_tag = RNS
+			}
+			
+
+			
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { industrial_concern }
+			
+			modifier = {
+			}
+		}
+		micron = {
+			allowed = {
+				original_tag = RNS
+			}	
+			available = {
+				has_completed_focus = RNS_ind_12
+			}
+			research_bonus = {
+				electronics = -0.15
+			}	
+			traits = { electronics_concern }	
+			modifier = {
+			}
+		}
+	}
+	
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		grabin_design_bureau = {
+			
+			
+			allowed = {
+				original_tag = RNS
+			}
+			
+
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+			}
+		}	
+		tula_arms_plant = {		
+			allowed = {
+				original_tag = RNS
+			}
+			available = {
+				has_completed_focus = RNS_ind_4
+			}
+			research_bonus = {
+				infantry_weapons = -0.15
+			}
+			traits = { infantry_equipment_manufacturer }
+			equipment_bonus = {
+				infantry_equipment = {
+					breakthrough = 0.05
+					instant = yes
+				}
+			}
+		}
+		
+		gaz = {
+			
+			
+			allowed = {
+				original_tag = RNS
+			}
+			
+
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+				mot_rockets = 0.50
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+	
+	naval_manufacturer = {
+	
+		designer = yes
+		
+		nevskoye_design_bureau = {
+			
+			
+			allowed = {
+				original_tag = RNS
+			}
+			
+
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+	
+	\\\костыль для работы всей игры
+	costil = {
+	
+		designer = yes
+		
+		nevskoye_design_bureau = {
+			
+			
+			allowed = {
+				original_tag = RNS
+			}
+			
+
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+}

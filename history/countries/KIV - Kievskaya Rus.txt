@@ -1,0 +1,76 @@
+﻿capital = 475
+
+#oob = "KIV_0002"
+
+set_research_slots = 3
+
+add_ideas = {
+smuta
+}
+
+set_technology = {
+    infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	early_fighter = 1
+}
+
+
+set_convoys = 0
+set_stability = 0.7
+
+
+set_politics = {
+	ruling_party = pahanism 
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	burjuism = 0
+	bidlo = 0
+	borshewism = 0
+	pahanism = 100
+}
+
+recruit_character = KIV_Лжебандера
+recruit_character = KIV_Владимир_Мономах
+recruit_character = KIV_Ярослав_Мудрый
+recruit_character = KIV_Мстислав_Великий
+recruit_character = KIV_Всеслав_Чародей
+recruit_character = KIV_Андрей_Мельник
+recruit_character = KIV_Изяслав_Ярославич
+recruit_character = KIV_Ольга
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+recruit_character = AAA_PUSTYSHKA

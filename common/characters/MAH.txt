@@ -1,0 +1,77 @@
+characters={
+	MAH_sovet={
+		name="Совет Анархистов"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAH/sovet.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_WILHELM_PIECK_DESC"
+			ideology=socdem 
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MAH_beast_and_witch={
+		name="Бестия и Ведьма"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAH/witch.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_WILHELM_PIECK_DESC"
+			ideology=radicalcentrism 
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MAH_mahno={
+		name="Махно Нестор Іванович"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAH/mahno.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_WILHELM_PIECK_DESC"
+			ideology=postironism 
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MAH_mahnovplatie={
+		name="Махно Нестор Івановна"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAH/mahnovplatie.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_WILHELM_PIECK_DESC"
+			ideology=socialanarchism   
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MAH_Анархист_Манул={
+		name="Анархист Манул"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/MAH/Manul.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

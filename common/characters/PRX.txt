@@ -1,0 +1,15 @@
+characters={
+	PRX_martin_anward={
+		name="Martin Anward"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRX/martin_anward.dds"
+			}
+		}
+		country_leader={
+			ideology=conserva
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

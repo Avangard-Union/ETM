@@ -1,0 +1,15 @@
+characters={
+	BNP_napoleon_volodymyrovich_zelenaparte={
+		name="Napoleon Volodymyrovich Zelenaparte"
+		portraits={
+			civilian={
+				large="gfx/leaders/BNP/napoleon.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1821.5.5.1"
+			id=-1
+		}
+	}
+}

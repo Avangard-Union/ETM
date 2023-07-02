@@ -1,0 +1,28 @@
+state={
+	id=873
+	name="STATE_873"
+	manpower = 1250000
+
+	state_category = large_town
+	
+	resources={
+		steel=18 # was: 43
+	}
+
+	history={
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+		}
+		
+		victory_points = {2920 20}
+	}
+
+	provinces={
+		2681 2693 2742 2766 2812 2842 2863 2920 2929 2941 2966 
+	}
+	buildings_max_level_factor=1.000
+}

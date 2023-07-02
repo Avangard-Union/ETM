@@ -1,0 +1,15 @@
+characters={
+	ELT_eltsin={
+		name="El-Tsin"
+		portraits={
+			civilian={
+				large="gfx/leaders/ELT/Portrait_El_Tsin.dds"
+			}
+		}
+		country_leader={
+			ideology=nazi
+			expire="1991.3.1.1"
+			id=-1
+		}
+	}
+}

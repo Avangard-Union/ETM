@@ -1,0 +1,30 @@
+
+state={
+	id=335
+	name="STATE_335"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = PLA
+		victory_points = {
+			14050 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = PLA
+
+	}
+
+	provinces={
+		13831 13858 13918 14049 14050 14152 14274 14379 14691 
+	}
+	manpower=1300000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

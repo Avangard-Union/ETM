@@ -1,0 +1,19 @@
+state={
+	id=1217
+	name="STATE_1217"
+        manpower = 120000
+
+         history={
+		owner = RAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+                        arms_factory = 2
+			}
+		}
+		add_core_of = RAN
+	provinces={
+		5225 5272 5370 
+	}
+
+}

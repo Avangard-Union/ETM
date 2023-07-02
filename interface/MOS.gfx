@@ -1,0 +1,30 @@
+spriteTypes = {
+spriteType = {
+   name = "GFX_no_pic"
+   texturefile = "gfx/interface/picture_nonexistent.dds"
+}
+spriteType = {
+   name = "GFX_nevel_ny"
+   texturefile = "gfx/interface/lehautka.dds"
+}
+spriteType = {
+   name = "GFX_ideology_ponsys"
+   texturefile = "gfx/interface/ideologies/ponysenkov.dds"
+}
+spriteType = {
+   name = "GFX_idea_MOS_isverygood"
+   texturefile = "gfx/interface/ideas/RNS_Two_Russia.dds"
+}
+spriteType = {
+   name = "GFX_idea_MOS_burgovn"
+   texturefile = "gfx/interface/ideas/RNS_Liberahi.dds"
+}
+spriteType = {
+   name = "GFX_idea_MOS_MCD"
+   texturefile = "gfx/interface/ideas/MOS_mcd.dds"
+}
+spriteType = {
+   name = "GFX_MOS_ZIS"
+   texturefile = "gfx/interface/ideas/MOS_ZIS.dds"
+}
+}

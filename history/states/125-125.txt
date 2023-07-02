@@ -1,0 +1,24 @@
+state={
+	id=125
+	name="STATE_125"
+	provinces={
+		18686 18767 18829 19122 
+	}
+
+	state_category = rural
+
+	history={
+		owner = VPU 
+		victory_points = {
+			              18686 3}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = VPU 
+	}
+
+	manpower=285741
+	buildings_max_level_factor=1.000
+}

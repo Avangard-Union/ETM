@@ -1,0 +1,15 @@
+characters={
+	COM_pablo_escobar={
+		name="Pablo Escobar"
+		portraits={
+			civilian={
+				large="gfx/leaders/COM/Cocain.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

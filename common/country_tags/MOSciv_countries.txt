@@ -1,0 +1,2 @@
+KIL = "Redmoskau.txt"
+ZHI = "LDPR.txt"

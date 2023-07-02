@@ -1,0 +1,23 @@
+state={
+	id=209
+	name="STATE_209"
+	manpower=599999
+
+	state_category = rural
+
+	history={
+		owner = WGA
+		victory_points = {
+			              16206 5}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = WGA
+	}
+
+	provinces={
+		16206 16292 16437 16438 16526 16615 16730 16809 
+	}
+	buildings_max_level_factor=1.000
+}

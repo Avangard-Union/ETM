@@ -1,0 +1,15 @@
+characters={
+	ISL_prince_dastan={
+		name="Prince Dastan"
+		portraits={
+			civilian={
+				large="gfx/leaders/ISL/prints.dds"
+			}
+		}
+		country_leader={
+			ideology=typicalauthoritarism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

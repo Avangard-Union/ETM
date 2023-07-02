@@ -1,0 +1,31 @@
+
+state={
+	id=566
+	name="STATE_566"
+
+	history={
+		owner = VAL
+		buildings = {
+			infrastructure = 4
+            
+			11187 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = VAL
+
+		victory_points = {
+			 11187 10
+		}
+		victory_points = {
+			 11484 5
+		}
+	}
+
+	provinces={
+		11031 11187 11317 11367 11368 11484 11563 
+	}
+	manpower=515709
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

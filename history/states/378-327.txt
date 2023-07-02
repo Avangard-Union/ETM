@@ -1,0 +1,27 @@
+
+state={
+	id=378
+	name="STATE_378"
+
+	history={
+		owner = STH
+		victory_points = {
+			17976 5 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+
+		}
+		add_core_of = STH
+
+	}
+
+	provinces={
+		17547 17628 17848 17911 17976 17990 18078 18120 
+	}
+	manpower=198170
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

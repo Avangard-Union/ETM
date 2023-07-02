@@ -1,0 +1,15 @@
+characters={
+	FCK_hideo_kojima={
+		name="Hideo Kojima"
+		portraits={
+			civilian={
+				large="gfx/leaders/FCK/GayNiy2.dds"
+			}
+		}
+		country_leader={
+			ideology=tsardemocrasy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

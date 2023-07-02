@@ -1,0 +1,19 @@
+state={
+	id=1160
+	name="STATE_1160"
+        manpower = 520000
+ 
+        history={
+		owner = BRS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+                        arms_factory = 2
+			}
+		}
+                add_core_of = BRS
+	provinces={
+		3595 3649 3752 
+	}
+
+}

@@ -1,0 +1,22 @@
+state={
+	id=1316
+	name="STATE_1316"
+	state_category = town
+	
+	history={
+		owner = GRE
+		victory_points = { 12662 10 } # Халкида
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			dockyard = 1
+		}
+		add_core_of = GRE
+	}
+	
+	provinces={
+		10132 12662 
+	}
+	manpower=284307
+	buildings_max_level_factor=1.000
+}

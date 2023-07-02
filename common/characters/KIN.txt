@@ -1,0 +1,15 @@
+characters={
+	KIN_viktor_tsoy={
+		name="Viktor Tsoy"
+		portraits={
+			civilian={
+				large="gfx/leaders/KIN/Tsoy.dds"
+			}
+		}
+		country_leader={
+			ideology=gribonism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

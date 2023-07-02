@@ -1,0 +1,16 @@
+characters={
+	NAU_emperor_waka={
+		name="Emperor Waka"
+		portraits={
+			civilian={
+				large="gfx/leaders/NAU/NAU.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_FEDERICO_PAEZ_DESC"
+			ideology=fashiki
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=369
+	name="STATE_369"
+	resources={
+		aluminium=15.000
+	}
+
+	history={
+		owner = PLA
+		victory_points = {
+			15946 15 
+		}
+		victory_points = {
+			16470 5 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = PLA
+
+	}
+
+	provinces={
+		15946 16091 16180 16181 16289 16398 16470 
+	}
+	manpower=975687
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

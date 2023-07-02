@@ -1,0 +1,35 @@
+characters={
+	CHH_alexander_gabyshev={
+		name="Alexander Gabyshev"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHH/Shaman.dds"
+			}
+		}
+		country_leader={
+			ideology=zoomerism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=socialanarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=fashiki
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=socdem
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=imperial_putinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}
