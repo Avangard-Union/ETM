@@ -7,6 +7,7 @@ state={
 
 	history={
 		owner = MUS
+		victory_points = { 10266 20 } # Турин
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -18,7 +19,7 @@ state={
 	}
 
 	provinces={
-		10552 10608 10609 10651 10668 10714 10772 
+		10552 10608 10651 10668 10714 10266 10372 
 	}
 	manpower=61650
 	buildings_max_level_factor=1.000

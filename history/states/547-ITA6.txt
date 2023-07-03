@@ -3,9 +3,10 @@ state={
 	name="STATE_547"
 
 	history={
-		owner = MUS
-		victory_points = { 9523 10 } # Анкона
-		victory_points = { 9330 10 } # Пердушка
+		owner = PAS
+		victory_points = {
+			 8335 50
+		}
 		buildings = {
 			infrastructure = 4
 
@@ -18,7 +19,7 @@ state={
 	}
 
 	provinces={
-		9444 9274 9330 9382 9414 9457 9522 9523 
+		8335 20916 20918 20922 20921 20920 20919 20917 
 	}
 	manpower=546545
 	buildings_max_level_factor=1.000

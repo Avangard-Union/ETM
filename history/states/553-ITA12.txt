@@ -2,7 +2,7 @@ state={
 	id=553
 	name="STATE_553"
 	provinces={
-		9844 9930 9962 9963 9964 10028 10046 10073 10089 10125 10192 
+		9930 9962 9963 10028 10046 10125 9702 9757 9822 9862 10191 
 	}
 
 	state_category = rural
@@ -10,7 +10,8 @@ state={
 	history={
 		owner = MUS
 		victory_points = { 9930 15 } # Генуя
-		victory_points = { 10089 5 } # Тортилья
+		victory_points = { 9702 15 } # Ницца
+		victory_points = { 9757 10 } # Казино "Монако"
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2

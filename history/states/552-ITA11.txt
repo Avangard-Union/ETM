@@ -2,7 +2,7 @@ state={
 	id=552
 	name="STATE_552"
 	provinces={
-		10074 10156 10207 10285 10356 10373 10411 10445 
+		10074 10156 10207 10285 10356 10373 10411 10445 9823 9913 9998 9844 9964 10073 10089 10192 10609 
 	}
 
 	state_category = metropolis
@@ -11,6 +11,8 @@ state={
 		owner = MUS
 		victory_points = { 10356 50 } # Сало
 		victory_points = { 10411 30 } # Милан
+		victory_points = { 9823 10 } # Специя
+		victory_points = { 10089 5 } # Тортилья
 		buildings = {
 			infrastructure = 4
 			arms_factory = 7

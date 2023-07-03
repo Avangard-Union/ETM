@@ -1,0 +1,21 @@
+state={
+	id=1344
+	name="STATE_1344"
+	provinces={
+		20898
+	}
+
+	state_category = pastoral
+	
+	impassable = yes
+
+	history={
+		owner = MUS
+		add_core_of = MUS
+		add_core_of = PAS
+	}
+
+	manpower=7404
+	buildings_max_level_factor=1.000
+}
+

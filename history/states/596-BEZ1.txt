@@ -9,9 +9,6 @@ state={
 	history={
 		owner = PAS
 		victory_points = {
-			 8335 50
-		}
-		victory_points = {
 			 8342 15
 		}	
 		buildings = {
@@ -31,7 +28,7 @@ state={
 	}
 
 	provinces={
-		91 8226 8227 8268 8286 8293 8298 8314 8335 8341 8342 8368 8391 
+		91 8268 8286 8293 8298 8341 8342 8368 8391 8427 20901 20912 20913 20914 20911 20915
 	}
 	buildings_max_level_factor=1.000
 }

@@ -2,7 +2,7 @@ state={
 	id=548
 	name="STATE_548"
 	provinces={
-	  	9540 9505 9413 9329
+	  	9540 9505 9329 9444 9718 9736 9717 9767 
 	}
 
 	state_category = large_city
@@ -10,6 +10,8 @@ state={
 	history={
 		owner = MUS
 		victory_points = { 9329 10 } # Чивитавеккья
+		victory_points = { 9736 15 } # Флоренция
+		victory_points = { 9717 10 } # Пицца
 		buildings = {
 		    infrastructure = 4
 			arms_factory = 1

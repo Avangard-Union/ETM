@@ -2,7 +2,7 @@ state={
 	id=543
 	name="STATE_543"
 	provinces={
-		8959 9027 9107 9139 9186 9219 9317 
+		8959 9027 9107 9139 9186 9219 9317 9330 9382 9414 9522 9523
 	}
 
 	state_category = city
@@ -11,6 +11,8 @@ state={
 		owner = MUS
 		victory_points = { 9317 10 } # Пескара
 		victory_points = { 9027 5 } # Пиццоферрато
+		victory_points = { 9523 10 } # Анкона
+		victory_points = { 9330 10 } # Пердушка
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
