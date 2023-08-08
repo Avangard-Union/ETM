@@ -8,7 +8,7 @@ state={
 	state_category = town
 
 	history={
-		owner = MUS
+		owner = PIZ
 		victory_points = { 9002 10 } # Латино
 		victory_points = { 8835 10 } # Фондю
 		buildings = {
@@ -22,7 +22,8 @@ state={
 			}
 		}
 		add_core_of = MUS
-                add_core_of = PAS
+		add_core_of = PAS
+		add_core_of = PIZ
 	}
 
 	manpower=652694

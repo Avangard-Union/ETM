@@ -1,0 +1,15 @@
+characters={
+	PIZ_pizzeliciq={
+		name="Пиццелицый"
+		portraits={
+			civilian={
+				large="gfx/leaders/PIZ/Pizzeliciq.dds"
+			}
+		}
+		country_leader={
+			ideology=fashiki
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

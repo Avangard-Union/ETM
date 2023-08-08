@@ -8,7 +8,7 @@ state={
 	state_category = city
 
 	history={
-		owner = MUS
+		owner = PIZ
 		victory_points = { 9317 10 } # Пескара
 		victory_points = { 9027 5 } # Пиццоферрато
 		victory_points = { 9523 10 } # Анкона
@@ -22,7 +22,8 @@ state={
 
 		}
 		add_core_of = MUS
-                add_core_of = PAS
+		add_core_of = PAS
+		add_core_of = PIZ
 	}
 
 	manpower=580201
